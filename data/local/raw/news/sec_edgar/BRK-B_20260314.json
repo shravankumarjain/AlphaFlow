@@ -1,0 +1,1152 @@
+[
+  {
+    "ticker": "BRK-B",
+    "cik": "1067983",
+    "form_type": "8-K",
+    "filing_date": "2026-03-05",
+    "accession_number": "0001193125-26-092557",
+    "primary_document": "d82599d8k.htm",
+    "fetched_at": "2026-03-14T01:25:09.576686",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "BRK-B",
+    "cik": "1067983",
+    "form_type": "8-K",
+    "filing_date": "2026-03-02",
+    "accession_number": "0001193125-26-085801",
+    "primary_document": "d117283d8k.htm",
+    "fetched_at": "2026-03-14T01:25:09.576715",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "BRK-B",
+    "cik": "1067983",
+    "form_type": "10-K",
+    "filing_date": "2026-03-02",
+    "accession_number": "0001193125-26-083899",
+    "primary_document": "brka-20251231.htm",
+    "fetched_at": "2026-03-14T01:25:09.576721",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "BRK-B",
+    "cik": "1067983",
+    "form_type": "8-K",
+    "filing_date": "2025-12-11",
+    "accession_number": "0001193125-25-314935",
+    "primary_document": "d10933d8k.htm",
+    "fetched_at": "2026-03-14T01:25:09.576732",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "BRK-B",
+    "cik": "1067983",
+    "form_type": "8-K",
+    "filing_date": "2025-11-21",
+    "accession_number": "0001193125-25-290864",
+    "primary_document": "d45429d8k.htm",
+    "fetched_at": "2026-03-14T01:25:09.576738",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "BRK-B",
+    "cik": "1067983",
+    "form_type": "8-K",
+    "filing_date": "2025-11-03",
+    "accession_number": "0001193125-25-262260",
+    "primary_document": "d22917d8k.htm",
+    "fetched_at": "2026-03-14T01:25:09.576746",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "BRK-B",
+    "cik": "1067983",
+    "form_type": "10-Q",
+    "filing_date": "2025-11-03",
+    "accession_number": "0001193125-25-261548",
+    "primary_document": "brka-20250930.htm",
+    "fetched_at": "2026-03-14T01:25:09.576751",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "BRK-B",
+    "cik": "1067983",
+    "form_type": "8-K",
+    "filing_date": "2025-10-03",
+    "accession_number": "0001193125-25-229405",
+    "primary_document": "d84825d8k.htm",
+    "fetched_at": "2026-03-14T01:25:09.576757",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "BRK-B",
+    "cik": "1067983",
+    "form_type": "8-K",
+    "filing_date": "2025-08-04",
+    "accession_number": "0001193125-25-172579",
+    "primary_document": "d940849d8k.htm",
+    "fetched_at": "2026-03-14T01:25:09.576764",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "BRK-B",
+    "cik": "1067983",
+    "form_type": "10-Q",
+    "filing_date": "2025-08-04",
+    "accession_number": "0000950170-25-101578",
+    "primary_document": "brka-20250630.htm",
+    "fetched_at": "2026-03-14T01:25:09.576769",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "BRK-B",
+    "cik": "1067983",
+    "form_type": "8-K",
+    "filing_date": "2025-05-08",
+    "accession_number": "0001193125-25-115695",
+    "primary_document": "d28310d8k.htm",
+    "fetched_at": "2026-03-14T01:25:09.576780",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "BRK-B",
+    "cik": "1067983",
+    "form_type": "8-K",
+    "filing_date": "2025-05-06",
+    "accession_number": "0001193125-25-113900",
+    "primary_document": "d910967d8k.htm",
+    "fetched_at": "2026-03-14T01:25:09.576786",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "BRK-B",
+    "cik": "1067983",
+    "form_type": "10-Q",
+    "filing_date": "2025-05-05",
+    "accession_number": "0000950170-25-063112",
+    "primary_document": "brka-20250331.htm",
+    "fetched_at": "2026-03-14T01:25:09.576791",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "BRK-B",
+    "cik": "1067983",
+    "form_type": "8-K",
+    "filing_date": "2025-04-17",
+    "accession_number": "0001193125-25-084458",
+    "primary_document": "d934563d8k.htm",
+    "fetched_at": "2026-03-14T01:25:09.576797",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "BRK-B",
+    "cik": "1067983",
+    "form_type": "8-K",
+    "filing_date": "2025-02-24",
+    "accession_number": "0001193125-25-033393",
+    "primary_document": "d935582d8k.htm",
+    "fetched_at": "2026-03-14T01:25:09.576805",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "BRK-B",
+    "cik": "1067983",
+    "form_type": "10-K",
+    "filing_date": "2025-02-24",
+    "accession_number": "0000950170-25-025210",
+    "primary_document": "brka-20241231.htm",
+    "fetched_at": "2026-03-14T01:25:09.576810",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "BRK-B",
+    "cik": "1067983",
+    "form_type": "8-K",
+    "filing_date": "2024-11-04",
+    "accession_number": "0001193125-24-250195",
+    "primary_document": "d900981d8k.htm",
+    "fetched_at": "2026-03-14T01:25:09.576822",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "BRK-B",
+    "cik": "1067983",
+    "form_type": "10-Q",
+    "filing_date": "2024-11-04",
+    "accession_number": "0000950170-24-120241",
+    "primary_document": "brka-20240930.htm",
+    "fetched_at": "2026-03-14T01:25:09.576827",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "BRK-B",
+    "cik": "1067983",
+    "form_type": "8-K",
+    "filing_date": "2024-10-23",
+    "accession_number": "0001193125-24-241941",
+    "primary_document": "d840653d8k.htm",
+    "fetched_at": "2026-03-14T01:25:09.576833",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "BRK-B",
+    "cik": "1067983",
+    "form_type": "8-K",
+    "filing_date": "2024-08-05",
+    "accession_number": "0001193125-24-193776",
+    "primary_document": "d876927d8k.htm",
+    "fetched_at": "2026-03-14T01:25:09.576843",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "BRK-B",
+    "cik": "1067983",
+    "form_type": "10-Q",
+    "filing_date": "2024-08-05",
+    "accession_number": "0000950170-24-090305",
+    "primary_document": "brka-20240630.htm",
+    "fetched_at": "2026-03-14T01:25:09.576848",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "BRK-B",
+    "cik": "1067983",
+    "form_type": "8-K",
+    "filing_date": "2024-05-07",
+    "accession_number": "0001193125-24-133049",
+    "primary_document": "d759664d8k.htm",
+    "fetched_at": "2026-03-14T01:25:09.576858",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "BRK-B",
+    "cik": "1067983",
+    "form_type": "10-Q",
+    "filing_date": "2024-05-06",
+    "accession_number": "0000950170-24-053185",
+    "primary_document": "brka-20240331.htm",
+    "fetched_at": "2026-03-14T01:25:09.576864",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "BRK-B",
+    "cik": "1067983",
+    "form_type": "8-K",
+    "filing_date": "2024-04-26",
+    "accession_number": "0001193125-24-116833",
+    "primary_document": "d818397d8k.htm",
+    "fetched_at": "2026-03-14T01:25:09.576869",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "BRK-B",
+    "cik": "1067983",
+    "form_type": "8-K",
+    "filing_date": "2024-02-26",
+    "accession_number": "0001193125-24-045977",
+    "primary_document": "d795719d8k.htm",
+    "fetched_at": "2026-03-14T01:25:09.576879",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "BRK-B",
+    "cik": "1067983",
+    "form_type": "10-K",
+    "filing_date": "2024-02-26",
+    "accession_number": "0000950170-24-019719",
+    "primary_document": "brka-20231231.htm",
+    "fetched_at": "2026-03-14T01:25:09.576885",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "BRK-B",
+    "cik": "1067983",
+    "form_type": "8-K",
+    "filing_date": "2024-01-10",
+    "accession_number": "0001193125-24-005943",
+    "primary_document": "d93457d8k.htm",
+    "fetched_at": "2026-03-14T01:25:09.576895",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "BRK-B",
+    "cik": "1067983",
+    "form_type": "8-K",
+    "filing_date": "2023-12-01",
+    "accession_number": "0001193125-23-286867",
+    "primary_document": "d551397d8k.htm",
+    "fetched_at": "2026-03-14T01:25:09.576902",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "BRK-B",
+    "cik": "1067983",
+    "form_type": "8-K",
+    "filing_date": "2023-11-29",
+    "accession_number": "0001193125-23-285240",
+    "primary_document": "d907061d8k.htm",
+    "fetched_at": "2026-03-14T01:25:09.576907",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "BRK-B",
+    "cik": "1067983",
+    "form_type": "8-K",
+    "filing_date": "2023-11-07",
+    "accession_number": "0001193125-23-272204",
+    "primary_document": "d564412d8k.htm",
+    "fetched_at": "2026-03-14T01:25:09.576915",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "BRK-B",
+    "cik": "1067983",
+    "form_type": "10-Q",
+    "filing_date": "2023-11-06",
+    "accession_number": "0000950170-23-058993",
+    "primary_document": "brka-20230930.htm",
+    "fetched_at": "2026-03-14T01:25:09.576920",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "BRK-B",
+    "cik": "1067983",
+    "form_type": "8-K",
+    "filing_date": "2023-08-07",
+    "accession_number": "0001193125-23-204791",
+    "primary_document": "d531572d8k.htm",
+    "fetched_at": "2026-03-14T01:25:09.576929",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "BRK-B",
+    "cik": "1067983",
+    "form_type": "10-Q",
+    "filing_date": "2023-08-07",
+    "accession_number": "0000950170-23-038705",
+    "primary_document": "brka-20230630.htm",
+    "fetched_at": "2026-03-14T01:25:09.576934",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "BRK-B",
+    "cik": "1067983",
+    "form_type": "8-K",
+    "filing_date": "2023-05-10",
+    "accession_number": "0001193125-23-140854",
+    "primary_document": "d501487d8k.htm",
+    "fetched_at": "2026-03-14T01:25:09.576945",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "BRK-B",
+    "cik": "1067983",
+    "form_type": "10-Q",
+    "filing_date": "2023-05-08",
+    "accession_number": "0000950170-23-018438",
+    "primary_document": "brka-20230331.htm",
+    "fetched_at": "2026-03-14T01:25:09.576950",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "BRK-B",
+    "cik": "1067983",
+    "form_type": "8-K",
+    "filing_date": "2023-05-02",
+    "accession_number": "0001193125-23-130806",
+    "primary_document": "d490324d8k.htm",
+    "fetched_at": "2026-03-14T01:25:09.576955",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "BRK-B",
+    "cik": "1067983",
+    "form_type": "8-K",
+    "filing_date": "2023-04-20",
+    "accession_number": "0001193125-23-108422",
+    "primary_document": "d840535d8k.htm",
+    "fetched_at": "2026-03-14T01:25:09.576961",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "BRK-B",
+    "cik": "1067983",
+    "form_type": "8-K",
+    "filing_date": "2023-03-01",
+    "accession_number": "0001193125-23-056259",
+    "primary_document": "d305559d8k.htm",
+    "fetched_at": "2026-03-14T01:25:09.576970",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "BRK-B",
+    "cik": "1067983",
+    "form_type": "10-K",
+    "filing_date": "2023-02-27",
+    "accession_number": "0000950170-23-004451",
+    "primary_document": "brka-20221231.htm",
+    "fetched_at": "2026-03-14T01:25:09.576975",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "BRK-B",
+    "cik": "1067983",
+    "form_type": "8-K",
+    "filing_date": "2022-12-19",
+    "accession_number": "0001193125-22-308039",
+    "primary_document": "d435103d8k.htm",
+    "fetched_at": "2026-03-14T01:25:09.576984",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "BRK-B",
+    "cik": "1067983",
+    "form_type": "8-K",
+    "filing_date": "2022-12-08",
+    "accession_number": "0001193125-22-301017",
+    "primary_document": "d420179d8k.htm",
+    "fetched_at": "2026-03-14T01:25:09.576989",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "BRK-B",
+    "cik": "1067983",
+    "form_type": "8-K",
+    "filing_date": "2022-11-08",
+    "accession_number": "0001193125-22-280284",
+    "primary_document": "d378788d8k.htm",
+    "fetched_at": "2026-03-14T01:25:09.576998",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "BRK-B",
+    "cik": "1067983",
+    "form_type": "10-Q",
+    "filing_date": "2022-11-07",
+    "accession_number": "0000950170-22-022287",
+    "primary_document": "brka-20220930.htm",
+    "fetched_at": "2026-03-14T01:25:09.577003",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "BRK-B",
+    "cik": "1067983",
+    "form_type": "8-K",
+    "filing_date": "2022-10-04",
+    "accession_number": "0001193125-22-257636",
+    "primary_document": "d393267d8k.htm",
+    "fetched_at": "2026-03-14T01:25:09.577009",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "BRK-B",
+    "cik": "1067983",
+    "form_type": "10-Q",
+    "filing_date": "2022-08-08",
+    "accession_number": "0001564590-22-028282",
+    "primary_document": "brka-10q_20220630.htm",
+    "fetched_at": "2026-03-14T01:25:09.577017",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "BRK-B",
+    "cik": "1067983",
+    "form_type": "8-K",
+    "filing_date": "2022-05-04",
+    "accession_number": "0001193125-22-140533",
+    "primary_document": "d308971d8k.htm",
+    "fetched_at": "2026-03-14T01:25:09.577029",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "BRK-B",
+    "cik": "1067983",
+    "form_type": "10-Q",
+    "filing_date": "2022-05-02",
+    "accession_number": "0001564590-22-016907",
+    "primary_document": "brka-10q_20220331.htm",
+    "fetched_at": "2026-03-14T01:25:09.577035",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "BRK-B",
+    "cik": "1067983",
+    "form_type": "8-K",
+    "filing_date": "2022-03-18",
+    "accession_number": "0001193125-22-079550",
+    "primary_document": "d318449d8k.htm",
+    "fetched_at": "2026-03-14T01:25:09.577043",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "BRK-B",
+    "cik": "1067983",
+    "form_type": "8-K",
+    "filing_date": "2022-03-15",
+    "accession_number": "0001193125-22-076089",
+    "primary_document": "d317241d8k.htm",
+    "fetched_at": "2026-03-14T01:25:09.577049",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "BRK-B",
+    "cik": "1067983",
+    "form_type": "8-K",
+    "filing_date": "2022-03-01",
+    "accession_number": "0001193125-22-060362",
+    "primary_document": "d269783d8k.htm",
+    "fetched_at": "2026-03-14T01:25:09.577057",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "BRK-B",
+    "cik": "1067983",
+    "form_type": "10-K",
+    "filing_date": "2022-02-28",
+    "accession_number": "0001564590-22-007322",
+    "primary_document": "brka-10k_20211231.htm",
+    "fetched_at": "2026-03-14T01:25:09.577062",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "BRK-B",
+    "cik": "1067983",
+    "form_type": "8-K",
+    "filing_date": "2022-02-18",
+    "accession_number": "0001193125-22-046708",
+    "primary_document": "d239542d8k.htm",
+    "fetched_at": "2026-03-14T01:25:09.577067",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "BRK-B",
+    "cik": "1067983",
+    "form_type": "8-K",
+    "filing_date": "2022-01-25",
+    "accession_number": "0001193125-22-016941",
+    "primary_document": "d241734d8k.htm",
+    "fetched_at": "2026-03-14T01:25:09.577077",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "BRK-B",
+    "cik": "1067983",
+    "form_type": "8-K",
+    "filing_date": "2021-11-08",
+    "accession_number": "0001193125-21-322221",
+    "primary_document": "d245783d8k.htm",
+    "fetched_at": "2026-03-14T01:25:09.577087",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "BRK-B",
+    "cik": "1067983",
+    "form_type": "10-Q",
+    "filing_date": "2021-11-08",
+    "accession_number": "0001564590-21-055032",
+    "primary_document": "brka-10q_20210930.htm",
+    "fetched_at": "2026-03-14T01:25:09.577092",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "BRK-B",
+    "cik": "1067983",
+    "form_type": "8-K",
+    "filing_date": "2021-10-20",
+    "accession_number": "0001193125-21-303124",
+    "primary_document": "d398205d8k.htm",
+    "fetched_at": "2026-03-14T01:25:09.577100",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "BRK-B",
+    "cik": "1067983",
+    "form_type": "8-K",
+    "filing_date": "2021-08-09",
+    "accession_number": "0001193125-21-240173",
+    "primary_document": "d210269d8k.htm",
+    "fetched_at": "2026-03-14T01:25:09.577108",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "BRK-B",
+    "cik": "1067983",
+    "form_type": "10-Q",
+    "filing_date": "2021-08-09",
+    "accession_number": "0001564590-21-042312",
+    "primary_document": "brka-10q_20210630.htm",
+    "fetched_at": "2026-03-14T01:25:09.577113",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "BRK-B",
+    "cik": "1067983",
+    "form_type": "8-K",
+    "filing_date": "2021-05-05",
+    "accession_number": "0001193125-21-151913",
+    "primary_document": "d240122d8k.htm",
+    "fetched_at": "2026-03-14T01:25:09.577125",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "BRK-B",
+    "cik": "1067983",
+    "form_type": "10-Q",
+    "filing_date": "2021-05-03",
+    "accession_number": "0001564590-21-022703",
+    "primary_document": "brka-10q_20210331.htm",
+    "fetched_at": "2026-03-14T01:25:09.577130",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "BRK-B",
+    "cik": "1067983",
+    "form_type": "8-K",
+    "filing_date": "2021-04-15",
+    "accession_number": "0001193125-21-117638",
+    "primary_document": "d137486d8k.htm",
+    "fetched_at": "2026-03-14T01:25:09.577136",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "BRK-B",
+    "cik": "1067983",
+    "form_type": "8-K",
+    "filing_date": "2021-03-01",
+    "accession_number": "0001193125-21-063192",
+    "primary_document": "d326683d8k.htm",
+    "fetched_at": "2026-03-14T01:25:09.577143",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "BRK-B",
+    "cik": "1067983",
+    "form_type": "10-K",
+    "filing_date": "2021-03-01",
+    "accession_number": "0001564590-21-009611",
+    "primary_document": "brka-10k_20201231.htm",
+    "fetched_at": "2026-03-14T01:25:09.577150",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "BRK-B",
+    "cik": "1067983",
+    "form_type": "8-K",
+    "filing_date": "2021-01-15",
+    "accession_number": "0001193125-21-009818",
+    "primary_document": "d91510d8k.htm",
+    "fetched_at": "2026-03-14T01:25:09.577160",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "BRK-B",
+    "cik": "1067983",
+    "form_type": "8-K",
+    "filing_date": "2020-11-09",
+    "accession_number": "0001193125-20-288991",
+    "primary_document": "d846432d8k.htm",
+    "fetched_at": "2026-03-14T01:25:09.577169",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "BRK-B",
+    "cik": "1067983",
+    "form_type": "10-Q",
+    "filing_date": "2020-11-09",
+    "accession_number": "0001564590-20-052144",
+    "primary_document": "brka-10q_20200930.htm",
+    "fetched_at": "2026-03-14T01:25:09.577175",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "BRK-B",
+    "cik": "1067983",
+    "form_type": "8-K",
+    "filing_date": "2020-10-15",
+    "accession_number": "0001193125-20-270050",
+    "primary_document": "d83868d8k.htm",
+    "fetched_at": "2026-03-14T01:25:09.577181",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "BRK-B",
+    "cik": "1067983",
+    "form_type": "8-K",
+    "filing_date": "2020-08-31",
+    "accession_number": "0001193125-20-235925",
+    "primary_document": "d947341d8k.htm",
+    "fetched_at": "2026-03-14T01:25:09.577192",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "BRK-B",
+    "cik": "1067983",
+    "form_type": "8-K",
+    "filing_date": "2020-08-17",
+    "accession_number": "0001193125-20-222415",
+    "primary_document": "d54538d8k.htm",
+    "fetched_at": "2026-03-14T01:25:09.577197",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "BRK-B",
+    "cik": "1067983",
+    "form_type": "10-Q",
+    "filing_date": "2020-08-10",
+    "accession_number": "0001564590-20-038544",
+    "primary_document": "brka-10q_20200630.htm",
+    "fetched_at": "2026-03-14T01:25:09.577203",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "BRK-B",
+    "cik": "1067983",
+    "form_type": "8-K",
+    "filing_date": "2020-05-05",
+    "accession_number": "0001193125-20-133332",
+    "primary_document": "d859935d8k.htm",
+    "fetched_at": "2026-03-14T01:25:09.577216",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "BRK-B",
+    "cik": "1067983",
+    "form_type": "10-Q",
+    "filing_date": "2020-05-04",
+    "accession_number": "0001564590-20-020599",
+    "primary_document": "brka-10q_20200331.htm",
+    "fetched_at": "2026-03-14T01:25:09.577221",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "BRK-B",
+    "cik": "1067983",
+    "form_type": "8-K",
+    "filing_date": "2020-04-16",
+    "accession_number": "0001193125-20-108577",
+    "primary_document": "d914553d8k.htm",
+    "fetched_at": "2026-03-14T01:25:09.577227",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "BRK-B",
+    "cik": "1067983",
+    "form_type": "8-K",
+    "filing_date": "2020-03-13",
+    "accession_number": "0001193125-20-071873",
+    "primary_document": "d831443d8k.htm",
+    "fetched_at": "2026-03-14T01:25:09.577235",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "BRK-B",
+    "cik": "1067983",
+    "form_type": "8-K",
+    "filing_date": "2020-02-25",
+    "accession_number": "0001193125-20-048368",
+    "primary_document": "d866299d8k.htm",
+    "fetched_at": "2026-03-14T01:25:09.577242",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "BRK-B",
+    "cik": "1067983",
+    "form_type": "10-K",
+    "filing_date": "2020-02-24",
+    "accession_number": "0001564590-20-005874",
+    "primary_document": "brka-10k_20191231.htm",
+    "fetched_at": "2026-03-14T01:25:09.577247",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "BRK-B",
+    "cik": "1067983",
+    "form_type": "8-K",
+    "filing_date": "2019-11-05",
+    "accession_number": "0001193125-19-283594",
+    "primary_document": "d826077d8k.htm",
+    "fetched_at": "2026-03-14T01:25:09.577256",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "BRK-B",
+    "cik": "1067983",
+    "form_type": "10-Q",
+    "filing_date": "2019-11-04",
+    "accession_number": "0000950123-19-009995",
+    "primary_document": "brka-10q_20190930.htm",
+    "fetched_at": "2026-03-14T01:25:09.577262",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "BRK-B",
+    "cik": "1067983",
+    "form_type": "8-K",
+    "filing_date": "2019-09-13",
+    "accession_number": "0001193125-19-244935",
+    "primary_document": "d803938d8k.htm",
+    "fetched_at": "2026-03-14T01:25:09.577268",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "BRK-B",
+    "cik": "1067983",
+    "form_type": "8-K",
+    "filing_date": "2019-08-05",
+    "accession_number": "0001193125-19-212469",
+    "primary_document": "d785819d8k.htm",
+    "fetched_at": "2026-03-14T01:25:09.577275",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "BRK-B",
+    "cik": "1067983",
+    "form_type": "10-Q",
+    "filing_date": "2019-08-05",
+    "accession_number": "0001564590-19-028491",
+    "primary_document": "brka-10q_20190630.htm",
+    "fetched_at": "2026-03-14T01:25:09.577281",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "BRK-B",
+    "cik": "1067983",
+    "form_type": "8-K",
+    "filing_date": "2019-06-19",
+    "accession_number": "0001193125-19-176569",
+    "primary_document": "d763537d8k.htm",
+    "fetched_at": "2026-03-14T01:25:09.577291",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "BRK-B",
+    "cik": "1067983",
+    "form_type": "8-K",
+    "filing_date": "2019-05-07",
+    "accession_number": "0001193125-19-139803",
+    "primary_document": "d732433d8k.htm",
+    "fetched_at": "2026-03-14T01:25:09.577302",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "BRK-B",
+    "cik": "1067983",
+    "form_type": "10-Q",
+    "filing_date": "2019-05-06",
+    "accession_number": "0001193125-19-137433",
+    "primary_document": "d728539d10q.htm",
+    "fetched_at": "2026-03-14T01:25:09.577308",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "BRK-B",
+    "cik": "1067983",
+    "form_type": "8-K",
+    "filing_date": "2019-03-15",
+    "accession_number": "0001193125-19-076471",
+    "primary_document": "d722198d8k.htm",
+    "fetched_at": "2026-03-14T01:25:09.577314",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "BRK-B",
+    "cik": "1067983",
+    "form_type": "8-K",
+    "filing_date": "2019-02-25",
+    "accession_number": "0001193125-19-049879",
+    "primary_document": "d701919d8k.htm",
+    "fetched_at": "2026-03-14T01:25:09.577322",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "BRK-B",
+    "cik": "1067983",
+    "form_type": "10-K",
+    "filing_date": "2019-02-25",
+    "accession_number": "0001193125-19-048926",
+    "primary_document": "d678758d10k.htm",
+    "fetched_at": "2026-03-14T01:25:09.577327",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "BRK-B",
+    "cik": "1067983",
+    "form_type": "8-K",
+    "filing_date": "2019-01-11",
+    "accession_number": "0001193125-19-006899",
+    "primary_document": "d682139d8k.htm",
+    "fetched_at": "2026-03-14T01:25:09.577338",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "BRK-B",
+    "cik": "1067983",
+    "form_type": "8-K",
+    "filing_date": "2018-11-05",
+    "accession_number": "0001193125-18-317744",
+    "primary_document": "d640238d8k.htm",
+    "fetched_at": "2026-03-14T01:25:09.577346",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "BRK-B",
+    "cik": "1067983",
+    "form_type": "10-Q",
+    "filing_date": "2018-11-05",
+    "accession_number": "0001193125-18-317734",
+    "primary_document": "d636103d10q.htm",
+    "fetched_at": "2026-03-14T01:25:09.577352",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "BRK-B",
+    "cik": "1067983",
+    "form_type": "8-K",
+    "filing_date": "2018-08-15",
+    "accession_number": "0001193125-18-249538",
+    "primary_document": "d569484d8k.htm",
+    "fetched_at": "2026-03-14T01:25:09.577359",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "BRK-B",
+    "cik": "1067983",
+    "form_type": "8-K",
+    "filing_date": "2018-08-06",
+    "accession_number": "0001193125-18-238910",
+    "primary_document": "d554013d8k.htm",
+    "fetched_at": "2026-03-14T01:25:09.577366",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "BRK-B",
+    "cik": "1067983",
+    "form_type": "10-Q",
+    "filing_date": "2018-08-06",
+    "accession_number": "0001193125-18-238892",
+    "primary_document": "d370289d10q.htm",
+    "fetched_at": "2026-03-14T01:25:09.577372",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "BRK-B",
+    "cik": "1067983",
+    "form_type": "8-K",
+    "filing_date": "2018-07-19",
+    "accession_number": "0001193125-18-221490",
+    "primary_document": "d548576d8k.htm",
+    "fetched_at": "2026-03-14T01:25:09.577378",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "BRK-B",
+    "cik": "1067983",
+    "form_type": "8-K",
+    "filing_date": "2018-05-08",
+    "accession_number": "0001193125-18-156189",
+    "primary_document": "d539337d8k.htm",
+    "fetched_at": "2026-03-14T01:25:09.577390",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "BRK-B",
+    "cik": "1067983",
+    "form_type": "10-Q",
+    "filing_date": "2018-05-07",
+    "accession_number": "0001193125-18-153460",
+    "primary_document": "d539101d10q.htm",
+    "fetched_at": "2026-03-14T01:25:09.577395",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "BRK-B",
+    "cik": "1067983",
+    "form_type": "8-K",
+    "filing_date": "2018-02-27",
+    "accession_number": "0001193125-18-061006",
+    "primary_document": "d585288d8k.htm",
+    "fetched_at": "2026-03-14T01:25:09.577403",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "BRK-B",
+    "cik": "1067983",
+    "form_type": "10-K",
+    "filing_date": "2018-02-26",
+    "accession_number": "0001193125-18-057033",
+    "primary_document": "d437858d10k.htm",
+    "fetched_at": "2026-03-14T01:25:09.577408",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "BRK-B",
+    "cik": "1067983",
+    "form_type": "8-K",
+    "filing_date": "2018-01-10",
+    "accession_number": "0001193125-18-008311",
+    "primary_document": "d523841d8k.htm",
+    "fetched_at": "2026-03-14T01:25:09.577417",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "BRK-B",
+    "cik": "1067983",
+    "form_type": "10-Q",
+    "filing_date": "2017-11-03",
+    "accession_number": "0001193125-17-332829",
+    "primary_document": "d473873d10q.htm",
+    "fetched_at": "2026-03-14T01:25:09.577424",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "BRK-B",
+    "cik": "1067983",
+    "form_type": "10-Q",
+    "filing_date": "2017-08-04",
+    "accession_number": "0001193125-17-248832",
+    "primary_document": "d415768d10q.htm",
+    "fetched_at": "2026-03-14T01:25:09.577429",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "BRK-B",
+    "cik": "1067983",
+    "form_type": "8-K",
+    "filing_date": "2017-05-09",
+    "accession_number": "0001193125-17-163993",
+    "primary_document": "d393212d8k.htm",
+    "fetched_at": "2026-03-14T01:25:09.577442",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "BRK-B",
+    "cik": "1067983",
+    "form_type": "10-Q",
+    "filing_date": "2017-05-05",
+    "accession_number": "0001193125-17-160889",
+    "primary_document": "d364161d10q.htm",
+    "fetched_at": "2026-03-14T01:25:09.577447",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "BRK-B",
+    "cik": "1067983",
+    "form_type": "8-K",
+    "filing_date": "2017-03-08",
+    "accession_number": "0001193125-17-074849",
+    "primary_document": "d352756d8k.htm",
+    "fetched_at": "2026-03-14T01:25:09.577456",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "BRK-B",
+    "cik": "1067983",
+    "form_type": "8-K",
+    "filing_date": "2017-02-27",
+    "accession_number": "0001193125-17-057481",
+    "primary_document": "d336682d8k.htm",
+    "fetched_at": "2026-03-14T01:25:09.577461",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "BRK-B",
+    "cik": "1067983",
+    "form_type": "10-K",
+    "filing_date": "2017-02-27",
+    "accession_number": "0001193125-17-056969",
+    "primary_document": "d303001d10k.htm",
+    "fetched_at": "2026-03-14T01:25:09.577466",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "BRK-B",
+    "cik": "1067983",
+    "form_type": "8-K",
+    "filing_date": "2017-01-17",
+    "accession_number": "0001193125-17-011302",
+    "primary_document": "d324429d8k.htm",
+    "fetched_at": "2026-03-14T01:25:09.577477",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "BRK-B",
+    "cik": "1067983",
+    "form_type": "8-K",
+    "filing_date": "2017-01-12",
+    "accession_number": "0001193125-17-008830",
+    "primary_document": "d267358d8k.htm",
+    "fetched_at": "2026-03-14T01:25:09.577483",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "BRK-B",
+    "cik": "1067983",
+    "form_type": "10-Q",
+    "filing_date": "2016-11-04",
+    "accession_number": "0001193125-16-760194",
+    "primary_document": "d268144d10q.htm",
+    "fetched_at": "2026-03-14T01:25:09.577490",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "BRK-B",
+    "cik": "1067983",
+    "form_type": "8-K",
+    "filing_date": "2016-08-15",
+    "accession_number": "0001193125-16-682050",
+    "primary_document": "d251851d8k.htm",
+    "fetched_at": "2026-03-14T01:25:09.577498",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "BRK-B",
+    "cik": "1067983",
+    "form_type": "10-Q",
+    "filing_date": "2016-08-05",
+    "accession_number": "0001193125-16-673492",
+    "primary_document": "d210900d10q.htm",
+    "fetched_at": "2026-03-14T01:25:09.577505",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "BRK-B",
+    "cik": "1067983",
+    "form_type": "10-Q",
+    "filing_date": "2016-05-06",
+    "accession_number": "0001193125-16-582004",
+    "primary_document": "d174504d10q.htm",
+    "fetched_at": "2026-03-14T01:25:09.577515",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "BRK-B",
+    "cik": "1067983",
+    "form_type": "8-K",
+    "filing_date": "2016-05-04",
+    "accession_number": "0001193125-16-577794",
+    "primary_document": "d191475d8k.htm",
+    "fetched_at": "2026-03-14T01:25:09.577520",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "BRK-B",
+    "cik": "1067983",
+    "form_type": "8-K",
+    "filing_date": "2016-05-02",
+    "accession_number": "0001193125-16-571365",
+    "primary_document": "d189777d8k.htm",
+    "fetched_at": "2026-03-14T01:25:09.577527",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "BRK-B",
+    "cik": "1067983",
+    "form_type": "8-K",
+    "filing_date": "2016-03-15",
+    "accession_number": "0001193125-16-505315",
+    "primary_document": "d156679d8k.htm",
+    "fetched_at": "2026-03-14T01:25:09.577533",
+    "source_name": "sec_edgar"
+  }
+]

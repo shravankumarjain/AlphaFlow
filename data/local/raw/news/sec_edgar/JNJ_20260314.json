@@ -1,0 +1,1302 @@
+[
+  {
+    "ticker": "JNJ",
+    "cik": "200406",
+    "form_type": "10-K",
+    "filing_date": "2026-02-11",
+    "accession_number": "0000200406-26-000016",
+    "primary_document": "jnj-20251228.htm",
+    "fetched_at": "2026-03-14T01:25:06.676777",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JNJ",
+    "cik": "200406",
+    "form_type": "8-K",
+    "filing_date": "2026-01-21",
+    "accession_number": "0000200406-26-000002",
+    "primary_document": "jnj-20260121.htm",
+    "fetched_at": "2026-03-14T01:25:06.676805",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JNJ",
+    "cik": "200406",
+    "form_type": "10-Q",
+    "filing_date": "2025-10-22",
+    "accession_number": "0000200406-25-000209",
+    "primary_document": "jnj-20250928.htm",
+    "fetched_at": "2026-03-14T01:25:06.676815",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JNJ",
+    "cik": "200406",
+    "form_type": "8-K",
+    "filing_date": "2025-10-14",
+    "accession_number": "0000200406-25-000201",
+    "primary_document": "jnj-20251014.htm",
+    "fetched_at": "2026-03-14T01:25:06.676822",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JNJ",
+    "cik": "200406",
+    "form_type": "8-K",
+    "filing_date": "2025-09-09",
+    "accession_number": "0000200406-25-000190",
+    "primary_document": "jnj-20250908.htm",
+    "fetched_at": "2026-03-14T01:25:06.676828",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JNJ",
+    "cik": "200406",
+    "form_type": "10-Q",
+    "filing_date": "2025-07-24",
+    "accession_number": "0000200406-25-000178",
+    "primary_document": "jnj-20250629.htm",
+    "fetched_at": "2026-03-14T01:25:06.676837",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JNJ",
+    "cik": "200406",
+    "form_type": "8-K",
+    "filing_date": "2025-07-16",
+    "accession_number": "0000200406-25-000170",
+    "primary_document": "jnj-20250716.htm",
+    "fetched_at": "2026-03-14T01:25:06.676844",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JNJ",
+    "cik": "200406",
+    "form_type": "8-K",
+    "filing_date": "2025-06-10",
+    "accession_number": "0000200406-25-000152",
+    "primary_document": "jnj-20250610.htm",
+    "fetched_at": "2026-03-14T01:25:06.676852",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JNJ",
+    "cik": "200406",
+    "form_type": "8-K",
+    "filing_date": "2025-04-30",
+    "accession_number": "0000200406-25-000141",
+    "primary_document": "jnj-20250424.htm",
+    "fetched_at": "2026-03-14T01:25:06.676859",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JNJ",
+    "cik": "200406",
+    "form_type": "10-Q",
+    "filing_date": "2025-04-23",
+    "accession_number": "0000200406-25-000119",
+    "primary_document": "jnj-20250330.htm",
+    "fetched_at": "2026-03-14T01:25:06.676866",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JNJ",
+    "cik": "200406",
+    "form_type": "8-K",
+    "filing_date": "2025-04-15",
+    "accession_number": "0000200406-25-000110",
+    "primary_document": "jnj-20250415.htm",
+    "fetched_at": "2026-03-14T01:25:06.676873",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JNJ",
+    "cik": "200406",
+    "form_type": "8-K",
+    "filing_date": "2025-04-03",
+    "accession_number": "0000200406-25-000106",
+    "primary_document": "jnj-20250331.htm",
+    "fetched_at": "2026-03-14T01:25:06.676879",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JNJ",
+    "cik": "200406",
+    "form_type": "8-K",
+    "filing_date": "2025-02-26",
+    "accession_number": "0001193125-25-036773",
+    "primary_document": "d863514d8k.htm",
+    "fetched_at": "2026-03-14T01:25:06.676889",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JNJ",
+    "cik": "200406",
+    "form_type": "8-K",
+    "filing_date": "2025-02-20",
+    "accession_number": "0001193125-25-030851",
+    "primary_document": "d866332d8k.htm",
+    "fetched_at": "2026-03-14T01:25:06.676896",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JNJ",
+    "cik": "200406",
+    "form_type": "10-K",
+    "filing_date": "2025-02-13",
+    "accession_number": "0000200406-25-000038",
+    "primary_document": "jnj-20241229.htm",
+    "fetched_at": "2026-03-14T01:25:06.676907",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JNJ",
+    "cik": "200406",
+    "form_type": "8-K",
+    "filing_date": "2025-01-22",
+    "accession_number": "0000200406-25-000003",
+    "primary_document": "jnj-20250122.htm",
+    "fetched_at": "2026-03-14T01:25:06.676916",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JNJ",
+    "cik": "200406",
+    "form_type": "10-Q",
+    "filing_date": "2024-10-23",
+    "accession_number": "0000200406-24-000096",
+    "primary_document": "jnj-20240929.htm",
+    "fetched_at": "2026-03-14T01:25:06.676925",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JNJ",
+    "cik": "200406",
+    "form_type": "8-K",
+    "filing_date": "2024-10-15",
+    "accession_number": "0000200406-24-000088",
+    "primary_document": "jnj-20241015.htm",
+    "fetched_at": "2026-03-14T01:25:06.676931",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JNJ",
+    "cik": "200406",
+    "form_type": "8-K",
+    "filing_date": "2024-09-20",
+    "accession_number": "0000200406-24-000083",
+    "primary_document": "jnj-20240920.htm",
+    "fetched_at": "2026-03-14T01:25:06.676937",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JNJ",
+    "cik": "200406",
+    "form_type": "8-K",
+    "filing_date": "2024-09-10",
+    "accession_number": "0000200406-24-000081",
+    "primary_document": "jnj-20240910.htm",
+    "fetched_at": "2026-03-14T01:25:06.676943",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JNJ",
+    "cik": "200406",
+    "form_type": "8-K",
+    "filing_date": "2024-08-26",
+    "accession_number": "0000200406-24-000079",
+    "primary_document": "jnj-20240826.htm",
+    "fetched_at": "2026-03-14T01:25:06.676949",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JNJ",
+    "cik": "200406",
+    "form_type": "10-Q",
+    "filing_date": "2024-07-25",
+    "accession_number": "0000200406-24-000075",
+    "primary_document": "jnj-20240630.htm",
+    "fetched_at": "2026-03-14T01:25:06.676955",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JNJ",
+    "cik": "200406",
+    "form_type": "8-K",
+    "filing_date": "2024-07-17",
+    "accession_number": "0000200406-24-000071",
+    "primary_document": "jnj-20240717.htm",
+    "fetched_at": "2026-03-14T01:25:06.676961",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JNJ",
+    "cik": "200406",
+    "form_type": "8-K",
+    "filing_date": "2024-05-20",
+    "accession_number": "0001193125-24-142828",
+    "primary_document": "d746288d8k.htm",
+    "fetched_at": "2026-03-14T01:25:06.676972",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JNJ",
+    "cik": "200406",
+    "form_type": "8-K",
+    "filing_date": "2024-05-17",
+    "accession_number": "0000200406-24-000053",
+    "primary_document": "jnj-20240517.htm",
+    "fetched_at": "2026-03-14T01:25:06.676979",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JNJ",
+    "cik": "200406",
+    "form_type": "10-Q",
+    "filing_date": "2024-05-01",
+    "accession_number": "0000200406-24-000049",
+    "primary_document": "jnj-20240331.htm",
+    "fetched_at": "2026-03-14T01:25:06.676989",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JNJ",
+    "cik": "200406",
+    "form_type": "8-K",
+    "filing_date": "2024-05-01",
+    "accession_number": "0000200406-24-000048",
+    "primary_document": "jnj-20240501.htm",
+    "fetched_at": "2026-03-14T01:25:06.676995",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JNJ",
+    "cik": "200406",
+    "form_type": "8-K",
+    "filing_date": "2024-04-29",
+    "accession_number": "0000200406-24-000043",
+    "primary_document": "jnj-20240425.htm",
+    "fetched_at": "2026-03-14T01:25:06.677003",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JNJ",
+    "cik": "200406",
+    "form_type": "8-K",
+    "filing_date": "2024-04-16",
+    "accession_number": "0000200406-24-000031",
+    "primary_document": "jnj-20240416.htm",
+    "fetched_at": "2026-03-14T01:25:06.677013",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JNJ",
+    "cik": "200406",
+    "form_type": "10-K",
+    "filing_date": "2024-02-16",
+    "accession_number": "0000200406-24-000013",
+    "primary_document": "jnj-20231231.htm",
+    "fetched_at": "2026-03-14T01:25:06.677026",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JNJ",
+    "cik": "200406",
+    "form_type": "8-K",
+    "filing_date": "2024-01-23",
+    "accession_number": "0000200406-24-000004",
+    "primary_document": "jnj-20240123.htm",
+    "fetched_at": "2026-03-14T01:25:06.677043",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JNJ",
+    "cik": "200406",
+    "form_type": "8-K",
+    "filing_date": "2023-12-05",
+    "accession_number": "0000200406-23-000115",
+    "primary_document": "jnj-20231130.htm",
+    "fetched_at": "2026-03-14T01:25:06.677053",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JNJ",
+    "cik": "200406",
+    "form_type": "8-K",
+    "filing_date": "2023-12-05",
+    "accession_number": "0000200406-23-000112",
+    "primary_document": "jnj-20231205.htm",
+    "fetched_at": "2026-03-14T01:25:06.677059",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JNJ",
+    "cik": "200406",
+    "form_type": "8-K",
+    "filing_date": "2023-11-30",
+    "accession_number": "0000200406-23-000109",
+    "primary_document": "jnj-20231130.htm",
+    "fetched_at": "2026-03-14T01:25:06.677065",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JNJ",
+    "cik": "200406",
+    "form_type": "8-K",
+    "filing_date": "2023-11-27",
+    "accession_number": "0000200406-23-000105",
+    "primary_document": "jnj-20231121.htm",
+    "fetched_at": "2026-03-14T01:25:06.677073",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JNJ",
+    "cik": "200406",
+    "form_type": "10-Q",
+    "filing_date": "2023-10-27",
+    "accession_number": "0000200406-23-000102",
+    "primary_document": "jnj-20231001.htm",
+    "fetched_at": "2026-03-14T01:25:06.677080",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JNJ",
+    "cik": "200406",
+    "form_type": "8-K",
+    "filing_date": "2023-10-23",
+    "accession_number": "0000200406-23-000096",
+    "primary_document": "jnj-20231020.htm",
+    "fetched_at": "2026-03-14T01:25:06.677086",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JNJ",
+    "cik": "200406",
+    "form_type": "8-K",
+    "filing_date": "2023-10-17",
+    "accession_number": "0000200406-23-000094",
+    "primary_document": "jnj-20231017.htm",
+    "fetched_at": "2026-03-14T01:25:06.677091",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JNJ",
+    "cik": "200406",
+    "form_type": "8-K",
+    "filing_date": "2023-08-30",
+    "accession_number": "0000200406-23-000091",
+    "primary_document": "jnj-20230830.htm",
+    "fetched_at": "2026-03-14T01:25:06.677097",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JNJ",
+    "cik": "200406",
+    "form_type": "8-K",
+    "filing_date": "2023-08-25",
+    "accession_number": "0000200406-23-000086",
+    "primary_document": "jnj-20230823.htm",
+    "fetched_at": "2026-03-14T01:25:06.677103",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JNJ",
+    "cik": "200406",
+    "form_type": "10-Q",
+    "filing_date": "2023-07-31",
+    "accession_number": "0000200406-23-000082",
+    "primary_document": "jnj-20230702.htm",
+    "fetched_at": "2026-03-14T01:25:06.677117",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JNJ",
+    "cik": "200406",
+    "form_type": "8-K",
+    "filing_date": "2023-07-28",
+    "accession_number": "0001628280-23-026095",
+    "primary_document": "jnj-20230728.htm",
+    "fetched_at": "2026-03-14T01:25:06.677126",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JNJ",
+    "cik": "200406",
+    "form_type": "8-K",
+    "filing_date": "2023-07-24",
+    "accession_number": "0001628280-23-025388",
+    "primary_document": "jnj-20230724.htm",
+    "fetched_at": "2026-03-14T01:25:06.677142",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JNJ",
+    "cik": "200406",
+    "form_type": "8-K",
+    "filing_date": "2023-07-20",
+    "accession_number": "0000200406-23-000073",
+    "primary_document": "jnj-20230720.htm",
+    "fetched_at": "2026-03-14T01:25:06.677149",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JNJ",
+    "cik": "200406",
+    "form_type": "8-K",
+    "filing_date": "2023-05-08",
+    "accession_number": "0001193125-23-138287",
+    "primary_document": "d301195d8k.htm",
+    "fetched_at": "2026-03-14T01:25:06.677161",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JNJ",
+    "cik": "200406",
+    "form_type": "8-K",
+    "filing_date": "2023-05-01",
+    "accession_number": "0000200406-23-000059",
+    "primary_document": "jnj-20230427.htm",
+    "fetched_at": "2026-03-14T01:25:06.677170",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JNJ",
+    "cik": "200406",
+    "form_type": "10-Q",
+    "filing_date": "2023-04-28",
+    "accession_number": "0000200406-23-000056",
+    "primary_document": "jnj-20230402.htm",
+    "fetched_at": "2026-03-14T01:25:06.677177",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JNJ",
+    "cik": "200406",
+    "form_type": "8-K",
+    "filing_date": "2023-04-18",
+    "accession_number": "0000200406-23-000043",
+    "primary_document": "jnj-20230418.htm",
+    "fetched_at": "2026-03-14T01:25:06.677183",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JNJ",
+    "cik": "200406",
+    "form_type": "8-K",
+    "filing_date": "2023-04-04",
+    "accession_number": "0000200406-23-000037",
+    "primary_document": "jnj-20230404.htm",
+    "fetched_at": "2026-03-14T01:25:06.677190",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JNJ",
+    "cik": "200406",
+    "form_type": "8-K",
+    "filing_date": "2023-04-03",
+    "accession_number": "0000200406-23-000032",
+    "primary_document": "jnj-20230331.htm",
+    "fetched_at": "2026-03-14T01:25:06.677198",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JNJ",
+    "cik": "200406",
+    "form_type": "10-K",
+    "filing_date": "2023-02-16",
+    "accession_number": "0000200406-23-000016",
+    "primary_document": "jnj-20230101.htm",
+    "fetched_at": "2026-03-14T01:25:06.677207",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JNJ",
+    "cik": "200406",
+    "form_type": "8-K",
+    "filing_date": "2023-02-14",
+    "accession_number": "0000200406-23-000008",
+    "primary_document": "jnj-20230214.htm",
+    "fetched_at": "2026-03-14T01:25:06.677219",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JNJ",
+    "cik": "200406",
+    "form_type": "8-K",
+    "filing_date": "2023-01-24",
+    "accession_number": "0000200406-23-000005",
+    "primary_document": "jnj-20230124.htm",
+    "fetched_at": "2026-03-14T01:25:06.677226",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JNJ",
+    "cik": "200406",
+    "form_type": "8-K",
+    "filing_date": "2022-12-22",
+    "accession_number": "0001193125-22-311072",
+    "primary_document": "d428734d8k.htm",
+    "fetched_at": "2026-03-14T01:25:06.677232",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JNJ",
+    "cik": "200406",
+    "form_type": "8-K",
+    "filing_date": "2022-12-01",
+    "accession_number": "0000200406-22-000089",
+    "primary_document": "jnj-20221130.htm",
+    "fetched_at": "2026-03-14T01:25:06.677241",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JNJ",
+    "cik": "200406",
+    "form_type": "8-K",
+    "filing_date": "2022-11-01",
+    "accession_number": "0001193125-22-274491",
+    "primary_document": "d395813d8k.htm",
+    "fetched_at": "2026-03-14T01:25:06.677250",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JNJ",
+    "cik": "200406",
+    "form_type": "10-Q",
+    "filing_date": "2022-10-27",
+    "accession_number": "0000200406-22-000086",
+    "primary_document": "jnj-20221002.htm",
+    "fetched_at": "2026-03-14T01:25:06.677255",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JNJ",
+    "cik": "200406",
+    "form_type": "8-K",
+    "filing_date": "2022-10-18",
+    "accession_number": "0000200406-22-000081",
+    "primary_document": "jnj-20221018.htm",
+    "fetched_at": "2026-03-14T01:25:06.677263",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JNJ",
+    "cik": "200406",
+    "form_type": "8-K",
+    "filing_date": "2022-09-14",
+    "accession_number": "0000200406-22-000076",
+    "primary_document": "jnj-20220914.htm",
+    "fetched_at": "2026-03-14T01:25:06.677269",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JNJ",
+    "cik": "200406",
+    "form_type": "10-Q",
+    "filing_date": "2022-07-29",
+    "accession_number": "0000200406-22-000071",
+    "primary_document": "jnj-20220703.htm",
+    "fetched_at": "2026-03-14T01:25:06.677275",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JNJ",
+    "cik": "200406",
+    "form_type": "8-K",
+    "filing_date": "2022-07-19",
+    "accession_number": "0000200406-22-000063",
+    "primary_document": "jnj-20220719.htm",
+    "fetched_at": "2026-03-14T01:25:06.677280",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JNJ",
+    "cik": "200406",
+    "form_type": "10-Q",
+    "filing_date": "2022-04-29",
+    "accession_number": "0000200406-22-000048",
+    "primary_document": "jnj-20220403.htm",
+    "fetched_at": "2026-03-14T01:25:06.677288",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JNJ",
+    "cik": "200406",
+    "form_type": "8-K",
+    "filing_date": "2022-04-29",
+    "accession_number": "0000200406-22-000047",
+    "primary_document": "jnj-20220428.htm",
+    "fetched_at": "2026-03-14T01:25:06.677294",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JNJ",
+    "cik": "200406",
+    "form_type": "8-K",
+    "filing_date": "2022-04-19",
+    "accession_number": "0000200406-22-000038",
+    "primary_document": "jnj-20220419.htm",
+    "fetched_at": "2026-03-14T01:25:06.677299",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JNJ",
+    "cik": "200406",
+    "form_type": "10-K",
+    "filing_date": "2022-02-17",
+    "accession_number": "0000200406-22-000022",
+    "primary_document": "jnj-20220102.htm",
+    "fetched_at": "2026-03-14T01:25:06.677310",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JNJ",
+    "cik": "200406",
+    "form_type": "8-K",
+    "filing_date": "2022-02-16",
+    "accession_number": "0000200406-22-000017",
+    "primary_document": "jnj-20220215.htm",
+    "fetched_at": "2026-03-14T01:25:06.677322",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JNJ",
+    "cik": "200406",
+    "form_type": "8-K",
+    "filing_date": "2022-02-02",
+    "accession_number": "0000200406-22-000015",
+    "primary_document": "jnj-20220128.htm",
+    "fetched_at": "2026-03-14T01:25:06.677331",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JNJ",
+    "cik": "200406",
+    "form_type": "8-K",
+    "filing_date": "2022-01-25",
+    "accession_number": "0000200406-22-000012",
+    "primary_document": "jnj-20220125.htm",
+    "fetched_at": "2026-03-14T01:25:06.677337",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JNJ",
+    "cik": "200406",
+    "form_type": "8-K",
+    "filing_date": "2022-01-06",
+    "accession_number": "0000200406-22-000004",
+    "primary_document": "jnj-20220106.htm",
+    "fetched_at": "2026-03-14T01:25:06.677344",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JNJ",
+    "cik": "200406",
+    "form_type": "8-K",
+    "filing_date": "2021-11-15",
+    "accession_number": "0000200406-21-000072",
+    "primary_document": "jnj-20211115.htm",
+    "fetched_at": "2026-03-14T01:25:06.677350",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JNJ",
+    "cik": "200406",
+    "form_type": "10-Q",
+    "filing_date": "2021-10-29",
+    "accession_number": "0000200406-21-000070",
+    "primary_document": "jnj-20211003.htm",
+    "fetched_at": "2026-03-14T01:25:06.677356",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JNJ",
+    "cik": "200406",
+    "form_type": "8-K",
+    "filing_date": "2021-10-19",
+    "accession_number": "0000200406-21-000067",
+    "primary_document": "jnj-20211019.htm",
+    "fetched_at": "2026-03-14T01:25:06.677362",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JNJ",
+    "cik": "200406",
+    "form_type": "8-K",
+    "filing_date": "2021-10-12",
+    "accession_number": "0000200406-21-000063",
+    "primary_document": "jnj-20211012.htm",
+    "fetched_at": "2026-03-14T01:25:06.677368",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JNJ",
+    "cik": "200406",
+    "form_type": "8-K",
+    "filing_date": "2021-08-20",
+    "accession_number": "0000200406-21-000061",
+    "primary_document": "jnj-20210819.htm",
+    "fetched_at": "2026-03-14T01:25:06.677374",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JNJ",
+    "cik": "200406",
+    "form_type": "10-Q",
+    "filing_date": "2021-07-29",
+    "accession_number": "0000200406-21-000057",
+    "primary_document": "jnj-20210704.htm",
+    "fetched_at": "2026-03-14T01:25:06.677380",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JNJ",
+    "cik": "200406",
+    "form_type": "8-K",
+    "filing_date": "2021-07-21",
+    "accession_number": "0000200406-21-000053",
+    "primary_document": "jnj-20210721.htm",
+    "fetched_at": "2026-03-14T01:25:06.677386",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JNJ",
+    "cik": "200406",
+    "form_type": "8-K",
+    "filing_date": "2021-06-01",
+    "accession_number": "0000200406-21-000040",
+    "primary_document": "jnj-20210601.htm",
+    "fetched_at": "2026-03-14T01:25:06.677394",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JNJ",
+    "cik": "200406",
+    "form_type": "10-Q",
+    "filing_date": "2021-04-30",
+    "accession_number": "0000200406-21-000036",
+    "primary_document": "jnj-20210404.htm",
+    "fetched_at": "2026-03-14T01:25:06.677404",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JNJ",
+    "cik": "200406",
+    "form_type": "8-K",
+    "filing_date": "2021-04-26",
+    "accession_number": "0000200406-21-000030",
+    "primary_document": "jnj-20210422.htm",
+    "fetched_at": "2026-03-14T01:25:06.677410",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JNJ",
+    "cik": "200406",
+    "form_type": "8-K",
+    "filing_date": "2021-04-20",
+    "accession_number": "0000200406-21-000024",
+    "primary_document": "jnj-20210420.htm",
+    "fetched_at": "2026-03-14T01:25:06.677415",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JNJ",
+    "cik": "200406",
+    "form_type": "10-K",
+    "filing_date": "2021-02-22",
+    "accession_number": "0000200406-21-000008",
+    "primary_document": "jnj-20210103.htm",
+    "fetched_at": "2026-03-14T01:25:06.677424",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JNJ",
+    "cik": "200406",
+    "form_type": "8-K",
+    "filing_date": "2021-01-26",
+    "accession_number": "0000200406-21-000006",
+    "primary_document": "jnj-20210126.htm",
+    "fetched_at": "2026-03-14T01:25:06.677436",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JNJ",
+    "cik": "200406",
+    "form_type": "8-K",
+    "filing_date": "2020-12-03",
+    "accession_number": "0000200406-20-000061",
+    "primary_document": "jnj-20201203.htm",
+    "fetched_at": "2026-03-14T01:25:06.677447",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JNJ",
+    "cik": "200406",
+    "form_type": "8-K",
+    "filing_date": "2020-11-03",
+    "accession_number": "0000200406-20-000059",
+    "primary_document": "jnj-20201103.htm",
+    "fetched_at": "2026-03-14T01:25:06.677452",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JNJ",
+    "cik": "200406",
+    "form_type": "10-Q",
+    "filing_date": "2020-10-23",
+    "accession_number": "0000200406-20-000056",
+    "primary_document": "jnj-20200927.htm",
+    "fetched_at": "2026-03-14T01:25:06.677457",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JNJ",
+    "cik": "200406",
+    "form_type": "8-K",
+    "filing_date": "2020-10-13",
+    "accession_number": "0000200406-20-000054",
+    "primary_document": "jnj-20201013.htm",
+    "fetched_at": "2026-03-14T01:25:06.677462",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JNJ",
+    "cik": "200406",
+    "form_type": "8-K",
+    "filing_date": "2020-10-01",
+    "accession_number": "0001193125-20-261326",
+    "primary_document": "d22531d8k.htm",
+    "fetched_at": "2026-03-14T01:25:06.677467",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JNJ",
+    "cik": "200406",
+    "form_type": "8-K",
+    "filing_date": "2020-08-25",
+    "accession_number": "0001193125-20-229970",
+    "primary_document": "d926663d8k.htm",
+    "fetched_at": "2026-03-14T01:25:06.677475",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JNJ",
+    "cik": "200406",
+    "form_type": "8-K",
+    "filing_date": "2020-08-12",
+    "accession_number": "0000200406-20-000052",
+    "primary_document": "jnj-20200812.htm",
+    "fetched_at": "2026-03-14T01:25:06.677482",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JNJ",
+    "cik": "200406",
+    "form_type": "10-Q",
+    "filing_date": "2020-07-24",
+    "accession_number": "0000200406-20-000050",
+    "primary_document": "jnj-20200628.htm",
+    "fetched_at": "2026-03-14T01:25:06.677487",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JNJ",
+    "cik": "200406",
+    "form_type": "8-K",
+    "filing_date": "2020-07-16",
+    "accession_number": "0000200406-20-000047",
+    "primary_document": "jnj-20200716.htm",
+    "fetched_at": "2026-03-14T01:25:06.677492",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JNJ",
+    "cik": "200406",
+    "form_type": "8-K",
+    "filing_date": "2020-06-10",
+    "accession_number": "0000200406-20-000039",
+    "primary_document": "a20200609by-laws.htm",
+    "fetched_at": "2026-03-14T01:25:06.677499",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JNJ",
+    "cik": "200406",
+    "form_type": "10-Q",
+    "filing_date": "2020-04-29",
+    "accession_number": "0000200406-20-000035",
+    "primary_document": "a1q10q03-29x20.htm",
+    "fetched_at": "2026-03-14T01:25:06.677505",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JNJ",
+    "cik": "200406",
+    "form_type": "8-K",
+    "filing_date": "2020-04-29",
+    "accession_number": "0000200406-20-000034",
+    "primary_document": "a20200423voteandcoi.htm",
+    "fetched_at": "2026-03-14T01:25:06.677510",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JNJ",
+    "cik": "200406",
+    "form_type": "8-K",
+    "filing_date": "2020-04-14",
+    "accession_number": "0000200406-20-000026",
+    "primary_document": "a2020q1cover.htm",
+    "fetched_at": "2026-03-14T01:25:06.677516",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JNJ",
+    "cik": "200406",
+    "form_type": "10-K",
+    "filing_date": "2020-02-18",
+    "accession_number": "0000200406-20-000010",
+    "primary_document": "form10-k20191229.htm",
+    "fetched_at": "2026-03-14T01:25:06.677526",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JNJ",
+    "cik": "200406",
+    "form_type": "8-K",
+    "filing_date": "2020-02-13",
+    "accession_number": "0000200406-20-000006",
+    "primary_document": "a20200212amendmenttocoi.htm",
+    "fetched_at": "2026-03-14T01:25:06.677534",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JNJ",
+    "cik": "200406",
+    "form_type": "8-K",
+    "filing_date": "2020-01-22",
+    "accession_number": "0000200406-20-000004",
+    "primary_document": "a2019q4cover.htm",
+    "fetched_at": "2026-03-14T01:25:06.677549",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JNJ",
+    "cik": "200406",
+    "form_type": "8-K",
+    "filing_date": "2019-12-30",
+    "accession_number": "0000200406-19-000071",
+    "primary_document": "a20191230form8-k.htm",
+    "fetched_at": "2026-03-14T01:25:06.677556",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JNJ",
+    "cik": "200406",
+    "form_type": "8-K",
+    "filing_date": "2019-12-05",
+    "accession_number": "0000200406-19-000069",
+    "primary_document": "a20191205form8-k.htm",
+    "fetched_at": "2026-03-14T01:25:06.677563",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JNJ",
+    "cik": "200406",
+    "form_type": "10-Q",
+    "filing_date": "2019-10-28",
+    "accession_number": "0000200406-19-000066",
+    "primary_document": "a3q10q09-29x19.htm",
+    "fetched_at": "2026-03-14T01:25:06.677568",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JNJ",
+    "cik": "200406",
+    "form_type": "8-K",
+    "filing_date": "2019-10-23",
+    "accession_number": "0000200406-19-000063",
+    "primary_document": "a2019q3coverupdated.htm",
+    "fetched_at": "2026-03-14T01:25:06.677573",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JNJ",
+    "cik": "200406",
+    "form_type": "8-K",
+    "filing_date": "2019-10-15",
+    "accession_number": "0000200406-19-000061",
+    "primary_document": "a2019q3cover.htm",
+    "fetched_at": "2026-03-14T01:25:06.677578",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JNJ",
+    "cik": "200406",
+    "form_type": "8-K",
+    "filing_date": "2019-10-07",
+    "accession_number": "0000200406-19-000059",
+    "primary_document": "a20191007cover.htm",
+    "fetched_at": "2026-03-14T01:25:06.677583",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JNJ",
+    "cik": "200406",
+    "form_type": "8-K",
+    "filing_date": "2019-08-26",
+    "accession_number": "0000200406-19-000057",
+    "primary_document": "coveraugust262019.htm",
+    "fetched_at": "2026-03-14T01:25:06.677589",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JNJ",
+    "cik": "200406",
+    "form_type": "10-Q",
+    "filing_date": "2019-07-29",
+    "accession_number": "0000200406-19-000053",
+    "primary_document": "a2q10q06-30x19.htm",
+    "fetched_at": "2026-03-14T01:25:06.677593",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JNJ",
+    "cik": "200406",
+    "form_type": "8-K",
+    "filing_date": "2019-07-16",
+    "accession_number": "0000200406-19-000049",
+    "primary_document": "a20192qcover.htm",
+    "fetched_at": "2026-03-14T01:25:06.677599",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JNJ",
+    "cik": "200406",
+    "form_type": "10-Q",
+    "filing_date": "2019-05-01",
+    "accession_number": "0000200406-19-000033",
+    "primary_document": "a1q10q03-31x19.htm",
+    "fetched_at": "2026-03-14T01:25:06.677605",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JNJ",
+    "cik": "200406",
+    "form_type": "8-K",
+    "filing_date": "2019-04-26",
+    "accession_number": "0000200406-19-000028",
+    "primary_document": "a201904268-kasmvoteanddivi.htm",
+    "fetched_at": "2026-03-14T01:25:06.677611",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JNJ",
+    "cik": "200406",
+    "form_type": "8-K",
+    "filing_date": "2019-04-16",
+    "accession_number": "0000200406-19-000025",
+    "primary_document": "a20191qcover.htm",
+    "fetched_at": "2026-03-14T01:25:06.677619",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JNJ",
+    "cik": "200406",
+    "form_type": "8-K",
+    "filing_date": "2019-04-01",
+    "accession_number": "0000200406-19-000020",
+    "primary_document": "a20190401aspdivestiture.htm",
+    "fetched_at": "2026-03-14T01:25:06.677624",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JNJ",
+    "cik": "200406",
+    "form_type": "8-K",
+    "filing_date": "2019-04-01",
+    "accession_number": "0000200406-19-000019",
+    "primary_document": "a201804018-kauris.htm",
+    "fetched_at": "2026-03-14T01:25:06.677629",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JNJ",
+    "cik": "200406",
+    "form_type": "8-K",
+    "filing_date": "2019-03-21",
+    "accession_number": "0000200406-19-000016",
+    "primary_document": "a20190321alios8-k.htm",
+    "fetched_at": "2026-03-14T01:25:06.677635",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JNJ",
+    "cik": "200406",
+    "form_type": "10-K",
+    "filing_date": "2019-02-20",
+    "accession_number": "0000200406-19-000009",
+    "primary_document": "form10-k20181230.htm",
+    "fetched_at": "2026-03-14T01:25:06.677641",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JNJ",
+    "cik": "200406",
+    "form_type": "8-K",
+    "filing_date": "2019-01-22",
+    "accession_number": "0000200406-19-000004",
+    "primary_document": "a20184qcover.htm",
+    "fetched_at": "2026-03-14T01:25:06.677652",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JNJ",
+    "cik": "200406",
+    "form_type": "8-K",
+    "filing_date": "2019-01-17",
+    "accession_number": "0000200406-19-000002",
+    "primary_document": "a20190117ciz.htm",
+    "fetched_at": "2026-03-14T01:25:06.677657",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JNJ",
+    "cik": "200406",
+    "form_type": "8-K",
+    "filing_date": "2018-12-17",
+    "accession_number": "0000200406-18-000059",
+    "primary_document": "a20181217sharerepurchase.htm",
+    "fetched_at": "2026-03-14T01:25:06.677662",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JNJ",
+    "cik": "200406",
+    "form_type": "10-Q",
+    "filing_date": "2018-10-31",
+    "accession_number": "0000200406-18-000055",
+    "primary_document": "a3q10q09-30x18.htm",
+    "fetched_at": "2026-03-14T01:25:06.677671",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JNJ",
+    "cik": "200406",
+    "form_type": "8-K",
+    "filing_date": "2018-10-23",
+    "accession_number": "0000200406-18-000052",
+    "primary_document": "a201810238-kciz.htm",
+    "fetched_at": "2026-03-14T01:25:06.677675",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JNJ",
+    "cik": "200406",
+    "form_type": "8-K",
+    "filing_date": "2018-10-16",
+    "accession_number": "0000200406-18-000049",
+    "primary_document": "a8-k2018q3.htm",
+    "fetched_at": "2026-03-14T01:25:06.677681",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JNJ",
+    "cik": "200406",
+    "form_type": "8-K",
+    "filing_date": "2018-10-02",
+    "accession_number": "0000200406-18-000046",
+    "primary_document": "a20181002lifescandivestitu.htm",
+    "fetched_at": "2026-03-14T01:25:06.677685",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JNJ",
+    "cik": "200406",
+    "form_type": "10-Q",
+    "filing_date": "2018-08-02",
+    "accession_number": "0000200406-18-000041",
+    "primary_document": "a2q10q07-01x18.htm",
+    "fetched_at": "2026-03-14T01:25:06.677692",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JNJ",
+    "cik": "200406",
+    "form_type": "8-K",
+    "filing_date": "2018-07-17",
+    "accession_number": "0000200406-18-000039",
+    "primary_document": "a8-k2018q2.htm",
+    "fetched_at": "2026-03-14T01:25:06.677698",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JNJ",
+    "cik": "200406",
+    "form_type": "8-K",
+    "filing_date": "2018-06-22",
+    "accession_number": "0000200406-18-000026",
+    "primary_document": "a20180621form8-kecchanges.htm",
+    "fetched_at": "2026-03-14T01:25:06.677705",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JNJ",
+    "cik": "200406",
+    "form_type": "8-K",
+    "filing_date": "2018-05-14",
+    "accession_number": "0000200406-18-000021",
+    "primary_document": "a8-k.htm",
+    "fetched_at": "2026-03-14T01:25:06.677711",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JNJ",
+    "cik": "200406",
+    "form_type": "10-Q",
+    "filing_date": "2018-05-01",
+    "accession_number": "0000200406-18-000019",
+    "primary_document": "a1q10q04-01x18.htm",
+    "fetched_at": "2026-03-14T01:25:06.677717",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JNJ",
+    "cik": "200406",
+    "form_type": "8-K",
+    "filing_date": "2018-04-30",
+    "accession_number": "0000200406-18-000017",
+    "primary_document": "a20180426form8-kvoteanddiv.htm",
+    "fetched_at": "2026-03-14T01:25:06.677722",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JNJ",
+    "cik": "200406",
+    "form_type": "8-K",
+    "filing_date": "2018-04-17",
+    "accession_number": "0000200406-18-000015",
+    "primary_document": "a8-k2018q1.htm",
+    "fetched_at": "2026-03-14T01:25:06.677727",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JNJ",
+    "cik": "200406",
+    "form_type": "8-K",
+    "filing_date": "2018-03-20",
+    "accession_number": "0000200406-18-000012",
+    "primary_document": "a20180320form8-kcfo.htm",
+    "fetched_at": "2026-03-14T01:25:06.677732",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JNJ",
+    "cik": "200406",
+    "form_type": "10-K",
+    "filing_date": "2018-02-21",
+    "accession_number": "0000200406-18-000005",
+    "primary_document": "form10-k20171231.htm",
+    "fetched_at": "2026-03-14T01:25:06.677738",
+    "source_name": "sec_edgar"
+  }
+]

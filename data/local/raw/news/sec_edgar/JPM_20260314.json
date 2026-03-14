@@ -1,0 +1,262 @@
+[
+  {
+    "ticker": "JPM",
+    "cik": "19617",
+    "form_type": "8-K",
+    "filing_date": "2026-02-23",
+    "accession_number": "0001628280-26-010693",
+    "primary_document": "jpm-20260223.htm",
+    "fetched_at": "2026-03-14T01:25:05.214736",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JPM",
+    "cik": "19617",
+    "form_type": "10-K",
+    "filing_date": "2026-02-13",
+    "accession_number": "0001628280-26-008131",
+    "primary_document": "jpm-20251231.htm",
+    "fetched_at": "2026-03-14T01:25:05.214793",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JPM",
+    "cik": "19617",
+    "form_type": "8-K",
+    "filing_date": "2026-02-05",
+    "accession_number": "0001193125-26-039427",
+    "primary_document": "d23804d8k.htm",
+    "fetched_at": "2026-03-14T01:25:05.214846",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JPM",
+    "cik": "19617",
+    "form_type": "8-K",
+    "filing_date": "2026-01-22",
+    "accession_number": "0000019617-26-000052",
+    "primary_document": "jpm-20260120.htm",
+    "fetched_at": "2026-03-14T01:25:05.214950",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JPM",
+    "cik": "19617",
+    "form_type": "8-K",
+    "filing_date": "2026-01-22",
+    "accession_number": "0001193125-26-019450",
+    "primary_document": "d18152d8k.htm",
+    "fetched_at": "2026-03-14T01:25:05.214955",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JPM",
+    "cik": "19617",
+    "form_type": "8-K",
+    "filing_date": "2026-01-13",
+    "accession_number": "0001628280-26-001915",
+    "primary_document": "jpm-20260113.htm",
+    "fetched_at": "2026-03-14T01:25:05.215010",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JPM",
+    "cik": "19617",
+    "form_type": "8-K",
+    "filing_date": "2026-01-13",
+    "accession_number": "0001628280-26-001902",
+    "primary_document": "jpm-20260113.htm",
+    "fetched_at": "2026-03-14T01:25:05.215015",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JPM",
+    "cik": "19617",
+    "form_type": "8-K",
+    "filing_date": "2025-12-08",
+    "accession_number": "0000019617-25-001100",
+    "primary_document": "jpm-20251207.htm",
+    "fetched_at": "2026-03-14T01:25:05.215153",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JPM",
+    "cik": "19617",
+    "form_type": "10-Q",
+    "filing_date": "2025-11-04",
+    "accession_number": "0001628280-25-048859",
+    "primary_document": "jpm-20250930.htm",
+    "fetched_at": "2026-03-14T01:25:05.215313",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JPM",
+    "cik": "19617",
+    "form_type": "8-K",
+    "filing_date": "2025-10-22",
+    "accession_number": "0001193125-25-246803",
+    "primary_document": "d33741d8k.htm",
+    "fetched_at": "2026-03-14T01:25:05.215387",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JPM",
+    "cik": "19617",
+    "form_type": "8-K",
+    "filing_date": "2025-10-14",
+    "accession_number": "0001628280-25-044887",
+    "primary_document": "jpm-20251014.htm",
+    "fetched_at": "2026-03-14T01:25:05.215429",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JPM",
+    "cik": "19617",
+    "form_type": "8-K",
+    "filing_date": "2025-10-14",
+    "accession_number": "0001628280-25-044845",
+    "primary_document": "jpm-20251014.htm",
+    "fetched_at": "2026-03-14T01:25:05.215433",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JPM",
+    "cik": "19617",
+    "form_type": "8-K",
+    "filing_date": "2025-09-12",
+    "accession_number": "0000019617-25-000907",
+    "primary_document": "jpm-20250912.htm",
+    "fetched_at": "2026-03-14T01:25:05.215553",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JPM",
+    "cik": "19617",
+    "form_type": "10-Q",
+    "filing_date": "2025-08-05",
+    "accession_number": "0000019617-25-000615",
+    "primary_document": "jpm-20250630.htm",
+    "fetched_at": "2026-03-14T01:25:05.215726",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JPM",
+    "cik": "19617",
+    "form_type": "8-K",
+    "filing_date": "2025-07-23",
+    "accession_number": "0001193125-25-163423",
+    "primary_document": "d204798d8k.htm",
+    "fetched_at": "2026-03-14T01:25:05.215805",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JPM",
+    "cik": "19617",
+    "form_type": "8-K",
+    "filing_date": "2025-07-15",
+    "accession_number": "0000019617-25-000520",
+    "primary_document": "jpm-20250715.htm",
+    "fetched_at": "2026-03-14T01:25:05.215844",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JPM",
+    "cik": "19617",
+    "form_type": "8-K",
+    "filing_date": "2025-07-15",
+    "accession_number": "0000019617-25-000518",
+    "primary_document": "jpm-20250715.htm",
+    "fetched_at": "2026-03-14T01:25:05.215848",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JPM",
+    "cik": "19617",
+    "form_type": "8-K",
+    "filing_date": "2025-07-01",
+    "accession_number": "0000019617-25-000510",
+    "primary_document": "jpm-20250701.htm",
+    "fetched_at": "2026-03-14T01:25:05.215904",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JPM",
+    "cik": "19617",
+    "form_type": "8-K",
+    "filing_date": "2025-07-01",
+    "accession_number": "0000019617-25-000509",
+    "primary_document": "jpm-20250701.htm",
+    "fetched_at": "2026-03-14T01:25:05.215907",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JPM",
+    "cik": "19617",
+    "form_type": "8-K",
+    "filing_date": "2025-05-22",
+    "accession_number": "0000019617-25-000485",
+    "primary_document": "jpm-20250520.htm",
+    "fetched_at": "2026-03-14T01:25:05.216060",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JPM",
+    "cik": "19617",
+    "form_type": "8-K",
+    "filing_date": "2025-05-19",
+    "accession_number": "0000019617-25-000483",
+    "primary_document": "jpm-20250519.htm",
+    "fetched_at": "2026-03-14T01:25:05.216081",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JPM",
+    "cik": "19617",
+    "form_type": "10-Q",
+    "filing_date": "2025-05-01",
+    "accession_number": "0000019617-25-000421",
+    "primary_document": "jpm-20250331.htm",
+    "fetched_at": "2026-03-14T01:25:05.216152",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JPM",
+    "cik": "19617",
+    "form_type": "8-K",
+    "filing_date": "2025-04-22",
+    "accession_number": "0001193125-25-089203",
+    "primary_document": "d913996d8k.htm",
+    "fetched_at": "2026-03-14T01:25:05.216195",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JPM",
+    "cik": "19617",
+    "form_type": "8-K",
+    "filing_date": "2025-04-11",
+    "accession_number": "0000019617-25-000334",
+    "primary_document": "jpm-20250411.htm",
+    "fetched_at": "2026-03-14T01:25:05.216240",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JPM",
+    "cik": "19617",
+    "form_type": "8-K",
+    "filing_date": "2025-04-11",
+    "accession_number": "0000019617-25-000332",
+    "primary_document": "jpm-20250411.htm",
+    "fetched_at": "2026-03-14T01:25:05.216243",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "JPM",
+    "cik": "19617",
+    "form_type": "8-K",
+    "filing_date": "2025-04-10",
+    "accession_number": "0001193125-25-078015",
+    "primary_document": "d885258d8k.htm",
+    "fetched_at": "2026-03-14T01:25:05.216247",
+    "source_name": "sec_edgar"
+  }
+]

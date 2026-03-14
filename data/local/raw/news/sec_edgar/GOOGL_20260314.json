@@ -1,0 +1,532 @@
+[
+  {
+    "ticker": "GOOGL",
+    "cik": "1652044",
+    "form_type": "8-K",
+    "filing_date": "2026-03-06",
+    "accession_number": "0001652044-26-000026",
+    "primary_document": "goog-20260304.htm",
+    "fetched_at": "2026-03-14T01:25:02.025840",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "GOOGL",
+    "cik": "1652044",
+    "form_type": "8-K",
+    "filing_date": "2026-02-13",
+    "accession_number": "0001193125-26-051423",
+    "primary_document": "d946885d8k.htm",
+    "fetched_at": "2026-03-14T01:25:02.025869",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "GOOGL",
+    "cik": "1652044",
+    "form_type": "10-K",
+    "filing_date": "2026-02-05",
+    "accession_number": "0001652044-26-000018",
+    "primary_document": "goog-20251231.htm",
+    "fetched_at": "2026-03-14T01:25:02.025878",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "GOOGL",
+    "cik": "1652044",
+    "form_type": "8-K",
+    "filing_date": "2026-02-04",
+    "accession_number": "0001652044-26-000012",
+    "primary_document": "goog-20260204.htm",
+    "fetched_at": "2026-03-14T01:25:02.025885",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "GOOGL",
+    "cik": "1652044",
+    "form_type": "8-K",
+    "filing_date": "2025-11-06",
+    "accession_number": "0001193125-25-269979",
+    "primary_document": "d56115d8k.htm",
+    "fetched_at": "2026-03-14T01:25:02.025901",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "GOOGL",
+    "cik": "1652044",
+    "form_type": "10-Q",
+    "filing_date": "2025-10-30",
+    "accession_number": "0001652044-25-000091",
+    "primary_document": "goog-20250930.htm",
+    "fetched_at": "2026-03-14T01:25:02.025909",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "GOOGL",
+    "cik": "1652044",
+    "form_type": "8-K",
+    "filing_date": "2025-10-29",
+    "accession_number": "0001652044-25-000087",
+    "primary_document": "goog-20251029.htm",
+    "fetched_at": "2026-03-14T01:25:02.025914",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "GOOGL",
+    "cik": "1652044",
+    "form_type": "8-K",
+    "filing_date": "2025-09-05",
+    "accession_number": "0001652044-25-000074",
+    "primary_document": "goog-20250905.htm",
+    "fetched_at": "2026-03-14T01:25:02.025927",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "GOOGL",
+    "cik": "1652044",
+    "form_type": "8-K",
+    "filing_date": "2025-09-03",
+    "accession_number": "0001652044-25-000067",
+    "primary_document": "goog-20250902.htm",
+    "fetched_at": "2026-03-14T01:25:02.025933",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "GOOGL",
+    "cik": "1652044",
+    "form_type": "10-Q",
+    "filing_date": "2025-07-24",
+    "accession_number": "0001652044-25-000062",
+    "primary_document": "goog-20250630.htm",
+    "fetched_at": "2026-03-14T01:25:02.025943",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "GOOGL",
+    "cik": "1652044",
+    "form_type": "8-K",
+    "filing_date": "2025-07-23",
+    "accession_number": "0001652044-25-000056",
+    "primary_document": "goog-20250723.htm",
+    "fetched_at": "2026-03-14T01:25:02.025949",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "GOOGL",
+    "cik": "1652044",
+    "form_type": "8-K",
+    "filing_date": "2025-07-18",
+    "accession_number": "0001193125-25-161225",
+    "primary_document": "d21412d8k.htm",
+    "fetched_at": "2026-03-14T01:25:02.025955",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "GOOGL",
+    "cik": "1652044",
+    "form_type": "8-K",
+    "filing_date": "2025-06-12",
+    "accession_number": "0001193125-25-139948",
+    "primary_document": "d949049d8k.htm",
+    "fetched_at": "2026-03-14T01:25:02.025966",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "GOOGL",
+    "cik": "1652044",
+    "form_type": "8-K",
+    "filing_date": "2025-05-06",
+    "accession_number": "0001193125-25-113864",
+    "primary_document": "d859422d8k.htm",
+    "fetched_at": "2026-03-14T01:25:02.025978",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "GOOGL",
+    "cik": "1652044",
+    "form_type": "8-K",
+    "filing_date": "2025-05-01",
+    "accession_number": "0001193125-25-110020",
+    "primary_document": "d884388d8k.htm",
+    "fetched_at": "2026-03-14T01:25:02.025984",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "GOOGL",
+    "cik": "1652044",
+    "form_type": "10-Q",
+    "filing_date": "2025-04-25",
+    "accession_number": "0001652044-25-000043",
+    "primary_document": "goog-20250331.htm",
+    "fetched_at": "2026-03-14T01:25:02.025992",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "GOOGL",
+    "cik": "1652044",
+    "form_type": "8-K",
+    "filing_date": "2025-04-24",
+    "accession_number": "0001652044-25-000040",
+    "primary_document": "goog-20250423.htm",
+    "fetched_at": "2026-03-14T01:25:02.025997",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "GOOGL",
+    "cik": "1652044",
+    "form_type": "8-K",
+    "filing_date": "2025-04-18",
+    "accession_number": "0001652044-25-000033",
+    "primary_document": "goog-20250417.htm",
+    "fetched_at": "2026-03-14T01:25:02.026003",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "GOOGL",
+    "cik": "1652044",
+    "form_type": "8-K",
+    "filing_date": "2025-03-18",
+    "accession_number": "0001652044-25-000027",
+    "primary_document": "goog-20250318.htm",
+    "fetched_at": "2026-03-14T01:25:02.026012",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "GOOGL",
+    "cik": "1652044",
+    "form_type": "10-K",
+    "filing_date": "2025-02-05",
+    "accession_number": "0001652044-25-000014",
+    "primary_document": "goog-20241231.htm",
+    "fetched_at": "2026-03-14T01:25:02.026022",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "GOOGL",
+    "cik": "1652044",
+    "form_type": "8-K",
+    "filing_date": "2025-02-04",
+    "accession_number": "0001652044-25-000010",
+    "primary_document": "goog-20250204.htm",
+    "fetched_at": "2026-03-14T01:25:02.026027",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "GOOGL",
+    "cik": "1652044",
+    "form_type": "10-Q",
+    "filing_date": "2024-10-30",
+    "accession_number": "0001652044-24-000118",
+    "primary_document": "goog-20240930.htm",
+    "fetched_at": "2026-03-14T01:25:02.026044",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "GOOGL",
+    "cik": "1652044",
+    "form_type": "8-K",
+    "filing_date": "2024-10-29",
+    "accession_number": "0001652044-24-000115",
+    "primary_document": "goog-20241029.htm",
+    "fetched_at": "2026-03-14T01:25:02.026050",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "GOOGL",
+    "cik": "1652044",
+    "form_type": "8-K",
+    "filing_date": "2024-10-17",
+    "accession_number": "0001193125-24-238769",
+    "primary_document": "d627891d8k.htm",
+    "fetched_at": "2026-03-14T01:25:02.026055",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "GOOGL",
+    "cik": "1652044",
+    "form_type": "8-K",
+    "filing_date": "2024-09-24",
+    "accession_number": "0001652044-24-000097",
+    "primary_document": "goog-20240924.htm",
+    "fetched_at": "2026-03-14T01:25:02.026063",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "GOOGL",
+    "cik": "1652044",
+    "form_type": "8-K",
+    "filing_date": "2024-08-06",
+    "accession_number": "0001652044-24-000085",
+    "primary_document": "goog-20240805.htm",
+    "fetched_at": "2026-03-14T01:25:02.026076",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "GOOGL",
+    "cik": "1652044",
+    "form_type": "10-Q",
+    "filing_date": "2024-07-24",
+    "accession_number": "0001652044-24-000079",
+    "primary_document": "goog-20240630.htm",
+    "fetched_at": "2026-03-14T01:25:02.026082",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "GOOGL",
+    "cik": "1652044",
+    "form_type": "8-K",
+    "filing_date": "2024-07-23",
+    "accession_number": "0001652044-24-000076",
+    "primary_document": "goog-20240723.htm",
+    "fetched_at": "2026-03-14T01:25:02.026088",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "GOOGL",
+    "cik": "1652044",
+    "form_type": "8-K",
+    "filing_date": "2024-06-26",
+    "accession_number": "0001193125-24-168745",
+    "primary_document": "d809715d8k.htm",
+    "fetched_at": "2026-03-14T01:25:02.026098",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "GOOGL",
+    "cik": "1652044",
+    "form_type": "8-K",
+    "filing_date": "2024-06-13",
+    "accession_number": "0001193125-24-160721",
+    "primary_document": "d805807d8k.htm",
+    "fetched_at": "2026-03-14T01:25:02.026106",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "GOOGL",
+    "cik": "1652044",
+    "form_type": "8-K",
+    "filing_date": "2024-06-07",
+    "accession_number": "0001193125-24-157498",
+    "primary_document": "d787017d8k.htm",
+    "fetched_at": "2026-03-14T01:25:02.026111",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "GOOGL",
+    "cik": "1652044",
+    "form_type": "8-K",
+    "filing_date": "2024-06-05",
+    "accession_number": "0001193125-24-154725",
+    "primary_document": "d837191d8k.htm",
+    "fetched_at": "2026-03-14T01:25:02.026118",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "GOOGL",
+    "cik": "1652044",
+    "form_type": "10-Q",
+    "filing_date": "2024-04-26",
+    "accession_number": "0001652044-24-000053",
+    "primary_document": "goog-20240331.htm",
+    "fetched_at": "2026-03-14T01:25:02.026130",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "GOOGL",
+    "cik": "1652044",
+    "form_type": "8-K",
+    "filing_date": "2024-04-25",
+    "accession_number": "0001652044-24-000047",
+    "primary_document": "goog-20240425.htm",
+    "fetched_at": "2026-03-14T01:25:02.026135",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "GOOGL",
+    "cik": "1652044",
+    "form_type": "8-K",
+    "filing_date": "2024-02-08",
+    "accession_number": "0001652044-24-000032",
+    "primary_document": "goog-20240208.htm",
+    "fetched_at": "2026-03-14T01:25:02.026153",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "GOOGL",
+    "cik": "1652044",
+    "form_type": "10-K",
+    "filing_date": "2024-01-31",
+    "accession_number": "0001652044-24-000022",
+    "primary_document": "goog-20231231.htm",
+    "fetched_at": "2026-03-14T01:25:02.026160",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "GOOGL",
+    "cik": "1652044",
+    "form_type": "8-K",
+    "filing_date": "2024-01-30",
+    "accession_number": "0001652044-24-000014",
+    "primary_document": "goog-20240130.htm",
+    "fetched_at": "2026-03-14T01:25:02.026166",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "GOOGL",
+    "cik": "1652044",
+    "form_type": "10-Q",
+    "filing_date": "2023-10-25",
+    "accession_number": "0001652044-23-000094",
+    "primary_document": "goog-20230930.htm",
+    "fetched_at": "2026-03-14T01:25:02.026181",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "GOOGL",
+    "cik": "1652044",
+    "form_type": "8-K",
+    "filing_date": "2023-10-24",
+    "accession_number": "0001652044-23-000088",
+    "primary_document": "goog-20231018.htm",
+    "fetched_at": "2026-03-14T01:25:02.026186",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "GOOGL",
+    "cik": "1652044",
+    "form_type": "10-Q",
+    "filing_date": "2023-07-26",
+    "accession_number": "0001652044-23-000070",
+    "primary_document": "goog-20230630.htm",
+    "fetched_at": "2026-03-14T01:25:02.026198",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "GOOGL",
+    "cik": "1652044",
+    "form_type": "8-K",
+    "filing_date": "2023-07-25",
+    "accession_number": "0001652044-23-000067",
+    "primary_document": "goog-20230720.htm",
+    "fetched_at": "2026-03-14T01:25:02.026203",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "GOOGL",
+    "cik": "1652044",
+    "form_type": "8-K",
+    "filing_date": "2023-06-08",
+    "accession_number": "0001193125-23-163590",
+    "primary_document": "d442583d8k.htm",
+    "fetched_at": "2026-03-14T01:25:02.026216",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "GOOGL",
+    "cik": "1652044",
+    "form_type": "10-Q",
+    "filing_date": "2023-04-26",
+    "accession_number": "0001652044-23-000045",
+    "primary_document": "goog-20230331.htm",
+    "fetched_at": "2026-03-14T01:25:02.026229",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "GOOGL",
+    "cik": "1652044",
+    "form_type": "8-K",
+    "filing_date": "2023-04-25",
+    "accession_number": "0001652044-23-000041",
+    "primary_document": "goog-20230425.htm",
+    "fetched_at": "2026-03-14T01:25:02.026235",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "GOOGL",
+    "cik": "1652044",
+    "form_type": "8-K",
+    "filing_date": "2023-04-21",
+    "accession_number": "0001193125-23-110657",
+    "primary_document": "d490635d8k.htm",
+    "fetched_at": "2026-03-14T01:25:02.026240",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "GOOGL",
+    "cik": "1652044",
+    "form_type": "8-K",
+    "filing_date": "2023-04-20",
+    "accession_number": "0001652044-23-000034",
+    "primary_document": "goog-20230420.htm",
+    "fetched_at": "2026-03-14T01:25:02.026246",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "GOOGL",
+    "cik": "1652044",
+    "form_type": "10-K",
+    "filing_date": "2023-02-03",
+    "accession_number": "0001652044-23-000016",
+    "primary_document": "goog-20221231.htm",
+    "fetched_at": "2026-03-14T01:25:02.026257",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "GOOGL",
+    "cik": "1652044",
+    "form_type": "8-K",
+    "filing_date": "2023-02-02",
+    "accession_number": "0001652044-23-000013",
+    "primary_document": "goog-20230202.htm",
+    "fetched_at": "2026-03-14T01:25:02.026262",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "GOOGL",
+    "cik": "1652044",
+    "form_type": "8-K",
+    "filing_date": "2023-01-25",
+    "accession_number": "0001652044-23-000005",
+    "primary_document": "goog-20230124.htm",
+    "fetched_at": "2026-03-14T01:25:02.026269",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "GOOGL",
+    "cik": "1652044",
+    "form_type": "8-K",
+    "filing_date": "2023-01-20",
+    "accession_number": "0001193125-23-011424",
+    "primary_document": "d454494d8k.htm",
+    "fetched_at": "2026-03-14T01:25:02.026274",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "GOOGL",
+    "cik": "1652044",
+    "form_type": "8-K",
+    "filing_date": "2022-12-21",
+    "accession_number": "0001193125-22-310153",
+    "primary_document": "d441338d8k.htm",
+    "fetched_at": "2026-03-14T01:25:02.026282",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "GOOGL",
+    "cik": "1652044",
+    "form_type": "10-Q",
+    "filing_date": "2022-10-26",
+    "accession_number": "0001652044-22-000090",
+    "primary_document": "goog-20220930.htm",
+    "fetched_at": "2026-03-14T01:25:02.026294",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "GOOGL",
+    "cik": "1652044",
+    "form_type": "8-K",
+    "filing_date": "2022-10-25",
+    "accession_number": "0001652044-22-000085",
+    "primary_document": "goog-20221025.htm",
+    "fetched_at": "2026-03-14T01:25:02.026300",
+    "source_name": "sec_edgar"
+  }
+]

@@ -1,0 +1,51 @@
+# Phase 1: Core + Data Ingestion
+python-dotenv
+pandas
+numpy
+pyarrow
+requests
+yfinance
+boto3
+
+# Phase 2: Feature Engineering + NLP Sentiment
+# NLP / Sentiment
+transformers
+torch              # PyTorch — pip auto-detects M2 and installs MPS-enabled build
+sentencepiece      # required by some HuggingFace tokenizers
+accelerate         # speeds up HuggingFace inference on M2 GPU
+ 
+# ML utilities
+scikit-learn
+
+# Phase 3: Deep Learning Models + Experiment Tracking
+# Experiment tracking — install before pytorch-forecasting
+mlflow
+ 
+# TFT model — depends on torch and pytorch-lightning
+pytorch-lightning
+pytorch-forecasting
+
+# Phase 4: Portfolio Optimization + Reinforcement Learning
+ 
+cvxpy
+PyPortfolioOpt
+stable-baselines3
+gymnasium
+
+# Phase 5: MLOps + Phase 6: Dashboard
+
+# Note: Airflow is run via Docker, NOT pip installed locally.
+# See mlops/docker-compose.yml (create this in Phase 5)
+ 
+# Monitoring
+evidently
+ 
+# Dashboard + API
+fastapi
+uvicorn
+streamlit
+plotly
+ 
+# Testing
+pytest
+pytest-cov

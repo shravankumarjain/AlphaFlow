@@ -1,0 +1,251 @@
+2026-03-14 00:50:01 | INFO | news_data | ============================================================
+2026-03-14 00:50:01 | INFO | news_data | AlphaFlow — News & SEC Ingestion Pipeline
+2026-03-14 00:50:01 | INFO | news_data | Tickers: ['AAPL', 'MSFT', 'GOOGL', 'AMZN', 'JPM', 'JNJ', 'XOM', 'BRK-B', 'TSLA', 'SPY']
+2026-03-14 00:50:01 | INFO | news_data | ============================================================
+2026-03-14 00:50:01 | INFO | botocore.credentials | Found credentials in shared credentials file: ~/.aws/credentials
+2026-03-14 00:50:01 | INFO | news_data | 
+Processing AAPL...
+2026-03-14 00:50:02 | ERROR | news_data |   ✗ NewsAPI fetch failed for AAPL: 426 Client Error: Upgrade Required for url: https://newsapi.org/v2/everything?q=%22Apple%22+stock+OR+earnings+OR+revenue&from=2026-02-12&to=2026-03-14&language=en&sortBy=publishedAt&pageSize=100&apiKey=58714db5b0dd4c7facf919cafa331686
+2026-03-14 00:50:03 | INFO | news_data |   ✓ SEC EDGAR AAPL: 150 filings (10-K, 10-Q, 8-K)
+2026-03-14 00:50:04 | INFO | news_data |   ✓ Saved locally: data/local/raw/news/sec_edgar/AAPL_20260314.json
+2026-03-14 00:50:04 | INFO | news_data |   ✓ Uploaded to S3: s3://alphaflow-data-lake-291572330987/raw/news/sec_edgar/AAPL/AAPL_20260314.json
+2026-03-14 00:50:04 | INFO | news_data | 
+Processing MSFT...
+2026-03-14 00:50:04 | ERROR | news_data |   ✗ NewsAPI fetch failed for MSFT: 426 Client Error: Upgrade Required for url: https://newsapi.org/v2/everything?q=%22Microsoft%22+stock+OR+earnings+OR+revenue&from=2026-02-12&to=2026-03-14&language=en&sortBy=publishedAt&pageSize=100&apiKey=58714db5b0dd4c7facf919cafa331686
+2026-03-14 00:50:06 | INFO | news_data |   ✓ SEC EDGAR MSFT: 90 filings (10-K, 10-Q, 8-K)
+2026-03-14 00:50:06 | INFO | news_data |   ✓ Saved locally: data/local/raw/news/sec_edgar/MSFT_20260314.json
+2026-03-14 00:50:06 | INFO | news_data |   ✓ Uploaded to S3: s3://alphaflow-data-lake-291572330987/raw/news/sec_edgar/MSFT/MSFT_20260314.json
+2026-03-14 00:50:06 | INFO | news_data | 
+Processing GOOGL...
+2026-03-14 00:50:06 | ERROR | news_data |   ✗ NewsAPI fetch failed for GOOGL: 426 Client Error: Upgrade Required for url: https://newsapi.org/v2/everything?q=%22Alphabet+Google%22+stock+OR+earnings+OR+revenue&from=2026-02-12&to=2026-03-14&language=en&sortBy=publishedAt&pageSize=100&apiKey=58714db5b0dd4c7facf919cafa331686
+2026-03-14 00:50:07 | INFO | news_data |   ✓ SEC EDGAR GOOGL: 53 filings (10-K, 10-Q, 8-K)
+2026-03-14 00:50:08 | INFO | news_data |   ✓ Saved locally: data/local/raw/news/sec_edgar/GOOGL_20260314.json
+2026-03-14 00:50:08 | INFO | news_data |   ✓ Uploaded to S3: s3://alphaflow-data-lake-291572330987/raw/news/sec_edgar/GOOGL/GOOGL_20260314.json
+2026-03-14 00:50:08 | INFO | news_data | 
+Processing AMZN...
+2026-03-14 00:50:08 | ERROR | news_data |   ✗ NewsAPI fetch failed for AMZN: 426 Client Error: Upgrade Required for url: https://newsapi.org/v2/everything?q=%22Amazon%22+stock+OR+earnings+OR+revenue&from=2026-02-12&to=2026-03-14&language=en&sortBy=publishedAt&pageSize=100&apiKey=58714db5b0dd4c7facf919cafa331686
+2026-03-14 00:50:09 | INFO | news_data |   ✓ SEC EDGAR AMZN: 86 filings (10-K, 10-Q, 8-K)
+2026-03-14 00:50:10 | INFO | news_data |   ✓ Saved locally: data/local/raw/news/sec_edgar/AMZN_20260314.json
+2026-03-14 00:50:10 | INFO | news_data |   ✓ Uploaded to S3: s3://alphaflow-data-lake-291572330987/raw/news/sec_edgar/AMZN/AMZN_20260314.json
+2026-03-14 00:50:10 | INFO | news_data | 
+Processing JPM...
+2026-03-14 00:50:10 | ERROR | news_data |   ✗ NewsAPI fetch failed for JPM: 426 Client Error: Upgrade Required for url: https://newsapi.org/v2/everything?q=%22JPMorgan+Chase%22+stock+OR+earnings+OR+revenue&from=2026-02-12&to=2026-03-14&language=en&sortBy=publishedAt&pageSize=100&apiKey=58714db5b0dd4c7facf919cafa331686
+2026-03-14 00:50:12 | INFO | news_data |   ✓ SEC EDGAR JPM: 26 filings (10-K, 10-Q, 8-K)
+2026-03-14 00:50:12 | INFO | news_data |   ✓ Saved locally: data/local/raw/news/sec_edgar/JPM_20260314.json
+2026-03-14 00:50:12 | INFO | news_data |   ✓ Uploaded to S3: s3://alphaflow-data-lake-291572330987/raw/news/sec_edgar/JPM/JPM_20260314.json
+2026-03-14 00:50:12 | INFO | news_data | 
+Processing JNJ...
+2026-03-14 00:50:12 | ERROR | news_data |   ✗ NewsAPI fetch failed for JNJ: 426 Client Error: Upgrade Required for url: https://newsapi.org/v2/everything?q=%22Johnson+Johnson%22+stock+OR+earnings+OR+revenue&from=2026-02-12&to=2026-03-14&language=en&sortBy=publishedAt&pageSize=100&apiKey=58714db5b0dd4c7facf919cafa331686
+2026-03-14 00:50:13 | INFO | news_data |   ✓ SEC EDGAR JNJ: 130 filings (10-K, 10-Q, 8-K)
+2026-03-14 00:50:14 | INFO | news_data |   ✓ Saved locally: data/local/raw/news/sec_edgar/JNJ_20260314.json
+2026-03-14 00:50:14 | INFO | news_data |   ✓ Uploaded to S3: s3://alphaflow-data-lake-291572330987/raw/news/sec_edgar/JNJ/JNJ_20260314.json
+2026-03-14 00:50:14 | INFO | news_data | 
+Processing XOM...
+2026-03-14 00:50:14 | ERROR | news_data |   ✗ NewsAPI fetch failed for XOM: 426 Client Error: Upgrade Required for url: https://newsapi.org/v2/everything?q=%22ExxonMobil%22+stock+OR+earnings+OR+revenue&from=2026-02-12&to=2026-03-14&language=en&sortBy=publishedAt&pageSize=100&apiKey=58714db5b0dd4c7facf919cafa331686
+2026-03-14 00:50:15 | INFO | news_data |   ✓ SEC EDGAR XOM: 132 filings (10-K, 10-Q, 8-K)
+2026-03-14 00:50:16 | INFO | news_data |   ✓ Saved locally: data/local/raw/news/sec_edgar/XOM_20260314.json
+2026-03-14 00:50:16 | INFO | news_data |   ✓ Uploaded to S3: s3://alphaflow-data-lake-291572330987/raw/news/sec_edgar/XOM/XOM_20260314.json
+2026-03-14 00:50:16 | INFO | news_data | 
+Processing BRK-B...
+2026-03-14 00:50:16 | ERROR | news_data |   ✗ NewsAPI fetch failed for BRK-B: 426 Client Error: Upgrade Required for url: https://newsapi.org/v2/everything?q=%22Berkshire+Hathaway%22+stock+OR+earnings+OR+revenue&from=2026-02-12&to=2026-03-14&language=en&sortBy=publishedAt&pageSize=100&apiKey=58714db5b0dd4c7facf919cafa331686
+2026-03-14 00:50:17 | INFO | news_data |   ✓ SEC EDGAR BRK-B: 115 filings (10-K, 10-Q, 8-K)
+2026-03-14 00:50:18 | INFO | news_data |   ✓ Saved locally: data/local/raw/news/sec_edgar/BRK-B_20260314.json
+2026-03-14 00:50:18 | INFO | news_data |   ✓ Uploaded to S3: s3://alphaflow-data-lake-291572330987/raw/news/sec_edgar/BRK-B/BRK-B_20260314.json
+2026-03-14 00:50:18 | INFO | news_data | 
+Processing TSLA...
+2026-03-14 00:50:18 | ERROR | news_data |   ✗ NewsAPI fetch failed for TSLA: 426 Client Error: Upgrade Required for url: https://newsapi.org/v2/everything?q=%22Tesla%22+stock+OR+earnings+OR+revenue&from=2026-02-12&to=2026-03-14&language=en&sortBy=publishedAt&pageSize=100&apiKey=58714db5b0dd4c7facf919cafa331686
+2026-03-14 00:50:19 | INFO | news_data |   ✓ SEC EDGAR TSLA: 159 filings (10-K, 10-Q, 8-K)
+2026-03-14 00:50:19 | INFO | news_data |   ✓ Saved locally: data/local/raw/news/sec_edgar/TSLA_20260314.json
+2026-03-14 00:50:20 | INFO | news_data |   ✓ Uploaded to S3: s3://alphaflow-data-lake-291572330987/raw/news/sec_edgar/TSLA/TSLA_20260314.json
+2026-03-14 00:50:20 | INFO | news_data | 
+Processing SPY...
+2026-03-14 00:50:20 | ERROR | news_data |   ✗ NewsAPI fetch failed for SPY: 426 Client Error: Upgrade Required for url: https://newsapi.org/v2/everything?q=%22S%26P+500+ETF%22+stock+OR+earnings+OR+revenue&from=2026-02-12&to=2026-03-14&language=en&sortBy=publishedAt&pageSize=100&apiKey=58714db5b0dd4c7facf919cafa331686
+2026-03-14 00:50:21 | INFO | news_data |   ✓ SEC EDGAR SPY: 0 filings (10-K, 10-Q, 8-K)
+2026-03-14 00:50:21 | INFO | news_data | 
+============================================================
+2026-03-14 00:50:21 | INFO | news_data | NEWS INGESTION SUMMARY
+2026-03-14 00:50:21 | INFO | news_data | ============================================================
+2026-03-14 00:50:21 | INFO | news_data |   AAPL   | NewsAPI:   0 articles | SEC: 150 filings
+2026-03-14 00:50:21 | INFO | news_data |   MSFT   | NewsAPI:   0 articles | SEC:  90 filings
+2026-03-14 00:50:21 | INFO | news_data |   GOOGL  | NewsAPI:   0 articles | SEC:  53 filings
+2026-03-14 00:50:21 | INFO | news_data |   AMZN   | NewsAPI:   0 articles | SEC:  86 filings
+2026-03-14 00:50:21 | INFO | news_data |   JPM    | NewsAPI:   0 articles | SEC:  26 filings
+2026-03-14 00:50:21 | INFO | news_data |   JNJ    | NewsAPI:   0 articles | SEC: 130 filings
+2026-03-14 00:50:21 | INFO | news_data |   XOM    | NewsAPI:   0 articles | SEC: 132 filings
+2026-03-14 00:50:21 | INFO | news_data |   BRK-B  | NewsAPI:   0 articles | SEC: 115 filings
+2026-03-14 00:50:21 | INFO | news_data |   TSLA   | NewsAPI:   0 articles | SEC: 159 filings
+2026-03-14 00:50:21 | INFO | news_data |   SPY    | NewsAPI:   0 articles | SEC:   0 filings
+2026-03-14 01:19:27 | INFO | news_data | ============================================================
+2026-03-14 01:19:27 | INFO | news_data | AlphaFlow — News & SEC Ingestion Pipeline
+2026-03-14 01:19:27 | INFO | news_data | Tickers: ['AAPL', 'MSFT', 'GOOGL', 'AMZN', 'JPM', 'JNJ', 'XOM', 'BRK-B', 'TSLA', 'SPY']
+2026-03-14 01:19:27 | INFO | news_data | ============================================================
+2026-03-14 01:19:27 | INFO | botocore.credentials | Found credentials in shared credentials file: ~/.aws/credentials
+2026-03-14 01:19:27 | INFO | news_data | 
+Processing AAPL...
+2026-03-14 01:19:27 | ERROR | news_data |   ✗ NewsAPI fetch failed for AAPL: 426 Client Error: Upgrade Required for url: https://newsapi.org/v2/everything?q=%22Apple%22+stock+OR+earnings+OR+revenue&from=2026-02-12&to=2026-03-14&language=en&sortBy=publishedAt&pageSize=100&apiKey=58714db5b0dd4c7facf919cafa331686
+2026-03-14 01:19:29 | INFO | news_data |   ✓ SEC EDGAR AAPL: 150 filings (10-K, 10-Q, 8-K)
+2026-03-14 01:19:29 | INFO | news_data |   ✓ Saved locally: data/local/raw/news/sec_edgar/AAPL_20260314.json
+2026-03-14 01:19:29 | INFO | news_data |   ✓ Uploaded to S3: s3://alphaflow-data-lake-291572330987/raw/news/sec_edgar/AAPL/AAPL_20260314.json
+2026-03-14 01:19:29 | INFO | news_data | 
+Processing MSFT...
+2026-03-14 01:19:30 | ERROR | news_data |   ✗ NewsAPI fetch failed for MSFT: 426 Client Error: Upgrade Required for url: https://newsapi.org/v2/everything?q=%22Microsoft%22+stock+OR+earnings+OR+revenue&from=2026-02-12&to=2026-03-14&language=en&sortBy=publishedAt&pageSize=100&apiKey=58714db5b0dd4c7facf919cafa331686
+2026-03-14 01:19:31 | INFO | news_data |   ✓ SEC EDGAR MSFT: 90 filings (10-K, 10-Q, 8-K)
+2026-03-14 01:19:31 | INFO | news_data |   ✓ Saved locally: data/local/raw/news/sec_edgar/MSFT_20260314.json
+2026-03-14 01:19:31 | INFO | news_data |   ✓ Uploaded to S3: s3://alphaflow-data-lake-291572330987/raw/news/sec_edgar/MSFT/MSFT_20260314.json
+2026-03-14 01:19:31 | INFO | news_data | 
+Processing GOOGL...
+2026-03-14 01:19:32 | ERROR | news_data |   ✗ NewsAPI fetch failed for GOOGL: 426 Client Error: Upgrade Required for url: https://newsapi.org/v2/everything?q=%22Alphabet+Google%22+stock+OR+earnings+OR+revenue&from=2026-02-12&to=2026-03-14&language=en&sortBy=publishedAt&pageSize=100&apiKey=58714db5b0dd4c7facf919cafa331686
+2026-03-14 01:19:33 | INFO | news_data |   ✓ SEC EDGAR GOOGL: 53 filings (10-K, 10-Q, 8-K)
+2026-03-14 01:19:34 | INFO | news_data |   ✓ Saved locally: data/local/raw/news/sec_edgar/GOOGL_20260314.json
+2026-03-14 01:19:34 | INFO | news_data |   ✓ Uploaded to S3: s3://alphaflow-data-lake-291572330987/raw/news/sec_edgar/GOOGL/GOOGL_20260314.json
+2026-03-14 01:19:34 | INFO | news_data | 
+Processing AMZN...
+2026-03-14 01:19:34 | ERROR | news_data |   ✗ NewsAPI fetch failed for AMZN: 426 Client Error: Upgrade Required for url: https://newsapi.org/v2/everything?q=%22Amazon%22+stock+OR+earnings+OR+revenue&from=2026-02-12&to=2026-03-14&language=en&sortBy=publishedAt&pageSize=100&apiKey=58714db5b0dd4c7facf919cafa331686
+2026-03-14 01:19:35 | INFO | news_data |   ✓ SEC EDGAR AMZN: 86 filings (10-K, 10-Q, 8-K)
+2026-03-14 01:19:35 | INFO | news_data |   ✓ Saved locally: data/local/raw/news/sec_edgar/AMZN_20260314.json
+2026-03-14 01:19:36 | INFO | news_data |   ✓ Uploaded to S3: s3://alphaflow-data-lake-291572330987/raw/news/sec_edgar/AMZN/AMZN_20260314.json
+2026-03-14 01:19:36 | INFO | news_data | 
+Processing JPM...
+2026-03-14 01:19:36 | ERROR | news_data |   ✗ NewsAPI fetch failed for JPM: 426 Client Error: Upgrade Required for url: https://newsapi.org/v2/everything?q=%22JPMorgan+Chase%22+stock+OR+earnings+OR+revenue&from=2026-02-12&to=2026-03-14&language=en&sortBy=publishedAt&pageSize=100&apiKey=58714db5b0dd4c7facf919cafa331686
+2026-03-14 01:19:37 | INFO | news_data |   ✓ SEC EDGAR JPM: 26 filings (10-K, 10-Q, 8-K)
+2026-03-14 01:19:38 | INFO | news_data |   ✓ Saved locally: data/local/raw/news/sec_edgar/JPM_20260314.json
+2026-03-14 01:19:38 | INFO | news_data |   ✓ Uploaded to S3: s3://alphaflow-data-lake-291572330987/raw/news/sec_edgar/JPM/JPM_20260314.json
+2026-03-14 01:19:38 | INFO | news_data | 
+Processing JNJ...
+2026-03-14 01:19:38 | ERROR | news_data |   ✗ NewsAPI fetch failed for JNJ: 426 Client Error: Upgrade Required for url: https://newsapi.org/v2/everything?q=%22Johnson+Johnson%22+stock+OR+earnings+OR+revenue&from=2026-02-12&to=2026-03-14&language=en&sortBy=publishedAt&pageSize=100&apiKey=58714db5b0dd4c7facf919cafa331686
+2026-03-14 01:19:39 | INFO | news_data |   ✓ SEC EDGAR JNJ: 130 filings (10-K, 10-Q, 8-K)
+2026-03-14 01:19:40 | INFO | news_data |   ✓ Saved locally: data/local/raw/news/sec_edgar/JNJ_20260314.json
+2026-03-14 01:19:40 | INFO | news_data |   ✓ Uploaded to S3: s3://alphaflow-data-lake-291572330987/raw/news/sec_edgar/JNJ/JNJ_20260314.json
+2026-03-14 01:19:40 | INFO | news_data | 
+Processing XOM...
+2026-03-14 01:19:40 | ERROR | news_data |   ✗ NewsAPI fetch failed for XOM: 426 Client Error: Upgrade Required for url: https://newsapi.org/v2/everything?q=%22ExxonMobil%22+stock+OR+earnings+OR+revenue&from=2026-02-12&to=2026-03-14&language=en&sortBy=publishedAt&pageSize=100&apiKey=58714db5b0dd4c7facf919cafa331686
+2026-03-14 01:19:41 | INFO | news_data |   ✓ SEC EDGAR XOM: 132 filings (10-K, 10-Q, 8-K)
+2026-03-14 01:19:42 | INFO | news_data |   ✓ Saved locally: data/local/raw/news/sec_edgar/XOM_20260314.json
+2026-03-14 01:19:42 | INFO | news_data |   ✓ Uploaded to S3: s3://alphaflow-data-lake-291572330987/raw/news/sec_edgar/XOM/XOM_20260314.json
+2026-03-14 01:19:42 | INFO | news_data | 
+Processing BRK-B...
+2026-03-14 01:19:42 | ERROR | news_data |   ✗ NewsAPI fetch failed for BRK-B: 426 Client Error: Upgrade Required for url: https://newsapi.org/v2/everything?q=%22Berkshire+Hathaway%22+stock+OR+earnings+OR+revenue&from=2026-02-12&to=2026-03-14&language=en&sortBy=publishedAt&pageSize=100&apiKey=58714db5b0dd4c7facf919cafa331686
+2026-03-14 01:19:43 | INFO | news_data |   ✓ SEC EDGAR BRK-B: 115 filings (10-K, 10-Q, 8-K)
+2026-03-14 01:19:44 | INFO | news_data |   ✓ Saved locally: data/local/raw/news/sec_edgar/BRK-B_20260314.json
+2026-03-14 01:19:44 | INFO | news_data |   ✓ Uploaded to S3: s3://alphaflow-data-lake-291572330987/raw/news/sec_edgar/BRK-B/BRK-B_20260314.json
+2026-03-14 01:19:44 | INFO | news_data | 
+Processing TSLA...
+2026-03-14 01:19:44 | ERROR | news_data |   ✗ NewsAPI fetch failed for TSLA: 426 Client Error: Upgrade Required for url: https://newsapi.org/v2/everything?q=%22Tesla%22+stock+OR+earnings+OR+revenue&from=2026-02-12&to=2026-03-14&language=en&sortBy=publishedAt&pageSize=100&apiKey=58714db5b0dd4c7facf919cafa331686
+2026-03-14 01:19:46 | INFO | news_data |   ✓ SEC EDGAR TSLA: 159 filings (10-K, 10-Q, 8-K)
+2026-03-14 01:19:46 | INFO | news_data |   ✓ Saved locally: data/local/raw/news/sec_edgar/TSLA_20260314.json
+2026-03-14 01:19:46 | INFO | news_data |   ✓ Uploaded to S3: s3://alphaflow-data-lake-291572330987/raw/news/sec_edgar/TSLA/TSLA_20260314.json
+2026-03-14 01:19:46 | INFO | news_data | 
+Processing SPY...
+2026-03-14 01:19:46 | ERROR | news_data |   ✗ NewsAPI fetch failed for SPY: 426 Client Error: Upgrade Required for url: https://newsapi.org/v2/everything?q=%22S%26P+500+ETF%22+stock+OR+earnings+OR+revenue&from=2026-02-12&to=2026-03-14&language=en&sortBy=publishedAt&pageSize=100&apiKey=58714db5b0dd4c7facf919cafa331686
+2026-03-14 01:19:47 | INFO | news_data |   ✓ SEC EDGAR SPY: 0 filings (10-K, 10-Q, 8-K)
+2026-03-14 01:19:48 | INFO | news_data | 
+============================================================
+2026-03-14 01:19:48 | INFO | news_data | NEWS INGESTION SUMMARY
+2026-03-14 01:19:48 | INFO | news_data | ============================================================
+2026-03-14 01:19:48 | INFO | news_data |   AAPL   | NewsAPI:   0 articles | SEC: 150 filings
+2026-03-14 01:19:48 | INFO | news_data |   MSFT   | NewsAPI:   0 articles | SEC:  90 filings
+2026-03-14 01:19:48 | INFO | news_data |   GOOGL  | NewsAPI:   0 articles | SEC:  53 filings
+2026-03-14 01:19:48 | INFO | news_data |   AMZN   | NewsAPI:   0 articles | SEC:  86 filings
+2026-03-14 01:19:48 | INFO | news_data |   JPM    | NewsAPI:   0 articles | SEC:  26 filings
+2026-03-14 01:19:48 | INFO | news_data |   JNJ    | NewsAPI:   0 articles | SEC: 130 filings
+2026-03-14 01:19:48 | INFO | news_data |   XOM    | NewsAPI:   0 articles | SEC: 132 filings
+2026-03-14 01:19:48 | INFO | news_data |   BRK-B  | NewsAPI:   0 articles | SEC: 115 filings
+2026-03-14 01:19:48 | INFO | news_data |   TSLA   | NewsAPI:   0 articles | SEC: 159 filings
+2026-03-14 01:19:48 | INFO | news_data |   SPY    | NewsAPI:   0 articles | SEC:   0 filings
+2026-03-14 01:24:57 | INFO | news_data | ============================================================
+2026-03-14 01:24:57 | INFO | news_data | AlphaFlow — News & SEC Ingestion Pipeline
+2026-03-14 01:24:57 | INFO | news_data | Tickers: ['AAPL', 'MSFT', 'GOOGL', 'AMZN', 'JPM', 'JNJ', 'XOM', 'BRK-B', 'TSLA', 'SPY']
+2026-03-14 01:24:57 | INFO | news_data | ============================================================
+2026-03-14 01:24:57 | INFO | botocore.credentials | Found credentials in shared credentials file: ~/.aws/credentials
+2026-03-14 01:24:57 | INFO | news_data | 
+Processing AAPL...
+2026-03-14 01:24:57 | INFO | news_data |   ✓ yfinance news AAPL: 10 articles
+2026-03-14 01:24:57 | INFO | news_data |   ✓ Saved locally: data/local/raw/news/yfinance_news/AAPL_20260314.json
+2026-03-14 01:24:58 | INFO | news_data |   ✓ Uploaded to S3: s3://alphaflow-data-lake-291572330987/raw/news/yfinance_news/AAPL/AAPL_20260314.json
+2026-03-14 01:24:59 | INFO | news_data |   ✓ SEC EDGAR AAPL: 150 filings (10-K, 10-Q, 8-K)
+2026-03-14 01:24:59 | INFO | news_data |   ✓ Saved locally: data/local/raw/news/sec_edgar/AAPL_20260314.json
+2026-03-14 01:24:59 | INFO | news_data |   ✓ Uploaded to S3: s3://alphaflow-data-lake-291572330987/raw/news/sec_edgar/AAPL/AAPL_20260314.json
+2026-03-14 01:24:59 | INFO | news_data | 
+Processing MSFT...
+2026-03-14 01:24:59 | INFO | news_data |   ✓ yfinance news MSFT: 10 articles
+2026-03-14 01:24:59 | INFO | news_data |   ✓ Saved locally: data/local/raw/news/yfinance_news/MSFT_20260314.json
+2026-03-14 01:24:59 | INFO | news_data |   ✓ Uploaded to S3: s3://alphaflow-data-lake-291572330987/raw/news/yfinance_news/MSFT/MSFT_20260314.json
+2026-03-14 01:25:00 | INFO | news_data |   ✓ SEC EDGAR MSFT: 90 filings (10-K, 10-Q, 8-K)
+2026-03-14 01:25:00 | INFO | news_data |   ✓ Saved locally: data/local/raw/news/sec_edgar/MSFT_20260314.json
+2026-03-14 01:25:00 | INFO | news_data |   ✓ Uploaded to S3: s3://alphaflow-data-lake-291572330987/raw/news/sec_edgar/MSFT/MSFT_20260314.json
+2026-03-14 01:25:00 | INFO | news_data | 
+Processing GOOGL...
+2026-03-14 01:25:01 | INFO | news_data |   ✓ yfinance news GOOGL: 10 articles
+2026-03-14 01:25:01 | INFO | news_data |   ✓ Saved locally: data/local/raw/news/yfinance_news/GOOGL_20260314.json
+2026-03-14 01:25:01 | INFO | news_data |   ✓ Uploaded to S3: s3://alphaflow-data-lake-291572330987/raw/news/yfinance_news/GOOGL/GOOGL_20260314.json
+2026-03-14 01:25:02 | INFO | news_data |   ✓ SEC EDGAR GOOGL: 53 filings (10-K, 10-Q, 8-K)
+2026-03-14 01:25:02 | INFO | news_data |   ✓ Saved locally: data/local/raw/news/sec_edgar/GOOGL_20260314.json
+2026-03-14 01:25:02 | INFO | news_data |   ✓ Uploaded to S3: s3://alphaflow-data-lake-291572330987/raw/news/sec_edgar/GOOGL/GOOGL_20260314.json
+2026-03-14 01:25:02 | INFO | news_data | 
+Processing AMZN...
+2026-03-14 01:25:02 | INFO | news_data |   ✓ yfinance news AMZN: 10 articles
+2026-03-14 01:25:02 | INFO | news_data |   ✓ Saved locally: data/local/raw/news/yfinance_news/AMZN_20260314.json
+2026-03-14 01:25:02 | INFO | news_data |   ✓ Uploaded to S3: s3://alphaflow-data-lake-291572330987/raw/news/yfinance_news/AMZN/AMZN_20260314.json
+2026-03-14 01:25:03 | INFO | news_data |   ✓ SEC EDGAR AMZN: 86 filings (10-K, 10-Q, 8-K)
+2026-03-14 01:25:03 | INFO | news_data |   ✓ Saved locally: data/local/raw/news/sec_edgar/AMZN_20260314.json
+2026-03-14 01:25:03 | INFO | news_data |   ✓ Uploaded to S3: s3://alphaflow-data-lake-291572330987/raw/news/sec_edgar/AMZN/AMZN_20260314.json
+2026-03-14 01:25:03 | INFO | news_data | 
+Processing JPM...
+2026-03-14 01:25:03 | INFO | news_data |   ✓ yfinance news JPM: 10 articles
+2026-03-14 01:25:03 | INFO | news_data |   ✓ Saved locally: data/local/raw/news/yfinance_news/JPM_20260314.json
+2026-03-14 01:25:04 | INFO | news_data |   ✓ Uploaded to S3: s3://alphaflow-data-lake-291572330987/raw/news/yfinance_news/JPM/JPM_20260314.json
+2026-03-14 01:25:05 | INFO | news_data |   ✓ SEC EDGAR JPM: 26 filings (10-K, 10-Q, 8-K)
+2026-03-14 01:25:05 | INFO | news_data |   ✓ Saved locally: data/local/raw/news/sec_edgar/JPM_20260314.json
+2026-03-14 01:25:05 | INFO | news_data |   ✓ Uploaded to S3: s3://alphaflow-data-lake-291572330987/raw/news/sec_edgar/JPM/JPM_20260314.json
+2026-03-14 01:25:05 | INFO | news_data | 
+Processing JNJ...
+2026-03-14 01:25:05 | INFO | news_data |   ✓ yfinance news JNJ: 10 articles
+2026-03-14 01:25:05 | INFO | news_data |   ✓ Saved locally: data/local/raw/news/yfinance_news/JNJ_20260314.json
+2026-03-14 01:25:05 | INFO | news_data |   ✓ Uploaded to S3: s3://alphaflow-data-lake-291572330987/raw/news/yfinance_news/JNJ/JNJ_20260314.json
+2026-03-14 01:25:06 | INFO | news_data |   ✓ SEC EDGAR JNJ: 130 filings (10-K, 10-Q, 8-K)
+2026-03-14 01:25:06 | INFO | news_data |   ✓ Saved locally: data/local/raw/news/sec_edgar/JNJ_20260314.json
+2026-03-14 01:25:06 | INFO | news_data |   ✓ Uploaded to S3: s3://alphaflow-data-lake-291572330987/raw/news/sec_edgar/JNJ/JNJ_20260314.json
+2026-03-14 01:25:06 | INFO | news_data | 
+Processing XOM...
+2026-03-14 01:25:07 | INFO | news_data |   ✓ yfinance news XOM: 10 articles
+2026-03-14 01:25:07 | INFO | news_data |   ✓ Saved locally: data/local/raw/news/yfinance_news/XOM_20260314.json
+2026-03-14 01:25:07 | INFO | news_data |   ✓ Uploaded to S3: s3://alphaflow-data-lake-291572330987/raw/news/yfinance_news/XOM/XOM_20260314.json
+2026-03-14 01:25:08 | INFO | news_data |   ✓ SEC EDGAR XOM: 132 filings (10-K, 10-Q, 8-K)
+2026-03-14 01:25:08 | INFO | news_data |   ✓ Saved locally: data/local/raw/news/sec_edgar/XOM_20260314.json
+2026-03-14 01:25:08 | INFO | news_data |   ✓ Uploaded to S3: s3://alphaflow-data-lake-291572330987/raw/news/sec_edgar/XOM/XOM_20260314.json
+2026-03-14 01:25:08 | INFO | news_data | 
+Processing BRK-B...
+2026-03-14 01:25:08 | INFO | news_data |   ✓ yfinance news BRK-B: 10 articles
+2026-03-14 01:25:08 | INFO | news_data |   ✓ Saved locally: data/local/raw/news/yfinance_news/BRK-B_20260314.json
+2026-03-14 01:25:08 | INFO | news_data |   ✓ Uploaded to S3: s3://alphaflow-data-lake-291572330987/raw/news/yfinance_news/BRK-B/BRK-B_20260314.json
+2026-03-14 01:25:09 | INFO | news_data |   ✓ SEC EDGAR BRK-B: 115 filings (10-K, 10-Q, 8-K)
+2026-03-14 01:25:09 | INFO | news_data |   ✓ Saved locally: data/local/raw/news/sec_edgar/BRK-B_20260314.json
+2026-03-14 01:25:09 | INFO | news_data |   ✓ Uploaded to S3: s3://alphaflow-data-lake-291572330987/raw/news/sec_edgar/BRK-B/BRK-B_20260314.json
+2026-03-14 01:25:09 | INFO | news_data | 
+Processing TSLA...
+2026-03-14 01:25:09 | INFO | news_data |   ✓ yfinance news TSLA: 10 articles
+2026-03-14 01:25:09 | INFO | news_data |   ✓ Saved locally: data/local/raw/news/yfinance_news/TSLA_20260314.json
+2026-03-14 01:25:10 | INFO | news_data |   ✓ Uploaded to S3: s3://alphaflow-data-lake-291572330987/raw/news/yfinance_news/TSLA/TSLA_20260314.json
+2026-03-14 01:25:11 | INFO | news_data |   ✓ SEC EDGAR TSLA: 159 filings (10-K, 10-Q, 8-K)
+2026-03-14 01:25:11 | INFO | news_data |   ✓ Saved locally: data/local/raw/news/sec_edgar/TSLA_20260314.json
+2026-03-14 01:25:11 | INFO | news_data |   ✓ Uploaded to S3: s3://alphaflow-data-lake-291572330987/raw/news/sec_edgar/TSLA/TSLA_20260314.json
+2026-03-14 01:25:11 | INFO | news_data | 
+Processing SPY...
+2026-03-14 01:25:11 | INFO | news_data |   ✓ yfinance news SPY: 10 articles
+2026-03-14 01:25:11 | INFO | news_data |   ✓ Saved locally: data/local/raw/news/yfinance_news/SPY_20260314.json
+2026-03-14 01:25:11 | INFO | news_data |   ✓ Uploaded to S3: s3://alphaflow-data-lake-291572330987/raw/news/yfinance_news/SPY/SPY_20260314.json
+2026-03-14 01:25:12 | INFO | news_data |   ✓ SEC EDGAR SPY: 0 filings (10-K, 10-Q, 8-K)
+2026-03-14 01:25:12 | INFO | news_data | 
+============================================================
+2026-03-14 01:25:12 | INFO | news_data | NEWS INGESTION SUMMARY
+2026-03-14 01:25:12 | INFO | news_data | ============================================================
+2026-03-14 01:25:12 | INFO | news_data |   AAPL   | yfinance news:  10 articles | SEC: 150 filings
+2026-03-14 01:25:12 | INFO | news_data |   MSFT   | yfinance news:  10 articles | SEC:  90 filings
+2026-03-14 01:25:12 | INFO | news_data |   GOOGL  | yfinance news:  10 articles | SEC:  53 filings
+2026-03-14 01:25:12 | INFO | news_data |   AMZN   | yfinance news:  10 articles | SEC:  86 filings
+2026-03-14 01:25:12 | INFO | news_data |   JPM    | yfinance news:  10 articles | SEC:  26 filings
+2026-03-14 01:25:12 | INFO | news_data |   JNJ    | yfinance news:  10 articles | SEC: 130 filings
+2026-03-14 01:25:12 | INFO | news_data |   XOM    | yfinance news:  10 articles | SEC: 132 filings
+2026-03-14 01:25:12 | INFO | news_data |   BRK-B  | yfinance news:  10 articles | SEC: 115 filings
+2026-03-14 01:25:12 | INFO | news_data |   TSLA   | yfinance news:  10 articles | SEC: 159 filings
+2026-03-14 01:25:12 | INFO | news_data |   SPY    | yfinance news:  10 articles | SEC:   0 filings
