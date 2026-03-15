@@ -1,0 +1,98 @@
+2026-03-15 14:09:43 | INFO | botocore.credentials | Found credentials in shared credentials file: ~/.aws/credentials
+2026-03-15 14:09:43 | INFO | dataset | ============================================================
+2026-03-15 14:09:43 | INFO | dataset | AlphaFlow — TFT Dataset Preparation
+2026-03-15 14:09:43 | INFO | dataset | ============================================================
+2026-03-15 14:09:43 | INFO | dataset | 
+Step 1: Loading features from S3...
+2026-03-15 14:09:44 | INFO | dataset |   ✓ Loaded AAPL: 1057 rows
+2026-03-15 14:09:45 | INFO | dataset |   ✓ Loaded MSFT: 1057 rows
+2026-03-15 14:09:45 | INFO | dataset |   ✓ Loaded GOOGL: 1057 rows
+2026-03-15 14:09:45 | INFO | dataset |   ✓ Loaded AMZN: 1057 rows
+2026-03-15 14:09:46 | INFO | dataset |   ✓ Loaded JPM: 1057 rows
+2026-03-15 14:09:46 | INFO | dataset |   ✓ Loaded JNJ: 1057 rows
+2026-03-15 14:09:47 | INFO | dataset |   ✓ Loaded XOM: 1057 rows
+2026-03-15 14:09:47 | INFO | dataset |   ✓ Loaded BRK-B: 1057 rows
+2026-03-15 14:09:47 | INFO | dataset |   ✓ Loaded TSLA: 1057 rows
+2026-03-15 14:09:48 | INFO | dataset |   ✓ Loaded SPY: 1057 rows
+2026-03-15 14:09:48 | INFO | dataset | 
+  ✓ Combined dataset: 10570 rows | 71 cols
+2026-03-15 14:09:48 | INFO | dataset | 
+Step 2: Adding calendar features...
+2026-03-15 14:09:48 | INFO | dataset |   ✓ Calendar features added
+2026-03-15 14:09:48 | INFO | dataset | 
+Step 3: Cleaning dataset...
+2026-03-15 14:09:48 | INFO | dataset |   ✓ Dropped 50 rows with NaN target
+2026-03-15 14:09:48 | INFO | dataset |   ✓ Clean dataset: 10520 rows | 45 columns
+2026-03-15 14:09:48 | INFO | dataset |   ✓ Date range: 2020-10-16 00:00:00 → 2024-12-20 00:00:00
+2026-03-15 14:09:48 | INFO | dataset |   ✓ Tickers: 10
+2026-03-15 14:09:48 | INFO | dataset | 
+Step 4: Time-based train/val split...
+2026-03-15 14:09:48 | INFO | dataset |   ✓ Train: 8940 rows | 2020-10-16 00:00:00 → 2024-05-07 00:00:00
+2026-03-15 14:09:48 | INFO | dataset |   ✓ Val:   1580 rows   | 2024-05-08 00:00:00 → 2024-12-20 00:00:00
+2026-03-15 14:09:48 | INFO | dataset | 
+  ✓ Saved train/val locally to data/local/model_input
+2026-03-15 14:09:48 | INFO | dataset | 
+Step 5: Building TimeSeriesDataSets...
+2026-03-15 14:10:11 | INFO | dataset | 
+ Building TimeSeriesDataSet...
+2026-03-15 14:10:11 | INFO | dataset |   Known future features : 6
+2026-03-15 14:10:11 | INFO | dataset |   Unknown past features : 34
+2026-03-15 14:10:11 | INFO | dataset |   Static categoricals   : 2
+2026-03-15 14:10:11 | INFO | dataset |   Target                : target_return_5d
+2026-03-15 14:10:11 | INFO | dataset |   Encoder length        : 63 days
+2026-03-15 14:10:11 | INFO | dataset |   Prediction length     : 5 days
+2026-03-15 14:10:11 | INFO | dataset |   ✓ Training dataset  : 8270 samples
+2026-03-15 14:10:11 | INFO | dataset |   ✓ Validation dataset: 10 samples
+2026-03-15 14:10:11 | INFO | dataset | 
+============================================================
+2026-03-15 14:10:11 | INFO | dataset | DATASET PREPARATION COMPLETE
+2026-03-15 14:10:11 | INFO | dataset | ============================================================
+2026-03-15 14:23:36 | INFO | botocore.credentials | Found credentials in shared credentials file: ~/.aws/credentials
+2026-03-15 14:23:36 | INFO | dataset | ============================================================
+2026-03-15 14:23:36 | INFO | dataset | AlphaFlow — TFT Dataset Preparation
+2026-03-15 14:23:36 | INFO | dataset | ============================================================
+2026-03-15 14:23:36 | INFO | dataset | 
+Step 1: Loading features from S3...
+2026-03-15 14:23:37 | INFO | dataset |   ✓ Loaded AAPL: 1057 rows
+2026-03-15 14:23:37 | INFO | dataset |   ✓ Loaded MSFT: 1057 rows
+2026-03-15 14:23:37 | INFO | dataset |   ✓ Loaded GOOGL: 1057 rows
+2026-03-15 14:23:37 | INFO | dataset |   ✓ Loaded AMZN: 1057 rows
+2026-03-15 14:23:38 | INFO | dataset |   ✓ Loaded JPM: 1057 rows
+2026-03-15 14:23:38 | INFO | dataset |   ✓ Loaded JNJ: 1057 rows
+2026-03-15 14:23:38 | INFO | dataset |   ✓ Loaded XOM: 1057 rows
+2026-03-15 14:23:39 | INFO | dataset |   ✓ Loaded BRK-B: 1057 rows
+2026-03-15 14:23:39 | INFO | dataset |   ✓ Loaded TSLA: 1057 rows
+2026-03-15 14:23:40 | INFO | dataset |   ✓ Loaded SPY: 1057 rows
+2026-03-15 14:23:40 | INFO | dataset | 
+  ✓ Combined dataset: 10570 rows | 71 cols
+2026-03-15 14:23:40 | INFO | dataset | 
+Step 2: Adding calendar features...
+2026-03-15 14:23:40 | INFO | dataset |   ✓ Calendar features added
+2026-03-15 14:23:40 | INFO | dataset | 
+Step 3: Cleaning dataset...
+2026-03-15 14:23:40 | INFO | dataset |   ✓ Dropped 50 rows with NaN target
+2026-03-15 14:23:40 | INFO | dataset |   ✓ Clean dataset: 10520 rows | 45 columns
+2026-03-15 14:23:40 | INFO | dataset |   ✓ Date range: 2020-10-16 00:00:00 → 2024-12-20 00:00:00
+2026-03-15 14:23:40 | INFO | dataset |   ✓ Tickers: 10
+2026-03-15 14:23:40 | INFO | dataset | 
+Step 4: Time-based train/val split...
+2026-03-15 14:23:40 | INFO | dataset |   ✓ Train: 8940 rows | 2020-10-16 00:00:00 → 2024-05-07 00:00:00
+2026-03-15 14:23:40 | INFO | dataset |   ✓ Val:   1580 rows   | 2024-05-08 00:00:00 → 2024-12-20 00:00:00
+2026-03-15 14:23:40 | INFO | dataset | 
+  ✓ Saved train/val locally to data/local/model_input
+2026-03-15 14:23:40 | INFO | dataset | 
+Step 5: Building TimeSeriesDataSets...
+2026-03-15 14:23:44 | INFO | dataset | 
+ Building TimeSeriesDataSet...
+2026-03-15 14:23:44 | INFO | dataset |   Known future features : 6
+2026-03-15 14:23:44 | INFO | dataset |   Unknown past features : 34
+2026-03-15 14:23:44 | INFO | dataset |   Static categoricals   : 2
+2026-03-15 14:23:44 | INFO | dataset |   Target                : target_return_5d
+2026-03-15 14:23:44 | INFO | dataset |   Encoder length        : 63 days
+2026-03-15 14:23:44 | INFO | dataset |   Prediction length     : 5 days
+2026-03-15 14:23:45 | INFO | dataset |   ✓ Training dataset  : 8270 samples
+2026-03-15 14:23:45 | INFO | dataset |   ✓ Validation dataset: 910 samples
+2026-03-15 14:23:45 | INFO | dataset | 
+============================================================
+2026-03-15 14:23:45 | INFO | dataset | DATASET PREPARATION COMPLETE
+2026-03-15 14:23:45 | INFO | dataset | ============================================================
