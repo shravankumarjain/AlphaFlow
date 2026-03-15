@@ -96,3 +96,402 @@ Step 5: Building TimeSeriesDataSets...
 ============================================================
 2026-03-15 14:23:45 | INFO | dataset | DATASET PREPARATION COMPLETE
 2026-03-15 14:23:45 | INFO | dataset | ============================================================
+2026-03-15 15:44:02 | INFO | botocore.credentials | Found credentials in shared credentials file: ~/.aws/credentials
+2026-03-15 15:44:02 | INFO | evaluate | ============================================================
+2026-03-15 15:44:02 | INFO | evaluate | AlphaFlow — Backtesting & Evaluation
+2026-03-15 15:44:02 | INFO | evaluate | ============================================================
+2026-03-15 15:44:02 | INFO | evaluate | 
+Step 1: Loading datasets...
+2026-03-15 15:44:02 | INFO | dataset | ============================================================
+2026-03-15 15:44:02 | INFO | dataset | AlphaFlow — TFT Dataset Preparation
+2026-03-15 15:44:02 | INFO | dataset | ============================================================
+2026-03-15 15:44:02 | INFO | dataset | 
+Step 1: Loading features from S3...
+2026-03-15 15:44:03 | INFO | dataset |   ✓ Loaded AAPL: 1057 rows
+2026-03-15 15:44:03 | INFO | dataset |   ✓ Loaded MSFT: 1057 rows
+2026-03-15 15:44:03 | INFO | dataset |   ✓ Loaded GOOGL: 1057 rows
+2026-03-15 15:44:03 | INFO | dataset |   ✓ Loaded AMZN: 1057 rows
+2026-03-15 15:44:03 | INFO | dataset |   ✓ Loaded JPM: 1057 rows
+2026-03-15 15:44:03 | INFO | dataset |   ✓ Loaded JNJ: 1057 rows
+2026-03-15 15:44:03 | INFO | dataset |   ✓ Loaded XOM: 1057 rows
+2026-03-15 15:44:04 | INFO | dataset |   ✓ Loaded BRK-B: 1057 rows
+2026-03-15 15:44:04 | INFO | dataset |   ✓ Loaded TSLA: 1057 rows
+2026-03-15 15:44:04 | INFO | dataset |   ✓ Loaded SPY: 1057 rows
+2026-03-15 15:44:04 | INFO | dataset | 
+  ✓ Combined dataset: 10570 rows | 71 cols
+2026-03-15 15:44:04 | INFO | dataset | 
+Step 2: Adding calendar features...
+2026-03-15 15:44:04 | INFO | dataset |   ✓ Calendar features added
+2026-03-15 15:44:04 | INFO | dataset | 
+Step 3: Cleaning dataset...
+2026-03-15 15:44:04 | INFO | dataset |   ✓ Dropped 50 rows with NaN target
+2026-03-15 15:44:04 | INFO | dataset |   ✓ Clean dataset: 10520 rows | 45 columns
+2026-03-15 15:44:04 | INFO | dataset |   ✓ Date range: 2020-10-16 00:00:00 → 2024-12-20 00:00:00
+2026-03-15 15:44:04 | INFO | dataset |   ✓ Tickers: 10
+2026-03-15 15:44:04 | INFO | dataset | 
+Step 4: Time-based train/val split...
+2026-03-15 15:44:04 | INFO | dataset |   ✓ Train: 8940 rows | 2020-10-16 00:00:00 → 2024-05-07 00:00:00
+2026-03-15 15:44:04 | INFO | dataset |   ✓ Val:   1580 rows   | 2024-05-08 00:00:00 → 2024-12-20 00:00:00
+2026-03-15 15:44:04 | INFO | dataset | 
+  ✓ Saved train/val locally to data/local/model_input
+2026-03-15 15:44:04 | INFO | dataset | 
+Step 5: Building TimeSeriesDataSets...
+2026-03-15 15:44:04 | INFO | dataset | 
+ Building TimeSeriesDataSet...
+2026-03-15 15:44:04 | INFO | dataset |   Known future features : 6
+2026-03-15 15:44:04 | INFO | dataset |   Unknown past features : 34
+2026-03-15 15:44:04 | INFO | dataset |   Static categoricals   : 2
+2026-03-15 15:44:04 | INFO | dataset |   Target                : target_return_5d
+2026-03-15 15:44:04 | INFO | dataset |   Encoder length        : 63 days
+2026-03-15 15:44:04 | INFO | dataset |   Prediction length     : 5 days
+2026-03-15 15:44:04 | INFO | dataset |   ✓ Training dataset  : 8270 samples
+2026-03-15 15:44:04 | INFO | dataset |   ✓ Validation dataset: 910 samples
+2026-03-15 15:44:04 | INFO | dataset | 
+============================================================
+2026-03-15 15:44:04 | INFO | dataset | DATASET PREPARATION COMPLETE
+2026-03-15 15:44:04 | INFO | dataset | ============================================================
+2026-03-15 15:44:04 | INFO | tft_model |   ✓ Train batches: 129
+2026-03-15 15:44:04 | INFO | tft_model |   ✓ Val batches  : 8
+2026-03-15 15:44:04 | INFO | evaluate | 
+Step 2: Loading best model...
+2026-03-15 15:44:04 | INFO | evaluate |   ✓ Loading checkpoint: tft-epoch=00-val_loss=0.0214.ckpt
+2026-03-15 15:44:06 | INFO | evaluate | 
+Step 3: Generating predictions...
+2026-03-15 15:44:06 | INFO | evaluate |   Generating predictions...
+2026-03-15 15:44:08 | INFO | evaluate |   ✓ Generated 910 predictions
+2026-03-15 15:44:08 | INFO | evaluate | 
+Step 4: Generating trading signals...
+2026-03-15 15:44:08 | INFO | evaluate |   ✓ Signals: 6 long | 0 short | 904 flat
+2026-03-15 15:44:08 | INFO | evaluate | 
+Step 5: Running backtest...
+2026-03-15 15:44:08 | INFO | evaluate |   Running backtest simulation...
+2026-03-15 15:44:08 | INFO | evaluate |   ✓ Backtest complete: 91 trading days
+2026-03-15 15:44:08 | INFO | evaluate | 
+Step 6: Building benchmarks...
+2026-03-15 15:44:08 | INFO | evaluate | 
+Step 7: Computing metrics...
+2026-03-15 15:44:08 | INFO | evaluate | 
+Step 8: Creating backtest charts...
+2026-03-15 15:44:09 | INFO | evaluate |   ✓ Backtest chart saved: reports/backtest_report.html
+2026-03-15 15:44:09 | INFO | evaluate | 
+Step 9: Logging to MLflow...
+2026-03-15 15:47:55 | INFO | botocore.credentials | Found credentials in shared credentials file: ~/.aws/credentials
+2026-03-15 15:47:55 | INFO | evaluate | ============================================================
+2026-03-15 15:47:55 | INFO | evaluate | AlphaFlow — Backtesting & Evaluation
+2026-03-15 15:47:55 | INFO | evaluate | ============================================================
+2026-03-15 15:47:55 | INFO | evaluate | 
+Step 1: Loading datasets...
+2026-03-15 15:47:55 | INFO | dataset | ============================================================
+2026-03-15 15:47:55 | INFO | dataset | AlphaFlow — TFT Dataset Preparation
+2026-03-15 15:47:55 | INFO | dataset | ============================================================
+2026-03-15 15:47:55 | INFO | dataset | 
+Step 1: Loading features from S3...
+2026-03-15 15:47:56 | INFO | dataset |   ✓ Loaded AAPL: 1057 rows
+2026-03-15 15:47:56 | INFO | dataset |   ✓ Loaded MSFT: 1057 rows
+2026-03-15 15:47:56 | INFO | dataset |   ✓ Loaded GOOGL: 1057 rows
+2026-03-15 15:47:56 | INFO | dataset |   ✓ Loaded AMZN: 1057 rows
+2026-03-15 15:47:56 | INFO | dataset |   ✓ Loaded JPM: 1057 rows
+2026-03-15 15:47:56 | INFO | dataset |   ✓ Loaded JNJ: 1057 rows
+2026-03-15 15:47:57 | INFO | dataset |   ✓ Loaded XOM: 1057 rows
+2026-03-15 15:47:57 | INFO | dataset |   ✓ Loaded BRK-B: 1057 rows
+2026-03-15 15:47:57 | INFO | dataset |   ✓ Loaded TSLA: 1057 rows
+2026-03-15 15:47:57 | INFO | dataset |   ✓ Loaded SPY: 1057 rows
+2026-03-15 15:47:57 | INFO | dataset | 
+  ✓ Combined dataset: 10570 rows | 71 cols
+2026-03-15 15:47:57 | INFO | dataset | 
+Step 2: Adding calendar features...
+2026-03-15 15:47:57 | INFO | dataset |   ✓ Calendar features added
+2026-03-15 15:47:57 | INFO | dataset | 
+Step 3: Cleaning dataset...
+2026-03-15 15:47:57 | INFO | dataset |   ✓ Dropped 50 rows with NaN target
+2026-03-15 15:47:57 | INFO | dataset |   ✓ Clean dataset: 10520 rows | 45 columns
+2026-03-15 15:47:57 | INFO | dataset |   ✓ Date range: 2020-10-16 00:00:00 → 2024-12-20 00:00:00
+2026-03-15 15:47:57 | INFO | dataset |   ✓ Tickers: 10
+2026-03-15 15:47:57 | INFO | dataset | 
+Step 4: Time-based train/val split...
+2026-03-15 15:47:57 | INFO | dataset |   ✓ Train: 8940 rows | 2020-10-16 00:00:00 → 2024-05-07 00:00:00
+2026-03-15 15:47:57 | INFO | dataset |   ✓ Val:   1580 rows   | 2024-05-08 00:00:00 → 2024-12-20 00:00:00
+2026-03-15 15:47:57 | INFO | dataset | 
+  ✓ Saved train/val locally to data/local/model_input
+2026-03-15 15:47:57 | INFO | dataset | 
+Step 5: Building TimeSeriesDataSets...
+2026-03-15 15:47:57 | INFO | dataset | 
+ Building TimeSeriesDataSet...
+2026-03-15 15:47:57 | INFO | dataset |   Known future features : 6
+2026-03-15 15:47:57 | INFO | dataset |   Unknown past features : 34
+2026-03-15 15:47:57 | INFO | dataset |   Static categoricals   : 2
+2026-03-15 15:47:57 | INFO | dataset |   Target                : target_return_5d
+2026-03-15 15:47:57 | INFO | dataset |   Encoder length        : 63 days
+2026-03-15 15:47:57 | INFO | dataset |   Prediction length     : 5 days
+2026-03-15 15:47:57 | INFO | dataset |   ✓ Training dataset  : 8270 samples
+2026-03-15 15:47:57 | INFO | dataset |   ✓ Validation dataset: 910 samples
+2026-03-15 15:47:57 | INFO | dataset | 
+============================================================
+2026-03-15 15:47:57 | INFO | dataset | DATASET PREPARATION COMPLETE
+2026-03-15 15:47:57 | INFO | dataset | ============================================================
+2026-03-15 15:47:57 | INFO | tft_model |   ✓ Train batches: 129
+2026-03-15 15:47:57 | INFO | tft_model |   ✓ Val batches  : 8
+2026-03-15 15:47:57 | INFO | evaluate | 
+Step 2: Loading best model...
+2026-03-15 15:47:57 | INFO | evaluate |   ✓ Loading checkpoint: tft-epoch=00-val_loss=0.0214.ckpt
+2026-03-15 15:47:59 | INFO | evaluate | 
+Step 3: Generating predictions...
+2026-03-15 15:47:59 | INFO | evaluate |   Generating predictions...
+2026-03-15 15:48:01 | INFO | evaluate |   ✓ Generated 910 predictions
+2026-03-15 15:48:01 | INFO | evaluate | 
+Step 4: Generating trading signals...
+2026-03-15 15:48:01 | INFO | evaluate |   ✓ Signals: 6 long | 0 short | 904 flat
+2026-03-15 15:48:01 | INFO | evaluate | 
+Step 5: Running backtest...
+2026-03-15 15:48:01 | INFO | evaluate |   Running backtest simulation...
+2026-03-15 15:48:01 | INFO | evaluate |   ✓ Backtest complete: 91 trading days
+2026-03-15 15:48:01 | INFO | evaluate | 
+Step 6: Building benchmarks...
+2026-03-15 15:48:01 | INFO | evaluate | 
+Step 7: Computing metrics...
+2026-03-15 15:48:01 | INFO | evaluate | 
+Step 8: Creating backtest charts...
+2026-03-15 15:48:02 | INFO | evaluate |   ✓ Backtest chart saved: reports/backtest_report.html
+2026-03-15 15:48:02 | INFO | evaluate | 
+Step 9: Logging to MLflow...
+2026-03-15 15:48:02 | INFO | evaluate | 
+  ✓ Metrics saved to reports/metrics.json
+2026-03-15 15:48:02 | INFO | evaluate |   ✓ Chart saved to reports/backtest_report.html
+2026-03-15 15:48:02 | INFO | evaluate |   ✓ Open reports/backtest_report.html in browser
+2026-03-15 16:00:13 | INFO | botocore.credentials | Found credentials in shared credentials file: ~/.aws/credentials
+2026-03-15 16:00:13 | INFO | evaluate | ============================================================
+2026-03-15 16:00:13 | INFO | evaluate | AlphaFlow — Backtesting & Evaluation
+2026-03-15 16:00:13 | INFO | evaluate | ============================================================
+2026-03-15 16:00:13 | INFO | evaluate | 
+Step 1: Loading datasets...
+2026-03-15 16:00:13 | INFO | dataset | ============================================================
+2026-03-15 16:00:13 | INFO | dataset | AlphaFlow — TFT Dataset Preparation
+2026-03-15 16:00:13 | INFO | dataset | ============================================================
+2026-03-15 16:00:13 | INFO | dataset | 
+Step 1: Loading features from S3...
+2026-03-15 16:00:14 | INFO | dataset |   ✓ Loaded AAPL: 1057 rows
+2026-03-15 16:00:14 | INFO | dataset |   ✓ Loaded MSFT: 1057 rows
+2026-03-15 16:00:14 | INFO | dataset |   ✓ Loaded GOOGL: 1057 rows
+2026-03-15 16:00:14 | INFO | dataset |   ✓ Loaded AMZN: 1057 rows
+2026-03-15 16:00:15 | INFO | dataset |   ✓ Loaded JPM: 1057 rows
+2026-03-15 16:00:15 | INFO | dataset |   ✓ Loaded JNJ: 1057 rows
+2026-03-15 16:00:15 | INFO | dataset |   ✓ Loaded XOM: 1057 rows
+2026-03-15 16:00:15 | INFO | dataset |   ✓ Loaded BRK-B: 1057 rows
+2026-03-15 16:00:15 | INFO | dataset |   ✓ Loaded TSLA: 1057 rows
+2026-03-15 16:00:16 | INFO | dataset |   ✓ Loaded SPY: 1057 rows
+2026-03-15 16:00:16 | INFO | dataset | 
+  ✓ Combined dataset: 10570 rows | 71 cols
+2026-03-15 16:00:16 | INFO | dataset | 
+Step 2: Adding calendar features...
+2026-03-15 16:00:16 | INFO | dataset |   ✓ Calendar features added
+2026-03-15 16:00:16 | INFO | dataset | 
+Step 3: Cleaning dataset...
+2026-03-15 16:00:16 | INFO | dataset |   ✓ Dropped 50 rows with NaN target
+2026-03-15 16:00:16 | INFO | dataset |   ✓ Clean dataset: 10520 rows | 45 columns
+2026-03-15 16:00:16 | INFO | dataset |   ✓ Date range: 2020-10-16 00:00:00 → 2024-12-20 00:00:00
+2026-03-15 16:00:16 | INFO | dataset |   ✓ Tickers: 10
+2026-03-15 16:00:16 | INFO | dataset | 
+Step 4: Time-based train/val split...
+2026-03-15 16:00:16 | INFO | dataset |   ✓ Train: 8940 rows | 2020-10-16 00:00:00 → 2024-05-07 00:00:00
+2026-03-15 16:00:16 | INFO | dataset |   ✓ Val:   1580 rows   | 2024-05-08 00:00:00 → 2024-12-20 00:00:00
+2026-03-15 16:00:16 | INFO | dataset | 
+  ✓ Saved train/val locally to data/local/model_input
+2026-03-15 16:00:16 | INFO | dataset | 
+Step 5: Building TimeSeriesDataSets...
+2026-03-15 16:00:16 | INFO | dataset | 
+ Building TimeSeriesDataSet...
+2026-03-15 16:00:16 | INFO | dataset |   Known future features : 6
+2026-03-15 16:00:16 | INFO | dataset |   Unknown past features : 34
+2026-03-15 16:00:16 | INFO | dataset |   Static categoricals   : 2
+2026-03-15 16:00:16 | INFO | dataset |   Target                : target_return_5d
+2026-03-15 16:00:16 | INFO | dataset |   Encoder length        : 63 days
+2026-03-15 16:00:16 | INFO | dataset |   Prediction length     : 5 days
+2026-03-15 16:00:16 | INFO | dataset |   ✓ Training dataset  : 8270 samples
+2026-03-15 16:00:16 | INFO | dataset |   ✓ Validation dataset: 910 samples
+2026-03-15 16:00:16 | INFO | dataset | 
+============================================================
+2026-03-15 16:00:16 | INFO | dataset | DATASET PREPARATION COMPLETE
+2026-03-15 16:00:16 | INFO | dataset | ============================================================
+2026-03-15 16:00:16 | INFO | tft_model |   ✓ Train batches: 129
+2026-03-15 16:00:16 | INFO | tft_model |   ✓ Val batches  : 8
+2026-03-15 16:00:16 | INFO | evaluate | 
+Step 2: Loading best model...
+2026-03-15 16:00:16 | INFO | evaluate |   ✓ Loading checkpoint: tft-epoch=00-val_loss=0.0214.ckpt
+2026-03-15 16:00:17 | INFO | evaluate | 
+Step 3: Generating predictions...
+2026-03-15 16:00:17 | INFO | evaluate |   Generating predictions...
+2026-03-15 16:00:21 | INFO | evaluate |   ✓ Generated 910 predictions
+2026-03-15 16:00:21 | INFO | evaluate | 
+Step 4: Generating trading signals...
+2026-03-15 16:00:21 | INFO | evaluate |   ✓ Signals: 804 long | 0 short | 106 flat
+2026-03-15 16:00:21 | INFO | evaluate | 
+Step 5: Running backtest...
+2026-03-15 16:00:21 | INFO | evaluate |   Running backtest simulation...
+2026-03-15 16:00:21 | INFO | evaluate |   ✓ Backtest complete: 91 trading days
+2026-03-15 16:00:21 | INFO | evaluate | 
+Step 6: Building benchmarks...
+2026-03-15 16:00:21 | INFO | evaluate | 
+Step 7: Computing metrics...
+2026-03-15 16:00:21 | INFO | evaluate | 
+Step 8: Creating backtest charts...
+2026-03-15 16:00:21 | INFO | evaluate |   ✓ Backtest chart saved: reports/backtest_report.html
+2026-03-15 16:00:21 | INFO | evaluate | 
+Step 9: Logging to MLflow...
+2026-03-15 16:00:21 | INFO | evaluate | 
+  ✓ Metrics saved to reports/metrics.json
+2026-03-15 16:00:21 | INFO | evaluate |   ✓ Chart saved to reports/backtest_report.html
+2026-03-15 16:00:21 | INFO | evaluate |   ✓ Open reports/backtest_report.html in browser
+2026-03-15 19:02:12 | INFO | botocore.credentials | Found credentials in shared credentials file: ~/.aws/credentials
+2026-03-15 19:02:12 | INFO | evaluate | ============================================================
+2026-03-15 19:02:12 | INFO | evaluate | AlphaFlow — Backtesting & Evaluation
+2026-03-15 19:02:12 | INFO | evaluate | ============================================================
+2026-03-15 19:02:12 | INFO | evaluate | 
+Step 1: Loading datasets...
+2026-03-15 19:02:12 | INFO | dataset | ============================================================
+2026-03-15 19:02:12 | INFO | dataset | AlphaFlow — TFT Dataset Preparation
+2026-03-15 19:02:12 | INFO | dataset | ============================================================
+2026-03-15 19:02:12 | INFO | dataset | 
+Step 1: Loading features from S3...
+2026-03-15 19:02:13 | INFO | dataset |   ✓ Loaded AAPL: 1057 rows
+2026-03-15 19:02:13 | INFO | dataset |   ✓ Loaded MSFT: 1057 rows
+2026-03-15 19:02:13 | INFO | dataset |   ✓ Loaded GOOGL: 1057 rows
+2026-03-15 19:02:14 | INFO | dataset |   ✓ Loaded AMZN: 1057 rows
+2026-03-15 19:02:14 | INFO | dataset |   ✓ Loaded JPM: 1057 rows
+2026-03-15 19:02:14 | INFO | dataset |   ✓ Loaded JNJ: 1057 rows
+2026-03-15 19:02:14 | INFO | dataset |   ✓ Loaded XOM: 1057 rows
+2026-03-15 19:02:15 | INFO | dataset |   ✓ Loaded BRK-B: 1057 rows
+2026-03-15 19:02:15 | INFO | dataset |   ✓ Loaded TSLA: 1057 rows
+2026-03-15 19:02:15 | INFO | dataset |   ✓ Loaded SPY: 1057 rows
+2026-03-15 19:02:15 | INFO | dataset | 
+  ✓ Combined dataset: 10570 rows | 71 cols
+2026-03-15 19:02:15 | INFO | dataset | 
+Step 2: Adding calendar features...
+2026-03-15 19:02:15 | INFO | dataset |   ✓ Calendar features added
+2026-03-15 19:02:16 | INFO | dataset | 
+Step 3: Cleaning dataset...
+2026-03-15 19:02:16 | INFO | dataset |   ✓ Dropped 50 rows with NaN target
+2026-03-15 19:02:16 | INFO | dataset |   ✓ Clean dataset: 10520 rows | 45 columns
+2026-03-15 19:02:16 | INFO | dataset |   ✓ Date range: 2020-10-16 00:00:00 → 2024-12-20 00:00:00
+2026-03-15 19:02:16 | INFO | dataset |   ✓ Tickers: 10
+2026-03-15 19:02:16 | INFO | dataset | 
+Step 4: Time-based train/val split...
+2026-03-15 19:02:16 | INFO | dataset |   ✓ Train: 8940 rows | 2020-10-16 00:00:00 → 2024-05-07 00:00:00
+2026-03-15 19:02:16 | INFO | dataset |   ✓ Val:   1580 rows   | 2024-05-08 00:00:00 → 2024-12-20 00:00:00
+2026-03-15 19:02:16 | INFO | dataset | 
+  ✓ Saved train/val locally to data/local/model_input
+2026-03-15 19:02:16 | INFO | dataset | 
+Step 5: Building TimeSeriesDataSets...
+2026-03-15 19:02:16 | INFO | dataset | 
+ Building TimeSeriesDataSet...
+2026-03-15 19:02:16 | INFO | dataset |   Known future features : 6
+2026-03-15 19:02:16 | INFO | dataset |   Unknown past features : 34
+2026-03-15 19:02:16 | INFO | dataset |   Static categoricals   : 2
+2026-03-15 19:02:16 | INFO | dataset |   Target                : target_return_5d
+2026-03-15 19:02:16 | INFO | dataset |   Encoder length        : 63 days
+2026-03-15 19:02:16 | INFO | dataset |   Prediction length     : 5 days
+2026-03-15 19:02:16 | INFO | dataset |   ✓ Training dataset  : 8270 samples
+2026-03-15 19:02:16 | INFO | dataset |   ✓ Validation dataset: 910 samples
+2026-03-15 19:02:16 | INFO | dataset | 
+============================================================
+2026-03-15 19:02:16 | INFO | dataset | DATASET PREPARATION COMPLETE
+2026-03-15 19:02:16 | INFO | dataset | ============================================================
+2026-03-15 19:02:16 | INFO | tft_model |   ✓ Train batches: 129
+2026-03-15 19:02:16 | INFO | tft_model |   ✓ Val batches  : 8
+2026-03-15 19:02:16 | INFO | evaluate | 
+Step 2: Loading best model...
+2026-03-15 19:02:16 | INFO | evaluate |   ✓ Loading checkpoint: tft-epoch=00-val_loss=0.0214.ckpt
+2026-03-15 19:02:17 | INFO | evaluate | 
+Step 3: Generating predictions...
+2026-03-15 19:02:17 | INFO | evaluate |   Generating predictions...
+2026-03-15 19:02:21 | INFO | evaluate |   ✓ Generated 910 predictions
+2026-03-15 19:02:21 | INFO | evaluate | 
+Step 4: Generating trading signals...
+2026-03-15 19:02:21 | INFO | evaluate |   ✓ Signals: 804 long | 0 short | 106 flat
+2026-03-15 19:02:21 | INFO | evaluate | 
+Step 5: Running backtest...
+2026-03-15 19:02:21 | INFO | evaluate |   Running backtest simulation...
+2026-03-15 19:02:21 | INFO | evaluate |   ✓ Backtest complete: 91 trading days
+2026-03-15 19:02:21 | INFO | evaluate | 
+Step 6: Building benchmarks...
+2026-03-15 19:02:21 | INFO | evaluate | 
+Step 7: Computing metrics...
+2026-03-15 19:07:48 | INFO | botocore.credentials | Found credentials in shared credentials file: ~/.aws/credentials
+2026-03-15 19:07:48 | INFO | evaluate | ============================================================
+2026-03-15 19:07:48 | INFO | evaluate | AlphaFlow — Backtesting & Evaluation
+2026-03-15 19:07:48 | INFO | evaluate | ============================================================
+2026-03-15 19:07:48 | INFO | evaluate | 
+Step 1: Loading datasets...
+2026-03-15 19:07:48 | INFO | dataset | ============================================================
+2026-03-15 19:07:48 | INFO | dataset | AlphaFlow — TFT Dataset Preparation
+2026-03-15 19:07:48 | INFO | dataset | ============================================================
+2026-03-15 19:07:48 | INFO | dataset | 
+Step 1: Loading features from S3...
+2026-03-15 19:07:48 | INFO | dataset |   ✓ Loaded AAPL: 1057 rows
+2026-03-15 19:07:49 | INFO | dataset |   ✓ Loaded MSFT: 1057 rows
+2026-03-15 19:07:49 | INFO | dataset |   ✓ Loaded GOOGL: 1057 rows
+2026-03-15 19:07:49 | INFO | dataset |   ✓ Loaded AMZN: 1057 rows
+2026-03-15 19:07:49 | INFO | dataset |   ✓ Loaded JPM: 1057 rows
+2026-03-15 19:07:49 | INFO | dataset |   ✓ Loaded JNJ: 1057 rows
+2026-03-15 19:07:50 | INFO | dataset |   ✓ Loaded XOM: 1057 rows
+2026-03-15 19:07:50 | INFO | dataset |   ✓ Loaded BRK-B: 1057 rows
+2026-03-15 19:07:50 | INFO | dataset |   ✓ Loaded TSLA: 1057 rows
+2026-03-15 19:07:50 | INFO | dataset |   ✓ Loaded SPY: 1057 rows
+2026-03-15 19:07:50 | INFO | dataset | 
+  ✓ Combined dataset: 10570 rows | 71 cols
+2026-03-15 19:07:50 | INFO | dataset | 
+Step 2: Adding calendar features...
+2026-03-15 19:07:50 | INFO | dataset |   ✓ Calendar features added
+2026-03-15 19:07:50 | INFO | dataset | 
+Step 3: Cleaning dataset...
+2026-03-15 19:07:50 | INFO | dataset |   ✓ Dropped 50 rows with NaN target
+2026-03-15 19:07:50 | INFO | dataset |   ✓ Clean dataset: 10520 rows | 45 columns
+2026-03-15 19:07:50 | INFO | dataset |   ✓ Date range: 2020-10-16 00:00:00 → 2024-12-20 00:00:00
+2026-03-15 19:07:50 | INFO | dataset |   ✓ Tickers: 10
+2026-03-15 19:07:50 | INFO | dataset | 
+Step 4: Time-based train/val split...
+2026-03-15 19:07:50 | INFO | dataset |   ✓ Train: 8940 rows | 2020-10-16 00:00:00 → 2024-05-07 00:00:00
+2026-03-15 19:07:50 | INFO | dataset |   ✓ Val:   1580 rows   | 2024-05-08 00:00:00 → 2024-12-20 00:00:00
+2026-03-15 19:07:50 | INFO | dataset | 
+  ✓ Saved train/val locally to data/local/model_input
+2026-03-15 19:07:50 | INFO | dataset | 
+Step 5: Building TimeSeriesDataSets...
+2026-03-15 19:07:50 | INFO | dataset | 
+ Building TimeSeriesDataSet...
+2026-03-15 19:07:50 | INFO | dataset |   Known future features : 6
+2026-03-15 19:07:50 | INFO | dataset |   Unknown past features : 34
+2026-03-15 19:07:50 | INFO | dataset |   Static categoricals   : 2
+2026-03-15 19:07:50 | INFO | dataset |   Target                : target_return_5d
+2026-03-15 19:07:50 | INFO | dataset |   Encoder length        : 63 days
+2026-03-15 19:07:50 | INFO | dataset |   Prediction length     : 5 days
+2026-03-15 19:07:51 | INFO | dataset |   ✓ Training dataset  : 8270 samples
+2026-03-15 19:07:51 | INFO | dataset |   ✓ Validation dataset: 910 samples
+2026-03-15 19:07:51 | INFO | dataset | 
+============================================================
+2026-03-15 19:07:51 | INFO | dataset | DATASET PREPARATION COMPLETE
+2026-03-15 19:07:51 | INFO | dataset | ============================================================
+2026-03-15 19:07:51 | INFO | tft_model |   ✓ Train batches: 129
+2026-03-15 19:07:51 | INFO | tft_model |   ✓ Val batches  : 8
+2026-03-15 19:07:51 | INFO | evaluate | 
+Step 2: Loading model...
+2026-03-15 19:07:51 | INFO | evaluate |   ✓ Loading: tft-epoch=00-val_loss=0.0214.ckpt
+2026-03-15 19:07:52 | INFO | evaluate | 
+Step 3: Predictions...
+2026-03-15 19:07:52 | INFO | evaluate |   Generating predictions...
+2026-03-15 19:07:55 | INFO | evaluate |   ✓ 910 predictions | pred_p50 range: 0.00072 to 0.01026
+2026-03-15 19:07:55 | INFO | evaluate |   ✓ actual range: -0.12908 to 0.44128
+2026-03-15 19:07:55 | INFO | evaluate | 
+Step 4: Signals...
+2026-03-15 19:07:55 | INFO | evaluate |   ✓ Signals: 804 long | 0 short | 106 flat
+2026-03-15 19:07:55 | INFO | evaluate | 
+Step 5: Backtest...
+2026-03-15 19:07:55 | INFO | evaluate |   ✓ Backtest: 91 days
+2026-03-15 19:07:55 | INFO | evaluate | 
+Step 6: Benchmarks...
+2026-03-15 19:07:55 | INFO | evaluate | 
+Step 7: Metrics...
+2026-03-15 19:07:55 | INFO | evaluate | 
+Step 8: Charts...
+2026-03-15 19:07:55 | INFO | evaluate |   ✓ Chart saved: reports/backtest_report.html
+2026-03-15 19:07:55 | INFO | evaluate | 
+Step 9: MLflow...
+2026-03-15 19:07:55 | INFO | evaluate |   ✓ Done. Open: reports/backtest_report.html
