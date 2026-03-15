@@ -1,0 +1,231 @@
+2026-03-14 16:28:56 | INFO | botocore.credentials | Found credentials in shared credentials file: ~/.aws/credentials
+2026-03-14 16:28:56 | INFO | feature_pipeline | ============================================================
+2026-03-14 16:28:56 | INFO | feature_pipeline | AlphaFlow — Feature Engineering Pipeline
+2026-03-14 16:28:56 | INFO | feature_pipeline | Tickers: ['AAPL', 'MSFT', 'GOOGL', 'AMZN', 'JPM', 'JNJ', 'XOM', 'BRK-B', 'TSLA', 'SPY']
+2026-03-14 16:28:56 | INFO | feature_pipeline | ============================================================
+2026-03-14 16:28:56 | INFO | feature_pipeline | 
+Building macro regime features (shared)...
+2026-03-14 16:28:56 | INFO | feature_pipeline |   Building macro regime features...
+2026-03-14 16:29:00 | INFO | feature_pipeline |     ✓ Macro features: 16 columns | 1257 rows
+2026-03-14 16:29:00 | INFO | feature_pipeline | Loading SPY benchmark...
+2026-03-14 16:29:02 | INFO | feature_pipeline | 
+==================================================
+2026-03-14 16:29:02 | INFO | feature_pipeline | Building features: AAPL
+2026-03-14 16:29:02 | INFO | feature_pipeline | ==================================================
+2026-03-14 16:29:02 | INFO | feature_pipeline |   ✓ Loaded 1257 rows from S3
+2026-03-14 16:29:02 | INFO | feature_pipeline |   Block 1: Technical indicators...
+2026-03-14 16:29:02 | INFO | feature_pipeline |     ✓ Technical indicators: 26 features
+2026-03-14 16:29:02 | INFO | feature_pipeline |   Block 3: Options features...
+2026-03-14 16:29:03 | INFO | feature_pipeline |     ✓ Options features for AAPL: IV=0.240, P/C=0.679
+2026-03-14 16:29:03 | INFO | feature_pipeline |   Block 4: SEC filing patterns...
+2026-03-14 16:29:03 | INFO | feature_pipeline |     ✓ SEC filing delay for AAPL: avg 31 days
+2026-03-14 16:29:03 | INFO | feature_pipeline |     ✓ SEC features for AAPL: 4 max 8-Ks/90d
+2026-03-14 16:29:03 | INFO | feature_pipeline |   Block 5: Sentiment features...
+2026-03-14 16:29:03 | INFO | feature_pipeline |     ℹ Sentiment scores not yet available for AAPL — using neutral defaults
+2026-03-14 16:29:03 | INFO | feature_pipeline |     ✓ Sentiment features added for AAPL
+2026-03-14 16:29:03 | INFO | feature_pipeline |   Block 6: Relative strength...
+2026-03-14 16:29:03 | INFO | feature_pipeline |     ✓ Relative features for AAPL: beta=1.24
+2026-03-14 16:29:03 | INFO | feature_pipeline |   Block 7: Macro regime merge...
+2026-03-14 16:29:03 | INFO | feature_pipeline |     ✓ Merged 15 macro features
+2026-03-14 16:29:03 | INFO | feature_pipeline |   ✓ Final feature set: 65 features | 1057 rows
+2026-03-14 16:29:04 | INFO | feature_pipeline |   ✓ Written to S3: s3://alphaflow-data-lake-291572330987/features/market/AAPL/AAPL_features.parquet
+2026-03-14 16:29:04 | INFO | feature_pipeline | 
+==================================================
+2026-03-14 16:29:04 | INFO | feature_pipeline | Building features: MSFT
+2026-03-14 16:29:04 | INFO | feature_pipeline | ==================================================
+2026-03-14 16:29:04 | INFO | feature_pipeline |   ✓ Loaded 1257 rows from S3
+2026-03-14 16:29:04 | INFO | feature_pipeline |   Block 1: Technical indicators...
+2026-03-14 16:29:04 | INFO | feature_pipeline |     ✓ Technical indicators: 26 features
+2026-03-14 16:29:04 | INFO | feature_pipeline |   Block 3: Options features...
+2026-03-14 16:29:04 | INFO | feature_pipeline |     ✓ Options features for MSFT: IV=0.305, P/C=0.674
+2026-03-14 16:29:04 | INFO | feature_pipeline |   Block 4: SEC filing patterns...
+2026-03-14 16:29:04 | INFO | feature_pipeline |     ✓ SEC filing delay for MSFT: avg 46 days
+2026-03-14 16:29:04 | INFO | feature_pipeline |     ✓ SEC features for MSFT: 8 max 8-Ks/90d
+2026-03-14 16:29:04 | INFO | feature_pipeline |   Block 5: Sentiment features...
+2026-03-14 16:29:04 | INFO | feature_pipeline |     ℹ Sentiment scores not yet available for MSFT — using neutral defaults
+2026-03-14 16:29:04 | INFO | feature_pipeline |     ✓ Sentiment features added for MSFT
+2026-03-14 16:29:04 | INFO | feature_pipeline |   Block 6: Relative strength...
+2026-03-14 16:29:04 | INFO | feature_pipeline |     ✓ Relative features for MSFT: beta=1.23
+2026-03-14 16:29:04 | INFO | feature_pipeline |   Block 7: Macro regime merge...
+2026-03-14 16:29:04 | INFO | feature_pipeline |     ✓ Merged 15 macro features
+2026-03-14 16:29:04 | INFO | feature_pipeline |   ✓ Final feature set: 65 features | 1057 rows
+2026-03-14 16:29:04 | INFO | feature_pipeline |   ✓ Written to S3: s3://alphaflow-data-lake-291572330987/features/market/MSFT/MSFT_features.parquet
+2026-03-14 16:29:04 | INFO | feature_pipeline | 
+==================================================
+2026-03-14 16:29:04 | INFO | feature_pipeline | Building features: GOOGL
+2026-03-14 16:29:04 | INFO | feature_pipeline | ==================================================
+2026-03-14 16:29:05 | INFO | feature_pipeline |   ✓ Loaded 1257 rows from S3
+2026-03-14 16:29:05 | INFO | feature_pipeline |   Block 1: Technical indicators...
+2026-03-14 16:29:05 | INFO | feature_pipeline |     ✓ Technical indicators: 26 features
+2026-03-14 16:29:05 | INFO | feature_pipeline |   Block 3: Options features...
+2026-03-14 16:29:05 | INFO | feature_pipeline |     ✓ Options features for GOOGL: IV=0.975, P/C=1.526
+2026-03-14 16:29:05 | INFO | feature_pipeline |   Block 4: SEC filing patterns...
+2026-03-14 16:29:05 | INFO | feature_pipeline |     ✓ SEC filing delay for GOOGL: avg 59 days
+2026-03-14 16:29:05 | INFO | feature_pipeline |     ✓ SEC features for GOOGL: 6 max 8-Ks/90d
+2026-03-14 16:29:05 | INFO | feature_pipeline |   Block 5: Sentiment features...
+2026-03-14 16:29:05 | INFO | feature_pipeline |     ℹ Sentiment scores not yet available for GOOGL — using neutral defaults
+2026-03-14 16:29:05 | INFO | feature_pipeline |     ✓ Sentiment features added for GOOGL
+2026-03-14 16:29:05 | INFO | feature_pipeline |   Block 6: Relative strength...
+2026-03-14 16:29:05 | INFO | feature_pipeline |     ✓ Relative features for GOOGL: beta=1.30
+2026-03-14 16:29:05 | INFO | feature_pipeline |   Block 7: Macro regime merge...
+2026-03-14 16:29:05 | INFO | feature_pipeline |     ✓ Merged 15 macro features
+2026-03-14 16:29:05 | INFO | feature_pipeline |   ✓ Final feature set: 65 features | 1057 rows
+2026-03-14 16:29:05 | INFO | feature_pipeline |   ✓ Written to S3: s3://alphaflow-data-lake-291572330987/features/market/GOOGL/GOOGL_features.parquet
+2026-03-14 16:29:05 | INFO | feature_pipeline | 
+==================================================
+2026-03-14 16:29:05 | INFO | feature_pipeline | Building features: AMZN
+2026-03-14 16:29:05 | INFO | feature_pipeline | ==================================================
+2026-03-14 16:29:06 | INFO | feature_pipeline |   ✓ Loaded 1257 rows from S3
+2026-03-14 16:29:06 | INFO | feature_pipeline |   Block 1: Technical indicators...
+2026-03-14 16:29:06 | INFO | feature_pipeline |     ✓ Technical indicators: 26 features
+2026-03-14 16:29:06 | INFO | feature_pipeline |   Block 3: Options features...
+2026-03-14 16:29:06 | INFO | feature_pipeline |     ✓ Options features for AMZN: IV=0.355, P/C=1.009
+2026-03-14 16:29:06 | INFO | feature_pipeline |   Block 4: SEC filing patterns...
+2026-03-14 16:29:06 | INFO | feature_pipeline |     ✓ SEC filing delay for AMZN: avg 41 days
+2026-03-14 16:29:06 | INFO | feature_pipeline |     ✓ SEC features for AMZN: 6 max 8-Ks/90d
+2026-03-14 16:29:06 | INFO | feature_pipeline |   Block 5: Sentiment features...
+2026-03-14 16:29:06 | INFO | feature_pipeline |     ℹ Sentiment scores not yet available for AMZN — using neutral defaults
+2026-03-14 16:29:06 | INFO | feature_pipeline |     ✓ Sentiment features added for AMZN
+2026-03-14 16:29:06 | INFO | feature_pipeline |   Block 6: Relative strength...
+2026-03-14 16:29:06 | INFO | feature_pipeline |     ✓ Relative features for AMZN: beta=1.36
+2026-03-14 16:29:06 | INFO | feature_pipeline |   Block 7: Macro regime merge...
+2026-03-14 16:29:06 | INFO | feature_pipeline |     ✓ Merged 15 macro features
+2026-03-14 16:29:06 | INFO | feature_pipeline |   ✓ Final feature set: 65 features | 1057 rows
+2026-03-14 16:29:06 | INFO | feature_pipeline |   ✓ Written to S3: s3://alphaflow-data-lake-291572330987/features/market/AMZN/AMZN_features.parquet
+2026-03-14 16:29:06 | INFO | feature_pipeline | 
+==================================================
+2026-03-14 16:29:06 | INFO | feature_pipeline | Building features: JPM
+2026-03-14 16:29:06 | INFO | feature_pipeline | ==================================================
+2026-03-14 16:29:07 | INFO | feature_pipeline |   ✓ Loaded 1257 rows from S3
+2026-03-14 16:29:07 | INFO | feature_pipeline |   Block 1: Technical indicators...
+2026-03-14 16:29:07 | INFO | feature_pipeline |     ✓ Technical indicators: 26 features
+2026-03-14 16:29:07 | INFO | feature_pipeline |   Block 3: Options features...
+2026-03-14 16:29:07 | INFO | feature_pipeline |     ✓ Options features for JPM: IV=0.743, P/C=0.901
+2026-03-14 16:29:07 | INFO | feature_pipeline |   Block 4: SEC filing patterns...
+2026-03-14 16:29:07 | INFO | feature_pipeline |     ✓ SEC features for JPM: 0 max 8-Ks/90d
+2026-03-14 16:29:07 | INFO | feature_pipeline |   Block 5: Sentiment features...
+2026-03-14 16:29:07 | INFO | feature_pipeline |     ℹ Sentiment scores not yet available for JPM — using neutral defaults
+2026-03-14 16:29:07 | INFO | feature_pipeline |     ✓ Sentiment features added for JPM
+2026-03-14 16:29:07 | INFO | feature_pipeline |   Block 6: Relative strength...
+2026-03-14 16:29:07 | INFO | feature_pipeline |     ✓ Relative features for JPM: beta=0.92
+2026-03-14 16:29:07 | INFO | feature_pipeline |   Block 7: Macro regime merge...
+2026-03-14 16:29:07 | INFO | feature_pipeline |     ✓ Merged 15 macro features
+2026-03-14 16:29:07 | INFO | feature_pipeline |   ✓ Final feature set: 65 features | 1057 rows
+2026-03-14 16:29:08 | INFO | feature_pipeline |   ✓ Written to S3: s3://alphaflow-data-lake-291572330987/features/market/JPM/JPM_features.parquet
+2026-03-14 16:29:08 | INFO | feature_pipeline | 
+==================================================
+2026-03-14 16:29:08 | INFO | feature_pipeline | Building features: JNJ
+2026-03-14 16:29:08 | INFO | feature_pipeline | ==================================================
+2026-03-14 16:29:08 | INFO | feature_pipeline |   ✓ Loaded 1257 rows from S3
+2026-03-14 16:29:08 | INFO | feature_pipeline |   Block 1: Technical indicators...
+2026-03-14 16:29:08 | INFO | feature_pipeline |     ✓ Technical indicators: 26 features
+2026-03-14 16:29:08 | INFO | feature_pipeline |   Block 3: Options features...
+2026-03-14 16:29:08 | INFO | feature_pipeline |     ✓ Options features for JNJ: IV=2.025, P/C=1.921
+2026-03-14 16:29:08 | INFO | feature_pipeline |   Block 4: SEC filing patterns...
+2026-03-14 16:29:08 | INFO | feature_pipeline |     ✓ SEC filing delay for JNJ: avg 42 days
+2026-03-14 16:29:08 | INFO | feature_pipeline |     ✓ SEC features for JNJ: 6 max 8-Ks/90d
+2026-03-14 16:29:08 | INFO | feature_pipeline |   Block 5: Sentiment features...
+2026-03-14 16:29:08 | INFO | feature_pipeline |     ℹ Sentiment scores not yet available for JNJ — using neutral defaults
+2026-03-14 16:29:08 | INFO | feature_pipeline |     ✓ Sentiment features added for JNJ
+2026-03-14 16:29:08 | INFO | feature_pipeline |   Block 6: Relative strength...
+2026-03-14 16:29:08 | INFO | feature_pipeline |     ✓ Relative features for JNJ: beta=0.33
+2026-03-14 16:29:08 | INFO | feature_pipeline |   Block 7: Macro regime merge...
+2026-03-14 16:29:08 | INFO | feature_pipeline |     ✓ Merged 15 macro features
+2026-03-14 16:29:08 | INFO | feature_pipeline |   ✓ Final feature set: 65 features | 1057 rows
+2026-03-14 16:29:09 | INFO | feature_pipeline |   ✓ Written to S3: s3://alphaflow-data-lake-291572330987/features/market/JNJ/JNJ_features.parquet
+2026-03-14 16:29:09 | INFO | feature_pipeline | 
+==================================================
+2026-03-14 16:29:09 | INFO | feature_pipeline | Building features: XOM
+2026-03-14 16:29:09 | INFO | feature_pipeline | ==================================================
+2026-03-14 16:29:09 | INFO | feature_pipeline |   ✓ Loaded 1257 rows from S3
+2026-03-14 16:29:09 | INFO | feature_pipeline |   Block 1: Technical indicators...
+2026-03-14 16:29:09 | INFO | feature_pipeline |     ✓ Technical indicators: 26 features
+2026-03-14 16:29:09 | INFO | feature_pipeline |   Block 3: Options features...
+2026-03-14 16:29:09 | INFO | feature_pipeline |     ✓ Options features for XOM: IV=2.272, P/C=1.425
+2026-03-14 16:29:09 | INFO | feature_pipeline |   Block 4: SEC filing patterns...
+2026-03-14 16:29:09 | INFO | feature_pipeline |     ✓ SEC filing delay for XOM: avg 34 days
+2026-03-14 16:29:09 | INFO | feature_pipeline |     ✓ SEC features for XOM: 8 max 8-Ks/90d
+2026-03-14 16:29:09 | INFO | feature_pipeline |   Block 5: Sentiment features...
+2026-03-14 16:29:09 | INFO | feature_pipeline |     ℹ Sentiment scores not yet available for XOM — using neutral defaults
+2026-03-14 16:29:09 | INFO | feature_pipeline |     ✓ Sentiment features added for XOM
+2026-03-14 16:29:09 | INFO | feature_pipeline |   Block 6: Relative strength...
+2026-03-14 16:29:10 | INFO | feature_pipeline |     ✓ Relative features for XOM: beta=0.71
+2026-03-14 16:29:10 | INFO | feature_pipeline |   Block 7: Macro regime merge...
+2026-03-14 16:29:10 | INFO | feature_pipeline |     ✓ Merged 15 macro features
+2026-03-14 16:29:10 | INFO | feature_pipeline |   ✓ Final feature set: 65 features | 1057 rows
+2026-03-14 16:29:10 | INFO | feature_pipeline |   ✓ Written to S3: s3://alphaflow-data-lake-291572330987/features/market/XOM/XOM_features.parquet
+2026-03-14 16:29:10 | INFO | feature_pipeline | 
+==================================================
+2026-03-14 16:29:10 | INFO | feature_pipeline | Building features: BRK-B
+2026-03-14 16:29:10 | INFO | feature_pipeline | ==================================================
+2026-03-14 16:29:10 | INFO | feature_pipeline |   ✓ Loaded 1257 rows from S3
+2026-03-14 16:29:10 | INFO | feature_pipeline |   Block 1: Technical indicators...
+2026-03-14 16:29:10 | INFO | feature_pipeline |     ✓ Technical indicators: 26 features
+2026-03-14 16:29:10 | INFO | feature_pipeline |   Block 3: Options features...
+2026-03-14 16:29:10 | INFO | feature_pipeline |     ✓ Options features for BRK-B: IV=0.572, P/C=0.643
+2026-03-14 16:29:10 | INFO | feature_pipeline |   Block 4: SEC filing patterns...
+2026-03-14 16:29:11 | INFO | feature_pipeline |     ✓ SEC filing delay for BRK-B: avg 37 days
+2026-03-14 16:29:11 | INFO | feature_pipeline |     ✓ SEC features for BRK-B: 5 max 8-Ks/90d
+2026-03-14 16:29:11 | INFO | feature_pipeline |   Block 5: Sentiment features...
+2026-03-14 16:29:11 | INFO | feature_pipeline |     ℹ Sentiment scores not yet available for BRK-B — using neutral defaults
+2026-03-14 16:29:11 | INFO | feature_pipeline |     ✓ Sentiment features added for BRK-B
+2026-03-14 16:29:11 | INFO | feature_pipeline |   Block 6: Relative strength...
+2026-03-14 16:29:11 | INFO | feature_pipeline |     ✓ Relative features for BRK-B: beta=0.72
+2026-03-14 16:29:11 | INFO | feature_pipeline |   Block 7: Macro regime merge...
+2026-03-14 16:29:11 | INFO | feature_pipeline |     ✓ Merged 15 macro features
+2026-03-14 16:29:11 | INFO | feature_pipeline |   ✓ Final feature set: 65 features | 1057 rows
+2026-03-14 16:29:11 | INFO | feature_pipeline |   ✓ Written to S3: s3://alphaflow-data-lake-291572330987/features/market/BRK-B/BRK-B_features.parquet
+2026-03-14 16:29:11 | INFO | feature_pipeline | 
+==================================================
+2026-03-14 16:29:11 | INFO | feature_pipeline | Building features: TSLA
+2026-03-14 16:29:11 | INFO | feature_pipeline | ==================================================
+2026-03-14 16:29:11 | INFO | feature_pipeline |   ✓ Loaded 1257 rows from S3
+2026-03-14 16:29:11 | INFO | feature_pipeline |   Block 1: Technical indicators...
+2026-03-14 16:29:11 | INFO | feature_pipeline |     ✓ Technical indicators: 26 features
+2026-03-14 16:29:11 | INFO | feature_pipeline |   Block 3: Options features...
+2026-03-14 16:29:11 | INFO | feature_pipeline |     ✓ Options features for TSLA: IV=0.358, P/C=0.927
+2026-03-14 16:29:11 | INFO | feature_pipeline |   Block 4: SEC filing patterns...
+2026-03-14 16:29:12 | INFO | feature_pipeline |     ✓ SEC filing delay for TSLA: avg 48 days
+2026-03-14 16:29:12 | INFO | feature_pipeline |     ✓ SEC features for TSLA: 8 max 8-Ks/90d
+2026-03-14 16:29:12 | INFO | feature_pipeline |   Block 5: Sentiment features...
+2026-03-14 16:29:12 | INFO | feature_pipeline |     ℹ Sentiment scores not yet available for TSLA — using neutral defaults
+2026-03-14 16:29:12 | INFO | feature_pipeline |     ✓ Sentiment features added for TSLA
+2026-03-14 16:29:12 | INFO | feature_pipeline |   Block 6: Relative strength...
+2026-03-14 16:29:12 | INFO | feature_pipeline |     ✓ Relative features for TSLA: beta=1.93
+2026-03-14 16:29:12 | INFO | feature_pipeline |   Block 7: Macro regime merge...
+2026-03-14 16:29:12 | INFO | feature_pipeline |     ✓ Merged 15 macro features
+2026-03-14 16:29:12 | INFO | feature_pipeline |   ✓ Final feature set: 65 features | 1057 rows
+2026-03-14 16:29:12 | INFO | feature_pipeline |   ✓ Written to S3: s3://alphaflow-data-lake-291572330987/features/market/TSLA/TSLA_features.parquet
+2026-03-14 16:29:12 | INFO | feature_pipeline | 
+==================================================
+2026-03-14 16:29:12 | INFO | feature_pipeline | Building features: SPY
+2026-03-14 16:29:12 | INFO | feature_pipeline | ==================================================
+2026-03-14 16:29:12 | INFO | feature_pipeline |   ✓ Loaded 1257 rows from S3
+2026-03-14 16:29:12 | INFO | feature_pipeline |   Block 1: Technical indicators...
+2026-03-14 16:29:12 | INFO | feature_pipeline |     ✓ Technical indicators: 26 features
+2026-03-14 16:29:12 | INFO | feature_pipeline |   Block 3: Options features...
+2026-03-14 16:29:12 | INFO | feature_pipeline |     ✓ Options features for SPY: IV=0.868, P/C=1.205
+2026-03-14 16:29:12 | INFO | feature_pipeline |   Block 4: SEC filing patterns...
+2026-03-14 16:29:12 | WARNING | feature_pipeline |     ⚠ No SEC filings found for SPY
+2026-03-14 16:29:12 | INFO | feature_pipeline |   Block 5: Sentiment features...
+2026-03-14 16:29:12 | INFO | feature_pipeline |     ℹ Sentiment scores not yet available for SPY — using neutral defaults
+2026-03-14 16:29:12 | INFO | feature_pipeline |     ✓ Sentiment features added for SPY
+2026-03-14 16:29:12 | INFO | feature_pipeline |   Block 6: Relative strength...
+2026-03-14 16:29:12 | INFO | feature_pipeline |   Block 7: Macro regime merge...
+2026-03-14 16:29:12 | INFO | feature_pipeline |     ✓ Merged 15 macro features
+2026-03-14 16:29:12 | INFO | feature_pipeline |   ✓ Final feature set: 63 features | 1057 rows
+2026-03-14 16:29:13 | INFO | feature_pipeline |   ✓ Written to S3: s3://alphaflow-data-lake-291572330987/features/market/SPY/SPY_features.parquet
+2026-03-14 16:29:13 | INFO | feature_pipeline | 
+============================================================
+2026-03-14 16:29:13 | INFO | feature_pipeline | FEATURE PIPELINE SUMMARY
+2026-03-14 16:29:13 | INFO | feature_pipeline | ============================================================
+2026-03-14 16:29:13 | INFO | feature_pipeline |   ✓ AAPL   | 1057 rows |  70 features
+2026-03-14 16:29:13 | INFO | feature_pipeline |   ✓ MSFT   | 1057 rows |  70 features
+2026-03-14 16:29:13 | INFO | feature_pipeline |   ✓ GOOGL  | 1057 rows |  70 features
+2026-03-14 16:29:13 | INFO | feature_pipeline |   ✓ AMZN   | 1057 rows |  70 features
+2026-03-14 16:29:13 | INFO | feature_pipeline |   ✓ JPM    | 1057 rows |  70 features
+2026-03-14 16:29:13 | INFO | feature_pipeline |   ✓ JNJ    | 1057 rows |  70 features
+2026-03-14 16:29:13 | INFO | feature_pipeline |   ✓ XOM    | 1057 rows |  70 features
+2026-03-14 16:29:13 | INFO | feature_pipeline |   ✓ BRK-B  | 1057 rows |  70 features
+2026-03-14 16:29:13 | INFO | feature_pipeline |   ✓ TSLA   | 1057 rows |  70 features
+2026-03-14 16:29:13 | INFO | feature_pipeline |   ✓ SPY    | 1057 rows |  68 features

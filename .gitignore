@@ -8,4 +8,5 @@ mlruns/
 *.parquet
 *.csv
 .ipynb_checkpoints/
+requirements.in
 EOF
