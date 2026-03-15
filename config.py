@@ -28,13 +28,13 @@ TICKERS = [
     "XOM",  # ExxonMobil   — Energy
     "BRK-B",  # Berkshire    — Diversified
     "TSLA",  # Tesla        — EV / Tech
-    ]
+]
 
 BENCHMARK_TICKER = "SPY"
 
 # ── DATA SETTINGS ────────────────────────────────────────────────────
 HISTORICAL_START = "2020-01-01"  # 5 years of training data
-HISTORICAL_END = "2025-03-14"  # fixed end for reproducibility
+HISTORICAL_END = "2026-03-14"  # fixed end for reproducibility
 DATA_INTERVAL = "1d"  # daily OHLCV
 
 # ── S3 PATH STRUCTURE ────────────────────────────────────────────────

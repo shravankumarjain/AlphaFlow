@@ -1,0 +1,92 @@
+2026-03-15 22:21:54 | INFO | botocore.credentials | Found credentials in shared credentials file: ~/.aws/credentials
+2026-03-15 22:21:54 | INFO | drift_monitor | ============================================================
+2026-03-15 22:21:54 | INFO | drift_monitor | AlphaFlow — Drift Monitor
+2026-03-15 22:21:54 | INFO | drift_monitor | ============================================================
+2026-03-15 22:21:54 | INFO | drift_monitor | 
+Step 1: Loading data...
+2026-03-15 22:21:54 | INFO | drift_monitor |   ✓ Reference data: 8415 rows | 2020-10-16 00:00:00 → 2024-07-08 00:00:00
+2026-03-15 22:21:58 | INFO | drift_monitor |   ✓ Current data: 0 rows | last 30 days
+2026-03-15 22:21:58 | INFO | drift_monitor | 
+Step 2: Computing data drift...
+2026-03-15 22:21:58 | INFO | drift_monitor |   Computing drift metrics...
+2026-03-15 22:21:58 | WARNING | drift_monitor |   ⚠ Evidently not available (unable to infer type for attribute "relative") — using PSI fallback
+2026-03-15 22:21:58 | INFO | drift_monitor | 
+Step 3: Checking performance drift...
+2026-03-15 22:29:08 | INFO | botocore.credentials | Found credentials in shared credentials file: ~/.aws/credentials
+2026-03-15 22:29:08 | INFO | drift_monitor | ============================================================
+2026-03-15 22:29:08 | INFO | drift_monitor | AlphaFlow — Drift Monitor
+2026-03-15 22:29:08 | INFO | drift_monitor | ============================================================
+2026-03-15 22:29:08 | INFO | drift_monitor | 
+Step 1: Loading data...
+2026-03-15 22:29:09 | INFO | drift_monitor |   ✓ Reference data: 8415 rows | 2020-10-16 00:00:00 → 2024-07-08 00:00:00
+2026-03-15 22:29:12 | INFO | drift_monitor |   ✓ Current data: 0 rows | last 365 days
+2026-03-15 22:29:12 | INFO | drift_monitor | 
+Step 2: Computing data drift...
+2026-03-15 22:29:12 | INFO | drift_monitor |   Computing drift metrics...
+2026-03-15 22:29:12 | WARNING | drift_monitor |   ⚠ Evidently not available (unable to infer type for attribute "relative") — using PSI fallback
+2026-03-15 22:29:12 | INFO | drift_monitor | 
+Step 3: Checking performance drift...
+2026-03-15 22:29:12 | INFO | drift_monitor | 
+============================================================
+2026-03-15 22:29:12 | INFO | drift_monitor | DRIFT MONITOR SUMMARY
+2026-03-15 22:29:12 | INFO | drift_monitor | ============================================================
+2026-03-15 22:29:12 | INFO | drift_monitor |   Method       : psi
+2026-03-15 22:29:12 | INFO | drift_monitor |   Drift score  : 0.000
+2026-03-15 22:29:12 | INFO | drift_monitor |   Drifted      : 0/0 features
+2026-03-15 22:29:12 | INFO | drift_monitor |   Last trained : 2026-03-15T21:22:07.666505
+2026-03-15 22:29:12 | INFO | drift_monitor |   Perf drift   : False
+2026-03-15 22:29:12 | INFO | drift_monitor | 
+  → NO ACTION
+2026-03-15 22:29:12 | INFO | drift_monitor |   ✓ Report saved: reports/drift_report.json
+2026-03-15 22:34:31 | INFO | botocore.credentials | Found credentials in shared credentials file: ~/.aws/credentials
+2026-03-15 22:34:31 | INFO | drift_monitor | ============================================================
+2026-03-15 22:34:31 | INFO | drift_monitor | AlphaFlow — Drift Monitor
+2026-03-15 22:34:31 | INFO | drift_monitor | ============================================================
+2026-03-15 22:34:31 | INFO | drift_monitor | 
+Step 1: Loading data...
+2026-03-15 22:34:31 | INFO | drift_monitor |   ✓ Reference data: 8415 rows | 2020-10-16 00:00:00 → 2024-07-08 00:00:00
+2026-03-15 22:34:34 | INFO | drift_monitor |   ✓ Current data: 0 rows | last 365 days
+2026-03-15 22:34:34 | INFO | drift_monitor | 
+Step 2: Computing data drift...
+2026-03-15 22:34:34 | INFO | drift_monitor |   Computing drift metrics...
+2026-03-15 22:34:34 | WARNING | drift_monitor |   ⚠ Evidently not available (unable to infer type for attribute "relative") — using PSI fallback
+2026-03-15 22:34:34 | INFO | drift_monitor | 
+Step 3: Checking performance drift...
+2026-03-15 22:34:34 | INFO | drift_monitor | 
+============================================================
+2026-03-15 22:34:34 | INFO | drift_monitor | DRIFT MONITOR SUMMARY
+2026-03-15 22:34:34 | INFO | drift_monitor | ============================================================
+2026-03-15 22:34:34 | INFO | drift_monitor |   Method       : psi
+2026-03-15 22:34:34 | INFO | drift_monitor |   Drift score  : 0.000
+2026-03-15 22:34:34 | INFO | drift_monitor |   Drifted      : 0/0 features
+2026-03-15 22:34:34 | INFO | drift_monitor |   Last trained : 2026-03-15T21:22:07.666505
+2026-03-15 22:34:34 | INFO | drift_monitor |   Perf drift   : False
+2026-03-15 22:34:34 | INFO | drift_monitor | 
+  → NO ACTION
+2026-03-15 22:34:34 | INFO | drift_monitor |   ✓ Report saved: reports/drift_report.json
+2026-03-15 22:55:22 | INFO | botocore.credentials | Found credentials in shared credentials file: ~/.aws/credentials
+2026-03-15 22:55:22 | INFO | drift_monitor | ============================================================
+2026-03-15 22:55:22 | INFO | drift_monitor | AlphaFlow — Drift Monitor
+2026-03-15 22:55:22 | INFO | drift_monitor | ============================================================
+2026-03-15 22:55:22 | INFO | drift_monitor | 
+Step 1: Loading data...
+2026-03-15 22:55:22 | INFO | drift_monitor |   ✓ Reference data: 8415 rows | 2020-10-16 00:00:00 → 2024-07-08 00:00:00
+2026-03-15 22:55:26 | INFO | drift_monitor |   ✓ Current data: 0 rows | last 365 days
+2026-03-15 22:55:26 | INFO | drift_monitor | 
+Step 2: Computing data drift...
+2026-03-15 22:55:26 | INFO | drift_monitor |   Computing drift metrics...
+2026-03-15 22:55:26 | WARNING | drift_monitor |   ⚠ Evidently not available (unable to infer type for attribute "relative") — using PSI fallback
+2026-03-15 22:55:26 | INFO | drift_monitor | 
+Step 3: Checking performance drift...
+2026-03-15 22:55:26 | INFO | drift_monitor | 
+============================================================
+2026-03-15 22:55:26 | INFO | drift_monitor | DRIFT MONITOR SUMMARY
+2026-03-15 22:55:26 | INFO | drift_monitor | ============================================================
+2026-03-15 22:55:26 | INFO | drift_monitor |   Method       : psi
+2026-03-15 22:55:26 | INFO | drift_monitor |   Drift score  : 0.000
+2026-03-15 22:55:26 | INFO | drift_monitor |   Drifted      : 0/0 features
+2026-03-15 22:55:26 | INFO | drift_monitor |   Last trained : 2026-03-15T21:22:07.666505
+2026-03-15 22:55:26 | INFO | drift_monitor |   Perf drift   : False
+2026-03-15 22:55:26 | INFO | drift_monitor | 
+  → NO ACTION
+2026-03-15 22:55:26 | INFO | drift_monitor |   ✓ Report saved: reports/drift_report.json

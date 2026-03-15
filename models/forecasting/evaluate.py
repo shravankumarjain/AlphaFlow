@@ -395,7 +395,7 @@ def run_evaluation():
 
     # Step 9: MLflow
     logger.info("\nStep 9: MLflow...")
-    mlflow.set_tracking_uri("sqlite:///mlruns.db")
+    mlflow.set_tracking_uri("mlruns")
     with mlflow.start_run(run_name="backtest-v1"):
         for m in all_metrics:
             prefix = m["name"].lower().replace(" ", "_")

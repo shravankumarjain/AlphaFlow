@@ -32,6 +32,7 @@
 # Run: python models/forecasting/tft_model.py
 
 import warnings
+
 warnings.filterwarnings("ignore")
 
 import logging  # noqa: E402
@@ -39,7 +40,11 @@ import mlflow  # noqa: E402
 import mlflow.pytorch  # noqa: E402
 import torch  # noqa: E402
 import lightning as pl  # noqa: E402
-from lightning.pytorch.callbacks import EarlyStopping, ModelCheckpoint, LearningRateMonitor  # noqa: E402
+from lightning.pytorch.callbacks import (  # noqa: E402
+    EarlyStopping,
+    ModelCheckpoint,
+    LearningRateMonitor,
+)  # noqa: E402
 from lightning.pytorch.loggers import MLFlowLogger  # noqa: E402
 
 from pytorch_forecasting import TemporalFusionTransformer, TimeSeriesDataSet  # noqa: E402
@@ -51,11 +56,14 @@ import pandas as pd  # noqa: E402, F401
 import json  # noqa: E402
 
 import sys  # noqa: E402
+
 sys.path.append(str(Path(__file__).resolve().parents[2]))
 from config import AWS_REGION, S3_BUCKET, LOCAL_DATA_DIR  # noqa: E402, F401
 from models.forecasting.dataset import (  # noqa: E402
-    prepare_datasets, TARGET,
-    MAX_ENCODER_LENGTH, MAX_PREDICTION_LENGTH
+    prepare_datasets,
+    TARGET,
+    MAX_ENCODER_LENGTH,
+    MAX_PREDICTION_LENGTH,
 )
 
 logging.basicConfig(
@@ -65,7 +73,7 @@ logging.basicConfig(
     handlers=[
         logging.StreamHandler(),
         logging.FileHandler("logs/tft_training.log"),
-    ]
+    ],
 )
 logger = logging.getLogger("tft_model")
 
@@ -73,6 +81,7 @@ logger = logging.getLogger("tft_model")
 # ═══════════════════════════════════════════════════════════════════════
 # DEVICE DETECTION — M2 Mac uses MPS (Metal Performance Shaders)
 # ═══════════════════════════════════════════════════════════════════════
+
 
 def get_device() -> str:
     """
@@ -99,30 +108,28 @@ def get_device() -> str:
 
 HPARAMS = {
     # Model architecture
-    "hidden_size"            : 64,    # size of hidden layers — increase for more capacity
-    "attention_head_size"    : 4,     # multi-head attention heads
-    "dropout"                : 0.1,   # regularisation — prevent overfitting
-    "hidden_continuous_size" : 32,    # size of continuous variable processing network
-    "lstm_layers"            : 2,     # number of LSTM layers in encoder/decoder
-
+    "hidden_size": 64,  # size of hidden layers — increase for more capacity
+    "attention_head_size": 4,  # multi-head attention heads
+    "dropout": 0.1,  # regularisation — prevent overfitting
+    "hidden_continuous_size": 32,  # size of continuous variable processing network
+    "lstm_layers": 2,  # number of LSTM layers in encoder/decoder
     # Training
-    "learning_rate"          : 1e-3,
-    "batch_size"             : 64,
-    "max_epochs"             : 50,    # early stopping will kick in before this
-    "gradient_clip_val"      : 0.1,   # prevents exploding gradients
-
+    "learning_rate": 1e-3,
+    "batch_size": 64,
+    "max_epochs": 50,  # early stopping will kick in before this
+    "gradient_clip_val": 0.1,  # prevents exploding gradients
     # Loss — predicts 3 quantiles simultaneously
     # p10 = pessimistic, p50 = median forecast, p90 = optimistic
-    "loss_quantiles"         : [0.1, 0.5, 0.9],
-
+    "loss_quantiles": [0.1, 0.5, 0.9],
     # Early stopping
-    "patience"               : 8,     # stop if no improvement for 8 epochs
+    "patience": 8,  # stop if no improvement for 8 epochs
 }
 
 
 # ═══════════════════════════════════════════════════════════════════════
 # BUILD DATALOADERS
 # ═══════════════════════════════════════════════════════════════════════
+
 
 def build_dataloaders(training_dataset, validation_dataset):
     """
@@ -132,7 +139,7 @@ def build_dataloaders(training_dataset, validation_dataset):
     train_loader = training_dataset.to_dataloader(
         train=True,
         batch_size=HPARAMS["batch_size"],
-        num_workers=0,       # 0 = main process only (safe for M2)
+        num_workers=0,  # 0 = main process only (safe for M2)
         shuffle=True,
     )
     val_loader = validation_dataset.to_dataloader(
@@ -150,6 +157,7 @@ def build_dataloaders(training_dataset, validation_dataset):
 # BUILD MODEL
 # ═══════════════════════════════════════════════════════════════════════
 
+
 def build_tft_model(training_dataset: TimeSeriesDataSet) -> TemporalFusionTransformer:
     """
     Instantiate the TFT model from the training dataset.
@@ -161,15 +169,15 @@ def build_tft_model(training_dataset: TimeSeriesDataSet) -> TemporalFusionTransf
     """
     model = TemporalFusionTransformer.from_dataset(
         training_dataset,
-        learning_rate          = HPARAMS["learning_rate"],
-        hidden_size            = HPARAMS["hidden_size"],
-        attention_head_size    = HPARAMS["attention_head_size"],
-        dropout                = HPARAMS["dropout"],
-        hidden_continuous_size = HPARAMS["hidden_continuous_size"],
-        lstm_layers            = HPARAMS["lstm_layers"],
-        loss                   = QuantileLoss(quantiles=HPARAMS["loss_quantiles"]),
-        log_interval           = 10,
-        reduce_on_plateau_patience = 4,
+        learning_rate=HPARAMS["learning_rate"],
+        hidden_size=HPARAMS["hidden_size"],
+        attention_head_size=HPARAMS["attention_head_size"],
+        dropout=HPARAMS["dropout"],
+        hidden_continuous_size=HPARAMS["hidden_continuous_size"],
+        lstm_layers=HPARAMS["lstm_layers"],
+        loss=QuantileLoss(quantiles=HPARAMS["loss_quantiles"]),
+        log_interval=10,
+        reduce_on_plateau_patience=4,
     )
 
     total_params = sum(p.numel() for p in model.parameters() if p.requires_grad)
@@ -181,6 +189,7 @@ def build_tft_model(training_dataset: TimeSeriesDataSet) -> TemporalFusionTransf
 # CALLBACKS — control training behaviour
 # ═══════════════════════════════════════════════════════════════════════
 
+
 def build_callbacks(checkpoint_dir: str) -> list:
     """
     Callbacks run at the end of each epoch.
@@ -190,19 +199,19 @@ def build_callbacks(checkpoint_dir: str) -> list:
     LRMonitor        : logs learning rate to MLflow
     """
     early_stop = EarlyStopping(
-        monitor   = "val_loss",
-        patience  = HPARAMS["patience"],
-        mode      = "min",
-        verbose   = True,
+        monitor="val_loss",
+        patience=HPARAMS["patience"],
+        mode="min",
+        verbose=True,
     )
 
     checkpoint = ModelCheckpoint(
-        dirpath   = checkpoint_dir,
-        filename  = "tft-{epoch:02d}-{val_loss:.4f}",
-        monitor   = "val_loss",
-        mode      = "min",
-        save_top_k= 1,     # only keep the best checkpoint
-        verbose   = True,
+        dirpath=checkpoint_dir,
+        filename="tft-{epoch:02d}-{val_loss:.4f}",
+        monitor="val_loss",
+        mode="min",
+        save_top_k=1,  # only keep the best checkpoint
+        verbose=True,
     )
 
     lr_monitor = LearningRateMonitor(logging_interval="epoch")
@@ -214,10 +223,9 @@ def build_callbacks(checkpoint_dir: str) -> list:
 # TRAINING — wired to MLflow for experiment tracking
 # ═══════════════════════════════════════════════════════════════════════
 
+
 def train_model(
-    training_dataset,
-    validation_dataset,
-    experiment_name: str = "alphaflow-tft"
+    training_dataset, validation_dataset, experiment_name: str = "alphaflow-tft"
 ) -> dict:
     """
     Full training pipeline with MLflow experiment tracking.
@@ -241,13 +249,12 @@ def train_model(
     checkpoint_dir.mkdir(parents=True, exist_ok=True)
 
     # ── MLflow setup ─────────────────────────────────────────────────
-    mlflow.set_tracking_uri("sqlite:///mlruns.db")  # local MLflow server
+    mlflow.set_tracking_uri("mlruns")  # local MLflow server
     mlflow.set_experiment(experiment_name)
 
     device = get_device()
 
     with mlflow.start_run(run_name="tft-v1") as run:
-
         # Log all hyperparameters
         mlflow.log_params(HPARAMS)
         mlflow.log_param("device", device)
@@ -269,24 +276,26 @@ def train_model(
 
         # ── MLflow logger for Lightning ───────────────────────────────
         mlf_logger = MLFlowLogger(
-            experiment_name = experiment_name,
-            run_id          = run.info.run_id,
-            tracking_uri    = "sqlite:///mlruns.db",
+            experiment_name=experiment_name,
+            run_id=run.info.run_id,
+            tracking_uri="mlruns",
         )
 
         # ── Trainer ───────────────────────────────────────────────────
         # accelerator="mps" for M2, "gpu" for CUDA, "cpu" for fallback
-        accelerator = "mps" if device == "mps" else ("gpu" if device == "gpu" else "cpu")
+        accelerator = (
+            "mps" if device == "mps" else ("gpu" if device == "gpu" else "cpu")
+        )
 
         trainer = pl.Trainer(
-            max_epochs        = HPARAMS["max_epochs"],
-            accelerator       = accelerator,
-            devices           = 1,
-            gradient_clip_val = HPARAMS["gradient_clip_val"],
-            callbacks         = build_callbacks(str(checkpoint_dir)),
-            logger            = mlf_logger,
-            enable_progress_bar = True,
-            log_every_n_steps   = 5,
+            max_epochs=HPARAMS["max_epochs"],
+            accelerator=accelerator,
+            devices=1,
+            gradient_clip_val=HPARAMS["gradient_clip_val"],
+            callbacks=build_callbacks(str(checkpoint_dir)),
+            logger=mlf_logger,
+            enable_progress_bar=True,
+            log_every_n_steps=5,
         )
 
         # ── TRAIN ─────────────────────────────────────────────────────
@@ -328,12 +337,11 @@ def train_model(
             if hasattr(encoder_importance, "numpy"):
                 encoder_importance = encoder_importance.numpy()
 
-            feature_names  = training_dataset.reals
+            feature_names = training_dataset.reals
             importance_dict = {
                 name: float(score)
                 for name, score in zip(
-                    feature_names,
-                    encoder_importance[:len(feature_names)]
+                    feature_names, encoder_importance[: len(feature_names)]
                 )
             }
             # Sort by importance
@@ -364,11 +372,11 @@ def train_model(
         logger.info(f"\n  ✓ Model saved to MLflow run: {run.info.run_id}")
 
         results = {
-            "run_id"          : run.info.run_id,
-            "best_val_loss"   : float(best_val_loss) if best_val_loss else None,
-            "best_checkpoint" : best_checkpoint,
-            "epochs_trained"  : trainer.current_epoch,
-            "model"           : best_model,
+            "run_id": run.info.run_id,
+            "best_val_loss": float(best_val_loss) if best_val_loss else None,
+            "best_checkpoint": best_checkpoint,
+            "epochs_trained": trainer.current_epoch,
+            "model": best_model,
         }
 
     return results
@@ -377,6 +385,7 @@ def train_model(
 # ═══════════════════════════════════════════════════════════════════════
 # QUICK SANITY CHECK — run before full training
 # ═══════════════════════════════════════════════════════════════════════
+
 
 def sanity_check(training_dataset, train_loader):
     """
@@ -393,7 +402,9 @@ def sanity_check(training_dataset, train_loader):
 
     logger.info("  ✓ Input shapes look correct")
     logger.info(f"  ✓ Output shape: {out.prediction.shape}")
-    logger.info(f"  Expected: [batch={HPARAMS['batch_size']}, horizon={MAX_PREDICTION_LENGTH}, quantiles=3]")
+    logger.info(
+        f"  Expected: [batch={HPARAMS['batch_size']}, horizon={MAX_PREDICTION_LENGTH}, quantiles=3]"
+    )
     logger.info("  ✓ Sanity check passed — safe to run full training\n")
     return True
 

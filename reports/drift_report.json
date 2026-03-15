@@ -1,0 +1,15 @@
+{
+  "method": "psi",
+  "drift_score": 0,
+  "n_drifted": 0,
+  "n_total": 0,
+  "feature_drift": {},
+  "last_trained": "2026-03-15T21:22:07.666505",
+  "computed_at": "2026-03-15T22:55:26.375841",
+  "performance": {
+    "performance_drift": false,
+    "current_sharpe": 0.216,
+    "sharpe_floor": 0.0,
+    "action": "monitor"
+  }
+}
