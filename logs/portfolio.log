@@ -1,0 +1,136 @@
+2026-03-15 20:14:08 | INFO | botocore.credentials | Found credentials in shared credentials file: ~/.aws/credentials
+2026-03-15 20:14:08 | INFO | portfolio | ============================================================
+2026-03-15 20:14:08 | INFO | portfolio | AlphaFlow — Portfolio Optimization Engine
+2026-03-15 20:14:08 | INFO | portfolio | ============================================================
+2026-03-15 20:14:08 | INFO | portfolio | 
+Step 1: Loading feature data...
+2026-03-15 20:14:13 | INFO | portfolio |   ✓ Loaded features for 10 tickers
+2026-03-15 20:14:13 | INFO | portfolio | 
+Step 2: Loading TFT predictions...
+2026-03-15 20:14:13 | INFO | portfolio |   ✓ Loaded 910 TFT predictions
+2026-03-15 20:14:13 | INFO | portfolio | 
+Step 3: Markowitz optimization...
+2026-03-15 20:14:13 | INFO | portfolio | 
+Step 4: Training RL agent...
+2026-03-15 20:14:13 | INFO | portfolio |   ✓ Env: 1057 trading days | 10 tickers
+2026-03-15 20:14:14 | INFO | portfolio |   Training PPO agent for 50000 timesteps...
+2026-03-15 20:14:14 | ERROR | portfolio |   ✗ PPO training failed: The environment is of type <class '__main__.GymWrapper'>, not a Gymnasium environment. In this case, we expect OpenAI Gym to be installed and the environment to be an OpenAI Gym environment.
+2026-03-15 20:14:14 | WARNING | portfolio |   ⚠ RL training failed: The environment is of type <class '__main__.GymWrapper'>, not a Gymnasium environment. In this case, we expect OpenAI Gym to be installed and the environment to be an OpenAI Gym environment. — using Markowitz only
+2026-03-15 20:14:14 | INFO | portfolio | 
+Step 5: Computing final allocation...
+2026-03-15 20:14:14 | INFO | portfolio | 
+  Macro regime: 0 (risk-on)
+2026-03-15 20:14:14 | INFO | portfolio |   Running Markowitz optimization...
+2026-03-15 20:14:15 | INFO | portfolio |   ✓ Markowitz: expected_return=19.40% vol=9.51% sharpe=1.515
+2026-03-15 20:14:15 | INFO | portfolio |   ✓ Weights: {'AAPL': 0.02, 'MSFT': 0.02, 'GOOGL': 0.02, 'AMZN': 0.02, 'JPM': 0.02, 'JNJ': 0.4, 'XOM': 0.0743, 'BRK-B': 0.02, 'TSLA': 0.02, 'SPY': 0.3857}
+2026-03-15 20:14:15 | INFO | portfolio | 
+============================================================
+2026-03-15 20:14:15 | INFO | portfolio | PORTFOLIO ALLOCATION
+2026-03-15 20:14:15 | INFO | portfolio | ============================================================
+2026-03-15 20:14:15 | INFO | portfolio |   Regime  : risk-on
+2026-03-15 20:14:15 | INFO | portfolio |   Blend   : 30% Markowitz + 70% RL
+2026-03-15 20:14:15 | INFO | portfolio |   Sharpe  : 1.515 (Markowitz baseline)
+2026-03-15 20:14:15 | INFO | portfolio | 
+2026-03-15 20:14:15 | INFO | portfolio |   FINAL WEIGHTS:
+2026-03-15 20:14:15 | INFO | portfolio |     JNJ    ████████████████ 40.00%
+2026-03-15 20:14:15 | INFO | portfolio |     SPY    ███████████████ 38.57%
+2026-03-15 20:14:15 | INFO | portfolio |     XOM    ██ 7.43%
+2026-03-15 20:14:15 | INFO | portfolio |     MSFT    2.00%
+2026-03-15 20:14:15 | INFO | portfolio |     TSLA    2.00%
+2026-03-15 20:14:15 | INFO | portfolio |     GOOGL   2.00%
+2026-03-15 20:14:15 | INFO | portfolio |     BRK-B   2.00%
+2026-03-15 20:14:15 | INFO | portfolio |     AAPL    2.00%
+2026-03-15 20:14:15 | INFO | portfolio |     JPM     2.00%
+2026-03-15 20:14:15 | INFO | portfolio |     AMZN    2.00%
+2026-03-15 20:14:15 | INFO | portfolio | 
+  ✓ Saved to reports/allocation.json
+2026-03-15 20:29:54 | INFO | botocore.credentials | Found credentials in shared credentials file: ~/.aws/credentials
+2026-03-15 20:29:54 | INFO | portfolio | ============================================================
+2026-03-15 20:29:54 | INFO | portfolio | AlphaFlow — Portfolio Optimization Engine
+2026-03-15 20:29:54 | INFO | portfolio | ============================================================
+2026-03-15 20:29:54 | INFO | portfolio | 
+Step 1: Loading feature data...
+2026-03-15 20:29:59 | INFO | portfolio |   ✓ Loaded features for 9 tickers
+2026-03-15 20:29:59 | INFO | portfolio | 
+Step 2: Loading TFT predictions...
+2026-03-15 20:29:59 | INFO | portfolio |   ✓ Loaded 891 TFT predictions
+2026-03-15 20:29:59 | INFO | portfolio | 
+Step 3: Markowitz optimization...
+2026-03-15 20:29:59 | INFO | portfolio | 
+Step 4: Training RL agent...
+2026-03-15 20:29:59 | INFO | portfolio |   ✓ Env: 1106 trading days | 9 tickers
+2026-03-15 20:30:00 | INFO | portfolio |   Training PPO agent for 50000 timesteps...
+2026-03-15 20:30:00 | ERROR | portfolio |   ✗ PPO training failed: The environment is of type <class '__main__.GymWrapper'>, not a Gymnasium environment. In this case, we expect OpenAI Gym to be installed and the environment to be an OpenAI Gym environment.
+2026-03-15 20:30:00 | WARNING | portfolio |   ⚠ RL training failed: The environment is of type <class '__main__.GymWrapper'>, not a Gymnasium environment. In this case, we expect OpenAI Gym to be installed and the environment to be an OpenAI Gym environment. — using Markowitz only
+2026-03-15 20:30:00 | INFO | portfolio | 
+Step 5: Computing final allocation...
+2026-03-15 20:30:00 | INFO | portfolio | 
+  Macro regime: 1 (neutral)
+2026-03-15 20:30:00 | INFO | portfolio |   Running Markowitz optimization...
+2026-03-15 20:30:00 | INFO | portfolio |   ✓ Markowitz: expected_return=25.12% vol=12.11% sharpe=1.662
+2026-03-15 20:30:00 | INFO | portfolio |   ✓ Weights: {'AAPL': 0.02, 'MSFT': 0.1605, 'GOOGL': 0.02, 'AMZN': 0.02, 'JPM': 0.1607, 'JNJ': 0.4, 'XOM': 0.02, 'BRK-B': 0.1473, 'TSLA': 0.0515}
+2026-03-15 20:30:00 | INFO | portfolio | 
+============================================================
+2026-03-15 20:30:00 | INFO | portfolio | PORTFOLIO ALLOCATION
+2026-03-15 20:30:00 | INFO | portfolio | ============================================================
+2026-03-15 20:30:00 | INFO | portfolio |   Regime  : neutral
+2026-03-15 20:30:00 | INFO | portfolio |   Blend   : 50% Markowitz + 50% RL
+2026-03-15 20:30:00 | INFO | portfolio |   Sharpe  : 1.662 (Markowitz baseline)
+2026-03-15 20:30:00 | INFO | portfolio | 
+2026-03-15 20:30:00 | INFO | portfolio |   FINAL WEIGHTS:
+2026-03-15 20:30:00 | INFO | portfolio |     JNJ    ████████████████ 40.00%
+2026-03-15 20:30:00 | INFO | portfolio |     JPM    ██████ 16.07%
+2026-03-15 20:30:00 | INFO | portfolio |     MSFT   ██████ 16.05%
+2026-03-15 20:30:00 | INFO | portfolio |     BRK-B  █████ 14.73%
+2026-03-15 20:30:00 | INFO | portfolio |     TSLA   ██ 5.15%
+2026-03-15 20:30:00 | INFO | portfolio |     AAPL    2.00%
+2026-03-15 20:30:00 | INFO | portfolio |     AMZN    2.00%
+2026-03-15 20:30:00 | INFO | portfolio |     XOM     2.00%
+2026-03-15 20:30:00 | INFO | portfolio |     GOOGL   2.00%
+2026-03-15 20:30:00 | INFO | portfolio | 
+  ✓ Saved to reports/allocation.json
+2026-03-15 21:31:37 | INFO | botocore.credentials | Found credentials in shared credentials file: ~/.aws/credentials
+2026-03-15 21:31:37 | INFO | portfolio | ============================================================
+2026-03-15 21:31:37 | INFO | portfolio | AlphaFlow — Portfolio Optimization Engine
+2026-03-15 21:31:37 | INFO | portfolio | ============================================================
+2026-03-15 21:31:37 | INFO | portfolio | 
+Step 1: Loading feature data...
+2026-03-15 21:31:39 | INFO | portfolio |   ✓ Loaded features for 9 tickers
+2026-03-15 21:31:39 | INFO | portfolio | 
+Step 2: Loading TFT predictions...
+2026-03-15 21:31:39 | INFO | portfolio |   ✓ Loaded 891 TFT predictions
+2026-03-15 21:31:39 | INFO | portfolio | 
+Step 3: Markowitz optimization...
+2026-03-15 21:31:39 | INFO | portfolio | 
+Step 4: Training RL agent...
+2026-03-15 21:31:40 | INFO | portfolio |   ✓ Env: 1106 trading days | 9 tickers
+2026-03-15 21:31:41 | INFO | portfolio |   Training PPO agent for 50000 timesteps...
+2026-03-15 21:31:41 | ERROR | portfolio |   ✗ PPO training failed: The environment is of type <class '__main__.GymWrapper'>, not a Gymnasium environment. In this case, we expect OpenAI Gym to be installed and the environment to be an OpenAI Gym environment.
+2026-03-15 21:31:41 | WARNING | portfolio |   ⚠ RL training failed: The environment is of type <class '__main__.GymWrapper'>, not a Gymnasium environment. In this case, we expect OpenAI Gym to be installed and the environment to be an OpenAI Gym environment. — using Markowitz only
+2026-03-15 21:31:41 | INFO | portfolio | 
+Step 5: Computing final allocation...
+2026-03-15 21:31:41 | INFO | portfolio | 
+  Macro regime: 1 (neutral)
+2026-03-15 21:31:41 | INFO | portfolio |   Running Markowitz optimization...
+2026-03-15 21:31:41 | INFO | portfolio |   ✓ Markowitz: expected_return=25.12% vol=12.11% sharpe=1.662
+2026-03-15 21:31:41 | INFO | portfolio |   ✓ Weights: {'AAPL': 0.02, 'MSFT': 0.1605, 'GOOGL': 0.02, 'AMZN': 0.02, 'JPM': 0.1607, 'JNJ': 0.4, 'XOM': 0.02, 'BRK-B': 0.1473, 'TSLA': 0.0515}
+2026-03-15 21:31:41 | INFO | portfolio | 
+============================================================
+2026-03-15 21:31:41 | INFO | portfolio | PORTFOLIO ALLOCATION
+2026-03-15 21:31:41 | INFO | portfolio | ============================================================
+2026-03-15 21:31:41 | INFO | portfolio |   Regime  : neutral
+2026-03-15 21:31:41 | INFO | portfolio |   Blend   : 50% Markowitz + 50% RL
+2026-03-15 21:31:41 | INFO | portfolio |   Sharpe  : 1.662 (Markowitz baseline)
+2026-03-15 21:31:41 | INFO | portfolio | 
+2026-03-15 21:31:41 | INFO | portfolio |   FINAL WEIGHTS:
+2026-03-15 21:31:41 | INFO | portfolio |     JNJ    ████████████████ 40.00%
+2026-03-15 21:31:41 | INFO | portfolio |     JPM    ██████ 16.07%
+2026-03-15 21:31:41 | INFO | portfolio |     MSFT   ██████ 16.05%
+2026-03-15 21:31:41 | INFO | portfolio |     BRK-B  █████ 14.73%
+2026-03-15 21:31:41 | INFO | portfolio |     TSLA   ██ 5.15%
+2026-03-15 21:31:41 | INFO | portfolio |     GOOGL   2.00%
+2026-03-15 21:31:41 | INFO | portfolio |     AMZN    2.00%
+2026-03-15 21:31:41 | INFO | portfolio |     AAPL    2.00%
+2026-03-15 21:31:41 | INFO | portfolio |     XOM     2.00%
+2026-03-15 21:31:41 | INFO | portfolio | 
+  ✓ Saved to reports/allocation.json

@@ -1,0 +1,902 @@
+[
+  {
+    "ticker": "MSFT",
+    "cik": "789019",
+    "form_type": "10-Q",
+    "filing_date": "2026-01-28",
+    "accession_number": "0001193125-26-027207",
+    "primary_document": "msft-20251231.htm",
+    "fetched_at": "2026-03-15T21:16:46.623100",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "MSFT",
+    "cik": "789019",
+    "form_type": "8-K",
+    "filing_date": "2026-01-28",
+    "accession_number": "0001193125-26-027198",
+    "primary_document": "msft-20260128.htm",
+    "fetched_at": "2026-03-15T21:16:46.623122",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "MSFT",
+    "cik": "789019",
+    "form_type": "8-K",
+    "filing_date": "2025-12-08",
+    "accession_number": "0001193125-25-311196",
+    "primary_document": "d34077d8k.htm",
+    "fetched_at": "2026-03-15T21:16:46.623133",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "MSFT",
+    "cik": "789019",
+    "form_type": "10-Q",
+    "filing_date": "2025-10-29",
+    "accession_number": "0001193125-25-256321",
+    "primary_document": "msft-20250930.htm",
+    "fetched_at": "2026-03-15T21:16:46.623144",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "MSFT",
+    "cik": "789019",
+    "form_type": "8-K",
+    "filing_date": "2025-10-29",
+    "accession_number": "0001193125-25-256310",
+    "primary_document": "msft-20251028.htm",
+    "fetched_at": "2026-03-15T21:16:46.623150",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "MSFT",
+    "cik": "789019",
+    "form_type": "8-K",
+    "filing_date": "2025-09-30",
+    "accession_number": "0001193125-25-225125",
+    "primary_document": "d863209d8k.htm",
+    "fetched_at": "2026-03-15T21:16:46.623156",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "MSFT",
+    "cik": "789019",
+    "form_type": "10-K",
+    "filing_date": "2025-07-30",
+    "accession_number": "0000950170-25-100235",
+    "primary_document": "msft-20250630.htm",
+    "fetched_at": "2026-03-15T21:16:46.623167",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "MSFT",
+    "cik": "789019",
+    "form_type": "8-K",
+    "filing_date": "2025-07-30",
+    "accession_number": "0000950170-25-100226",
+    "primary_document": "msft-20250730.htm",
+    "fetched_at": "2026-03-15T21:16:46.623173",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "MSFT",
+    "cik": "789019",
+    "form_type": "8-K",
+    "filing_date": "2025-07-01",
+    "accession_number": "0001193125-25-154103",
+    "primary_document": "d84624d8k.htm",
+    "fetched_at": "2026-03-15T21:16:46.623178",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "MSFT",
+    "cik": "789019",
+    "form_type": "10-Q",
+    "filing_date": "2025-04-30",
+    "accession_number": "0000950170-25-061046",
+    "primary_document": "msft-20250331.htm",
+    "fetched_at": "2026-03-15T21:16:46.623190",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "MSFT",
+    "cik": "789019",
+    "form_type": "8-K",
+    "filing_date": "2025-04-30",
+    "accession_number": "0000950170-25-061032",
+    "primary_document": "msft-20250430.htm",
+    "fetched_at": "2026-03-15T21:16:46.623196",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "MSFT",
+    "cik": "789019",
+    "form_type": "10-Q",
+    "filing_date": "2025-01-29",
+    "accession_number": "0000950170-25-010491",
+    "primary_document": "msft-20241231.htm",
+    "fetched_at": "2026-03-15T21:16:46.623205",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "MSFT",
+    "cik": "789019",
+    "form_type": "8-K",
+    "filing_date": "2025-01-29",
+    "accession_number": "0000950170-25-010484",
+    "primary_document": "msft-20250129.htm",
+    "fetched_at": "2026-03-15T21:16:46.623210",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "MSFT",
+    "cik": "789019",
+    "form_type": "8-K",
+    "filing_date": "2025-01-22",
+    "accession_number": "0001193125-25-010492",
+    "primary_document": "d929748d8k.htm",
+    "fetched_at": "2026-03-15T21:16:46.623215",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "MSFT",
+    "cik": "789019",
+    "form_type": "8-K",
+    "filing_date": "2024-12-11",
+    "accession_number": "0001193125-24-275524",
+    "primary_document": "d865252d8k.htm",
+    "fetched_at": "2026-03-15T21:16:46.623222",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "MSFT",
+    "cik": "789019",
+    "form_type": "8-K",
+    "filing_date": "2024-12-03",
+    "accession_number": "0000950170-24-132722",
+    "primary_document": "msft-20241203.htm",
+    "fetched_at": "2026-03-15T21:16:46.623229",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "MSFT",
+    "cik": "789019",
+    "form_type": "10-Q",
+    "filing_date": "2024-10-30",
+    "accession_number": "0000950170-24-118967",
+    "primary_document": "msft-20240930.htm",
+    "fetched_at": "2026-03-15T21:16:46.623237",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "MSFT",
+    "cik": "789019",
+    "form_type": "8-K",
+    "filing_date": "2024-10-30",
+    "accession_number": "0000950170-24-118955",
+    "primary_document": "msft-20241030.htm",
+    "fetched_at": "2026-03-15T21:16:46.623242",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "MSFT",
+    "cik": "789019",
+    "form_type": "8-K",
+    "filing_date": "2024-08-21",
+    "accession_number": "0001193125-24-204403",
+    "primary_document": "d846847d8k.htm",
+    "fetched_at": "2026-03-15T21:16:46.623257",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "MSFT",
+    "cik": "789019",
+    "form_type": "10-K",
+    "filing_date": "2024-07-30",
+    "accession_number": "0000950170-24-087843",
+    "primary_document": "msft-20240630.htm",
+    "fetched_at": "2026-03-15T21:16:46.623262",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "MSFT",
+    "cik": "789019",
+    "form_type": "8-K",
+    "filing_date": "2024-07-30",
+    "accession_number": "0000950170-24-087835",
+    "primary_document": "msft-20240730.htm",
+    "fetched_at": "2026-03-15T21:16:46.623267",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "MSFT",
+    "cik": "789019",
+    "form_type": "10-Q",
+    "filing_date": "2024-04-25",
+    "accession_number": "0000950170-24-048288",
+    "primary_document": "msft-20240331.htm",
+    "fetched_at": "2026-03-15T21:16:46.623280",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "MSFT",
+    "cik": "789019",
+    "form_type": "8-K",
+    "filing_date": "2024-04-25",
+    "accession_number": "0000950170-24-048268",
+    "primary_document": "msft-20240425.htm",
+    "fetched_at": "2026-03-15T21:16:46.623285",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "MSFT",
+    "cik": "789019",
+    "form_type": "10-Q",
+    "filing_date": "2024-01-30",
+    "accession_number": "0000950170-24-008814",
+    "primary_document": "msft-20231231.htm",
+    "fetched_at": "2026-03-15T21:16:46.623297",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "MSFT",
+    "cik": "789019",
+    "form_type": "8-K",
+    "filing_date": "2024-01-30",
+    "accession_number": "0000950170-24-008809",
+    "primary_document": "msft-20240130.htm",
+    "fetched_at": "2026-03-15T21:16:46.623302",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "MSFT",
+    "cik": "789019",
+    "form_type": "8-K",
+    "filing_date": "2024-01-19",
+    "accession_number": "0001193125-24-011295",
+    "primary_document": "d708866d8k.htm",
+    "fetched_at": "2026-03-15T21:16:46.623307",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "MSFT",
+    "cik": "789019",
+    "form_type": "8-K",
+    "filing_date": "2023-12-08",
+    "accession_number": "0001193125-23-291720",
+    "primary_document": "d636199d8k.htm",
+    "fetched_at": "2026-03-15T21:16:46.623315",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "MSFT",
+    "cik": "789019",
+    "form_type": "8-K",
+    "filing_date": "2023-11-06",
+    "accession_number": "0001193125-23-271376",
+    "primary_document": "d566386d8k.htm",
+    "fetched_at": "2026-03-15T21:16:46.623325",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "MSFT",
+    "cik": "789019",
+    "form_type": "8-K",
+    "filing_date": "2023-10-30",
+    "accession_number": "0001193125-23-265616",
+    "primary_document": "d572684d8k.htm",
+    "fetched_at": "2026-03-15T21:16:46.623330",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "MSFT",
+    "cik": "789019",
+    "form_type": "10-Q",
+    "filing_date": "2023-10-24",
+    "accession_number": "0000950170-23-054855",
+    "primary_document": "msft-20230930.htm",
+    "fetched_at": "2026-03-15T21:16:46.623335",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "MSFT",
+    "cik": "789019",
+    "form_type": "8-K",
+    "filing_date": "2023-10-24",
+    "accession_number": "0000950170-23-054848",
+    "primary_document": "msft-20231024.htm",
+    "fetched_at": "2026-03-15T21:16:46.623340",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "MSFT",
+    "cik": "789019",
+    "form_type": "8-K",
+    "filing_date": "2023-10-16",
+    "accession_number": "0001104659-23-109428",
+    "primary_document": "tm2328507d1_8k.htm",
+    "fetched_at": "2026-03-15T21:16:46.623346",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "MSFT",
+    "cik": "789019",
+    "form_type": "8-K",
+    "filing_date": "2023-10-13",
+    "accession_number": "0001193125-23-255762",
+    "primary_document": "d537928d8k.htm",
+    "fetched_at": "2026-03-15T21:16:46.623351",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "MSFT",
+    "cik": "789019",
+    "form_type": "8-K",
+    "filing_date": "2023-10-11",
+    "accession_number": "0001193125-23-254151",
+    "primary_document": "d530324d8k.htm",
+    "fetched_at": "2026-03-15T21:16:46.623357",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "MSFT",
+    "cik": "789019",
+    "form_type": "10-K",
+    "filing_date": "2023-07-27",
+    "accession_number": "0000950170-23-035122",
+    "primary_document": "msft-20230630.htm",
+    "fetched_at": "2026-03-15T21:16:46.623367",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "MSFT",
+    "cik": "789019",
+    "form_type": "8-K",
+    "filing_date": "2023-07-25",
+    "accession_number": "0000950170-23-034400",
+    "primary_document": "msft-20230725.htm",
+    "fetched_at": "2026-03-15T21:16:46.623372",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "MSFT",
+    "cik": "789019",
+    "form_type": "8-K",
+    "filing_date": "2023-07-03",
+    "accession_number": "0001193125-23-181341",
+    "primary_document": "d288670d8k.htm",
+    "fetched_at": "2026-03-15T21:16:46.623377",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "MSFT",
+    "cik": "789019",
+    "form_type": "10-Q",
+    "filing_date": "2023-04-25",
+    "accession_number": "0000950170-23-014423",
+    "primary_document": "msft-20230331.htm",
+    "fetched_at": "2026-03-15T21:16:46.623388",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "MSFT",
+    "cik": "789019",
+    "form_type": "8-K",
+    "filing_date": "2023-04-25",
+    "accession_number": "0001193125-23-115280",
+    "primary_document": "d321368d8k.htm",
+    "fetched_at": "2026-03-15T21:16:46.623393",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "MSFT",
+    "cik": "789019",
+    "form_type": "10-Q",
+    "filing_date": "2023-01-24",
+    "accession_number": "0001564590-23-000733",
+    "primary_document": "msft-10q_20221231.htm",
+    "fetched_at": "2026-03-15T21:16:46.623403",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "MSFT",
+    "cik": "789019",
+    "form_type": "8-K",
+    "filing_date": "2023-01-24",
+    "accession_number": "0001193125-23-014230",
+    "primary_document": "d406070d8k.htm",
+    "fetched_at": "2026-03-15T21:16:46.623408",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "MSFT",
+    "cik": "789019",
+    "form_type": "8-K",
+    "filing_date": "2023-01-18",
+    "accession_number": "0001193125-23-009934",
+    "primary_document": "d447690d8k.htm",
+    "fetched_at": "2026-03-15T21:16:46.623415",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "MSFT",
+    "cik": "789019",
+    "form_type": "8-K",
+    "filing_date": "2022-12-16",
+    "accession_number": "0001193125-22-306591",
+    "primary_document": "d434535d8k.htm",
+    "fetched_at": "2026-03-15T21:16:46.623422",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "MSFT",
+    "cik": "789019",
+    "form_type": "10-Q",
+    "filing_date": "2022-10-25",
+    "accession_number": "0001564590-22-035087",
+    "primary_document": "msft-10q_20220930.htm",
+    "fetched_at": "2026-03-15T21:16:46.623432",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "MSFT",
+    "cik": "789019",
+    "form_type": "8-K",
+    "filing_date": "2022-10-25",
+    "accession_number": "0001193125-22-268356",
+    "primary_document": "d361432d8k.htm",
+    "fetched_at": "2026-03-15T21:16:46.623437",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "MSFT",
+    "cik": "789019",
+    "form_type": "10-K",
+    "filing_date": "2022-07-28",
+    "accession_number": "0001564590-22-026876",
+    "primary_document": "msft-10k_20220630.htm",
+    "fetched_at": "2026-03-15T21:16:46.623449",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "MSFT",
+    "cik": "789019",
+    "form_type": "8-K",
+    "filing_date": "2022-07-26",
+    "accession_number": "0001193125-22-202034",
+    "primary_document": "d372382d8k.htm",
+    "fetched_at": "2026-03-15T21:16:46.623455",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "MSFT",
+    "cik": "789019",
+    "form_type": "8-K",
+    "filing_date": "2022-06-02",
+    "accession_number": "0001193125-22-165839",
+    "primary_document": "d295016d8k.htm",
+    "fetched_at": "2026-03-15T21:16:46.623462",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "MSFT",
+    "cik": "789019",
+    "form_type": "10-Q",
+    "filing_date": "2022-04-26",
+    "accession_number": "0001564590-22-015675",
+    "primary_document": "msft-10q_20220331.htm",
+    "fetched_at": "2026-03-15T21:16:46.623469",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "MSFT",
+    "cik": "789019",
+    "form_type": "8-K",
+    "filing_date": "2022-04-26",
+    "accession_number": "0001193125-22-120207",
+    "primary_document": "d328712d8k.htm",
+    "fetched_at": "2026-03-15T21:16:46.623474",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "MSFT",
+    "cik": "789019",
+    "form_type": "10-Q",
+    "filing_date": "2022-01-25",
+    "accession_number": "0001564590-22-002324",
+    "primary_document": "msft-10q_20211231.htm",
+    "fetched_at": "2026-03-15T21:16:46.623486",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "MSFT",
+    "cik": "789019",
+    "form_type": "8-K",
+    "filing_date": "2022-01-25",
+    "accession_number": "0001193125-22-017041",
+    "primary_document": "d299919d8k.htm",
+    "fetched_at": "2026-03-15T21:16:46.623491",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "MSFT",
+    "cik": "789019",
+    "form_type": "8-K",
+    "filing_date": "2022-01-18",
+    "accession_number": "0001193125-22-010667",
+    "primary_document": "d301984d8k.htm",
+    "fetched_at": "2026-03-15T21:16:46.623496",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "MSFT",
+    "cik": "789019",
+    "form_type": "8-K",
+    "filing_date": "2021-11-30",
+    "accession_number": "0001193125-21-343711",
+    "primary_document": "d205343d8k.htm",
+    "fetched_at": "2026-03-15T21:16:46.623506",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "MSFT",
+    "cik": "789019",
+    "form_type": "10-Q",
+    "filing_date": "2021-10-26",
+    "accession_number": "0001564590-21-051992",
+    "primary_document": "msft-10q_20210930.htm",
+    "fetched_at": "2026-03-15T21:16:46.623514",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "MSFT",
+    "cik": "789019",
+    "form_type": "8-K",
+    "filing_date": "2021-10-26",
+    "accession_number": "0001193125-21-307941",
+    "primary_document": "d239488d8k.htm",
+    "fetched_at": "2026-03-15T21:16:46.623519",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "MSFT",
+    "cik": "789019",
+    "form_type": "10-K",
+    "filing_date": "2021-07-29",
+    "accession_number": "0001564590-21-039151",
+    "primary_document": "msft-10k_20210630.htm",
+    "fetched_at": "2026-03-15T21:16:46.623531",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "MSFT",
+    "cik": "789019",
+    "form_type": "8-K",
+    "filing_date": "2021-07-27",
+    "accession_number": "0001193125-21-225746",
+    "primary_document": "d200100d8k.htm",
+    "fetched_at": "2026-03-15T21:16:46.623537",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "MSFT",
+    "cik": "789019",
+    "form_type": "8-K",
+    "filing_date": "2021-07-08",
+    "accession_number": "0001193125-21-210827",
+    "primary_document": "d158429d8k.htm",
+    "fetched_at": "2026-03-15T21:16:46.623543",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "MSFT",
+    "cik": "789019",
+    "form_type": "8-K",
+    "filing_date": "2021-06-17",
+    "accession_number": "0001193125-21-192783",
+    "primary_document": "d176999d8k.htm",
+    "fetched_at": "2026-03-15T21:16:46.623549",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "MSFT",
+    "cik": "789019",
+    "form_type": "8-K",
+    "filing_date": "2021-05-20",
+    "accession_number": "0001193125-21-167940",
+    "primary_document": "d171596d8k.htm",
+    "fetched_at": "2026-03-15T21:16:46.623559",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "MSFT",
+    "cik": "789019",
+    "form_type": "10-Q",
+    "filing_date": "2021-04-27",
+    "accession_number": "0001564590-21-020891",
+    "primary_document": "msft-10q_20210331.htm",
+    "fetched_at": "2026-03-15T21:16:46.623565",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "MSFT",
+    "cik": "789019",
+    "form_type": "8-K",
+    "filing_date": "2021-04-27",
+    "accession_number": "0001193125-21-134213",
+    "primary_document": "d179564d8k.htm",
+    "fetched_at": "2026-03-15T21:16:46.623571",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "MSFT",
+    "cik": "789019",
+    "form_type": "8-K",
+    "filing_date": "2021-04-12",
+    "accession_number": "0001193125-21-112687",
+    "primary_document": "d171120d8k.htm",
+    "fetched_at": "2026-03-15T21:16:46.623578",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "MSFT",
+    "cik": "789019",
+    "form_type": "8-K",
+    "filing_date": "2021-03-17",
+    "accession_number": "0001193125-21-084239",
+    "primary_document": "d130687d8k.htm",
+    "fetched_at": "2026-03-15T21:16:46.623583",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "MSFT",
+    "cik": "789019",
+    "form_type": "8-K",
+    "filing_date": "2021-03-02",
+    "accession_number": "0001193125-21-065751",
+    "primary_document": "d336741d8k.htm",
+    "fetched_at": "2026-03-15T21:16:46.623594",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "MSFT",
+    "cik": "789019",
+    "form_type": "8-K",
+    "filing_date": "2021-02-16",
+    "accession_number": "0001193125-21-044940",
+    "primary_document": "d11855d8k.htm",
+    "fetched_at": "2026-03-15T21:16:46.623599",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "MSFT",
+    "cik": "789019",
+    "form_type": "10-Q",
+    "filing_date": "2021-01-26",
+    "accession_number": "0001564590-21-002316",
+    "primary_document": "msft-10q_20201231.htm",
+    "fetched_at": "2026-03-15T21:16:46.623608",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "MSFT",
+    "cik": "789019",
+    "form_type": "8-K",
+    "filing_date": "2021-01-26",
+    "accession_number": "0001193125-21-017683",
+    "primary_document": "d65802d8k.htm",
+    "fetched_at": "2026-03-15T21:16:46.623614",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "MSFT",
+    "cik": "789019",
+    "form_type": "8-K",
+    "filing_date": "2020-12-04",
+    "accession_number": "0001193125-20-310549",
+    "primary_document": "d48255d8k.htm",
+    "fetched_at": "2026-03-15T21:16:46.623621",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "MSFT",
+    "cik": "789019",
+    "form_type": "10-Q",
+    "filing_date": "2020-10-27",
+    "accession_number": "0001564590-20-047996",
+    "primary_document": "msft-10q_20200930.htm",
+    "fetched_at": "2026-03-15T21:16:46.623630",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "MSFT",
+    "cik": "789019",
+    "form_type": "8-K",
+    "filing_date": "2020-10-27",
+    "accession_number": "0001193125-20-278410",
+    "primary_document": "d10535d8k.htm",
+    "fetched_at": "2026-03-15T21:16:46.623635",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "MSFT",
+    "cik": "789019",
+    "form_type": "8-K",
+    "filing_date": "2020-09-21",
+    "accession_number": "0001193125-20-250163",
+    "primary_document": "d62084d8k.htm",
+    "fetched_at": "2026-03-15T21:16:46.623640",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "MSFT",
+    "cik": "789019",
+    "form_type": "8-K",
+    "filing_date": "2020-08-03",
+    "accession_number": "0001193125-20-207517",
+    "primary_document": "d49621d8k.htm",
+    "fetched_at": "2026-03-15T21:16:46.623653",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "MSFT",
+    "cik": "789019",
+    "form_type": "10-K",
+    "filing_date": "2020-07-30",
+    "accession_number": "0001564590-20-034944",
+    "primary_document": "msft-10k_20200630.htm",
+    "fetched_at": "2026-03-15T21:16:46.623658",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "MSFT",
+    "cik": "789019",
+    "form_type": "8-K",
+    "filing_date": "2020-07-22",
+    "accession_number": "0001193125-20-197109",
+    "primary_document": "d941281d8k.htm",
+    "fetched_at": "2026-03-15T21:16:46.623663",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "MSFT",
+    "cik": "789019",
+    "form_type": "8-K",
+    "filing_date": "2020-07-07",
+    "accession_number": "0001193125-20-188481",
+    "primary_document": "d88910d8k.htm",
+    "fetched_at": "2026-03-15T21:16:46.623668",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "MSFT",
+    "cik": "789019",
+    "form_type": "8-K",
+    "filing_date": "2020-07-01",
+    "accession_number": "0001193125-20-184744",
+    "primary_document": "d949734d8k.htm",
+    "fetched_at": "2026-03-15T21:16:46.623674",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "MSFT",
+    "cik": "789019",
+    "form_type": "8-K",
+    "filing_date": "2020-06-26",
+    "accession_number": "0001193125-20-180036",
+    "primary_document": "d854075d8k.htm",
+    "fetched_at": "2026-03-15T21:16:46.623679",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "MSFT",
+    "cik": "789019",
+    "form_type": "8-K",
+    "filing_date": "2020-06-01",
+    "accession_number": "0001193125-20-157234",
+    "primary_document": "d829164d8k.htm",
+    "fetched_at": "2026-03-15T21:16:46.623689",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "MSFT",
+    "cik": "789019",
+    "form_type": "8-K",
+    "filing_date": "2020-05-14",
+    "accession_number": "0001193125-20-142890",
+    "primary_document": "d911580d8k.htm",
+    "fetched_at": "2026-03-15T21:16:46.623695",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "MSFT",
+    "cik": "789019",
+    "form_type": "8-K",
+    "filing_date": "2020-04-30",
+    "accession_number": "0001193125-20-128779",
+    "primary_document": "d924162d8k.htm",
+    "fetched_at": "2026-03-15T21:16:46.623700",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "MSFT",
+    "cik": "789019",
+    "form_type": "10-Q",
+    "filing_date": "2020-04-29",
+    "accession_number": "0001564590-20-019706",
+    "primary_document": "msft-10q_20200331.htm",
+    "fetched_at": "2026-03-15T21:16:46.623705",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "MSFT",
+    "cik": "789019",
+    "form_type": "8-K",
+    "filing_date": "2020-04-29",
+    "accession_number": "0001193125-20-126089",
+    "primary_document": "d844377d8k.htm",
+    "fetched_at": "2026-03-15T21:16:46.623711",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "MSFT",
+    "cik": "789019",
+    "form_type": "8-K",
+    "filing_date": "2020-03-31",
+    "accession_number": "0001193125-20-091746",
+    "primary_document": "d909204d8k.htm",
+    "fetched_at": "2026-03-15T21:16:46.623716",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "MSFT",
+    "cik": "789019",
+    "form_type": "8-K",
+    "filing_date": "2020-03-13",
+    "accession_number": "0001193125-20-073072",
+    "primary_document": "d884867d8k.htm",
+    "fetched_at": "2026-03-15T21:16:46.623722",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "MSFT",
+    "cik": "789019",
+    "form_type": "8-K",
+    "filing_date": "2020-02-26",
+    "accession_number": "0001193125-20-050232",
+    "primary_document": "d896577d8k.htm",
+    "fetched_at": "2026-03-15T21:16:46.623730",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "MSFT",
+    "cik": "789019",
+    "form_type": "10-Q",
+    "filing_date": "2020-01-29",
+    "accession_number": "0001564590-20-002450",
+    "primary_document": "msft-10q_20191231.htm",
+    "fetched_at": "2026-03-15T21:16:46.623739",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "MSFT",
+    "cik": "789019",
+    "form_type": "8-K",
+    "filing_date": "2020-01-29",
+    "accession_number": "0001193125-20-018383",
+    "primary_document": "d875975d8k.htm",
+    "fetched_at": "2026-03-15T21:16:46.623743",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "MSFT",
+    "cik": "789019",
+    "form_type": "8-K",
+    "filing_date": "2019-12-05",
+    "accession_number": "0001193125-19-307138",
+    "primary_document": "d840134d8k.htm",
+    "fetched_at": "2026-03-15T21:16:46.623749",
+    "source_name": "sec_edgar"
+  }
+]

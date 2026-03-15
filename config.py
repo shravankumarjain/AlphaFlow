@@ -28,8 +28,9 @@ TICKERS = [
     "XOM",  # ExxonMobil   — Energy
     "BRK-B",  # Berkshire    — Diversified
     "TSLA",  # Tesla        — EV / Tech
-    "SPY",  # S&P500 ETF   — Benchmark
-]
+    ]
+
+BENCHMARK_TICKER = "SPY"
 
 # ── DATA SETTINGS ────────────────────────────────────────────────────
 HISTORICAL_START = "2020-01-01"  # 5 years of training data

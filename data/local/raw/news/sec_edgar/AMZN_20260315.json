@@ -1,0 +1,862 @@
+[
+  {
+    "ticker": "AMZN",
+    "cik": "1018724",
+    "form_type": "8-K",
+    "filing_date": "2026-03-13",
+    "accession_number": "0001104659-26-027729",
+    "primary_document": "tm266670d8_8k.htm",
+    "fetched_at": "2026-03-15T21:16:49.570614",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMZN",
+    "cik": "1018724",
+    "form_type": "8-K",
+    "filing_date": "2026-02-27",
+    "accession_number": "0001104659-26-021050",
+    "primary_document": "tm267374d1_8k.htm",
+    "fetched_at": "2026-03-15T21:16:49.570637",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMZN",
+    "cik": "1018724",
+    "form_type": "10-K",
+    "filing_date": "2026-02-06",
+    "accession_number": "0001018724-26-000004",
+    "primary_document": "amzn-20251231.htm",
+    "fetched_at": "2026-03-15T21:16:49.570647",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMZN",
+    "cik": "1018724",
+    "form_type": "8-K",
+    "filing_date": "2026-02-05",
+    "accession_number": "0001018724-26-000002",
+    "primary_document": "amzn-20260205.htm",
+    "fetched_at": "2026-03-15T21:16:49.570653",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMZN",
+    "cik": "1018724",
+    "form_type": "8-K",
+    "filing_date": "2025-11-20",
+    "accession_number": "0001104659-25-114647",
+    "primary_document": "tm2530638d3_8k.htm",
+    "fetched_at": "2026-03-15T21:16:49.570660",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMZN",
+    "cik": "1018724",
+    "form_type": "10-Q",
+    "filing_date": "2025-10-31",
+    "accession_number": "0001018724-25-000123",
+    "primary_document": "amzn-20250930.htm",
+    "fetched_at": "2026-03-15T21:16:49.570670",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMZN",
+    "cik": "1018724",
+    "form_type": "8-K",
+    "filing_date": "2025-10-30",
+    "accession_number": "0001018724-25-000121",
+    "primary_document": "amzn-20251030.htm",
+    "fetched_at": "2026-03-15T21:16:49.570675",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMZN",
+    "cik": "1018724",
+    "form_type": "10-Q",
+    "filing_date": "2025-08-01",
+    "accession_number": "0001018724-25-000086",
+    "primary_document": "amzn-20250630.htm",
+    "fetched_at": "2026-03-15T21:16:49.570685",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMZN",
+    "cik": "1018724",
+    "form_type": "8-K",
+    "filing_date": "2025-07-31",
+    "accession_number": "0001018724-25-000084",
+    "primary_document": "amzn-20250731.htm",
+    "fetched_at": "2026-03-15T21:16:49.570690",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMZN",
+    "cik": "1018724",
+    "form_type": "8-K",
+    "filing_date": "2025-05-22",
+    "accession_number": "0001104659-25-052014",
+    "primary_document": "tm2515134d1_8k.htm",
+    "fetched_at": "2026-03-15T21:16:49.570698",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMZN",
+    "cik": "1018724",
+    "form_type": "10-Q",
+    "filing_date": "2025-05-02",
+    "accession_number": "0001018724-25-000036",
+    "primary_document": "amzn-20250331.htm",
+    "fetched_at": "2026-03-15T21:16:49.570707",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMZN",
+    "cik": "1018724",
+    "form_type": "8-K",
+    "filing_date": "2025-05-01",
+    "accession_number": "0001018724-25-000034",
+    "primary_document": "amzn-20250501.htm",
+    "fetched_at": "2026-03-15T21:16:49.570712",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMZN",
+    "cik": "1018724",
+    "form_type": "8-K",
+    "filing_date": "2025-04-10",
+    "accession_number": "0001104659-25-033450",
+    "primary_document": "tm254123d2_8k.htm",
+    "fetched_at": "2026-03-15T21:16:49.570718",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMZN",
+    "cik": "1018724",
+    "form_type": "10-K",
+    "filing_date": "2025-02-07",
+    "accession_number": "0001018724-25-000004",
+    "primary_document": "amzn-20241231.htm",
+    "fetched_at": "2026-03-15T21:16:49.570727",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMZN",
+    "cik": "1018724",
+    "form_type": "8-K",
+    "filing_date": "2025-02-06",
+    "accession_number": "0001018724-25-000002",
+    "primary_document": "amzn-20250206.htm",
+    "fetched_at": "2026-03-15T21:16:49.570733",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMZN",
+    "cik": "1018724",
+    "form_type": "10-Q",
+    "filing_date": "2024-11-01",
+    "accession_number": "0001018724-24-000161",
+    "primary_document": "amzn-20240930.htm",
+    "fetched_at": "2026-03-15T21:16:49.570744",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMZN",
+    "cik": "1018724",
+    "form_type": "8-K",
+    "filing_date": "2024-10-31",
+    "accession_number": "0001018724-24-000158",
+    "primary_document": "amzn-20241031.htm",
+    "fetched_at": "2026-03-15T21:16:49.570750",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMZN",
+    "cik": "1018724",
+    "form_type": "10-Q",
+    "filing_date": "2024-08-02",
+    "accession_number": "0001018724-24-000130",
+    "primary_document": "amzn-20240630.htm",
+    "fetched_at": "2026-03-15T21:16:49.570758",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMZN",
+    "cik": "1018724",
+    "form_type": "8-K",
+    "filing_date": "2024-08-01",
+    "accession_number": "0001018724-24-000128",
+    "primary_document": "amzn-20240801.htm",
+    "fetched_at": "2026-03-15T21:16:49.570763",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMZN",
+    "cik": "1018724",
+    "form_type": "8-K",
+    "filing_date": "2024-05-24",
+    "accession_number": "0001104659-24-065117",
+    "primary_document": "tm2414140d1_8k.htm",
+    "fetched_at": "2026-03-15T21:16:49.570772",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMZN",
+    "cik": "1018724",
+    "form_type": "8-K",
+    "filing_date": "2024-05-14",
+    "accession_number": "0001104659-24-061143",
+    "primary_document": "tm2414460d1_8k.htm",
+    "fetched_at": "2026-03-15T21:16:49.570781",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMZN",
+    "cik": "1018724",
+    "form_type": "8-K",
+    "filing_date": "2024-05-03",
+    "accession_number": "0001104659-24-057026",
+    "primary_document": "tm2413032d1_8k.htm",
+    "fetched_at": "2026-03-15T21:16:49.570788",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMZN",
+    "cik": "1018724",
+    "form_type": "10-Q",
+    "filing_date": "2024-05-01",
+    "accession_number": "0001018724-24-000083",
+    "primary_document": "amzn-20240331.htm",
+    "fetched_at": "2026-03-15T21:16:49.570795",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMZN",
+    "cik": "1018724",
+    "form_type": "8-K",
+    "filing_date": "2024-04-30",
+    "accession_number": "0001018724-24-000081",
+    "primary_document": "amzn-20240430.htm",
+    "fetched_at": "2026-03-15T21:16:49.570800",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMZN",
+    "cik": "1018724",
+    "form_type": "8-K",
+    "filing_date": "2024-04-11",
+    "accession_number": "0001104659-24-045915",
+    "primary_document": "tm246113d2_8k.htm",
+    "fetched_at": "2026-03-15T21:16:49.570808",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMZN",
+    "cik": "1018724",
+    "form_type": "10-K",
+    "filing_date": "2024-02-02",
+    "accession_number": "0001018724-24-000008",
+    "primary_document": "amzn-20231231.htm",
+    "fetched_at": "2026-03-15T21:16:49.570824",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMZN",
+    "cik": "1018724",
+    "form_type": "8-K",
+    "filing_date": "2024-02-01",
+    "accession_number": "0001018724-24-000006",
+    "primary_document": "amzn-20240201.htm",
+    "fetched_at": "2026-03-15T21:16:49.570829",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMZN",
+    "cik": "1018724",
+    "form_type": "8-K",
+    "filing_date": "2023-11-01",
+    "accession_number": "0001104659-23-113444",
+    "primary_document": "tm2329405d1_8k.htm",
+    "fetched_at": "2026-03-15T21:16:49.570842",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMZN",
+    "cik": "1018724",
+    "form_type": "10-Q",
+    "filing_date": "2023-10-27",
+    "accession_number": "0001018724-23-000018",
+    "primary_document": "amzn-20230930.htm",
+    "fetched_at": "2026-03-15T21:16:49.570848",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMZN",
+    "cik": "1018724",
+    "form_type": "8-K",
+    "filing_date": "2023-10-26",
+    "accession_number": "0001018724-23-000016",
+    "primary_document": "amzn-20231026.htm",
+    "fetched_at": "2026-03-15T21:16:49.570853",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMZN",
+    "cik": "1018724",
+    "form_type": "8-K",
+    "filing_date": "2023-09-13",
+    "accession_number": "0001018724-23-000014",
+    "primary_document": "amzn-20230913.htm",
+    "fetched_at": "2026-03-15T21:16:49.570862",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMZN",
+    "cik": "1018724",
+    "form_type": "10-Q",
+    "filing_date": "2023-08-04",
+    "accession_number": "0001018724-23-000012",
+    "primary_document": "amzn-20230630.htm",
+    "fetched_at": "2026-03-15T21:16:49.570871",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMZN",
+    "cik": "1018724",
+    "form_type": "8-K",
+    "filing_date": "2023-08-03",
+    "accession_number": "0001018724-23-000010",
+    "primary_document": "amzn-20230803.htm",
+    "fetched_at": "2026-03-15T21:16:49.570877",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMZN",
+    "cik": "1018724",
+    "form_type": "8-K",
+    "filing_date": "2023-05-26",
+    "accession_number": "0001104659-23-065457",
+    "primary_document": "tm2315877d1_8k.htm",
+    "fetched_at": "2026-03-15T21:16:49.570886",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMZN",
+    "cik": "1018724",
+    "form_type": "10-Q",
+    "filing_date": "2023-04-28",
+    "accession_number": "0001018724-23-000008",
+    "primary_document": "amzn-20230331.htm",
+    "fetched_at": "2026-03-15T21:16:49.570897",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMZN",
+    "cik": "1018724",
+    "form_type": "8-K",
+    "filing_date": "2023-04-27",
+    "accession_number": "0001018724-23-000006",
+    "primary_document": "amzn-20230427.htm",
+    "fetched_at": "2026-03-15T21:16:49.570903",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMZN",
+    "cik": "1018724",
+    "form_type": "8-K",
+    "filing_date": "2023-04-13",
+    "accession_number": "0001104659-23-044715",
+    "primary_document": "tm233697d2_8k.htm",
+    "fetched_at": "2026-03-15T21:16:49.570910",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMZN",
+    "cik": "1018724",
+    "form_type": "10-K",
+    "filing_date": "2023-02-03",
+    "accession_number": "0001018724-23-000004",
+    "primary_document": "amzn-20221231.htm",
+    "fetched_at": "2026-03-15T21:16:49.570921",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMZN",
+    "cik": "1018724",
+    "form_type": "8-K",
+    "filing_date": "2023-02-02",
+    "accession_number": "0001018724-23-000002",
+    "primary_document": "amzn-20230202.htm",
+    "fetched_at": "2026-03-15T21:16:49.570925",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMZN",
+    "cik": "1018724",
+    "form_type": "8-K",
+    "filing_date": "2023-01-06",
+    "accession_number": "0001193125-23-003621",
+    "primary_document": "d441973d8k.htm",
+    "fetched_at": "2026-03-15T21:16:49.570932",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMZN",
+    "cik": "1018724",
+    "form_type": "8-K",
+    "filing_date": "2023-01-03",
+    "accession_number": "0001193125-23-000849",
+    "primary_document": "d429499d8k.htm",
+    "fetched_at": "2026-03-15T21:16:49.570937",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMZN",
+    "cik": "1018724",
+    "form_type": "8-K",
+    "filing_date": "2022-12-01",
+    "accession_number": "0001193125-22-296602",
+    "primary_document": "d376136d8k.htm",
+    "fetched_at": "2026-03-15T21:16:49.570942",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMZN",
+    "cik": "1018724",
+    "form_type": "8-K",
+    "filing_date": "2022-11-18",
+    "accession_number": "0001193125-22-289041",
+    "primary_document": "d413765d8k.htm",
+    "fetched_at": "2026-03-15T21:16:49.570951",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMZN",
+    "cik": "1018724",
+    "form_type": "10-Q",
+    "filing_date": "2022-10-28",
+    "accession_number": "0001018724-22-000023",
+    "primary_document": "amzn-20220930.htm",
+    "fetched_at": "2026-03-15T21:16:49.570958",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMZN",
+    "cik": "1018724",
+    "form_type": "8-K",
+    "filing_date": "2022-10-27",
+    "accession_number": "0001018724-22-000021",
+    "primary_document": "amzn-20221027.htm",
+    "fetched_at": "2026-03-15T21:16:49.570965",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMZN",
+    "cik": "1018724",
+    "form_type": "10-Q",
+    "filing_date": "2022-07-29",
+    "accession_number": "0001018724-22-000019",
+    "primary_document": "amzn-20220630.htm",
+    "fetched_at": "2026-03-15T21:16:49.570974",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMZN",
+    "cik": "1018724",
+    "form_type": "8-K",
+    "filing_date": "2022-07-28",
+    "accession_number": "0001018724-22-000017",
+    "primary_document": "amzn-20220728.htm",
+    "fetched_at": "2026-03-15T21:16:49.570979",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMZN",
+    "cik": "1018724",
+    "form_type": "8-K",
+    "filing_date": "2022-06-03",
+    "accession_number": "0001018724-22-000015",
+    "primary_document": "amzn-20220601.htm",
+    "fetched_at": "2026-03-15T21:16:49.570984",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMZN",
+    "cik": "1018724",
+    "form_type": "8-K",
+    "filing_date": "2022-05-27",
+    "accession_number": "0001104659-22-065872",
+    "primary_document": "tm2215904d1_8k.htm",
+    "fetched_at": "2026-03-15T21:16:49.570989",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMZN",
+    "cik": "1018724",
+    "form_type": "10-Q",
+    "filing_date": "2022-04-29",
+    "accession_number": "0001018724-22-000013",
+    "primary_document": "amzn-20220331.htm",
+    "fetched_at": "2026-03-15T21:16:49.570998",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMZN",
+    "cik": "1018724",
+    "form_type": "8-K",
+    "filing_date": "2022-04-28",
+    "accession_number": "0001018724-22-000011",
+    "primary_document": "amzn-20220428.htm",
+    "fetched_at": "2026-03-15T21:16:49.571003",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMZN",
+    "cik": "1018724",
+    "form_type": "8-K",
+    "filing_date": "2022-04-14",
+    "accession_number": "0001104659-22-045579",
+    "primary_document": "tm226241d2_8k.htm",
+    "fetched_at": "2026-03-15T21:16:49.571010",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMZN",
+    "cik": "1018724",
+    "form_type": "8-K",
+    "filing_date": "2022-04-13",
+    "accession_number": "0001193125-22-104336",
+    "primary_document": "d325485d8k.htm",
+    "fetched_at": "2026-03-15T21:16:49.571015",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMZN",
+    "cik": "1018724",
+    "form_type": "8-K",
+    "filing_date": "2022-03-09",
+    "accession_number": "0001018724-22-000009",
+    "primary_document": "amzn-20220309.htm",
+    "fetched_at": "2026-03-15T21:16:49.571024",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMZN",
+    "cik": "1018724",
+    "form_type": "10-K",
+    "filing_date": "2022-02-04",
+    "accession_number": "0001018724-22-000005",
+    "primary_document": "amzn-20211231.htm",
+    "fetched_at": "2026-03-15T21:16:49.571035",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMZN",
+    "cik": "1018724",
+    "form_type": "8-K",
+    "filing_date": "2022-02-03",
+    "accession_number": "0001018724-22-000002",
+    "primary_document": "amzn-20220203.htm",
+    "fetched_at": "2026-03-15T21:16:49.571040",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMZN",
+    "cik": "1018724",
+    "form_type": "8-K",
+    "filing_date": "2021-11-12",
+    "accession_number": "0001018724-21-000030",
+    "primary_document": "amzn-20211110.htm",
+    "fetched_at": "2026-03-15T21:16:49.571054",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMZN",
+    "cik": "1018724",
+    "form_type": "10-Q",
+    "filing_date": "2021-10-29",
+    "accession_number": "0001018724-21-000028",
+    "primary_document": "amzn-20210930.htm",
+    "fetched_at": "2026-03-15T21:16:49.571063",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMZN",
+    "cik": "1018724",
+    "form_type": "8-K",
+    "filing_date": "2021-10-28",
+    "accession_number": "0001018724-21-000026",
+    "primary_document": "amzn-20211028.htm",
+    "fetched_at": "2026-03-15T21:16:49.571068",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMZN",
+    "cik": "1018724",
+    "form_type": "8-K",
+    "filing_date": "2021-09-20",
+    "accession_number": "0001018724-21-000022",
+    "primary_document": "amzn-20210920.htm",
+    "fetched_at": "2026-03-15T21:16:49.571075",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMZN",
+    "cik": "1018724",
+    "form_type": "10-Q",
+    "filing_date": "2021-07-30",
+    "accession_number": "0001018724-21-000020",
+    "primary_document": "amzn-20210630.htm",
+    "fetched_at": "2026-03-15T21:16:49.571084",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMZN",
+    "cik": "1018724",
+    "form_type": "8-K",
+    "filing_date": "2021-07-29",
+    "accession_number": "0001018724-21-000018",
+    "primary_document": "amzn-20210729.htm",
+    "fetched_at": "2026-03-15T21:16:49.571090",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMZN",
+    "cik": "1018724",
+    "form_type": "8-K",
+    "filing_date": "2021-07-02",
+    "accession_number": "0001018724-21-000016",
+    "primary_document": "amzn-20210628.htm",
+    "fetched_at": "2026-03-15T21:16:49.571096",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMZN",
+    "cik": "1018724",
+    "form_type": "8-K",
+    "filing_date": "2021-05-28",
+    "accession_number": "0001018724-21-000012",
+    "primary_document": "amzn-20210526.htm",
+    "fetched_at": "2026-03-15T21:16:49.571102",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMZN",
+    "cik": "1018724",
+    "form_type": "8-K",
+    "filing_date": "2021-05-12",
+    "accession_number": "0001193125-21-159084",
+    "primary_document": "d508532d8k.htm",
+    "fetched_at": "2026-03-15T21:16:49.571110",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMZN",
+    "cik": "1018724",
+    "form_type": "10-Q",
+    "filing_date": "2021-04-30",
+    "accession_number": "0001018724-21-000010",
+    "primary_document": "amzn-20210331.htm",
+    "fetched_at": "2026-03-15T21:16:49.571124",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMZN",
+    "cik": "1018724",
+    "form_type": "8-K",
+    "filing_date": "2021-04-29",
+    "accession_number": "0001018724-21-000008",
+    "primary_document": "amzn-20210429.htm",
+    "fetched_at": "2026-03-15T21:16:49.571129",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMZN",
+    "cik": "1018724",
+    "form_type": "8-K",
+    "filing_date": "2021-04-15",
+    "accession_number": "0001104659-21-050346",
+    "primary_document": "tm216818d3_8k.htm",
+    "fetched_at": "2026-03-15T21:16:49.571135",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMZN",
+    "cik": "1018724",
+    "form_type": "10-K",
+    "filing_date": "2021-02-03",
+    "accession_number": "0001018724-21-000004",
+    "primary_document": "amzn-20201231.htm",
+    "fetched_at": "2026-03-15T21:16:49.571146",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMZN",
+    "cik": "1018724",
+    "form_type": "8-K",
+    "filing_date": "2021-02-02",
+    "accession_number": "0001018724-21-000002",
+    "primary_document": "amzn-20210202.htm",
+    "fetched_at": "2026-03-15T21:16:49.571166",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMZN",
+    "cik": "1018724",
+    "form_type": "8-K",
+    "filing_date": "2021-01-27",
+    "accession_number": "0001193125-21-018066",
+    "primary_document": "d30366d8k.htm",
+    "fetched_at": "2026-03-15T21:16:49.571171",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMZN",
+    "cik": "1018724",
+    "form_type": "10-Q",
+    "filing_date": "2020-10-30",
+    "accession_number": "0001018724-20-000030",
+    "primary_document": "amzn-20200930.htm",
+    "fetched_at": "2026-03-15T21:16:49.571181",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMZN",
+    "cik": "1018724",
+    "form_type": "8-K",
+    "filing_date": "2020-10-29",
+    "accession_number": "0001018724-20-000028",
+    "primary_document": "amzn-20201029.htm",
+    "fetched_at": "2026-03-15T21:16:49.571186",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMZN",
+    "cik": "1018724",
+    "form_type": "8-K",
+    "filing_date": "2020-09-09",
+    "accession_number": "0001018724-20-000026",
+    "primary_document": "amzn-20200909.htm",
+    "fetched_at": "2026-03-15T21:16:49.571194",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMZN",
+    "cik": "1018724",
+    "form_type": "8-K",
+    "filing_date": "2020-08-21",
+    "accession_number": "0001193125-20-226520",
+    "primary_document": "d789139d8k.htm",
+    "fetched_at": "2026-03-15T21:16:49.571200",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMZN",
+    "cik": "1018724",
+    "form_type": "10-Q",
+    "filing_date": "2020-07-31",
+    "accession_number": "0001018724-20-000021",
+    "primary_document": "amzn-20200630.htm",
+    "fetched_at": "2026-03-15T21:16:49.571208",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMZN",
+    "cik": "1018724",
+    "form_type": "8-K",
+    "filing_date": "2020-07-30",
+    "accession_number": "0001018724-20-000019",
+    "primary_document": "amzn-20200730.htm",
+    "fetched_at": "2026-03-15T21:16:49.571212",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMZN",
+    "cik": "1018724",
+    "form_type": "8-K",
+    "filing_date": "2020-06-23",
+    "accession_number": "0001193125-20-176528",
+    "primary_document": "d948849d8k.htm",
+    "fetched_at": "2026-03-15T21:16:49.571219",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMZN",
+    "cik": "1018724",
+    "form_type": "8-K",
+    "filing_date": "2020-06-03",
+    "accession_number": "0001193125-20-159531",
+    "primary_document": "d933420d8k.htm",
+    "fetched_at": "2026-03-15T21:16:49.571224",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMZN",
+    "cik": "1018724",
+    "form_type": "8-K",
+    "filing_date": "2020-05-29",
+    "accession_number": "0001018724-20-000015",
+    "primary_document": "amznx2020x05x29x8k.htm",
+    "fetched_at": "2026-03-15T21:16:49.571232",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMZN",
+    "cik": "1018724",
+    "form_type": "10-Q",
+    "filing_date": "2020-05-01",
+    "accession_number": "0001018724-20-000010",
+    "primary_document": "amzn-20200331x10q.htm",
+    "fetched_at": "2026-03-15T21:16:49.571240",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMZN",
+    "cik": "1018724",
+    "form_type": "8-K",
+    "filing_date": "2020-04-30",
+    "accession_number": "0001018724-20-000008",
+    "primary_document": "amzn-20200331x8k.htm",
+    "fetched_at": "2026-03-15T21:16:49.571245",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMZN",
+    "cik": "1018724",
+    "form_type": "8-K",
+    "filing_date": "2020-04-16",
+    "accession_number": "0001193125-20-108427",
+    "primary_document": "d902615d8k.htm",
+    "fetched_at": "2026-03-15T21:16:49.571251",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMZN",
+    "cik": "1018724",
+    "form_type": "10-K",
+    "filing_date": "2020-01-31",
+    "accession_number": "0001018724-20-000004",
+    "primary_document": "amzn-20191231x10k.htm",
+    "fetched_at": "2026-03-15T21:16:49.571262",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMZN",
+    "cik": "1018724",
+    "form_type": "8-K",
+    "filing_date": "2020-01-30",
+    "accession_number": "0001018724-20-000002",
+    "primary_document": "amzn-20191231x8k.htm",
+    "fetched_at": "2026-03-15T21:16:49.571267",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMZN",
+    "cik": "1018724",
+    "form_type": "8-K",
+    "filing_date": "2019-11-19",
+    "accession_number": "0001018724-19-000093",
+    "primary_document": "amzn-20191115x8xk.htm",
+    "fetched_at": "2026-03-15T21:16:49.571276",
+    "source_name": "sec_edgar"
+  }
+]

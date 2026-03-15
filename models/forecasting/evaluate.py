@@ -162,13 +162,21 @@ def build_benchmarks(pred_df: pd.DataFrame) -> dict:
     ew = pred_df.groupby("date")["actual"].mean().sort_index() / 5
     ew_value = INITIAL_CAPITAL * (1 + ew).cumprod()
 
-    # Buy & Hold SPY — ticker "9" is SPY encoding
-    spy = (
-        pred_df[pred_df["ticker"] == "6"].groupby("date")["actual"].mean().sort_index()
-        / 5
+    import yfinance as yf
+
+    spy_raw = yf.download(
+        "SPY",
+        start=pred_df["date"].min(),
+        end=pred_df["date"].max(),
+        auto_adjust=True,
+        progress=False,
     )
-    if spy.empty:
-        spy = ew
+    if isinstance(spy_raw.columns, pd.MultiIndex):
+        spy_raw.columns = spy_raw.columns.get_level_values(0)
+
+    spy = spy_raw["Close"].pct_change().dropna()
+    spy.index = pd.to_datetime(spy.index)
+    spy = spy.reindex(pd.to_datetime(pred_df["date"].unique())).fillna(0).sort_index()
     bh_value = INITIAL_CAPITAL * (1 + spy).cumprod()
 
     # Random signals
@@ -178,7 +186,7 @@ def build_benchmarks(pred_df: pd.DataFrame) -> dict:
     rand_value = INITIAL_CAPITAL * np.cumprod(1 + rand_ret)
 
     return {
-        "Buy Hold": pd.Series(bh_value.values, index=bh_value.index),
+        "Buy Hold": bh_value,
         "Equal Weight": pd.Series(ew_value.values, index=ew_value.index),
         "Random": pd.Series(rand_value, index=ew.index),
     }
@@ -387,7 +395,7 @@ def run_evaluation():
 
     # Step 9: MLflow
     logger.info("\nStep 9: MLflow...")
-    mlflow.set_tracking_uri("mlruns")
+    mlflow.set_tracking_uri("sqlite:///mlruns.db")
     with mlflow.start_run(run_name="backtest-v1"):
         for m in all_metrics:
             prefix = m["name"].lower().replace(" ", "_")

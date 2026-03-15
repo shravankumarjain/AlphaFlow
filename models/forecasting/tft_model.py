@@ -271,7 +271,7 @@ def train_model(
         mlf_logger = MLFlowLogger(
             experiment_name = experiment_name,
             run_id          = run.info.run_id,
-            tracking_uri    = "mlruns",
+            tracking_uri    = "sqlite:///mlruns.db",
         )
 
         # ── Trainer ───────────────────────────────────────────────────
