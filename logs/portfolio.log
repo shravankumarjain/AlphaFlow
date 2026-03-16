@@ -134,3 +134,48 @@ Step 5: Computing final allocation...
 2026-03-15 21:31:41 | INFO | portfolio |     XOM     2.00%
 2026-03-15 21:31:41 | INFO | portfolio | 
   ✓ Saved to reports/allocation.json
+2026-03-16 19:03:42 | INFO | botocore.credentials | Found credentials in shared credentials file: ~/.aws/credentials
+2026-03-16 19:03:42 | INFO | portfolio | ============================================================
+2026-03-16 19:03:42 | INFO | portfolio | AlphaFlow — Portfolio Optimization Engine
+2026-03-16 19:03:42 | INFO | portfolio | ============================================================
+2026-03-16 19:03:42 | INFO | portfolio | 
+Step 1: Loading regime from HMM detector...
+2026-03-16 19:03:42 | INFO | portfolio |   ✓ Regime loaded: BEAR (confidence 100%)
+2026-03-16 19:03:42 | INFO | portfolio | 
+Step 2: Loading feature data...
+2026-03-16 19:03:45 | INFO | portfolio |   ✓ Loaded features for 9 tickers
+2026-03-16 19:03:45 | INFO | portfolio | 
+Step 3: Loading TFT predictions...
+2026-03-16 19:03:45 | INFO | portfolio |   ✓ Loaded 891 TFT predictions
+2026-03-16 19:03:45 | INFO | portfolio | 
+Step 4: Markowitz optimization...
+2026-03-16 19:03:45 | INFO | portfolio | 
+Step 5: Training RL agent...
+2026-03-16 19:03:45 | INFO | portfolio |   ✓ Env: 1106 days | 9 tickers
+2026-03-16 19:03:46 | INFO | portfolio |   Training PPO for 50000 timesteps...
+2026-03-16 19:03:46 | WARNING | portfolio |   ⚠ RL failed: The environment is of type <class '__main__.GymWrapper'>, not a Gymnasium environment. In this case, we expect OpenAI Gym to be installed and the environment to be an OpenAI Gym environment. — Markowitz only
+2026-03-16 19:03:46 | INFO | portfolio | 
+Step 6: Computing final allocation...
+2026-03-16 19:03:46 | INFO | portfolio |   Regime: BEAR | 80% Markowitz + 20% RL
+2026-03-16 19:03:46 | INFO | portfolio |   Running Markowitz optimization...
+2026-03-16 19:03:46 | INFO | portfolio |   ✓ Markowitz: return=27.46% vol=11.48% sharpe=1.956
+2026-03-16 19:03:46 | INFO | portfolio | 
+============================================================
+2026-03-16 19:03:46 | INFO | portfolio | PORTFOLIO ALLOCATION
+2026-03-16 19:03:46 | INFO | portfolio | ============================================================
+2026-03-16 19:03:46 | INFO | portfolio |   Regime  : BEAR (confidence 100%)
+2026-03-16 19:03:46 | INFO | portfolio |   Blend   : 80% Markowitz + 20% RL
+2026-03-16 19:03:46 | INFO | portfolio |   Sharpe  : 1.956
+2026-03-16 19:03:46 | INFO | portfolio | 
+2026-03-16 19:03:46 | INFO | portfolio |   FINAL WEIGHTS:
+2026-03-16 19:03:46 | INFO | portfolio |     JNJ    ██████████ 25.00%
+2026-03-16 19:03:46 | INFO | portfolio |     BRK-B  ██████████ 25.00%
+2026-03-16 19:03:46 | INFO | portfolio |     MSFT   ████████ 21.50%
+2026-03-16 19:03:46 | INFO | portfolio |     AAPL   ████ 12.15%
+2026-03-16 19:03:46 | INFO | portfolio |     GOOGL  ██ 5.99%
+2026-03-16 19:03:46 | INFO | portfolio |     JPM    █ 4.36%
+2026-03-16 19:03:46 | INFO | portfolio |     AMZN    2.00%
+2026-03-16 19:03:46 | INFO | portfolio |     XOM     2.00%
+2026-03-16 19:03:46 | INFO | portfolio |     TSLA    2.00%
+2026-03-16 19:03:46 | INFO | portfolio | 
+  ✓ Saved to reports/allocation.json
