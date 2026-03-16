@@ -1,0 +1,26 @@
+{
+  "current_regime": "bear",
+  "confidence": 0.999571952418043,
+  "transition_probs": {
+    "bull": 0.03410878964766205,
+    "volatile": 0.010111320556754025,
+    "crisis": 0.004014090033079997,
+    "bear": 0.951765799762504
+  },
+  "recent_21d_dist": {
+    "bull": 0,
+    "bear": 21,
+    "volatile": 0,
+    "crisis": 0
+  },
+  "blend": {
+    "rl": 0.2,
+    "markowitz": 0.8
+  },
+  "constraints": {
+    "max_weight": 0.25,
+    "min_weight": 0.02,
+    "cash_floor": 0.1
+  },
+  "detected_at": "2026-03-16T18:33:55.231471"
+}

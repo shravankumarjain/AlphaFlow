@@ -1,13 +1,13 @@
 [
   {
     "name": "AlphaFlow TFT",
-    "total_return": 2.51,
-    "annual_return": 6.51,
-    "annual_vol": 7.27,
-    "sharpe_ratio": 0.216,
-    "sortino_ratio": 0.339,
-    "max_drawdown": -8.42,
-    "calmar_ratio": 0.774,
+    "total_return": 4.58,
+    "annual_return": 12.06,
+    "annual_vol": 7.62,
+    "sharpe_ratio": 0.876,
+    "sortino_ratio": 1.574,
+    "max_drawdown": -8.83,
+    "calmar_ratio": 1.367,
     "hit_rate": 52.53
   },
   {

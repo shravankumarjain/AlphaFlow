@@ -48,7 +48,7 @@ from config import (  # noqa: E402
     AWS_REGION,
     S3_BUCKET,
     TICKERS,
-    S3_FEATURES_PREFIX,
+    S3_FEATURES_PREFIX,  # noqa: F401
     LOCAL_DATA_DIR,
 )
 
@@ -172,7 +172,7 @@ def load_features_from_s3(tickers: list) -> pd.DataFrame:
     """
     frames = []
     for ticker in tickers:
-        s3_key = f"{S3_FEATURES_PREFIX}/market/{ticker}/{ticker}_features.parquet"
+        s3_key = f"features/sentiment_enriched/{ticker}/{ticker}_features_v2.parquet"
         try:
             obj = s3.get_object(Bucket=S3_BUCKET, Key=s3_key)
             df = pd.read_parquet(BytesIO(obj["Body"].read()))
