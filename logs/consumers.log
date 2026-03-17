@@ -1,0 +1,178 @@
+2026-03-17 22:54:22 | INFO | consumers | ============================================================
+2026-03-17 22:54:22 | INFO | consumers | AlphaFlow — Real-time Data Consumers
+2026-03-17 22:54:22 | INFO | consumers | ============================================================
+2026-03-17 22:54:22 | INFO | kafka.conn | <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2026-03-17 22:54:22 | INFO | kafka.conn | <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9092 <checking_api_versions_recv> [IPv6 ('::1', 9092, 0, 0)]>: Broker version identified as 2.6
+2026-03-17 22:54:22 | INFO | kafka.conn | <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2026-03-17 22:54:22 | INFO | consumers |   ✓ Started price consumer thread
+2026-03-17 22:54:22 | INFO | consumers |   ✓ Started allocation consumer thread
+2026-03-17 22:54:22 | INFO | kafka.conn | <BrokerConnection client_id=kafka-python-2.3.0, node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2026-03-17 22:54:22 | INFO | kafka.conn | <BrokerConnection client_id=kafka-python-2.3.0, node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2026-03-17 22:54:22 | INFO | consumers |   ✓ Started monitor consumer thread
+2026-03-17 22:54:22 | INFO | consumers | 
+  All consumers running. Press Ctrl+C to stop.
+
+2026-03-17 22:54:22 | INFO | consumers |   Rebalance trigger: price move >2% OR every 4h
+2026-03-17 22:54:22 | INFO | consumers |   Watch: data/local/streaming/live_prices.json
+2026-03-17 22:54:22 | INFO | consumers |   Watch: reports/allocation.json
+
+2026-03-17 22:54:22 | INFO | consumers |   Heartbeat | Active threads: ['price', 'allocation', 'monitor']
+2026-03-17 22:54:22 | INFO | kafka.conn | <BrokerConnection client_id=kafka-python-2.3.0, node_id=bootstrap-0 host=localhost:9092 <checking_api_versions_recv> [IPv6 ('::1', 9092, 0, 0)]>: Broker version identified as 2.6
+2026-03-17 22:54:22 | INFO | kafka.conn | <BrokerConnection client_id=kafka-python-2.3.0, node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2026-03-17 22:54:22 | INFO | kafka.consumer.subscription_state | Updating subscribed topics to: ('alphaflow.features.ready',)
+2026-03-17 22:54:22 | INFO | consumers |   ✓ Kafka consumer connected | group=alphaflow-allocation-consumer | topics=['alphaflow.features.ready']
+2026-03-17 22:54:22 | INFO | consumers |   ✓ Allocation consumer started
+2026-03-17 22:54:22 | INFO | kafka.conn | <BrokerConnection client_id=kafka-python-2.3.0, node_id=bootstrap-0 host=localhost:9092 <checking_api_versions_recv> [IPv6 ('::1', 9092, 0, 0)]>: Broker version identified as 2.6
+2026-03-17 22:54:22 | INFO | kafka.conn | <BrokerConnection client_id=kafka-python-2.3.0, node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2026-03-17 22:54:22 | INFO | kafka.consumer.subscription_state | Updating subscribed topics to: ('alphaflow.prices.equity', 'alphaflow.prices.crypto')
+2026-03-17 22:54:22 | INFO | consumers |   ✓ Kafka consumer connected | group=alphaflow-price-consumer | topics=['alphaflow.prices.equity', 'alphaflow.prices.crypto']
+2026-03-17 22:54:22 | INFO | consumers |   ✓ Price consumer started
+2026-03-17 22:54:22 | INFO | kafka.conn | <BrokerConnection client_id=kafka-python-2.3.0, node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2026-03-17 22:54:22 | INFO | kafka.conn | <BrokerConnection client_id=kafka-python-2.3.0, node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2026-03-17 22:54:22 | INFO | kafka.conn | <BrokerConnection client_id=kafka-python-2.3.0, node_id=1 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2026-03-17 22:54:22 | INFO | kafka.conn | <BrokerConnection client_id=kafka-python-2.3.0, node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2026-03-17 22:54:22 | INFO | kafka.conn | <BrokerConnection client_id=kafka-python-2.3.0, node_id=1 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2026-03-17 22:54:22 | INFO | kafka.conn | <BrokerConnection client_id=kafka-python-2.3.0, node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2026-03-17 22:54:23 | INFO | kafka.cluster | Coordinator for group/alphaflow-allocation-consumer is BrokerMetadata(nodeId='coordinator-1', host='localhost', port=9092, rack=None)
+2026-03-17 22:54:23 | INFO | kafka.coordinator | Discovered coordinator coordinator-1 for group alphaflow-allocation-consumer
+2026-03-17 22:54:23 | INFO | kafka.coordinator.heartbeat | Starting new heartbeat thread
+2026-03-17 22:54:23 | INFO | kafka.cluster | Coordinator for group/alphaflow-price-consumer is BrokerMetadata(nodeId='coordinator-1', host='localhost', port=9092, rack=None)
+2026-03-17 22:54:23 | INFO | kafka.coordinator | Discovered coordinator coordinator-1 for group alphaflow-price-consumer
+2026-03-17 22:54:23 | INFO | kafka.coordinator.heartbeat | Starting new heartbeat thread
+2026-03-17 22:54:23 | INFO | kafka.coordinator.consumer | Revoking previously assigned partitions set() for group alphaflow-price-consumer
+2026-03-17 22:54:23 | INFO | kafka.coordinator | Failed to join group alphaflow-price-consumer: NodeNotReadyError: coordinator-1
+2026-03-17 22:54:23 | INFO | kafka.coordinator.consumer | Revoking previously assigned partitions set() for group alphaflow-allocation-consumer
+2026-03-17 22:54:23 | INFO | kafka.coordinator | Failed to join group alphaflow-allocation-consumer: NodeNotReadyError: coordinator-1
+2026-03-17 22:54:23 | INFO | kafka.conn | <BrokerConnection client_id=kafka-python-2.3.0, node_id=coordinator-1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2026-03-17 22:54:23 | INFO | kafka.conn | <BrokerConnection client_id=kafka-python-2.3.0, node_id=coordinator-1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2026-03-17 22:54:23 | INFO | kafka.coordinator | Failed to join group alphaflow-price-consumer: NodeNotReadyError: coordinator-1
+2026-03-17 22:54:23 | INFO | kafka.conn | <BrokerConnection client_id=kafka-python-2.3.0, node_id=coordinator-1 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2026-03-17 22:54:23 | INFO | kafka.coordinator | Failed to join group alphaflow-allocation-consumer: NodeNotReadyError: coordinator-1
+2026-03-17 22:54:23 | INFO | kafka.conn | <BrokerConnection client_id=kafka-python-2.3.0, node_id=coordinator-1 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2026-03-17 22:54:23 | INFO | kafka.coordinator | (Re-)joining group alphaflow-price-consumer
+2026-03-17 22:54:23 | INFO | kafka.coordinator | Received member id kafka-python-2.3.0-47dc3fb9-b1d3-4b2c-95c6-c8cd092fecaa for group alphaflow-price-consumer; will retry join-group
+2026-03-17 22:54:23 | INFO | kafka.coordinator | Failed to join group alphaflow-price-consumer: [Error 79] MemberIdRequiredError
+2026-03-17 22:54:23 | INFO | kafka.coordinator | (Re-)joining group alphaflow-price-consumer
+2026-03-17 22:54:23 | INFO | kafka.coordinator | (Re-)joining group alphaflow-allocation-consumer
+2026-03-17 22:54:23 | INFO | kafka.coordinator | Received member id kafka-python-2.3.0-5b69da6f-a848-453e-8f7d-179e5121de1d for group alphaflow-allocation-consumer; will retry join-group
+2026-03-17 22:54:23 | INFO | kafka.coordinator | Failed to join group alphaflow-allocation-consumer: [Error 79] MemberIdRequiredError
+2026-03-17 22:54:23 | INFO | kafka.coordinator | (Re-)joining group alphaflow-allocation-consumer
+2026-03-17 22:54:23 | INFO | kafka.coordinator | Successfully joined group alphaflow-allocation-consumer <Generation 7 (member_id: kafka-python-2.3.0-5b69da6f-a848-453e-8f7d-179e5121de1d, protocol: range)>
+2026-03-17 22:54:23 | INFO | kafka.consumer.subscription_state | Updated partition assignment: [TopicPartition(topic='alphaflow.features.ready', partition=0)]
+2026-03-17 22:54:23 | INFO | kafka.coordinator.consumer | Setting newly assigned partitions {TopicPartition(topic='alphaflow.features.ready', partition=0)} for group alphaflow-allocation-consumer
+2026-03-17 22:54:23 | INFO | kafka.coordinator.heartbeat | Stopping heartbeat thread
+2026-03-17 22:54:23 | INFO | kafka.coordinator | Leaving consumer group alphaflow-price-consumer (member kafka-python-2.3.0-47dc3fb9-b1d3-4b2c-95c6-c8cd092fecaa).
+2026-03-17 22:54:26 | INFO | kafka.coordinator | Successfully joined group alphaflow-price-consumer <Generation 3 (member_id: kafka-python-2.3.0-47dc3fb9-b1d3-4b2c-95c6-c8cd092fecaa, protocol: range)>
+2026-03-17 22:54:26 | INFO | kafka.coordinator | Elected group leader -- performing partition assignments using range
+2026-03-17 22:54:26 | INFO | kafka.coordinator | LeaveGroup request for group alphaflow-price-consumer returned successfully
+2026-03-17 22:54:26 | INFO | kafka.conn | <BrokerConnection client_id=kafka-python-2.3.0, node_id=1 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2026-03-17 22:54:26 | INFO | kafka.conn | <BrokerConnection client_id=kafka-python-2.3.0, node_id=coordinator-1 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2026-03-17 22:54:26 | ERROR | kafka.coordinator | Error sending SyncGroupRequest_v3 to node coordinator-1 [Cancelled: <BrokerConnection client_id=kafka-python-2.3.0, node_id=coordinator-1 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>]
+2026-03-17 22:54:26 | WARNING | kafka.coordinator | Marking the coordinator dead (node coordinator-1) for group alphaflow-price-consumer: Cancelled: <BrokerConnection client_id=kafka-python-2.3.0, node_id=coordinator-1 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>.
+2026-03-17 22:54:26 | INFO | kafka.coordinator | Failed to join group alphaflow-price-consumer: Cancelled: <BrokerConnection client_id=kafka-python-2.3.0, node_id=coordinator-1 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>
+2026-03-17 22:54:28 | INFO | botocore.credentials | Found credentials in shared credentials file: ~/.aws/credentials
+2026-03-17 22:54:29 | INFO | consumers |   🔄 Running portfolio optimizer | trigger=scheduled
+2026-03-17 22:54:29 | INFO | portfolio | ============================================================
+2026-03-17 22:54:29 | INFO | portfolio | AlphaFlow — Portfolio Optimization Engine
+2026-03-17 22:54:29 | INFO | portfolio | ============================================================
+2026-03-17 22:54:29 | INFO | portfolio | 
+Step 1: Loading regime from HMM detector...
+2026-03-17 22:54:29 | INFO | portfolio |   ✓ Regime loaded: BEAR (confidence 100%)
+2026-03-17 22:54:29 | INFO | portfolio | 
+Step 2: Loading feature data...
+2026-03-17 22:54:39 | INFO | portfolio |   ✓ Loaded features for 39 tickers
+2026-03-17 22:54:39 | INFO | portfolio | 
+Step 3: Loading TFT predictions...
+2026-03-17 22:54:39 | INFO | portfolio |   ✓ Loaded 5917 TFT predictions
+2026-03-17 22:54:39 | INFO | portfolio | 
+Step 4: Markowitz optimization...
+2026-03-17 22:54:39 | INFO | portfolio | 
+Step 6: Computing final allocation...
+2026-03-17 22:54:39 | INFO | portfolio |   Regime: BEAR | 80% Markowitz + 20% RL
+2026-03-17 22:54:39 | INFO | portfolio |   Running Markowitz optimization...
+2026-03-17 22:54:39 | INFO | portfolio |   ✓ Markowitz: return=18.43% vol=13.96% sharpe=0.962
+2026-03-17 22:54:39 | INFO | portfolio | 
+============================================================
+2026-03-17 22:54:39 | INFO | portfolio | PORTFOLIO ALLOCATION
+2026-03-17 22:54:39 | INFO | portfolio | ============================================================
+2026-03-17 22:54:39 | INFO | portfolio |   Regime  : BEAR (confidence 100%)
+2026-03-17 22:54:39 | INFO | portfolio |   Blend   : 80% Markowitz + 20% RL
+2026-03-17 22:54:39 | INFO | portfolio |   Sharpe  : 0.962
+2026-03-17 22:54:39 | INFO | portfolio | 
+2026-03-17 22:54:39 | INFO | portfolio |   FINAL WEIGHTS:
+2026-03-17 22:54:39 | INFO | portfolio |     JNJ    ██████████ 25.04%
+2026-03-17 22:54:39 | INFO | portfolio |     GOOGL  ████████ 22.46%
+2026-03-17 22:54:39 | INFO | portfolio |     SILVER ██████ 16.34%
+2026-03-17 22:54:39 | INFO | portfolio |     AMD    █ 4.54%
+2026-03-17 22:54:39 | INFO | portfolio |     WMT    █ 2.68%
+2026-03-17 22:54:39 | INFO | portfolio |     COST    0.85%
+2026-03-17 22:54:39 | INFO | portfolio |     BTC     0.85%
+2026-03-17 22:54:39 | INFO | portfolio |     PFE     0.85%
+2026-03-17 22:54:39 | INFO | portfolio |     AAPL    0.85%
+2026-03-17 22:54:39 | INFO | portfolio |     KO      0.85%
+2026-03-17 22:54:39 | INFO | portfolio |     UNH     0.85%
+2026-03-17 22:54:39 | INFO | portfolio |     AMZN    0.85%
+2026-03-17 22:54:39 | INFO | portfolio |     GOLD    0.85%
+2026-03-17 22:54:39 | INFO | portfolio |     BNB     0.85%
+2026-03-17 22:54:39 | INFO | portfolio |     XOM     0.85%
+2026-03-17 22:54:39 | INFO | portfolio |     US30Y_ETF  0.85%
+2026-03-17 22:54:39 | INFO | portfolio |     SOL     0.85%
+2026-03-17 22:54:39 | INFO | portfolio |     TSLA    0.85%
+2026-03-17 22:54:39 | INFO | portfolio |     ETH     0.85%
+2026-03-17 22:54:39 | INFO | portfolio |     JPM     0.85%
+2026-03-17 22:54:39 | INFO | portfolio |     BRK-B   0.85%
+2026-03-17 22:54:39 | INFO | portfolio |     NFLX    0.85%
+2026-03-17 22:54:39 | INFO | portfolio |     META    0.85%
+2026-03-17 22:54:39 | INFO | portfolio |     NVDA    0.85%
+2026-03-17 22:54:39 | INFO | portfolio |     MSFT    0.85%
+2026-03-17 22:54:39 | INFO | portfolio |     US10Y_ETF  0.85%
+2026-03-17 22:54:39 | INFO | portfolio |     ABBV    0.85%
+2026-03-17 22:54:39 | INFO | portfolio |     CVX     0.85%
+2026-03-17 22:54:39 | INFO | portfolio |     V       0.85%
+2026-03-17 22:54:39 | INFO | portfolio |     HY_ETF  0.85%
+2026-03-17 22:54:39 | INFO | portfolio |     BAC     0.85%
+2026-03-17 22:54:39 | INFO | portfolio |     OIL     0.85%
+2026-03-17 22:54:39 | INFO | portfolio |     CRM     0.85%
+2026-03-17 22:54:39 | INFO | portfolio |     NATGAS  0.85%
+2026-03-17 22:54:39 | INFO | portfolio |     GS      0.85%
+2026-03-17 22:54:39 | INFO | portfolio |     WHEAT   0.85%
+2026-03-17 22:54:39 | INFO | portfolio |     IG_ETF  0.85%
+2026-03-17 22:54:39 | INFO | portfolio |     PG      0.85%
+2026-03-17 22:54:39 | INFO | portfolio |     TIPS_ETF  0.85%
+2026-03-17 22:54:39 | INFO | portfolio | 
+  ✓ Saved to reports/allocation.json
+2026-03-17 22:54:39 | INFO | kafka.conn | <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2026-03-17 22:54:39 | INFO | kafka.conn | <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2026-03-17 22:54:39 | INFO | kafka.conn | <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2026-03-17 22:54:39 | INFO | consumers |   ✓ Rebalance complete | regime=BEAR | sharpe=0.962
+2026-03-17 22:54:39 | INFO | consumers |     JNJ        25.0%
+2026-03-17 22:54:39 | INFO | consumers |     GOOGL      22.5%
+2026-03-17 22:54:39 | INFO | consumers |     SILVER     16.3%
+2026-03-17 22:54:39 | INFO | consumers |     AMD        4.5%
+2026-03-17 22:54:39 | INFO | consumers |     WMT        2.7%
+2026-03-17 22:56:22 | INFO | consumers |   Heartbeat | Active threads: ['allocation', 'monitor']
+2026-03-17 22:58:22 | INFO | consumers |   Heartbeat | Active threads: ['allocation', 'monitor']
+2026-03-17 23:00:22 | INFO | consumers |   Heartbeat | Active threads: ['allocation', 'monitor']
+2026-03-17 23:02:22 | INFO | consumers |   Heartbeat | Active threads: ['allocation', 'monitor']
+2026-03-17 23:04:22 | INFO | consumers |   Heartbeat | Active threads: ['allocation', 'monitor']
+2026-03-17 23:06:22 | INFO | consumers |   Heartbeat | Active threads: ['allocation', 'monitor']
+2026-03-17 23:08:22 | INFO | consumers |   Heartbeat | Active threads: ['allocation', 'monitor']
+2026-03-17 23:10:22 | INFO | consumers |   Heartbeat | Active threads: ['allocation', 'monitor']
+2026-03-17 23:12:22 | INFO | consumers |   Heartbeat | Active threads: ['allocation', 'monitor']
+2026-03-17 23:14:22 | INFO | consumers |   Heartbeat | Active threads: ['allocation', 'monitor']
+2026-03-17 23:16:22 | INFO | consumers |   Heartbeat | Active threads: ['allocation', 'monitor']
+2026-03-17 23:18:22 | INFO | consumers |   Heartbeat | Active threads: ['allocation', 'monitor']
+2026-03-17 23:20:22 | INFO | consumers |   Heartbeat | Active threads: ['allocation', 'monitor']
+2026-03-17 23:22:22 | INFO | consumers |   Heartbeat | Active threads: ['allocation', 'monitor']
+2026-03-17 23:24:22 | INFO | consumers |   Heartbeat | Active threads: ['allocation', 'monitor']
+2026-03-17 23:26:22 | INFO | consumers |   Heartbeat | Active threads: ['allocation', 'monitor']
+2026-03-17 23:27:16 | WARNING | kafka.coordinator.heartbeat | Heartbeat failed for group alphaflow-allocation-consumer because it is rebalancing
+2026-03-17 23:27:16 | INFO | kafka.coordinator.consumer | Revoking previously assigned partitions {TopicPartition(topic='alphaflow.features.ready', partition=0)} for group alphaflow-allocation-consumer
+2026-03-17 23:27:16 | INFO | kafka.coordinator | (Re-)joining group alphaflow-allocation-consumer
+2026-03-17 23:27:16 | INFO | kafka.coordinator | Successfully joined group alphaflow-allocation-consumer <Generation 8 (member_id: kafka-python-2.3.0-5b69da6f-a848-453e-8f7d-179e5121de1d, protocol: range)>
+2026-03-17 23:27:16 | INFO | kafka.coordinator | Elected group leader -- performing partition assignments using range
+2026-03-17 23:27:16 | INFO | kafka.consumer.subscription_state | Updated partition assignment: [TopicPartition(topic='alphaflow.features.ready', partition=0)]
+2026-03-17 23:27:16 | INFO | kafka.coordinator.consumer | Setting newly assigned partitions {TopicPartition(topic='alphaflow.features.ready', partition=0)} for group alphaflow-allocation-consumer
+2026-03-17 23:28:22 | INFO | consumers |   Heartbeat | Active threads: ['allocation', 'monitor']
+2026-03-17 23:30:22 | INFO | consumers |   Heartbeat | Active threads: ['allocation', 'monitor']
+2026-03-17 23:32:23 | INFO | consumers |   Heartbeat | Active threads: ['allocation', 'monitor']

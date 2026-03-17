@@ -1,0 +1,76 @@
+2026-03-17 22:54:22 | INFO | producers | ============================================================
+2026-03-17 22:54:22 | INFO | producers | AlphaFlow — Real-time Data Producers
+2026-03-17 22:54:22 | INFO | producers | ============================================================
+2026-03-17 22:54:22 | INFO | producers |   Equity tickers : 25
+2026-03-17 22:54:22 | INFO | producers |   Crypto pairs   : 4
+2026-03-17 22:54:22 | INFO | producers |   Kafka broker   : localhost:9092
+2026-03-17 22:54:22 | INFO | producers | ============================================================
+2026-03-17 22:54:22 | INFO | kafka.conn | <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2026-03-17 22:54:22 | INFO | kafka.conn | <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9092 <checking_api_versions_recv> [IPv6 ('::1', 9092, 0, 0)]>: Broker version identified as 2.6
+2026-03-17 22:54:22 | INFO | kafka.conn | <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2026-03-17 22:54:22 | INFO | producers |   ✓ Kafka producer connected
+2026-03-17 22:54:22 | INFO | producers |   ✓ Equity producer started | 25 tickers
+2026-03-17 22:54:22 | INFO | producers |   ✓ Started equity producer thread
+2026-03-17 22:54:22 | INFO | producers |   ✓ Started crypto producer thread
+2026-03-17 22:54:22 | INFO | producers |   ✓ News producer started | 10 tickers
+2026-03-17 22:54:22 | INFO | producers |   ✓ Started news producer thread
+2026-03-17 22:54:22 | INFO | producers | 
+  All producers running. Press Ctrl+C to stop.
+
+2026-03-17 22:54:22 | INFO | producers |   Heartbeat | Active: ['equity', 'crypto', 'news']
+2026-03-17 22:54:23 | INFO | kafka.conn | <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2026-03-17 22:54:23 | INFO | kafka.conn | <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2026-03-17 22:54:23 | INFO | kafka.conn | <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2026-03-17 22:54:23 | INFO | websocket | Websocket connected
+2026-03-17 22:54:23 | INFO | producers |   ✓ Crypto WebSocket connected | 4 pairs
+2026-03-17 22:54:23 | INFO | producers |   [Equity] Published 25/25 prices
+2026-03-17 22:54:24 | INFO | producers |   [News] Published 90 new articles
+2026-03-17 22:55:22 | INFO | producers |   Heartbeat | Active: ['equity', 'crypto', 'news']
+2026-03-17 22:56:22 | INFO | producers |   Heartbeat | Active: ['equity', 'crypto', 'news']
+2026-03-17 22:57:22 | INFO | producers |   Heartbeat | Active: ['equity', 'crypto', 'news']
+2026-03-17 22:58:22 | INFO | producers |   Heartbeat | Active: ['equity', 'crypto', 'news']
+2026-03-17 22:59:22 | INFO | producers |   Heartbeat | Active: ['equity', 'crypto', 'news']
+2026-03-17 22:59:24 | INFO | producers |   [Equity] Published 25/25 prices
+2026-03-17 22:59:25 | INFO | producers |   [News] Published 5 new articles
+2026-03-17 23:00:22 | INFO | producers |   Heartbeat | Active: ['equity', 'crypto', 'news']
+2026-03-17 23:01:22 | INFO | producers |   Heartbeat | Active: ['equity', 'crypto', 'news']
+2026-03-17 23:02:22 | INFO | producers |   Heartbeat | Active: ['equity', 'crypto', 'news']
+2026-03-17 23:03:22 | INFO | producers |   Heartbeat | Active: ['equity', 'crypto', 'news']
+2026-03-17 23:04:22 | INFO | producers |   Heartbeat | Active: ['equity', 'crypto', 'news']
+2026-03-17 23:04:24 | INFO | producers |   [Equity] Published 25/25 prices
+2026-03-17 23:05:22 | INFO | producers |   Heartbeat | Active: ['equity', 'crypto', 'news']
+2026-03-17 23:06:22 | INFO | producers |   Heartbeat | Active: ['equity', 'crypto', 'news']
+2026-03-17 23:07:22 | INFO | producers |   Heartbeat | Active: ['equity', 'crypto', 'news']
+2026-03-17 23:08:22 | INFO | producers |   Heartbeat | Active: ['equity', 'crypto', 'news']
+2026-03-17 23:09:22 | INFO | producers |   Heartbeat | Active: ['equity', 'crypto', 'news']
+2026-03-17 23:09:25 | INFO | producers |   [Equity] Published 25/25 prices
+2026-03-17 23:09:28 | INFO | producers |   [News] Published 1 new articles
+2026-03-17 23:10:22 | INFO | producers |   Heartbeat | Active: ['equity', 'crypto', 'news']
+2026-03-17 23:11:22 | INFO | producers |   Heartbeat | Active: ['equity', 'crypto', 'news']
+2026-03-17 23:12:22 | INFO | producers |   Heartbeat | Active: ['equity', 'crypto', 'news']
+2026-03-17 23:13:22 | INFO | producers |   Heartbeat | Active: ['equity', 'crypto', 'news']
+2026-03-17 23:14:22 | INFO | producers |   Heartbeat | Active: ['equity', 'crypto', 'news']
+2026-03-17 23:14:25 | INFO | producers |   [Equity] Published 25/25 prices
+2026-03-17 23:15:22 | INFO | producers |   Heartbeat | Active: ['equity', 'crypto', 'news']
+2026-03-17 23:16:22 | INFO | producers |   Heartbeat | Active: ['equity', 'crypto', 'news']
+2026-03-17 23:17:22 | INFO | producers |   Heartbeat | Active: ['equity', 'crypto', 'news']
+2026-03-17 23:18:22 | INFO | producers |   Heartbeat | Active: ['equity', 'crypto', 'news']
+2026-03-17 23:19:22 | INFO | producers |   Heartbeat | Active: ['equity', 'crypto', 'news']
+2026-03-17 23:19:27 | INFO | producers |   [Equity] Published 25/25 prices
+2026-03-17 23:19:31 | INFO | producers |   [News] Published 1 new articles
+2026-03-17 23:20:22 | INFO | producers |   Heartbeat | Active: ['equity', 'crypto', 'news']
+2026-03-17 23:21:22 | INFO | producers |   Heartbeat | Active: ['equity', 'crypto', 'news']
+2026-03-17 23:22:22 | INFO | producers |   Heartbeat | Active: ['equity', 'crypto', 'news']
+2026-03-17 23:23:22 | INFO | producers |   Heartbeat | Active: ['equity', 'crypto', 'news']
+2026-03-17 23:24:22 | INFO | producers |   Heartbeat | Active: ['equity', 'crypto', 'news']
+2026-03-17 23:24:27 | INFO | producers |   [Equity] Published 25/25 prices
+2026-03-17 23:24:32 | INFO | producers |   [News] Published 3 new articles
+2026-03-17 23:25:22 | INFO | producers |   Heartbeat | Active: ['equity', 'crypto', 'news']
+2026-03-17 23:26:22 | INFO | producers |   Heartbeat | Active: ['equity', 'crypto', 'news']
+2026-03-17 23:27:22 | INFO | producers |   Heartbeat | Active: ['equity', 'crypto', 'news']
+2026-03-17 23:28:22 | INFO | producers |   Heartbeat | Active: ['equity', 'crypto', 'news']
+2026-03-17 23:29:22 | INFO | producers |   Heartbeat | Active: ['equity', 'crypto', 'news']
+2026-03-17 23:29:28 | INFO | producers |   [Equity] Published 25/25 prices
+2026-03-17 23:30:22 | INFO | producers |   Heartbeat | Active: ['equity', 'crypto', 'news']
+2026-03-17 23:31:22 | INFO | producers |   Heartbeat | Active: ['equity', 'crypto', 'news']
+2026-03-17 23:32:22 | INFO | producers |   Heartbeat | Active: ['equity', 'crypto', 'news']

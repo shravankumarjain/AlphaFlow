@@ -18,644 +18,873 @@
 #
 # Run locally:
 #   streamlit run dashboard/frontend/app.py
+# dashboard/frontend/app.py
+#
+# AlphaFlow — Bloomberg Terminal
+# Production-grade institutional portfolio intelligence platform
 
-import streamlit as st
+import json
+import os
+import sys
+import time  # noqa: F401
+from datetime import datetime, timezone
+from pathlib import Path
+
+import numpy as np
 import pandas as pd
-import numpy as np  # noqa: F401
 import plotly.graph_objects as go
 import plotly.express as px  # noqa: F401
 from plotly.subplots import make_subplots  # noqa: F401
+import streamlit as st
+import yfinance as yf
 import requests
-import json
-from datetime import datetime
-from pathlib import Path
-import sys
 
 sys.path.append(str(Path(__file__).resolve().parents[2]))
+from config import TICKERS, MULTI_ASSET_TICKERS, LOCAL_DATA_DIR, BENCHMARK_TICKER
 
-# ── PAGE CONFIG ───────────────────────────────────────────────────────
+REPORTS = Path("reports")
+DATA_DIR = Path(LOCAL_DATA_DIR)
+ALL_TICKERS = TICKERS + MULTI_ASSET_TICKERS
+
 st.set_page_config(
-    page_title = "AlphaFlow — Portfolio Optimizer",
-    page_icon  = "📈",
-    layout     = "wide",
-    initial_sidebar_state = "expanded",
+    page_title="AlphaFlow Terminal",
+    page_icon="⚡",
+    layout="wide",
+    initial_sidebar_state="collapsed",
 )
 
-# ── STYLING ───────────────────────────────────────────────────────────
-st.markdown("""
+st.markdown(
+    """
 <style>
-    .main { background-color: #070a0f; }
-    .stApp { background-color: #070a0f; color: #c9d1d9; }
-    
-    .metric-card {
-        background: #0d1117;
-        border: 1px solid #1e2d40;
-        border-radius: 8px;
-        padding: 16px 20px;
-        margin: 4px 0;
-    }
-    
-    .metric-value {
-        font-size: 28px;
-        font-weight: 700;
-        color: #00e5ff;
-        font-family: 'Courier New', monospace;
-    }
-    
-    .metric-label {
-        font-size: 11px;
-        color: #4a5568;
-        text-transform: uppercase;
-        letter-spacing: 2px;
-        margin-bottom: 4px;
-    }
-    
-    .signal-buy  { color: #00ff9d; font-weight: 700; }
-    .signal-sell { color: #ff4444; font-weight: 700; }
-    .signal-hold { color: #ffd700; font-weight: 700; }
-    
-    .regime-card {
-        background: linear-gradient(135deg, #0d1117, #1a2332);
-        border: 1px solid #00e5ff;
-        border-radius: 12px;
-        padding: 20px;
-        text-align: center;
-    }
-    
-    div[data-testid="stMetricValue"] { color: #00e5ff !important; }
-    
-    .stSelectbox label { color: #c9d1d9 !important; }
-    
-    h1, h2, h3 { color: #ffffff !important; }
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;500;600&family=IBM+Plex+Sans:wght@300;400;500&display=swap');
+
+*, body, .stApp { background-color: #050508 !important; color: #b8bcc8; font-family: 'IBM Plex Mono', monospace; }
+.main .block-container { padding: 0.5rem 1rem; max-width: 100%; }
+
+.header-bar {
+    background: linear-gradient(90deg, #050508, #0a0a14);
+    border-bottom: 1px solid #00e5ff33;
+    padding: 8px 0;
+    margin-bottom: 12px;
+}
+
+.kpi-card {
+    background: #08080f;
+    border: 1px solid #1a1a2e;
+    border-top: 2px solid var(--accent, #00e5ff);
+    padding: 10px 14px;
+    border-radius: 2px;
+}
+
+.kpi-label { font-size: 9px; letter-spacing: 3px; color: #4a5568; text-transform: uppercase; margin-bottom: 4px; }
+.kpi-value { font-size: 22px; font-weight: 600; color: var(--accent, #00e5ff); font-family: 'IBM Plex Mono'; }
+.kpi-delta { font-size: 10px; color: #4a5568; margin-top: 2px; }
+
+.price-row {
+    display: flex; justify-content: space-between; align-items: center;
+    padding: 5px 8px; border-bottom: 1px solid #0d0d18;
+    font-size: 12px; transition: background 0.1s;
+}
+.price-row:hover { background: #0a0a14; }
+.price-ticker { color: #7a8099; letter-spacing: 1px; }
+.price-val { color: #b8bcc8; }
+.pos { color: #00ff9d !important; }
+.neg { color: #ff4444 !important; }
+
+.section-title {
+    font-size: 9px; letter-spacing: 4px; color: #2a3050;
+    text-transform: uppercase; padding: 6px 0 8px;
+    border-bottom: 1px solid #0d0d18; margin-bottom: 8px;
+}
+
+.alloc-row {
+    display: flex; align-items: center; gap: 8px;
+    padding: 4px 0; font-size: 11px;
+}
+.alloc-ticker { color: #5a6480; width: 55px; }
+.alloc-bar-bg { flex: 1; height: 3px; background: #0d0d18; border-radius: 1px; }
+.alloc-bar { height: 3px; background: #00e5ff; border-radius: 1px; }
+.alloc-pct { color: #00e5ff; width: 40px; text-align: right; }
+
+.regime-badge {
+    display: inline-block; padding: 3px 10px;
+    border-radius: 2px; font-size: 10px; letter-spacing: 2px;
+    font-weight: 600;
+}
+.regime-bear { background: #ff444415; color: #ff4444; border: 1px solid #ff444433; }
+.regime-bull { background: #00ff9d15; color: #00ff9d; border: 1px solid #00ff9d33; }
+.regime-volatile { background: #ffd70015; color: #ffd700; border: 1px solid #ffd70033; }
+.regime-neutral { background: #7b61ff15; color: #7b61ff; border: 1px solid #7b61ff33; }
+
+.terminal-input .stTextInput input {
+    background: #08080f !important;
+    border: 1px solid #00e5ff44 !important;
+    border-radius: 2px !important;
+    color: #00e5ff !important;
+    font-family: 'IBM Plex Mono' !important;
+    font-size: 12px !important;
+}
+
+.stTabs [data-baseweb="tab-list"] { background: #050508; border-bottom: 1px solid #1a1a2e; gap: 0; }
+.stTabs [data-baseweb="tab"] {
+    background: transparent; color: #2a3050;
+    font-size: 10px; letter-spacing: 2px; padding: 8px 16px;
+    border-bottom: 2px solid transparent;
+}
+.stTabs [aria-selected="true"] { color: #00e5ff !important; border-bottom-color: #00e5ff !important; background: transparent !important; }
+
+div[data-testid="stMetricValue"] { color: #00e5ff !important; font-family: 'IBM Plex Mono' !important; }
+div[data-testid="stMetricDelta"] svg { display: none; }
+.stButton button {
+    background: #08080f !important; color: #00e5ff !important;
+    border: 1px solid #00e5ff33 !important;
+    font-family: 'IBM Plex Mono' !important; font-size: 10px !important;
+    letter-spacing: 1px !important; border-radius: 2px !important;
+    padding: 4px 10px !important;
+}
+.stButton button:hover { border-color: #00e5ff88 !important; background: #00e5ff08 !important; }
+
+.stChatMessage { background: #08080f !important; border: 1px solid #1a1a2e !important; border-radius: 2px !important; }
+.stChatInput textarea {
+    background: #08080f !important; color: #00ff9d !important;
+    font-family: 'IBM Plex Mono' !important; font-size: 12px !important;
+    border: 1px solid #00e5ff44 !important; border-radius: 2px !important;
+}
+
+h1, h2, h3 { color: #00e5ff !important; font-family: 'IBM Plex Mono' !important; font-weight: 500 !important; }
+.stSelectbox label, .stSlider label { color: #4a5568 !important; font-size: 10px !important; }
 </style>
-""", unsafe_allow_html=True)
+""",
+    unsafe_allow_html=True,
+)
 
-# ── CONFIG ────────────────────────────────────────────────────────────
-API_BASE = "http://localhost:8000"
-
-# Colors
-COLORS = {
-    "primary"  : "#00e5ff",
-    "secondary": "#7b61ff",
-    "success"  : "#00ff9d",
-    "danger"   : "#ff4444",
-    "warning"  : "#ffd700",
-    "muted"    : "#4a5568",
-    "bg"       : "#070a0f",
-    "panel"    : "#0d1117",
-}
-
-TICKER_COLORS = {
-    "AAPL": "#00e5ff", "MSFT": "#7b61ff", "GOOGL": "#00ff9d",
-    "AMZN": "#ff6b35", "JPM" : "#ffd700", "JNJ" : "#ff4db8",
-    "XOM" : "#4ecdc4", "BRK-B": "#a8e6cf", "TSLA": "#ff4444",
-    "SPY" : "#888888",
-}
+CHART_LAYOUT = dict(
+    paper_bgcolor="#050508",
+    plot_bgcolor="#08080f",
+    font=dict(color="#5a6480", family="IBM Plex Mono", size=10),
+    margin=dict(l=40, r=20, t=30, b=30),
+    xaxis=dict(gridcolor="#0d0d18", zerolinecolor="#0d0d18", showgrid=True),
+    yaxis=dict(gridcolor="#0d0d18", zerolinecolor="#0d0d18", showgrid=True),
+    legend=dict(bgcolor="#08080f", bordercolor="#1a1a2e", borderwidth=1, font_size=10),
+)
 
 
-# ── DATA LOADING ──────────────────────────────────────────────────────
-
-@st.cache_data(ttl=300)  # cache for 5 minutes
-def load_allocation():
+# ── DATA LOADERS ──────────────────────────────────────────────────────
+@st.cache_data(ttl=60)
+def load_json(path: str) -> dict:
     try:
-        r = requests.get(f"{API_BASE}/api/portfolio/allocation", timeout=5)
-        return r.json()
+        with open(path) as f:
+            return json.load(f)
     except Exception:
-        # Fallback: load directly from file
+        return {}
+
+
+@st.cache_data(ttl=30)
+def load_live_prices() -> dict:
+    p = DATA_DIR / "streaming" / "live_prices.json"
+    if p.exists():
         try:
-            with open("reports/allocation.json") as f:
-                return json.load(f)
+            with open(p) as f:
+                d = json.load(f)
+            return d.get("prices", {})
         except Exception:
-            return None
-
-@st.cache_data(ttl=300)
-def load_metrics():
+            pass
+    # Fallback: yfinance
     try:
-        r = requests.get(f"{API_BASE}/api/portfolio/metrics", timeout=5)
-        return r.json()["strategies"]
+        data = yf.download(
+            TICKERS[:10] + [BENCHMARK_TICKER],
+            period="2d",
+            interval="1d",
+            auto_adjust=True,
+            progress=False,
+        )
+        if hasattr(data.columns, "levels"):
+            close = data["Close"]
+        else:
+            close = data[["Close"]]
+        prices = {}
+        for t in TICKERS[:10] + [BENCHMARK_TICKER]:
+            if t in close.columns:
+                vals = close[t].dropna()
+                if len(vals) >= 2:
+                    p_val = float(vals.iloc[-1])
+                    prev = float(vals.iloc[-2])
+                    pct = (p_val - prev) / prev * 100
+                    prices[t] = {"price": round(p_val, 2), "change_pct": round(pct, 3)}
+        return prices
     except Exception:
-        try:
-            with open("reports/metrics.json") as f:
-                return json.load(f)
-        except Exception:
-            return []
+        return {}
 
-@st.cache_data(ttl=60)  # refresh prices every minute
-def load_prices():
-    try:
-        r = requests.get(f"{API_BASE}/api/market/prices", timeout=10)
-        return r.json()["prices"]
-    except Exception:
-        return []
-
-@st.cache_data(ttl=3600)  # predictions change daily
-def load_predictions():
-    try:
-        r = requests.get(f"{API_BASE}/api/market/predictions", timeout=5)
-        return r.json()["predictions"]
-    except Exception:
-        # Load from file directly
-        try:
-            pred_path = Path("data/local/predictions.parquet")
-            if pred_path.exists():
-                df = pd.read_parquet(pred_path)
-                ticker_map = {
-                    "0": "AAPL", "1": "MSFT", "2": "GOOGL", "3": "AMZN",
-                    "4": "JPM",  "5": "JNJ",  "6": "SPY",   "7": "BRK-B",
-                    "8": "TSLA", "9": "XOM",
-                }
-                latest = df.sort_values("date").groupby("ticker").last().reset_index()
-                results = []
-                for _, row in latest.iterrows():
-                    ticker   = ticker_map.get(str(row["ticker"]), str(row["ticker"]))
-                    pred_p50 = float(row["pred_p50"])
-                    signal   = "BUY" if pred_p50 > 0.001 else "SELL" if pred_p50 < -0.001 else "HOLD"
-                    results.append({
-                        "ticker"    : ticker,
-                        "pred_p50"  : round(pred_p50 * 100, 3),
-                        "pred_p10"  : round(float(row.get("pred_p10", 0)) * 100, 3),
-                        "pred_p90"  : round(float(row.get("pred_p90", 0)) * 100, 3),
-                        "signal"    : signal,
-                        "confidence": 65.0,
-                    })
-                return results
-        except Exception:
-            return []
 
 @st.cache_data(ttl=3600)
-def load_drift():
+def load_predictions() -> dict:
+    ticker_map = {str(i): t for i, t in enumerate(ALL_TICKERS)}
     try:
-        r = requests.get(f"{API_BASE}/api/drift/report", timeout=5)
-        return r.json()
+        df = pd.read_parquet(DATA_DIR / "predictions.parquet")
+        latest = df.sort_values("date").groupby("ticker").last().reset_index()
+        return {
+            ticker_map.get(str(r["ticker"]), str(r["ticker"])): {
+                "pred_5d": round(float(r["pred_p50"]) * 100, 3),
+                "signal": "BUY"
+                if float(r["pred_p50"]) > 0.001
+                else "SELL"
+                if float(r["pred_p50"]) < -0.001
+                else "HOLD",
+                "p10": round(float(r.get("pred_p10", 0)) * 100, 3),
+                "p90": round(float(r.get("pred_p90", 0)) * 100, 3),
+            }
+            for _, r in latest.iterrows()
+        }
     except Exception:
-        try:
-            with open("reports/drift_report.json") as f:
-                return json.load(f)
-        except Exception:
-            return None
+        return {}
+
 
 @st.cache_data(ttl=60)
-def load_history(ticker: str, days: int = 180):
+def load_history(ticker: str, days: int = 365) -> pd.DataFrame:
     try:
-        r = requests.get(f"{API_BASE}/api/market/history/{ticker}?days={days}", timeout=10)
-        return pd.DataFrame(r.json()["data"])
-    except Exception:
-        import yfinance as yf
         from datetime import timedelta
-        df = yf.download(ticker,
-                         start=(datetime.utcnow() - timedelta(days=days)).strftime("%Y-%m-%d"),
-                         auto_adjust=True, progress=False)
+
+        start = (datetime.utcnow() - timedelta(days=days)).strftime("%Y-%m-%d")
+        df = yf.download(ticker, start=start, auto_adjust=True, progress=False)
         if isinstance(df.columns, pd.MultiIndex):
             df.columns = df.columns.get_level_values(0)
-        df = df.reset_index()
-        df.columns = [c.lower() for c in df.columns]
-        return df
+        return df.reset_index()
+    except Exception:
+        return pd.DataFrame()
 
 
-# ── CHART HELPERS ─────────────────────────────────────────────────────
-
-def dark_chart(fig):
-    """Apply dark theme to any plotly figure."""
-    fig.update_layout(
-        paper_bgcolor = COLORS["bg"],
-        plot_bgcolor  = COLORS["panel"],
-        font          = dict(color="#c9d1d9", family="Courier New"),
-        margin        = dict(l=20, r=20, t=40, b=20),
-    )
-    fig.update_xaxes(gridcolor="#1e2d40", zerolinecolor="#1e2d40")
-    fig.update_yaxes(gridcolor="#1e2d40", zerolinecolor="#1e2d40")
-    return fig
-
-
-# ── SIDEBAR ───────────────────────────────────────────────────────────
-
-with st.sidebar:
-    st.markdown("## 🌊 AlphaFlow")
-    st.markdown("*Adaptive Portfolio Optimizer*")
-    st.divider()
-
-    st.markdown("### Navigation")
-    page = st.radio("", [
-        "📊 Portfolio Overview",
-        "📈 Market & Predictions",
-        "🔬 Backtest Analysis",
-        "🛰️ System Health",
-    ], label_visibility="collapsed")
-
-    st.divider()
-    st.markdown("### Settings")
-    auto_refresh = st.toggle("Auto refresh (60s)", value=False)
-    show_benchmark = st.toggle("Show SPY benchmark", value=True)
-
-    st.divider()
-    st.markdown(f"*Last updated: {datetime.utcnow().strftime('%H:%M:%S')} UTC*")
-
-    if auto_refresh:
-        import time
-        time.sleep(60)
-        st.cache_data.clear()
-        st.rerun()
+# ── LOAD ALL STATE ────────────────────────────────────────────────────
+allocation = load_json(str(REPORTS / "allocation.json"))
+metrics_list = load_json(str(REPORTS / "metrics.json")) or []
+if isinstance(metrics_list, dict):
+    metrics_list = [metrics_list]
+regime = allocation.get("regime", "unknown").upper()
+regime_conf = allocation.get("regime_confidence", 0)
+weights = allocation.get("weights", {})
+sharpe_mkt = allocation.get("markowitz_sharpe", 0)
+af_metrics = next(
+    (m for m in metrics_list if "AlphaFlow" in str(m.get("name", ""))), {}
+)
+bh_metrics = next((m for m in metrics_list if "Buy Hold" in str(m.get("name", ""))), {})
+live_prices = load_live_prices()
+predictions = load_predictions()
+stress_data = load_json(str(REPORTS / "stress_test_report.json"))
+regime_class = {
+    "BEAR": "regime-bear",
+    "BULL": "regime-bull",
+    "VOLATILE": "regime-volatile",
+}.get(regime, "regime-neutral")
 
 
-# ════════════════════════════════════════════════════════════════════════
-# PAGE: PORTFOLIO OVERVIEW
-# ════════════════════════════════════════════════════════════════════════
+# ── HEADER ────────────────────────────────────────────────────────────
+now_str = datetime.now(timezone.utc).strftime("%Y-%m-%d  %H:%M:%S UTC")
+st.markdown(
+    f"""
+<div style="display:flex;justify-content:space-between;align-items:center;
+padding:6px 0;border-bottom:1px solid #0d0d18;margin-bottom:12px">
+  <div style="display:flex;align-items:center;gap:24px">
+    <span style="color:#00e5ff;font-size:16px;font-weight:600;letter-spacing:3px">⚡ ALPHAFLOW</span>
+    <span style="color:#2a3050;font-size:10px">INSTITUTIONAL PORTFOLIO INTELLIGENCE</span>
+  </div>
+  <div style="display:flex;align-items:center;gap:16px">
+    <span class="regime-badge {regime_class}">{regime}</span>
+    <span style="color:#2a3050;font-size:10px">{now_str}</span>
+  </div>
+</div>
+""",
+    unsafe_allow_html=True,
+)
 
-if page == "📊 Portfolio Overview":
-    st.title("📊 Portfolio Overview")
-    st.markdown("*AI-driven allocation powered by Temporal Fusion Transformer + Markowitz Optimizer*")
+# ── KPI ROW ───────────────────────────────────────────────────────────
+k1, k2, k3, k4, k5, k6, k7 = st.columns(7)
+kpis = [
+    (
+        k1,
+        "SHARPE RATIO",
+        f"{af_metrics.get('sharpe_ratio', sharpe_mkt):.3f}",
+        "AlphaFlow TFT",
+        "#00e5ff",
+    ),
+    (
+        k2,
+        "TOTAL RETURN",
+        f"{af_metrics.get('total_return', 0):.1f}%",
+        f"vs SPY {bh_metrics.get('total_return', 0):.1f}%",
+        "#00ff9d" if af_metrics.get("total_return", 0) > 0 else "#ff4444",
+    ),
+    (
+        k3,
+        "MAX DRAWDOWN",
+        f"{af_metrics.get('max_drawdown', 0):.1f}%",
+        "peak-to-trough",
+        "#ffd700",
+    ),
+    (
+        k4,
+        "HIT RATE",
+        f"{af_metrics.get('hit_rate', 0):.1f}%",
+        "directional accuracy",
+        "#7b61ff",
+    ),
+    (
+        k5,
+        "REGIME",
+        regime,
+        f"{regime_conf:.0%} confidence",
+        "#ff4444" if regime == "BEAR" else "#00ff9d",
+    ),
+    (k6, "ASSETS", "39", "equity+crypto+bonds+cmdty", "#00e5ff"),
+    (
+        k7,
+        "SORTINO",
+        f"{af_metrics.get('sortino_ratio', 0):.3f}",
+        "downside-adjusted",
+        "#ff6b35",
+    ),
+]
+for col, label, value, delta, color in kpis:
+    with col:
+        st.markdown(
+            f"""
+        <div class="kpi-card" style="--accent:{color}">
+          <div class="kpi-label">{label}</div>
+          <div class="kpi-value" style="color:{color};font-size:20px">{value}</div>
+          <div class="kpi-delta">{delta}</div>
+        </div>""",
+            unsafe_allow_html=True,
+        )
 
-    allocation = load_allocation()
-    metrics    = load_metrics()
-    prices     = load_prices()
+st.markdown("<div style='height:8px'></div>", unsafe_allow_html=True)
 
-    # ── TOP METRICS ROW ───────────────────────────────────────────────
-    if metrics:
-        alphaflow = next((m for m in metrics if "AlphaFlow" in m.get("name", "")), {})
-        spy_metrics = next((m for m in metrics if "Buy Hold" in m.get("name", "")), {})
+# ── MAIN TABS ─────────────────────────────────────────────────────────
+tab1, tab2, tab3, tab4, tab5 = st.tabs(
+    ["PORTFOLIO", "MARKET", "BACKTEST", "CRISIS TEST", "AI ANALYST"]
+)
 
-        col1, col2, col3, col4, col5 = st.columns(5)
-        with col1:
-            st.metric("Total Return", f"{alphaflow.get('total_return', 0):.1f}%",
-                      delta=f"{alphaflow.get('total_return', 0) - spy_metrics.get('total_return', 0):.1f}% vs SPY")
-        with col2:
-            st.metric("Sharpe Ratio", f"{alphaflow.get('sharpe_ratio', 0):.3f}",
-                      delta=f"{alphaflow.get('sharpe_ratio', 0) - spy_metrics.get('sharpe_ratio', 0):.3f} vs SPY")
-        with col3:
-            st.metric("Max Drawdown", f"{alphaflow.get('max_drawdown', 0):.1f}%")
-        with col4:
-            st.metric("Hit Rate", f"{alphaflow.get('hit_rate', 0):.1f}%")
-        with col5:
-            if allocation:
-                st.metric("Regime", allocation.get("regime_label", "neutral").upper())
 
-    st.divider()
+# ══════════════════════════════════════════════════════════════════════
+# TAB 1 — PORTFOLIO
+# ══════════════════════════════════════════════════════════════════════
+with tab1:
+    left, mid, right = st.columns([1, 1.2, 1])
 
-    # ── ALLOCATION CHARTS ─────────────────────────────────────────────
-    if allocation and allocation.get("weights"):
-        weights = allocation["weights"]
-        col1, col2 = st.columns([1, 1])
+    with left:
+        st.markdown(
+            '<div class="section-title">ALLOCATION</div>', unsafe_allow_html=True
+        )
+        alloc_html = ""
+        for ticker, w in list(weights.items())[:18]:
+            bar_w = int(w * 300)
+            color = "#00e5ff" if w > 0.10 else "#1a4a5a" if w > 0.02 else "#0d1a20"
+            alloc_html += f"""
+            <div class="alloc-row">
+              <span class="alloc-ticker">{ticker}</span>
+              <div class="alloc-bar-bg"><div class="alloc-bar" style="width:{bar_w}px;background:{color}"></div></div>
+              <span class="alloc-pct" style="color:{color}">{w * 100:.1f}%</span>
+            </div>"""
+        st.markdown(alloc_html, unsafe_allow_html=True)
 
-        with col1:
-            st.subheader("Current Allocation")
-
-            # Pie chart
-            tickers = list(weights.keys())
-            values  = [weights[t] * 100 for t in tickers]
-            colors  = [TICKER_COLORS.get(t, "#888") for t in tickers]
-
-            fig_pie = go.Figure(go.Pie(
-                labels     = tickers,
-                values     = values,
-                hole       = 0.5,
-                marker     = dict(colors=colors, line=dict(color="#070a0f", width=2)),
-                textinfo   = "label+percent",
-                hovertemplate = "%{label}: %{value:.1f}%<extra></extra>",
-            ))
+    with mid:
+        st.markdown(
+            '<div class="section-title">WEIGHT DISTRIBUTION</div>',
+            unsafe_allow_html=True,
+        )
+        if weights:
+            top = dict(list(weights.items())[:12])
+            colors = [
+                "#00e5ff" if v > 0.10 else "#1a4a5a" if v > 0.02 else "#0a1520"
+                for v in top.values()
+            ]
+            fig_pie = go.Figure(
+                go.Pie(
+                    labels=list(top.keys()),
+                    values=[v * 100 for v in top.values()],
+                    hole=0.6,
+                    marker=dict(colors=colors, line=dict(color="#050508", width=2)),
+                    textinfo="label+percent",
+                    textfont=dict(size=9, color="#5a6480"),
+                    hovertemplate="%{label}: %{value:.1f}%<extra></extra>",
+                )
+            )
             fig_pie.update_layout(
-                showlegend    = False,
-                annotations   = [dict(text="AlphaFlow", x=0.5, y=0.5,
-                                      font_size=14, showarrow=False,
-                                      font_color="#00e5ff")],
+                **CHART_LAYOUT,
+                height=260,
+                showlegend=False,
+                annotations=[
+                    dict(
+                        text=f"<b style='color:#00e5ff'>{regime}</b>",
+                        x=0.5,
+                        y=0.5,
+                        showarrow=False,
+                        font=dict(color="#00e5ff", size=12),
+                    )
+                ],
             )
-            st.plotly_chart(dark_chart(fig_pie), use_container_width=True)
+            st.plotly_chart(fig_pie, use_container_width=True)
 
-        with col2:
-            st.subheader("Weight Distribution")
+        # Regime info
+        blend = allocation.get("markowitz_blend", 0.5)
+        st.markdown(
+            f"""
+        <div style="background:#08080f;border:1px solid #1a1a2e;padding:10px 14px;border-radius:2px;margin-top:8px">
+          <div style="font-size:9px;letter-spacing:3px;color:#2a3050;margin-bottom:8px">REGIME STRATEGY</div>
+          <div style="display:flex;justify-content:space-between;font-size:11px;margin-bottom:6px">
+            <span style="color:#5a6480">Markowitz weight</span>
+            <span style="color:#00e5ff">{blend:.0%}</span>
+          </div>
+          <div style="display:flex;justify-content:space-between;font-size:11px;margin-bottom:6px">
+            <span style="color:#5a6480">RL agent weight</span>
+            <span style="color:#7b61ff">{1 - blend:.0%}</span>
+          </div>
+          <div style="display:flex;justify-content:space-between;font-size:11px">
+            <span style="color:#5a6480">Optimizer Sharpe</span>
+            <span style="color:#00ff9d">{sharpe_mkt:.3f}</span>
+          </div>
+        </div>""",
+            unsafe_allow_html=True,
+        )
 
-            # Horizontal bar chart
-            sorted_items = sorted(weights.items(), key=lambda x: x[1], reverse=True)
-            t_list = [t for t, _ in sorted_items]
-            w_list = [w * 100 for _, w in sorted_items]
-            c_list = [TICKER_COLORS.get(t, "#888") for t in t_list]
-
-            fig_bar = go.Figure(go.Bar(
-                y           = t_list,
-                x           = w_list,
-                orientation = "h",
-                marker_color= c_list,
-                text        = [f"{w:.1f}%" for w in w_list],
-                textposition= "outside",
-                hovertemplate = "%{y}: %{x:.1f}%<extra></extra>",
-            ))
-            fig_bar.update_layout(
-                xaxis_title = "Weight (%)",
-                height      = 350,
+    with right:
+        st.markdown(
+            '<div class="section-title">TFT SIGNALS</div>', unsafe_allow_html=True
+        )
+        if predictions:
+            sorted_preds = sorted(
+                predictions.items(), key=lambda x: x[1]["pred_5d"], reverse=True
             )
-            st.plotly_chart(dark_chart(fig_bar), use_container_width=True)
-
-        # Allocation details
-        st.subheader("Allocation Details")
-        regime = allocation.get("regime_label", "neutral")
-        regime_color = {"risk-on": "🟢", "neutral": "🟡", "risk-off": "🔴"}.get(regime, "🟡")
-
-        col1, col2, col3 = st.columns(3)
-        col1.metric("Macro Regime", f"{regime_color} {regime.upper()}")
-        col2.metric("Markowitz Blend", f"{(1-allocation.get('rl_blend',0.5))*100:.0f}%")
-        col3.metric("RL Blend", f"{allocation.get('rl_blend',0.5)*100:.0f}%")
-
-    # ── LIVE PRICES ───────────────────────────────────────────────────
-    if prices:
-        st.divider()
-        st.subheader("Live Market Prices")
-        cols = st.columns(min(len(prices), 5))
-        for i, price_data in enumerate(prices[:10]):
-            col = cols[i % 5]
-            delta_color = "normal" if price_data["change"] >= 0 else "inverse"
-            with col:
-                st.metric(
-                    label = price_data["ticker"],
-                    value = f"${price_data['price']:,.2f}",
-                    delta = f"{price_data['change_pct']:+.2f}%",
+            for ticker, pred in sorted_preds[:15]:
+                p5 = pred["pred_5d"]
+                sig = pred["signal"]
+                color = (
+                    "#00ff9d"
+                    if sig == "BUY"
+                    else "#ff4444"
+                    if sig == "SELL"
+                    else "#ffd700"
+                )
+                st.markdown(
+                    f"""
+                <div style="display:flex;justify-content:space-between;align-items:center;
+                padding:4px 8px;border-bottom:1px solid #0d0d18;font-size:11px">
+                  <span style="color:#5a6480;width:55px">{ticker}</span>
+                  <span style="color:{color};font-size:9px;letter-spacing:1px">{sig}</span>
+                  <span style="color:{color}">{p5:+.3f}%</span>
+                </div>""",
+                    unsafe_allow_html=True,
                 )
 
 
-# ════════════════════════════════════════════════════════════════════════
-# PAGE: MARKET & PREDICTIONS
-# ════════════════════════════════════════════════════════════════════════
+# ══════════════════════════════════════════════════════════════════════
+# TAB 2 — MARKET
+# ══════════════════════════════════════════════════════════════════════
+with tab2:
+    # Price ticker
+    if live_prices:
+        price_html = (
+            '<div style="display:flex;flex-wrap:wrap;gap:4px;margin-bottom:12px">'
+        )
+        for ticker, data in list(live_prices.items())[:20]:
+            pct = data.get("change_pct", 0)
+            price = data.get("price", 0)
+            color = "#00ff9d" if pct >= 0 else "#ff4444"
+            price_html += f"""
+            <div style="background:#08080f;border:1px solid #1a1a2e;padding:6px 10px;border-radius:2px;min-width:90px">
+              <div style="font-size:9px;color:#4a5568;letter-spacing:1px">{ticker}</div>
+              <div style="font-size:13px;color:#b8bcc8">${price:,.2f}</div>
+              <div style="font-size:10px;color:{color}">{pct:+.2f}%</div>
+            </div>"""
+        price_html += "</div>"
+        st.markdown(price_html, unsafe_allow_html=True)
+    else:
+        st.info("⚡ Run `python data_pipeline/streaming/producers.py` for live prices")
 
-elif page == "📈 Market & Predictions":
-    st.title("📈 Market & TFT Predictions")
-    st.markdown("*5-day forward return predictions from the Temporal Fusion Transformer*")
+    col1, col2 = st.columns([2, 1])
 
-    predictions = load_predictions()
+    with col1:
+        selected = st.multiselect(
+            "SELECT TICKERS",
+            options=TICKERS[:15] + [BENCHMARK_TICKER],
+            default=["AAPL", "MSFT", "GOOGL", "SPY"],
+        )
+        days = st.select_slider("PERIOD", options=[30, 90, 180, 365], value=180)
 
-    # ── SIGNAL TABLE ──────────────────────────────────────────────────
-    if predictions:
-        st.subheader("Model Signals")
-
-        pred_df = pd.DataFrame(predictions)
-
-        def color_signal(val):
-            if val == "BUY":  return "color: #00ff9d; font-weight: bold"  # noqa: E701
-            if val == "SELL": return "color: #ff4444; font-weight: bold"  # noqa: E701
-            return "color: #ffd700; font-weight: bold"
-
-        def color_return(val):
-            try:
-                v = float(val)
-                return f"color: {'#00ff9d' if v > 0 else '#ff4444'}"
-            except Exception:
-                return ""
-
-        if "pred_p50" in pred_df.columns:
-            display_df = pred_df[["ticker", "signal", "pred_p10", "pred_p50", "pred_p90", "confidence"]].copy()
-            display_df.columns = ["Ticker", "Signal", "Bear (p10%)", "Base (p50%)", "Bull (p90%)", "Confidence%"]
-
-            styled = display_df.style\
-                .applymap(color_signal, subset=["Signal"])\
-                .applymap(color_return, subset=["Bear (p10%)", "Base (p50%)", "Bull (p90%)"])\
-                .format({"Bear (p10%)": "{:.3f}", "Base (p50%)": "{:.3f}",
-                         "Bull (p90%)": "{:.3f}", "Confidence%": "{:.1f}"})
-
-            st.dataframe(styled, use_container_width=True, height=350)
-
-        # Prediction bar chart
-        st.subheader("5-Day Return Forecasts")
-        if "pred_p50" in pred_df.columns:
-            pred_df_sorted = pred_df.sort_values("pred_p50", ascending=False)
-            colors = ["#00ff9d" if v > 0 else "#ff4444"
-                      for v in pred_df_sorted["pred_p50"]]
-
-            fig_pred = go.Figure()
-            fig_pred.add_trace(go.Bar(
-                x           = pred_df_sorted["ticker"],
-                y           = pred_df_sorted["pred_p50"],
-                name        = "p50 (median)",
-                marker_color= colors,
-                error_y     = dict(
-                    type      = "data",
-                    array     = (pred_df_sorted["pred_p90"] - pred_df_sorted["pred_p50"]).values,
-                    arrayminus= (pred_df_sorted["pred_p50"] - pred_df_sorted["pred_p10"]).values,
-                    visible   = True,
-                    color     = "#4a5568",
-                ),
-            ))
-            fig_pred.update_layout(
-                yaxis_title = "Predicted 5-Day Return (%)",
-                xaxis_title = "Ticker",
-                height      = 350,
-            )
-            fig_pred.add_hline(y=0, line_dash="dash", line_color="#4a5568")
-            st.plotly_chart(dark_chart(fig_pred), use_container_width=True)
-
-    # ── PRICE CHART ───────────────────────────────────────────────────
-    st.divider()
-    st.subheader("Price History")
-
-    from config import TICKERS, BENCHMARK_TICKER
-    all_tickers = TICKERS + [BENCHMARK_TICKER]
-
-    selected = st.multiselect(
-        "Select tickers",
-        options  = all_tickers,
-        default  = ["AAPL", "MSFT", "SPY"],
-    )
-    days = st.slider("Days", min_value=30, max_value=365, value=180, step=30)
-
-    if selected:
-        fig_price = go.Figure()
-        for ticker in selected:
-            try:
+        if selected:
+            fig = go.Figure()
+            for ticker in selected:
                 hist = load_history(ticker, days)
                 if not hist.empty:
-                    close_col = "close" if "close" in hist.columns else "Close"
-                    # Normalise to 100 for comparison
+                    close_col = "Close" if "Close" in hist.columns else "close"
+                    date_col = "Date" if "Date" in hist.columns else "date"
                     norm = hist[close_col] / hist[close_col].iloc[0] * 100
-                    fig_price.add_trace(go.Scatter(
-                        x    = hist["date"] if "date" in hist.columns else hist.index,
-                        y    = norm,
-                        name = ticker,
-                        line = dict(color=TICKER_COLORS.get(ticker, "#888"), width=2),
-                        hovertemplate = f"{ticker}: %{{y:.1f}}<extra></extra>",
-                    ))
-            except Exception as e:
-                st.warning(f"Could not load {ticker}: {e}")
+                    color_map = {
+                        "AAPL": "#00e5ff",
+                        "MSFT": "#7b61ff",
+                        "GOOGL": "#00ff9d",
+                        "AMZN": "#ff6b35",
+                        "JPM": "#ffd700",
+                        "SPY": "#888888",
+                    }
+                    fig.add_trace(
+                        go.Scatter(
+                            x=hist[date_col],
+                            y=norm,
+                            name=ticker,
+                            line=dict(
+                                color=color_map.get(ticker, "#5a6480"), width=1.5
+                            ),
+                            hovertemplate=f"{ticker}: %{{y:.1f}}<extra></extra>",
+                        )
+                    )
+            fig.add_hline(y=100, line_dash="dash", line_color="#1a1a2e", opacity=0.5)
+            fig.update_layout(
+                **CHART_LAYOUT, height=320, yaxis_title="Normalised (base=100)"
+            )
+            st.plotly_chart(fig, use_container_width=True)
 
-        fig_price.update_layout(
-            yaxis_title = "Normalised Price (base=100)",
-            height      = 400,
-            legend      = dict(bgcolor="#0d1117", bordercolor="#1e2d40"),
+    with col2:
+        st.markdown(
+            '<div class="section-title">LIVE FEED</div>', unsafe_allow_html=True
         )
-        fig_price.add_hline(y=100, line_dash="dash", line_color="#4a5568", opacity=0.5)
-        st.plotly_chart(dark_chart(fig_price), use_container_width=True)
+        for ticker, data in list(live_prices.items())[:20]:
+            pct = data.get("change_pct", 0)
+            price = data.get("price", 0)
+            color = "#00ff9d" if pct >= 0 else "#ff4444"
+            arrow = "▲" if pct >= 0 else "▼"
+            st.markdown(
+                f"""
+            <div class="price-row">
+              <span class="price-ticker">{ticker}</span>
+              <span class="price-val">${price:,.2f}</span>
+              <span style="color:{color};font-size:10px">{arrow} {abs(pct):.2f}%</span>
+            </div>""",
+                unsafe_allow_html=True,
+            )
 
 
-# ════════════════════════════════════════════════════════════════════════
-# PAGE: BACKTEST ANALYSIS
-# ════════════════════════════════════════════════════════════════════════
-
-elif page == "🔬 Backtest Analysis":
-    st.title("🔬 Backtest Analysis")
-    st.markdown("*Validation period: Jul 2024 – Mar 2025 | 9 tickers | 65 features*")
-
-    metrics = load_metrics()
-
-    if metrics:
-        # ── METRICS TABLE ─────────────────────────────────────────────
-        st.subheader("Performance Comparison")
-
-        df = pd.DataFrame(metrics)
-        df_display = df[["name", "total_return", "annual_return", "sharpe_ratio",
-                          "sortino_ratio", "max_drawdown", "hit_rate"]].copy()
-        df_display.columns = ["Strategy", "Total Return %", "Annual Return %",
-                               "Sharpe", "Sortino", "Max Drawdown %", "Hit Rate %"]
-
-        def highlight_alphaflow(row):
-            if "AlphaFlow" in str(row["Strategy"]):
-                return ["background-color: #0d2137; color: #00e5ff"] * len(row)
-            return [""] * len(row)
-
-        styled = df_display.style\
-            .apply(highlight_alphaflow, axis=1)\
-            .format({"Total Return %": "{:.1f}", "Annual Return %": "{:.1f}",
-                     "Sharpe": "{:.3f}", "Sortino": "{:.3f}",
-                     "Max Drawdown %": "{:.1f}", "Hit Rate %": "{:.1f}"})
-
-        st.dataframe(styled, use_container_width=True)
-
-        # ── CHARTS ────────────────────────────────────────────────────
+# ══════════════════════════════════════════════════════════════════════
+# TAB 3 — BACKTEST
+# ══════════════════════════════════════════════════════════════════════
+with tab3:
+    if metrics_list and len(metrics_list) > 1:
         col1, col2 = st.columns(2)
 
         with col1:
-            st.subheader("Sharpe Ratio Comparison")
-            bar_colors = ["#00e5ff" if "AlphaFlow" in n else "#333"
-                          for n in df["name"]]
-            fig_sharpe = go.Figure(go.Bar(
-                x             = df["name"],
-                y             = df["sharpe_ratio"],
-                marker_color  = bar_colors,
-                text          = [f"{s:.3f}" for s in df["sharpe_ratio"]],
-                textposition  = "outside",
-            ))
-            fig_sharpe.update_layout(height=300)
-            fig_sharpe.add_hline(y=1.0, line_dash="dash",
-                                  line_color="#ffd700", opacity=0.7,
-                                  annotation_text="Sharpe=1.0 threshold")
-            st.plotly_chart(dark_chart(fig_sharpe), use_container_width=True)
+            st.markdown(
+                '<div class="section-title">STRATEGY COMPARISON</div>',
+                unsafe_allow_html=True,
+            )
+            df_m = pd.DataFrame(metrics_list)
+            cols_show = [
+                "name",
+                "total_return",
+                "annual_return",
+                "sharpe_ratio",
+                "sortino_ratio",
+                "max_drawdown",
+                "hit_rate",
+            ]
+            cols_avail = [c for c in cols_show if c in df_m.columns]
+            df_show = df_m[cols_avail].copy()
+            df_show.columns = [c.replace("_", " ").upper() for c in cols_avail]
+
+            def highlight_af(row):
+                if "AlphaFlow" in str(row.iloc[0]):
+                    return ["color: #00e5ff; font-weight: bold"] * len(row)
+                return ["color: #5a6480"] * len(row)
+
+            styled = df_show.style.apply(highlight_af, axis=1)
+            st.dataframe(styled, use_container_width=True, height=180)
 
         with col2:
-            st.subheader("Risk vs Return")
-            fig_scatter = go.Figure()
-            for _, row in df.iterrows():
-                is_af = "AlphaFlow" in str(row["name"])
-                fig_scatter.add_trace(go.Scatter(
-                    x    = [abs(row["max_drawdown"])],
-                    y    = [row["annual_return"]],
-                    mode = "markers+text",
-                    name = row["name"],
-                    text = [row["name"]],
-                    textposition = "top center",
-                    marker = dict(
-                        size  = 20 if is_af else 12,
-                        color = "#00e5ff" if is_af else "#555",
-                        symbol= "star" if is_af else "circle",
-                    ),
-                ))
-            fig_scatter.update_layout(
-                xaxis_title = "Max Drawdown % (lower is better →)",
-                yaxis_title = "Annual Return %",
-                showlegend  = False,
-                height      = 300,
+            st.markdown(
+                '<div class="section-title">SHARPE COMPARISON</div>',
+                unsafe_allow_html=True,
             )
-            st.plotly_chart(dark_chart(fig_scatter), use_container_width=True)
+            names = [m.get("name", "") for m in metrics_list]
+            sharpes = [m.get("sharpe_ratio", 0) for m in metrics_list]
+            colors = ["#00e5ff" if "AlphaFlow" in n else "#1a1a2e" for n in names]
+            fig_b = go.Figure(
+                go.Bar(
+                    x=names,
+                    y=sharpes,
+                    marker_color=colors,
+                    text=[f"{s:.3f}" for s in sharpes],
+                    textposition="outside",
+                    textfont=dict(color="#5a6480", size=10),
+                )
+            )
+            fig_b.add_hline(
+                y=1.0,
+                line_dash="dash",
+                line_color="#ffd700",
+                annotation_text="Sharpe=1.0",
+                annotation_font_color="#ffd700",
+            )
+            fig_b.update_layout(**CHART_LAYOUT, height=220, showlegend=False)
+            st.plotly_chart(fig_b, use_container_width=True)
 
-        # ── OPEN FULL REPORT ──────────────────────────────────────────
+        # Risk vs Return scatter
+        st.markdown(
+            '<div class="section-title">RISK / RETURN</div>', unsafe_allow_html=True
+        )
+        fig_s = go.Figure()
+        for m in metrics_list:
+            is_af = "AlphaFlow" in str(m.get("name", ""))
+            fig_s.add_trace(
+                go.Scatter(
+                    x=[abs(m.get("max_drawdown", 0))],
+                    y=[m.get("annual_return", 0)],
+                    mode="markers+text",
+                    name=m.get("name", ""),
+                    text=[m.get("name", "")],
+                    textposition="top center",
+                    marker=dict(
+                        size=18 if is_af else 10,
+                        color="#00e5ff" if is_af else "#2a3050",
+                        symbol="star" if is_af else "circle",
+                        line=dict(color="#050508", width=1),
+                    ),
+                    showlegend=False,
+                )
+            )
+        fig_s.update_layout(
+            **CHART_LAYOUT,
+            height=250,
+            xaxis_title="Max Drawdown % (lower=better →)",
+            yaxis_title="Annual Return %",
+        )
+        st.plotly_chart(fig_s, use_container_width=True)
+    else:
+        st.info(
+            "Run `python models/forecasting/evaluate.py` to generate backtest results"
+        )
+
+
+# ══════════════════════════════════════════════════════════════════════
+# TAB 4 — CRISIS STRESS TEST
+# ══════════════════════════════════════════════════════════════════════
+with tab4:
+    if stress_data:
+        # Summary metrics
+        valid = {k: v for k, v in stress_data.items() if "error" not in v}
+        beat_ct = sum(1 for v in valid.values() if v.get("beat_benchmark"))
+        total_ct = len(valid)
+
+        c1, c2, c3 = st.columns(3)
+        c1.metric("Crisis Periods Tested", total_ct)
+        c2.metric("Beat Benchmark", f"{beat_ct}/{total_ct}")
+        c3.metric(
+            "Average Alpha",
+            f"{np.mean([v.get('alpha_vs_spy', 0) for v in valid.values()]):.1f}%",
+        )
+
         st.divider()
-        report_path = Path("reports/backtest_report.html")
-        if report_path.exists():
-            st.success("✓ Full interactive backtest report available")
-            st.markdown("Run `open reports/backtest_report.html` in terminal to view")
+
+        # Per-crisis cards
+        cols = st.columns(3)
+        for i, (crisis_name, result) in enumerate(valid.items()):
+            with cols[i % 3]:
+                strats = result.get("strategies", {})
+                af = strats.get("AlphaFlow (Regime-Aware)", {})
+                spy = strats.get("SPY Benchmark", {})
+                alpha = result.get("alpha_vs_spy", 0)
+                beat = result.get("beat_benchmark", False)
+                color = result.get("color", "#00e5ff")
+
+                st.markdown(
+                    f"""
+                <div style="background:#08080f;border:1px solid #1a1a2e;
+                border-left:3px solid {color};padding:12px 14px;border-radius:2px;margin-bottom:8px">
+                  <div style="font-size:11px;font-weight:600;color:{color};margin-bottom:6px">{crisis_name}</div>
+                  <div style="font-size:9px;color:#2a3050;margin-bottom:8px">{result.get("period", "")}</div>
+                  <div style="display:grid;grid-template-columns:1fr 1fr;gap:4px;font-size:10px">
+                    <span style="color:#4a5568">AlphaFlow</span>
+                    <span style="color:{"#00ff9d" if af.get("total_return", 0) > 0 else "#ff4444"};text-align:right">
+                      {af.get("total_return", 0):+.1f}%</span>
+                    <span style="color:#4a5568">SPY</span>
+                    <span style="color:{"#00ff9d" if spy.get("total_return", 0) > 0 else "#ff4444"};text-align:right">
+                      {spy.get("total_return", 0):+.1f}%</span>
+                    <span style="color:#4a5568">Alpha</span>
+                    <span style="color:{"#00ff9d" if alpha > 0 else "#ff4444"};text-align:right;font-weight:600">
+                      {alpha:+.1f}%</span>
+                    <span style="color:#4a5568">Max DD</span>
+                    <span style="color:#ffd700;text-align:right">{af.get("max_drawdown", 0):.1f}%</span>
+                    <span style="color:#4a5568">Sharpe</span>
+                    <span style="color:#00e5ff;text-align:right">{af.get("sharpe", 0):.3f}</span>
+                  </div>
+                  <div style="margin-top:8px;font-size:9px;color:{"#00ff9d" if beat else "#ff4444"}">
+                    {"✓ BEAT BENCHMARK" if beat else "✗ UNDERPERFORMED"}</div>
+                </div>""",
+                    unsafe_allow_html=True,
+                )
+
+        # Comparison chart
+        st.markdown(
+            '<div class="section-title">ALPHAFLOW vs SPY — ALL CRISES</div>',
+            unsafe_allow_html=True,
+        )
+        crisis_names = list(valid.keys())
+        af_returns = [
+            valid[c]
+            .get("strategies", {})
+            .get("AlphaFlow (Regime-Aware)", {})
+            .get("total_return", 0)
+            for c in crisis_names
+        ]
+        spy_returns = [
+            valid[c]
+            .get("strategies", {})
+            .get("SPY Benchmark", {})
+            .get("total_return", 0)
+            for c in crisis_names
+        ]
+
+        fig_crisis = go.Figure()
+        fig_crisis.add_trace(
+            go.Bar(
+                name="AlphaFlow",
+                x=crisis_names,
+                y=af_returns,
+                marker_color="#00e5ff",
+                opacity=0.9,
+            )
+        )
+        fig_crisis.add_trace(
+            go.Bar(
+                name="SPY",
+                x=crisis_names,
+                y=spy_returns,
+                marker_color="#2a3050",
+                opacity=0.9,
+            )
+        )
+        fig_crisis.add_hline(y=0, line_color="#1a1a2e")
+        fig_crisis.update_layout(
+            **CHART_LAYOUT, height=300, barmode="group", yaxis_title="Total Return %"
+        )
+        st.plotly_chart(fig_crisis, use_container_width=True)
+
+    else:
+        st.info("Run crisis stress test first:")
+        st.code("python models/backtesting/crisis_stress_test.py", language="bash")
+        if st.button("▶ RUN STRESS TEST NOW"):
+            with st.spinner("Running crisis stress test across 6 periods..."):
+                import subprocess, sys  # noqa: E401
+
+                result = subprocess.run(
+                    [sys.executable, "models/backtesting/crisis_stress_test.py"],
+                    capture_output=True,
+                    text=True,
+                )
+                if result.returncode == 0:
+                    st.success("✓ Stress test complete")
+                    st.rerun()
+                else:
+                    st.error(result.stderr[-500:])
 
 
-# ════════════════════════════════════════════════════════════════════════
-# PAGE: SYSTEM HEALTH
-# ════════════════════════════════════════════════════════════════════════
+# ══════════════════════════════════════════════════════════════════════
+# TAB 5 — AI ANALYST
+# ══════════════════════════════════════════════════════════════════════
+with tab5:
+    col_chat, col_info = st.columns([2, 1])
 
-elif page == "🛰️ System Health":
-    st.title("🛰️ System Health")
-    st.markdown("*Pipeline status, drift monitoring, MLOps overview*")
+    with col_info:
+        # Ollama status
+        ollama_ok = False
+        try:
+            r = requests.get("http://localhost:11434/api/tags", timeout=2)
+            ollama_ok = r.status_code == 200
+        except Exception:
+            pass
 
-    # ── PIPELINE STATUS ───────────────────────────────────────────────
-    st.subheader("Pipeline Components")
-
-    components = {
-        "Market Data"  : Path("data/local/raw/market"),
-        "Predictions"  : Path("data/local/predictions.parquet"),
-        "Allocation"   : Path("reports/allocation.json"),
-        "Metrics"      : Path("reports/metrics.json"),
-        "Drift Report" : Path("reports/drift_report.json"),
-        "Model Checkpoint": Path("models/checkpoints"),
-    }
-
-    cols = st.columns(3)
-    for i, (name, path) in enumerate(components.items()):
-        exists = path.exists()
-        if exists:
-            age = (datetime.utcnow().timestamp() - path.stat().st_mtime) / 3600
-            status = "✅ Fresh" if age < 48 else f"⚠️ {age:.0f}h old"
+        if ollama_ok:
+            st.success("🟢 Ollama: Connected")
+            try:
+                models_data = requests.get(
+                    "http://localhost:11434/api/tags", timeout=2
+                ).json()
+                model_names = [m["name"] for m in models_data.get("models", [])]
+                if model_names:
+                    sel_model = st.selectbox("Model", model_names)
+                else:
+                    sel_model = st.text_input("Model", value="llama3.2")
+            except Exception:
+                sel_model = st.text_input("Model", value="llama3.2")
         else:
-            status = "❌ Missing"
-        with cols[i % 3]:
-            st.metric(name, status)
+            st.warning("🟡 Ollama offline")
+            st.code("ollama serve", language="bash")
+            sel_model = "llama3.2"
 
-    # ── DRIFT REPORT ──────────────────────────────────────────────────
-    st.divider()
-    st.subheader("Data Drift Monitor")
-    drift = load_drift()
+        api_key = st.text_input(
+            "Claude API Key (fallback)",
+            type="password",
+            value=os.getenv("ANTHROPIC_API_KEY", ""),
+        )
 
-    if drift:
-        col1, col2, col3, col4 = st.columns(4)
-        col1.metric("Drift Score",  f"{drift.get('drift_score', 0):.3f}")
-        col2.metric("Drifted Features", f"{drift.get('n_drifted', 0)}/{drift.get('n_total', 0)}")
-        col3.metric("Method", drift.get("method", "psi").upper())
-        col4.metric("Action", "🔴 RETRAIN" if drift.get("drift_score", 0) > 0.3 else "🟢 MONITOR")
+        st.divider()
+        st.markdown(
+            '<div class="section-title">QUICK ANALYSIS</div>', unsafe_allow_html=True
+        )
+        quick_qs = [
+            "Why is SILVER overweight?",
+            "BEAR regime — key risks?",
+            "Best 3 positions now?",
+            "Crypto allocation rationale",
+            "Compare Sharpe to SPY",
+            "What triggers rebalance?",
+            "Weakest position right now?",
+            "Stress test summary",
+        ]
+        for q in quick_qs:
+            if st.button(q, use_container_width=True):
+                st.session_state.pending_q = q
 
-        # Drift gauge
-        drift_score = drift.get("drift_score", 0)
-        fig_gauge = go.Figure(go.Indicator(
-            mode  = "gauge+number",
-            value = drift_score,
-            title = {"text": "Drift Score", "font": {"color": "#c9d1d9"}},
-            gauge = {
-                "axis"  : {"range": [0, 1], "tickcolor": "#c9d1d9"},
-                "bar"   : {"color": "#00e5ff"},
-                "steps" : [
-                    {"range": [0, 0.1],  "color": "#0a2a0a"},
-                    {"range": [0.1, 0.3],"color": "#2a2a0a"},
-                    {"range": [0.3, 1.0],"color": "#2a0a0a"},
-                ],
-                "threshold": {
-                    "line" : {"color": "#ffd700", "width": 4},
-                    "thickness": 0.75,
-                    "value": 0.3,
-                },
-            },
-            number = {"font": {"color": "#00e5ff"}},
-        ))
-        fig_gauge.update_layout(height=250, paper_bgcolor=COLORS["bg"],
-                                 font=dict(color="#c9d1d9"))
-        st.plotly_chart(fig_gauge, use_container_width=True)
+    with col_chat:
+        st.markdown(
+            '<div class="section-title">AI PORTFOLIO ANALYST — POWERED BY OLLAMA</div>',
+            unsafe_allow_html=True,
+        )
 
-    # ── TECH STACK ────────────────────────────────────────────────────
-    st.divider()
-    st.subheader("Tech Stack")
+        if "analyst_msgs" not in st.session_state:
+            st.session_state.analyst_msgs = [
+                {
+                    "role": "assistant",
+                    "content": f"**AlphaFlow Terminal** — {datetime.utcnow().strftime('%Y-%m-%d %H:%M UTC')}\n\n"
+                    f"Regime: **{regime}** | Assets: **39** | Sharpe: **{af_metrics.get('sharpe_ratio', sharpe_mkt):.3f}**\n\n"
+                    "I have full access to all system data — allocation, predictions, sentiment, regime, stress tests. Ask anything.",
+                }
+            ]
 
-    stack = {
-        "Data Pipeline"   : "yfinance + SEC EDGAR + Airflow",
-        "Feature Store"   : "AWS S3 (Parquet) — 65 features",
-        "ML Model"        : "Temporal Fusion Transformer (PyTorch)",
-        "Portfolio Opt"   : "Markowitz (cvxpy) + RL (PPO)",
-        "MLOps"           : "MLflow + Evidently + GitHub Actions",
-        "Infrastructure"  : "AWS S3 + EC2 t2.micro (free tier)",
-        "Dashboard"       : "FastAPI + Streamlit",
-    }
+        for msg in st.session_state.analyst_msgs:
+            with st.chat_message(msg["role"]):
+                st.markdown(msg["content"])
 
-    for component, tech in stack.items():
-        col1, col2 = st.columns([1, 3])
-        col1.markdown(f"**{component}**")
-        col2.markdown(f"`{tech}`")
+        pending = getattr(st.session_state, "pending_q", None)
+        if pending:
+            del st.session_state.pending_q
+            user_input = pending
+        else:
+            user_input = st.chat_input("Ask the analyst...")
 
+        if user_input:
+            st.session_state.analyst_msgs.append(
+                {"role": "user", "content": user_input}
+            )
+            with st.chat_message("user"):
+                st.markdown(user_input)
+            with st.chat_message("assistant"):
+                if api_key:
+                    os.environ["ANTHROPIC_API_KEY"] = api_key
+                sys.path.insert(0, ".")
+                try:
+                    from dashboard.analyst.llm_analyst import PortfolioAnalyst
 
-if __name__ == "__main__":
-    pass
+                    analyst = PortfolioAnalyst(api_key=api_key, model=sel_model)
+                    response = st.write_stream(analyst.ask(user_input))
+                except Exception as e:
+                    response = f"Analyst error: {e}\n\nEnsure `dashboard/analyst/llm_analyst.py` exists."
+                    st.error(response)
+            st.session_state.analyst_msgs.append(
+                {"role": "assistant", "content": response}
+            )
