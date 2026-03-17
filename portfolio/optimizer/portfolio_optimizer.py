@@ -18,7 +18,14 @@ from io import BytesIO  # noqa: E402
 import boto3  # noqa: E402
 
 sys.path.append(str(Path(__file__).resolve().parents[2]))
-from config import AWS_REGION, S3_BUCKET, TICKERS, S3_FEATURES_PREFIX, LOCAL_DATA_DIR  # noqa: E402
+from config import (  # noqa: E402
+    AWS_REGION,
+    S3_BUCKET,
+    TICKERS,
+    S3_FEATURES_PREFIX,
+    LOCAL_DATA_DIR,
+    MULTI_ASSET_TICKERS,
+)  # noqa: E402
 
 logging.basicConfig(
     level=logging.INFO,
@@ -30,18 +37,9 @@ logger = logging.getLogger("portfolio")
 
 s3 = boto3.client("s3", region_name=AWS_REGION)
 
-TICKER_NAMES = {
-    "0": "AAPL",
-    "1": "MSFT",
-    "2": "GOOGL",
-    "3": "AMZN",
-    "4": "JPM",
-    "5": "JNJ",
-    "6": "SPY",
-    "7": "BRK-B",
-    "8": "TSLA",
-    "9": "XOM",
-}
+# Dynamically map the integer IDs to the tickers based on your config lists
+ALL_TICKERS = TICKERS + MULTI_ASSET_TICKERS
+TICKER_NAMES = {str(i): ticker for i, ticker in enumerate(ALL_TICKERS)}
 
 
 # ── Regime loading ────────────────────────────────────────────────────────────
@@ -73,13 +71,14 @@ def load_regime() -> dict:
 
 def load_features(tickers: list = None) -> dict:
     if tickers is None:
-        tickers = TICKERS
+        tickers = ALL_TICKERS
     data = {}
     for ticker in tickers:
         # Try sentiment-enriched first, fall back to original
         for key in [
             f"features/sentiment_enriched/{ticker}/{ticker}_features_v2.parquet",
             f"{S3_FEATURES_PREFIX}/market/{ticker}/{ticker}_features.parquet",
+            f"features/multi_asset/{ticker}/{ticker}_features.parquet",
         ]:
             try:
                 obj = s3.get_object(Bucket=S3_BUCKET, Key=key)
@@ -120,11 +119,17 @@ class MarkowitzOptimizer:
         self.lookback_days = lookback_days
 
     def build_return_matrix(self, feature_data: dict) -> pd.DataFrame:
+        CRYPTO = {"BTC", "ETH", "SOL", "BNB"}
+        COMMODITY = {"GOLD", "OIL", "SILVER", "NATGAS", "WHEAT"}
         returns = {}
         for ticker, df in feature_data.items():
-            col = "return_1d" if "return_1d" in df.columns else None
-            if col:
-                returns[ticker] = df.set_index("date")[col]
+            if "return_1d" in df.columns:
+                r = df.set_index("date")["return_1d"].copy()
+                if ticker in CRYPTO:
+                    r = r / 5  # scale crypto to equity magnitude
+                elif ticker in COMMODITY:
+                    r = r / 2  # scale commodities
+                returns[ticker] = r
         if not returns:
             raise ValueError("No return data available")
         return pd.DataFrame(returns).dropna().tail(self.lookback_days)
@@ -433,16 +438,18 @@ def run_portfolio_optimization(train_rl: bool = True) -> dict:
     regime_data = load_regime()
 
     logger.info("\nStep 2: Loading feature data...")
-    feature_data = load_features()
+    feature_data = load_features(TICKERS + MULTI_ASSET_TICKERS)
 
     logger.info("\nStep 3: Loading TFT predictions...")
     pred_df = load_predictions()
 
     logger.info("\nStep 4: Markowitz optimization...")
+    n_assets = len(TICKERS + MULTI_ASSET_TICKERS)
+    dynamic_min = max(0.005, 1.0 / (n_assets * 3))  # scales with universe size
     markowitz = MarkowitzOptimizer(
         risk_free_rate=0.05,
         max_weight=regime_data["constraints"]["max_weight"],
-        min_weight=regime_data["constraints"].get("min_weight", 0.02),
+        min_weight=dynamic_min,
         lookback_days=252,
     )
 

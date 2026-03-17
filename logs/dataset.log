@@ -1922,3 +1922,192 @@ Step 8: Charts...
 2026-03-17 01:06:41 | INFO | evaluate | 
 Step 9: MLflow...
 2026-03-17 01:06:41 | INFO | evaluate |   ✓ Done. Open: reports/backtest_report.html
+2026-03-17 01:56:51 | INFO | botocore.credentials | Found credentials in shared credentials file: ~/.aws/credentials
+2026-03-17 01:56:51 | INFO | dataset | ============================================================
+2026-03-17 01:56:51 | INFO | dataset | AlphaFlow — TFT Dataset Preparation
+2026-03-17 01:56:51 | INFO | dataset | ============================================================
+2026-03-17 01:56:51 | INFO | dataset | 
+Step 1: Loading features from S3...
+2026-03-17 01:56:52 | INFO | dataset |   ✓ Loaded AAPL: 1357 rows
+2026-03-17 01:56:52 | INFO | dataset |   ✓ Loaded MSFT: 1357 rows
+2026-03-17 01:56:52 | INFO | dataset |   ✓ Loaded GOOGL: 1357 rows
+2026-03-17 01:56:52 | INFO | dataset |   ✓ Loaded NVDA: 1357 rows
+2026-03-17 01:56:53 | INFO | dataset |   ✓ Loaded AMD: 1357 rows
+2026-03-17 01:56:53 | INFO | dataset |   ✓ Loaded AMZN: 1357 rows
+2026-03-17 01:56:54 | INFO | dataset |   ✓ Loaded WMT: 1357 rows
+2026-03-17 01:56:54 | INFO | dataset |   ✓ Loaded COST: 1357 rows
+2026-03-17 01:56:55 | INFO | dataset |   ✓ Loaded JPM: 1357 rows
+2026-03-17 01:56:55 | INFO | dataset |   ✓ Loaded GS: 1357 rows
+2026-03-17 01:56:56 | INFO | dataset |   ✓ Loaded BAC: 1357 rows
+2026-03-17 01:56:56 | INFO | dataset |   ✓ Loaded V: 1357 rows
+2026-03-17 01:56:56 | INFO | dataset |   ✓ Loaded JNJ: 1357 rows
+2026-03-17 01:56:57 | INFO | dataset |   ✓ Loaded UNH: 1357 rows
+2026-03-17 01:56:57 | INFO | dataset |   ✓ Loaded PFE: 1357 rows
+2026-03-17 01:56:57 | INFO | dataset |   ✓ Loaded ABBV: 1357 rows
+2026-03-17 01:56:57 | INFO | dataset |   ✓ Loaded XOM: 1357 rows
+2026-03-17 01:56:58 | INFO | dataset |   ✓ Loaded CVX: 1357 rows
+2026-03-17 01:56:58 | INFO | dataset |   ✓ Loaded BRK-B: 1357 rows
+2026-03-17 01:56:58 | INFO | dataset |   ✓ Loaded PG: 1357 rows
+2026-03-17 01:56:59 | INFO | dataset |   ✓ Loaded KO: 1357 rows
+2026-03-17 01:56:59 | INFO | dataset |   ✓ Loaded TSLA: 1357 rows
+2026-03-17 01:57:00 | INFO | dataset |   ✓ Loaded META: 1357 rows
+2026-03-17 01:57:00 | INFO | dataset |   ✓ Loaded NFLX: 1357 rows
+2026-03-17 01:57:00 | INFO | dataset |   ✓ Loaded CRM: 1357 rows
+2026-03-17 01:57:01 | INFO | dataset |   ✓ Loaded BTC: 2246 rows
+2026-03-17 01:57:02 | INFO | dataset |   ✓ Loaded ETH: 2246 rows
+2026-03-17 01:57:02 | INFO | dataset |   ✓ Loaded SOL: 2023 rows
+2026-03-17 01:57:03 | INFO | dataset |   ✓ Loaded BNB: 2246 rows
+2026-03-17 01:57:03 | INFO | dataset |   ✓ Loaded GOLD: 1538 rows
+2026-03-17 01:57:03 | INFO | dataset |   ✓ Loaded OIL: 1538 rows
+2026-03-17 01:57:04 | INFO | dataset |   ✓ Loaded SILVER: 1538 rows
+2026-03-17 01:57:05 | INFO | dataset |   ✓ Loaded NATGAS: 1539 rows
+2026-03-17 01:57:05 | INFO | dataset |   ✓ Loaded WHEAT: 1537 rows
+2026-03-17 01:57:05 | INFO | dataset |   ✓ Loaded US10Y_ETF: 1306 rows
+2026-03-17 01:57:06 | INFO | dataset |   ✓ Loaded US30Y_ETF: 1306 rows
+2026-03-17 01:57:06 | INFO | dataset |   ✓ Loaded TIPS_ETF: 1306 rows
+2026-03-17 01:57:06 | INFO | dataset |   ✓ Loaded HY_ETF: 1306 rows
+2026-03-17 01:57:07 | INFO | dataset |   ✓ Loaded IG_ETF: 1306 rows
+2026-03-17 01:57:07 | INFO | dataset | 
+  ✓ Combined dataset: 56906 rows | 94 cols
+2026-03-17 01:57:07 | INFO | dataset | 
+Step 2: Adding calendar features...
+2026-03-17 01:57:07 | INFO | dataset |   ✓ Calendar features added
+2026-03-17 01:57:07 | INFO | dataset | 
+Step 3: Cleaning dataset...
+2026-03-17 01:57:07 | INFO | dataset |   ✓ Dropped 195 rows with NaN target
+2026-03-17 01:57:07 | WARNING | dataset |   ⚠ Missing columns (will skip): ['sentiment_velocity', 'sentiment_accel', 'sentiment_divergence', 'sec_filing_spike']
+2026-03-17 01:57:07 | INFO | dataset |   ✓ Clean dataset: 56711 rows | 41 columns
+2026-03-17 01:57:07 | INFO | dataset |   ✓ Date range: 2020-01-23 00:00:00 → 2026-03-12 00:00:00
+2026-03-17 01:57:07 | INFO | dataset |   ✓ Tickers: 39
+2026-03-17 01:57:07 | INFO | dataset | 
+Step 4: Time-based train/val split...
+2026-03-17 01:57:07 | INFO | dataset |   ✓ Train: 48181 rows | 2020-01-23 00:00:00 → 2025-05-07 00:00:00
+2026-03-17 01:57:07 | INFO | dataset |   ✓ Val:   8530 rows   | 2025-05-08 00:00:00 → 2026-03-12 00:00:00
+2026-03-17 01:57:07 | INFO | dataset | 
+  ✓ Saved train/val locally to data/local/model_input
+2026-03-17 01:57:07 | INFO | dataset | 
+Step 5: Building TimeSeriesDataSets...
+2026-03-17 01:57:12 | INFO | dataset | 
+ Building TimeSeriesDataSet...
+2026-03-17 01:57:12 | INFO | dataset |   Known future features : 6
+2026-03-17 01:57:12 | INFO | dataset |   Unknown past features : 30
+2026-03-17 01:57:12 | INFO | dataset |   Static categoricals   : 2
+2026-03-17 01:57:12 | INFO | dataset |   Target                : target_return_5d
+2026-03-17 01:57:12 | INFO | dataset |   Encoder length        : 63 days
+2026-03-17 01:57:12 | INFO | dataset |   Prediction length     : 5 days
+2026-03-17 01:57:12 | INFO | dataset |   ✓ Training dataset  : 45568 samples
+2026-03-17 01:57:12 | INFO | dataset |   ✓ Validation dataset: 5917 samples
+2026-03-17 01:57:12 | INFO | dataset | 
+============================================================
+2026-03-17 01:57:12 | INFO | dataset | DATASET PREPARATION COMPLETE
+2026-03-17 01:57:12 | INFO | dataset | ============================================================
+2026-03-17 03:13:40 | INFO | botocore.credentials | Found credentials in shared credentials file: ~/.aws/credentials
+2026-03-17 03:13:40 | INFO | evaluate | ============================================================
+2026-03-17 03:13:40 | INFO | evaluate | AlphaFlow — Backtesting & Evaluation
+2026-03-17 03:13:40 | INFO | evaluate | ============================================================
+2026-03-17 03:13:40 | INFO | evaluate | 
+Step 1: Loading datasets...
+2026-03-17 03:13:40 | INFO | dataset | ============================================================
+2026-03-17 03:13:40 | INFO | dataset | AlphaFlow — TFT Dataset Preparation
+2026-03-17 03:13:40 | INFO | dataset | ============================================================
+2026-03-17 03:13:40 | INFO | dataset | 
+Step 1: Loading features from S3...
+2026-03-17 03:13:41 | INFO | dataset |   ✓ Loaded AAPL: 1357 rows
+2026-03-17 03:13:41 | INFO | dataset |   ✓ Loaded MSFT: 1357 rows
+2026-03-17 03:13:41 | INFO | dataset |   ✓ Loaded GOOGL: 1357 rows
+2026-03-17 03:13:42 | INFO | dataset |   ✓ Loaded NVDA: 1357 rows
+2026-03-17 03:13:42 | INFO | dataset |   ✓ Loaded AMD: 1357 rows
+2026-03-17 03:13:42 | INFO | dataset |   ✓ Loaded AMZN: 1357 rows
+2026-03-17 03:13:42 | INFO | dataset |   ✓ Loaded WMT: 1357 rows
+2026-03-17 03:13:42 | INFO | dataset |   ✓ Loaded COST: 1357 rows
+2026-03-17 03:13:43 | INFO | dataset |   ✓ Loaded JPM: 1357 rows
+2026-03-17 03:13:43 | INFO | dataset |   ✓ Loaded GS: 1357 rows
+2026-03-17 03:13:43 | INFO | dataset |   ✓ Loaded BAC: 1357 rows
+2026-03-17 03:13:43 | INFO | dataset |   ✓ Loaded V: 1357 rows
+2026-03-17 03:13:44 | INFO | dataset |   ✓ Loaded JNJ: 1357 rows
+2026-03-17 03:13:44 | INFO | dataset |   ✓ Loaded UNH: 1357 rows
+2026-03-17 03:13:44 | INFO | dataset |   ✓ Loaded PFE: 1357 rows
+2026-03-17 03:13:44 | INFO | dataset |   ✓ Loaded ABBV: 1357 rows
+2026-03-17 03:13:45 | INFO | dataset |   ✓ Loaded XOM: 1357 rows
+2026-03-17 03:13:45 | INFO | dataset |   ✓ Loaded CVX: 1357 rows
+2026-03-17 03:13:45 | INFO | dataset |   ✓ Loaded BRK-B: 1357 rows
+2026-03-17 03:13:45 | INFO | dataset |   ✓ Loaded PG: 1357 rows
+2026-03-17 03:13:46 | INFO | dataset |   ✓ Loaded KO: 1357 rows
+2026-03-17 03:13:46 | INFO | dataset |   ✓ Loaded TSLA: 1357 rows
+2026-03-17 03:13:46 | INFO | dataset |   ✓ Loaded META: 1357 rows
+2026-03-17 03:13:46 | INFO | dataset |   ✓ Loaded NFLX: 1357 rows
+2026-03-17 03:13:47 | INFO | dataset |   ✓ Loaded CRM: 1357 rows
+2026-03-17 03:13:47 | INFO | dataset |   ✓ Loaded BTC: 2246 rows
+2026-03-17 03:13:47 | INFO | dataset |   ✓ Loaded ETH: 2246 rows
+2026-03-17 03:13:48 | INFO | dataset |   ✓ Loaded SOL: 2023 rows
+2026-03-17 03:13:48 | INFO | dataset |   ✓ Loaded BNB: 2246 rows
+2026-03-17 03:13:48 | INFO | dataset |   ✓ Loaded GOLD: 1538 rows
+2026-03-17 03:13:49 | INFO | dataset |   ✓ Loaded OIL: 1538 rows
+2026-03-17 03:13:49 | INFO | dataset |   ✓ Loaded SILVER: 1538 rows
+2026-03-17 03:13:49 | INFO | dataset |   ✓ Loaded NATGAS: 1539 rows
+2026-03-17 03:13:50 | INFO | dataset |   ✓ Loaded WHEAT: 1537 rows
+2026-03-17 03:13:50 | INFO | dataset |   ✓ Loaded US10Y_ETF: 1306 rows
+2026-03-17 03:13:50 | INFO | dataset |   ✓ Loaded US30Y_ETF: 1306 rows
+2026-03-17 03:13:50 | INFO | dataset |   ✓ Loaded TIPS_ETF: 1306 rows
+2026-03-17 03:13:51 | INFO | dataset |   ✓ Loaded HY_ETF: 1306 rows
+2026-03-17 03:13:51 | INFO | dataset |   ✓ Loaded IG_ETF: 1306 rows
+2026-03-17 03:13:51 | INFO | dataset | 
+  ✓ Combined dataset: 56906 rows | 94 cols
+2026-03-17 03:13:51 | INFO | dataset | 
+Step 2: Adding calendar features...
+2026-03-17 03:13:51 | INFO | dataset |   ✓ Calendar features added
+2026-03-17 03:13:51 | INFO | dataset | 
+Step 3: Cleaning dataset...
+2026-03-17 03:13:51 | INFO | dataset |   ✓ Dropped 195 rows with NaN target
+2026-03-17 03:13:51 | WARNING | dataset |   ⚠ Missing columns (will skip): ['sentiment_velocity', 'sentiment_accel', 'sentiment_divergence', 'sec_filing_spike']
+2026-03-17 03:13:51 | INFO | dataset |   ✓ Clean dataset: 56711 rows | 41 columns
+2026-03-17 03:13:51 | INFO | dataset |   ✓ Date range: 2020-01-23 00:00:00 → 2026-03-12 00:00:00
+2026-03-17 03:13:51 | INFO | dataset |   ✓ Tickers: 39
+2026-03-17 03:13:51 | INFO | dataset | 
+Step 4: Time-based train/val split...
+2026-03-17 03:13:51 | INFO | dataset |   ✓ Train: 48181 rows | 2020-01-23 00:00:00 → 2025-05-07 00:00:00
+2026-03-17 03:13:51 | INFO | dataset |   ✓ Val:   8530 rows   | 2025-05-08 00:00:00 → 2026-03-12 00:00:00
+2026-03-17 03:13:51 | INFO | dataset | 
+  ✓ Saved train/val locally to data/local/model_input
+2026-03-17 03:13:51 | INFO | dataset | 
+Step 5: Building TimeSeriesDataSets...
+2026-03-17 03:13:51 | INFO | dataset | 
+ Building TimeSeriesDataSet...
+2026-03-17 03:13:51 | INFO | dataset |   Known future features : 6
+2026-03-17 03:13:51 | INFO | dataset |   Unknown past features : 30
+2026-03-17 03:13:51 | INFO | dataset |   Static categoricals   : 2
+2026-03-17 03:13:51 | INFO | dataset |   Target                : target_return_5d
+2026-03-17 03:13:51 | INFO | dataset |   Encoder length        : 63 days
+2026-03-17 03:13:51 | INFO | dataset |   Prediction length     : 5 days
+2026-03-17 03:13:52 | INFO | dataset |   ✓ Training dataset  : 45568 samples
+2026-03-17 03:13:52 | INFO | dataset |   ✓ Validation dataset: 5917 samples
+2026-03-17 03:13:52 | INFO | dataset | 
+============================================================
+2026-03-17 03:13:52 | INFO | dataset | DATASET PREPARATION COMPLETE
+2026-03-17 03:13:52 | INFO | dataset | ============================================================
+2026-03-17 03:13:52 | INFO | tft_model |   ✓ Train batches: 712
+2026-03-17 03:13:52 | INFO | tft_model |   ✓ Val batches  : 47
+2026-03-17 03:13:52 | INFO | evaluate | 
+Step 2: Loading model...
+2026-03-17 03:13:52 | INFO | evaluate |   ✓ Loading: tft-epoch=03-val_loss=0.0271.ckpt
+2026-03-17 03:13:53 | INFO | evaluate | 
+Step 3: Predictions...
+2026-03-17 03:13:53 | INFO | evaluate |   Generating predictions...
+2026-03-17 03:14:03 | INFO | evaluate |   ✓ 5917 predictions | pred_p50 range: 0.00002 to 0.11898
+2026-03-17 03:14:03 | INFO | evaluate |   ✓ actual range: -0.53552 to 1.19143
+2026-03-17 03:14:03 | INFO | evaluate | 
+Step 4: Signals...
+2026-03-17 03:14:03 | INFO | evaluate |   ✓ Signals: 3497 long | 0 short | 2420 flat
+2026-03-17 03:14:03 | INFO | evaluate | 
+Step 5: Backtest...
+2026-03-17 03:14:03 | INFO | evaluate |   ✓ Backtest: 217 days
+2026-03-17 03:14:03 | INFO | evaluate | 
+Step 6: Benchmarks...
+2026-03-17 03:14:04 | INFO | evaluate | 
+Step 7: Metrics...
+2026-03-17 03:14:04 | INFO | evaluate | 
+Step 8: Charts...
+2026-03-17 03:14:04 | INFO | evaluate |   ✓ Chart saved: reports/backtest_report.html
+2026-03-17 03:14:04 | INFO | evaluate | 
+Step 9: MLflow...
+2026-03-17 03:14:05 | INFO | evaluate |   ✓ Done. Open: reports/backtest_report.html

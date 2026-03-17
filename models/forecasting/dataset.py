@@ -168,6 +168,7 @@ def load_features_from_s3(tickers: list) -> pd.DataFrame:
         for s3_key in [
             f"features/sentiment_enriched/{ticker}/{ticker}_features_v2.parquet",
             f"features/market/{ticker}/{ticker}_features.parquet",
+            f"features/multi_asset/{ticker}/{ticker}_features.parquet",
         ]:
             try:
                 obj = s3.get_object(Bucket=S3_BUCKET, Key=s3_key)
