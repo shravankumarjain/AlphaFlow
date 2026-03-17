@@ -1,0 +1,272 @@
+[
+  {
+    "ticker": "META",
+    "cik": "1326801",
+    "form_type": "10-K",
+    "filing_date": "2026-01-29",
+    "accession_number": "0001628280-26-003942",
+    "primary_document": "meta-20251231.htm",
+    "fetched_at": "2026-03-16T21:21:31.097281",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "META",
+    "cik": "1326801",
+    "form_type": "8-K",
+    "filing_date": "2026-01-28",
+    "accession_number": "0001628280-26-003832",
+    "primary_document": "meta-20260128.htm",
+    "fetched_at": "2026-03-16T21:21:31.097302",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "META",
+    "cik": "1326801",
+    "form_type": "8-K",
+    "filing_date": "2026-01-16",
+    "accession_number": "0001628280-26-002429",
+    "primary_document": "meta-20260112.htm",
+    "fetched_at": "2026-03-16T21:21:31.097311",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "META",
+    "cik": "1326801",
+    "form_type": "8-K",
+    "filing_date": "2025-12-19",
+    "accession_number": "0001628280-25-058337",
+    "primary_document": "meta-20251219.htm",
+    "fetched_at": "2026-03-16T21:21:31.097319",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "META",
+    "cik": "1326801",
+    "form_type": "8-K",
+    "filing_date": "2025-12-12",
+    "accession_number": "0001628280-25-056768",
+    "primary_document": "meta-20251205.htm",
+    "fetched_at": "2026-03-16T21:21:31.097325",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "META",
+    "cik": "1326801",
+    "form_type": "8-K",
+    "filing_date": "2025-11-03",
+    "accession_number": "0001193125-25-262593",
+    "primary_document": "d75422d8k.htm",
+    "fetched_at": "2026-03-16T21:21:31.097337",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "META",
+    "cik": "1326801",
+    "form_type": "10-Q",
+    "filing_date": "2025-10-30",
+    "accession_number": "0001628280-25-047240",
+    "primary_document": "meta-20250930.htm",
+    "fetched_at": "2026-03-16T21:21:31.097344",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "META",
+    "cik": "1326801",
+    "form_type": "8-K",
+    "filing_date": "2025-10-29",
+    "accession_number": "0001628280-25-047114",
+    "primary_document": "meta-20251029.htm",
+    "fetched_at": "2026-03-16T21:21:31.097349",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "META",
+    "cik": "1326801",
+    "form_type": "10-Q",
+    "filing_date": "2025-07-31",
+    "accession_number": "0001628280-25-036791",
+    "primary_document": "meta-20250630.htm",
+    "fetched_at": "2026-03-16T21:21:31.097367",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "META",
+    "cik": "1326801",
+    "form_type": "8-K",
+    "filing_date": "2025-07-30",
+    "accession_number": "0001628280-25-036719",
+    "primary_document": "meta-20250730.htm",
+    "fetched_at": "2026-03-16T21:21:31.097373",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "META",
+    "cik": "1326801",
+    "form_type": "8-K",
+    "filing_date": "2025-05-30",
+    "accession_number": "0001326801-25-000090",
+    "primary_document": "meta-20250528.htm",
+    "fetched_at": "2026-03-16T21:21:31.097396",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "META",
+    "cik": "1326801",
+    "form_type": "10-Q",
+    "filing_date": "2025-05-01",
+    "accession_number": "0001326801-25-000054",
+    "primary_document": "meta-20250331.htm",
+    "fetched_at": "2026-03-16T21:21:31.097409",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "META",
+    "cik": "1326801",
+    "form_type": "8-K",
+    "filing_date": "2025-04-30",
+    "accession_number": "0001326801-25-000050",
+    "primary_document": "meta-20250430.htm",
+    "fetched_at": "2026-03-16T21:21:31.097415",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "META",
+    "cik": "1326801",
+    "form_type": "8-K",
+    "filing_date": "2025-04-11",
+    "accession_number": "0001326801-25-000027",
+    "primary_document": "meta-20250411.htm",
+    "fetched_at": "2026-03-16T21:21:31.097423",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "META",
+    "cik": "1326801",
+    "form_type": "8-K",
+    "filing_date": "2025-02-20",
+    "accession_number": "0001326801-25-000021",
+    "primary_document": "meta-20250213.htm",
+    "fetched_at": "2026-03-16T21:21:31.097436",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "META",
+    "cik": "1326801",
+    "form_type": "10-K",
+    "filing_date": "2025-01-30",
+    "accession_number": "0001326801-25-000017",
+    "primary_document": "meta-20241231.htm",
+    "fetched_at": "2026-03-16T21:21:31.097449",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "META",
+    "cik": "1326801",
+    "form_type": "8-K",
+    "filing_date": "2025-01-29",
+    "accession_number": "0001326801-25-000014",
+    "primary_document": "meta-20250129.htm",
+    "fetched_at": "2026-03-16T21:21:31.097456",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "META",
+    "cik": "1326801",
+    "form_type": "8-K",
+    "filing_date": "2025-01-06",
+    "accession_number": "0001326801-25-000005",
+    "primary_document": "meta-20241230.htm",
+    "fetched_at": "2026-03-16T21:21:31.097470",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "META",
+    "cik": "1326801",
+    "form_type": "10-Q",
+    "filing_date": "2024-10-31",
+    "accession_number": "0001326801-24-000081",
+    "primary_document": "meta-20240930.htm",
+    "fetched_at": "2026-03-16T21:21:31.097493",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "META",
+    "cik": "1326801",
+    "form_type": "8-K",
+    "filing_date": "2024-10-30",
+    "accession_number": "0001326801-24-000077",
+    "primary_document": "meta-20241030.htm",
+    "fetched_at": "2026-03-16T21:21:31.097498",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "META",
+    "cik": "1326801",
+    "form_type": "8-K",
+    "filing_date": "2024-09-10",
+    "accession_number": "0001326801-24-000072",
+    "primary_document": "meta-20240905.htm",
+    "fetched_at": "2026-03-16T21:21:31.097511",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "META",
+    "cik": "1326801",
+    "form_type": "8-K",
+    "filing_date": "2024-08-09",
+    "accession_number": "0001193125-24-197873",
+    "primary_document": "d876862d8k.htm",
+    "fetched_at": "2026-03-16T21:21:31.097525",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "META",
+    "cik": "1326801",
+    "form_type": "10-Q",
+    "filing_date": "2024-08-01",
+    "accession_number": "0001326801-24-000069",
+    "primary_document": "meta-20240630.htm",
+    "fetched_at": "2026-03-16T21:21:31.097535",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "META",
+    "cik": "1326801",
+    "form_type": "8-K",
+    "filing_date": "2024-07-31",
+    "accession_number": "0001326801-24-000065",
+    "primary_document": "meta-20240731.htm",
+    "fetched_at": "2026-03-16T21:21:31.097541",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "META",
+    "cik": "1326801",
+    "form_type": "8-K",
+    "filing_date": "2024-05-31",
+    "accession_number": "0001326801-24-000057",
+    "primary_document": "meta-20240529.htm",
+    "fetched_at": "2026-03-16T21:21:31.097564",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "META",
+    "cik": "1326801",
+    "form_type": "10-Q",
+    "filing_date": "2024-04-25",
+    "accession_number": "0001326801-24-000049",
+    "primary_document": "meta-20240331.htm",
+    "fetched_at": "2026-03-16T21:21:31.097577",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "META",
+    "cik": "1326801",
+    "form_type": "8-K",
+    "filing_date": "2024-04-24",
+    "accession_number": "0001326801-24-000044",
+    "primary_document": "meta-20240424.htm",
+    "fetched_at": "2026-03-16T21:21:31.097582",
+    "source_name": "sec_edgar"
+  }
+]

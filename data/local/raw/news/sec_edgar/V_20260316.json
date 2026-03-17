@@ -1,0 +1,2152 @@
+[
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2026-02-27",
+    "accession_number": "0001403161-26-000063",
+    "primary_document": "v-20260225.htm",
+    "fetched_at": "2026-03-16T21:21:13.584862",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2026-02-13",
+    "accession_number": "0001403161-26-000049",
+    "primary_document": "v-20260213.htm",
+    "fetched_at": "2026-03-16T21:21:13.584886",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2026-02-12",
+    "accession_number": "0001628280-26-007709",
+    "primary_document": "v-20260203.htm",
+    "fetched_at": "2026-03-16T21:21:13.584892",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "10-Q",
+    "filing_date": "2026-01-30",
+    "accession_number": "0001403161-26-000045",
+    "primary_document": "v-20251231.htm",
+    "fetched_at": "2026-03-16T21:21:13.584899",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2026-01-29",
+    "accession_number": "0001403161-26-000044",
+    "primary_document": "v-20260127.htm",
+    "fetched_at": "2026-03-16T21:21:13.584905",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2026-01-28",
+    "accession_number": "0001403161-26-000029",
+    "primary_document": "v-20260127.htm",
+    "fetched_at": "2026-03-16T21:21:13.584913",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2025-12-30",
+    "accession_number": "0001403161-25-000137",
+    "primary_document": "v-20251230.htm",
+    "fetched_at": "2026-03-16T21:21:13.584919",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2025-12-23",
+    "accession_number": "0001403161-25-000134",
+    "primary_document": "v-20251223.htm",
+    "fetched_at": "2026-03-16T21:21:13.584926",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2025-11-10",
+    "accession_number": "0001403161-25-000093",
+    "primary_document": "v-20251110.htm",
+    "fetched_at": "2026-03-16T21:21:13.584936",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "10-K",
+    "filing_date": "2025-11-06",
+    "accession_number": "0001403161-25-000089",
+    "primary_document": "v-20250930.htm",
+    "fetched_at": "2026-03-16T21:21:13.584942",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2025-10-28",
+    "accession_number": "0001403161-25-000077",
+    "primary_document": "v-20251028.htm",
+    "fetched_at": "2026-03-16T21:21:13.584949",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2025-09-29",
+    "accession_number": "0001403161-25-000064",
+    "primary_document": "v-20250929.htm",
+    "fetched_at": "2026-03-16T21:21:13.584955",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2025-09-26",
+    "accession_number": "0001403161-25-000061",
+    "primary_document": "v-20250926.htm",
+    "fetched_at": "2026-03-16T21:21:13.585078",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2025-09-19",
+    "accession_number": "0001403161-25-000058",
+    "primary_document": "v-20250918.htm",
+    "fetched_at": "2026-03-16T21:21:13.585442",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2025-08-08",
+    "accession_number": "0001403161-25-000055",
+    "primary_document": "v-20250808.htm",
+    "fetched_at": "2026-03-16T21:21:13.585461",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "10-Q",
+    "filing_date": "2025-07-30",
+    "accession_number": "0001403161-25-000052",
+    "primary_document": "v-20250630.htm",
+    "fetched_at": "2026-03-16T21:21:13.585468",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2025-07-29",
+    "accession_number": "0001403161-25-000051",
+    "primary_document": "v-20250729.htm",
+    "fetched_at": "2026-03-16T21:21:13.585474",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2025-07-23",
+    "accession_number": "0001403161-25-000043",
+    "primary_document": "v-20250722.htm",
+    "fetched_at": "2026-03-16T21:21:13.585480",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2025-05-15",
+    "accession_number": "0001628280-25-025899",
+    "primary_document": "v-20250430.htm",
+    "fetched_at": "2026-03-16T21:21:13.585489",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "10-Q",
+    "filing_date": "2025-04-30",
+    "accession_number": "0001403161-25-000037",
+    "primary_document": "v-20250331.htm",
+    "fetched_at": "2026-03-16T21:21:13.585788",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2025-04-29",
+    "accession_number": "0001403161-25-000035",
+    "primary_document": "v-20250429.htm",
+    "fetched_at": "2026-03-16T21:21:13.585802",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2025-03-31",
+    "accession_number": "0001403161-25-000028",
+    "primary_document": "v-20250326.htm",
+    "fetched_at": "2026-03-16T21:21:13.585810",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "10-Q",
+    "filing_date": "2025-01-31",
+    "accession_number": "0001403161-25-000017",
+    "primary_document": "v-20241231.htm",
+    "fetched_at": "2026-03-16T21:21:13.585859",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2025-01-30",
+    "accession_number": "0001403161-25-000016",
+    "primary_document": "v-20250128.htm",
+    "fetched_at": "2026-03-16T21:21:13.585866",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2025-01-29",
+    "accession_number": "0001403161-25-000010",
+    "primary_document": "v-20250128.htm",
+    "fetched_at": "2026-03-16T21:21:13.585872",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "10-K",
+    "filing_date": "2024-11-13",
+    "accession_number": "0001403161-24-000058",
+    "primary_document": "v-20240930.htm",
+    "fetched_at": "2026-03-16T21:21:13.585882",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2024-10-29",
+    "accession_number": "0001403161-24-000053",
+    "primary_document": "v-20241029.htm",
+    "fetched_at": "2026-03-16T21:21:13.585889",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2024-10-11",
+    "accession_number": "0001403161-24-000050",
+    "primary_document": "v-20241011.htm",
+    "fetched_at": "2026-03-16T21:21:13.585894",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2024-09-26",
+    "accession_number": "0001403161-24-000047",
+    "primary_document": "v-20240924.htm",
+    "fetched_at": "2026-03-16T21:21:13.585900",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "10-Q",
+    "filing_date": "2024-07-24",
+    "accession_number": "0001403161-24-000041",
+    "primary_document": "v-20240630.htm",
+    "fetched_at": "2026-03-16T21:21:13.585907",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2024-07-23",
+    "accession_number": "0001403161-24-000040",
+    "primary_document": "v-20240723.htm",
+    "fetched_at": "2026-03-16T21:21:13.585913",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2024-07-10",
+    "accession_number": "0001403161-24-000035",
+    "primary_document": "v-20240710.htm",
+    "fetched_at": "2026-03-16T21:21:13.585984",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2024-05-08",
+    "accession_number": "0001193125-24-133824",
+    "primary_document": "d829007d8k.htm",
+    "fetched_at": "2026-03-16T21:21:13.585996",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2024-05-06",
+    "accession_number": "0001193125-24-131519",
+    "primary_document": "d835374d8k.htm",
+    "fetched_at": "2026-03-16T21:21:13.586002",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "10-Q",
+    "filing_date": "2024-04-24",
+    "accession_number": "0001403161-24-000030",
+    "primary_document": "v-20240331.htm",
+    "fetched_at": "2026-03-16T21:21:13.586008",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2024-04-23",
+    "accession_number": "0001403161-24-000027",
+    "primary_document": "v-20240423.htm",
+    "fetched_at": "2026-03-16T21:21:13.586017",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2024-03-26",
+    "accession_number": "0001403161-24-000021",
+    "primary_document": "v-20240326.htm",
+    "fetched_at": "2026-03-16T21:21:13.586025",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "10-Q",
+    "filing_date": "2024-01-26",
+    "accession_number": "0001403161-24-000016",
+    "primary_document": "v-20231231.htm",
+    "fetched_at": "2026-03-16T21:21:13.586035",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2024-01-25",
+    "accession_number": "0001403161-24-000013",
+    "primary_document": "v-20240123.htm",
+    "fetched_at": "2026-03-16T21:21:13.586041",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2024-01-24",
+    "accession_number": "0001403161-24-000005",
+    "primary_document": "v-20240123.htm",
+    "fetched_at": "2026-03-16T21:21:13.586048",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "10-K",
+    "filing_date": "2023-11-15",
+    "accession_number": "0001403161-23-000099",
+    "primary_document": "v-20230930.htm",
+    "fetched_at": "2026-03-16T21:21:13.586062",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2023-10-24",
+    "accession_number": "0001403161-23-000092",
+    "primary_document": "v-20231024.htm",
+    "fetched_at": "2026-03-16T21:21:13.586070",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2023-10-18",
+    "accession_number": "0001403161-23-000087",
+    "primary_document": "v-20231016.htm",
+    "fetched_at": "2026-03-16T21:21:13.586075",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2023-10-02",
+    "accession_number": "0001403161-23-000085",
+    "primary_document": "v-20230928.htm",
+    "fetched_at": "2026-03-16T21:21:13.586081",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2023-09-13",
+    "accession_number": "0001193125-23-234352",
+    "primary_document": "d450315d8k.htm",
+    "fetched_at": "2026-03-16T21:21:13.586087",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2023-08-30",
+    "accession_number": "0001403161-23-000080",
+    "primary_document": "v-20230830.htm",
+    "fetched_at": "2026-03-16T21:21:13.586093",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "10-Q",
+    "filing_date": "2023-07-26",
+    "accession_number": "0001403161-23-000072",
+    "primary_document": "v-20230630.htm",
+    "fetched_at": "2026-03-16T21:21:13.586100",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2023-07-25",
+    "accession_number": "0001403161-23-000069",
+    "primary_document": "v-20230725.htm",
+    "fetched_at": "2026-03-16T21:21:13.586106",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2023-06-29",
+    "accession_number": "0001403161-23-000064",
+    "primary_document": "v-20230629.htm",
+    "fetched_at": "2026-03-16T21:21:13.586114",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2023-06-23",
+    "accession_number": "0001403161-23-000055",
+    "primary_document": "v-20230623.htm",
+    "fetched_at": "2026-03-16T21:21:13.586120",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2023-06-20",
+    "accession_number": "0001403161-23-000051",
+    "primary_document": "v-20230620.htm",
+    "fetched_at": "2026-03-16T21:21:13.586125",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2023-05-30",
+    "accession_number": "0001403161-23-000043",
+    "primary_document": "v-20230530.htm",
+    "fetched_at": "2026-03-16T21:21:13.586131",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "10-Q",
+    "filing_date": "2023-04-27",
+    "accession_number": "0001403161-23-000031",
+    "primary_document": "v-20230331.htm",
+    "fetched_at": "2026-03-16T21:21:13.586140",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2023-04-25",
+    "accession_number": "0001403161-23-000027",
+    "primary_document": "v-20230425.htm",
+    "fetched_at": "2026-03-16T21:21:13.586146",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2023-04-10",
+    "accession_number": "0001403161-23-000024",
+    "primary_document": "v-20230410.htm",
+    "fetched_at": "2026-03-16T21:21:13.586152",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2023-03-03",
+    "accession_number": "0001403161-23-000022",
+    "primary_document": "v-20230303.htm",
+    "fetched_at": "2026-03-16T21:21:13.586162",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2023-02-16",
+    "accession_number": "0000898822-23-000007",
+    "primary_document": "visa8k.htm",
+    "fetched_at": "2026-03-16T21:21:13.586169",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2023-02-01",
+    "accession_number": "0001403161-23-000017",
+    "primary_document": "v-20230130.htm",
+    "fetched_at": "2026-03-16T21:21:13.586176",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "10-Q",
+    "filing_date": "2023-01-27",
+    "accession_number": "0001403161-23-000013",
+    "primary_document": "v-20221231.htm",
+    "fetched_at": "2026-03-16T21:21:13.586181",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2023-01-26",
+    "accession_number": "0001403161-23-000010",
+    "primary_document": "v-20230124.htm",
+    "fetched_at": "2026-03-16T21:21:13.586189",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2023-01-25",
+    "accession_number": "0001403161-23-000008",
+    "primary_document": "v-20230124.htm",
+    "fetched_at": "2026-03-16T21:21:13.586196",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2023-01-05",
+    "accession_number": "0001403161-23-000003",
+    "primary_document": "v-20221229.htm",
+    "fetched_at": "2026-03-16T21:21:13.586202",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2022-11-23",
+    "accession_number": "0001403161-22-000083",
+    "primary_document": "v-20221123.htm",
+    "fetched_at": "2026-03-16T21:21:13.586212",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2022-11-17",
+    "accession_number": "0000898822-22-000008",
+    "primary_document": "visa8k1117.htm",
+    "fetched_at": "2026-03-16T21:21:13.586218",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "10-K",
+    "filing_date": "2022-11-16",
+    "accession_number": "0001403161-22-000081",
+    "primary_document": "v-20220930.htm",
+    "fetched_at": "2026-03-16T21:21:13.586224",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2022-10-25",
+    "accession_number": "0001403161-22-000076",
+    "primary_document": "v-20221021.htm",
+    "fetched_at": "2026-03-16T21:21:13.586233",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2022-10-11",
+    "accession_number": "0001403161-22-000072",
+    "primary_document": "v-20221007.htm",
+    "fetched_at": "2026-03-16T21:21:13.586238",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2022-08-30",
+    "accession_number": "0001403161-22-000069",
+    "primary_document": "v-20220830.htm",
+    "fetched_at": "2026-03-16T21:21:13.586244",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2022-08-05",
+    "accession_number": "0001403161-22-000065",
+    "primary_document": "v-20220801.htm",
+    "fetched_at": "2026-03-16T21:21:13.586250",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "10-Q",
+    "filing_date": "2022-07-28",
+    "accession_number": "0001403161-22-000058",
+    "primary_document": "v-20220630.htm",
+    "fetched_at": "2026-03-16T21:21:13.586256",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2022-07-26",
+    "accession_number": "0001403161-22-000055",
+    "primary_document": "v-20220722.htm",
+    "fetched_at": "2026-03-16T21:21:13.586262",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2022-07-08",
+    "accession_number": "0001403161-22-000047",
+    "primary_document": "v-20220708.htm",
+    "fetched_at": "2026-03-16T21:21:13.586268",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2022-07-06",
+    "accession_number": "0001403161-22-000045",
+    "primary_document": "v-20220706.htm",
+    "fetched_at": "2026-03-16T21:21:13.586273",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2022-06-28",
+    "accession_number": "0001403161-22-000043",
+    "primary_document": "v-20220624.htm",
+    "fetched_at": "2026-03-16T21:21:13.586279",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2022-06-27",
+    "accession_number": "0001403161-22-000038",
+    "primary_document": "v-20220623.htm",
+    "fetched_at": "2026-03-16T21:21:13.586284",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2022-06-01",
+    "accession_number": "0001193125-22-165274",
+    "primary_document": "d309621d8k.htm",
+    "fetched_at": "2026-03-16T21:21:13.586290",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2022-06-01",
+    "accession_number": "0001403161-22-000032",
+    "primary_document": "v-20220601.htm",
+    "fetched_at": "2026-03-16T21:21:13.586296",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "10-Q",
+    "filing_date": "2022-04-28",
+    "accession_number": "0001403161-22-000027",
+    "primary_document": "v-20220331.htm",
+    "fetched_at": "2026-03-16T21:21:13.586306",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2022-04-26",
+    "accession_number": "0001403161-22-000023",
+    "primary_document": "v-20220422.htm",
+    "fetched_at": "2026-03-16T21:21:13.586312",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2022-04-11",
+    "accession_number": "0001403161-22-000020",
+    "primary_document": "v-20220411.htm",
+    "fetched_at": "2026-03-16T21:21:13.586317",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2022-03-02",
+    "accession_number": "0001403161-22-000016",
+    "primary_document": "v-20220302.htm",
+    "fetched_at": "2026-03-16T21:21:13.586323",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "10-Q",
+    "filing_date": "2022-01-28",
+    "accession_number": "0001403161-22-000013",
+    "primary_document": "v-20211231.htm",
+    "fetched_at": "2026-03-16T21:21:13.586331",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2022-01-27",
+    "accession_number": "0001403161-22-000009",
+    "primary_document": "v-20220125.htm",
+    "fetched_at": "2026-03-16T21:21:13.586338",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2022-01-26",
+    "accession_number": "0001403161-22-000005",
+    "primary_document": "v-20220125.htm",
+    "fetched_at": "2026-03-16T21:21:13.586343",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2021-12-30",
+    "accession_number": "0001403161-21-000072",
+    "primary_document": "v-20211227.htm",
+    "fetched_at": "2026-03-16T21:21:13.586351",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2021-12-15",
+    "accession_number": "0001403161-21-000069",
+    "primary_document": "v-20211213.htm",
+    "fetched_at": "2026-03-16T21:21:13.586356",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2021-12-01",
+    "accession_number": "0001403161-21-000065",
+    "primary_document": "v-20211201.htm",
+    "fetched_at": "2026-03-16T21:21:13.586364",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "10-K",
+    "filing_date": "2021-11-18",
+    "accession_number": "0001403161-21-000060",
+    "primary_document": "v-20210930.htm",
+    "fetched_at": "2026-03-16T21:21:13.586372",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2021-10-26",
+    "accession_number": "0001403161-21-000056",
+    "primary_document": "v-20211022.htm",
+    "fetched_at": "2026-03-16T21:21:13.586378",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2021-09-22",
+    "accession_number": "0001403161-21-000052",
+    "primary_document": "v-20210922.htm",
+    "fetched_at": "2026-03-16T21:21:13.586384",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2021-09-03",
+    "accession_number": "0001403161-21-000048",
+    "primary_document": "v-20210903.htm",
+    "fetched_at": "2026-03-16T21:21:13.586390",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "10-Q",
+    "filing_date": "2021-07-29",
+    "accession_number": "0001403161-21-000042",
+    "primary_document": "v-20210630.htm",
+    "fetched_at": "2026-03-16T21:21:13.586396",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2021-07-27",
+    "accession_number": "0001403161-21-000038",
+    "primary_document": "v-20210723.htm",
+    "fetched_at": "2026-03-16T21:21:13.586401",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2021-06-01",
+    "accession_number": "0001403161-21-000033",
+    "primary_document": "v-20210601.htm",
+    "fetched_at": "2026-03-16T21:21:13.586408",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "10-Q",
+    "filing_date": "2021-04-29",
+    "accession_number": "0001403161-21-000029",
+    "primary_document": "v-20210331.htm",
+    "fetched_at": "2026-03-16T21:21:13.586414",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2021-04-27",
+    "accession_number": "0001403161-21-000023",
+    "primary_document": "v-20210423.htm",
+    "fetched_at": "2026-03-16T21:21:13.586420",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2021-03-19",
+    "accession_number": "0001403161-21-000020",
+    "primary_document": "v-20210319.htm",
+    "fetched_at": "2026-03-16T21:21:13.586426",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2021-03-09",
+    "accession_number": "0001403161-21-000017",
+    "primary_document": "v-20210309.htm",
+    "fetched_at": "2026-03-16T21:21:13.586432",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "10-Q",
+    "filing_date": "2021-01-29",
+    "accession_number": "0001403161-21-000012",
+    "primary_document": "v-20201231.htm",
+    "fetched_at": "2026-03-16T21:21:13.586440",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2021-01-28",
+    "accession_number": "0001403161-21-000009",
+    "primary_document": "v-20210126.htm",
+    "fetched_at": "2026-03-16T21:21:13.586446",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2021-01-27",
+    "accession_number": "0001403161-21-000005",
+    "primary_document": "v-20210126.htm",
+    "fetched_at": "2026-03-16T21:21:13.586455",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2020-12-01",
+    "accession_number": "0001403161-20-000077",
+    "primary_document": "v-20201201.htm",
+    "fetched_at": "2026-03-16T21:21:13.586464",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2020-11-23",
+    "accession_number": "0001403161-20-000074",
+    "primary_document": "v-20201118.htm",
+    "fetched_at": "2026-03-16T21:21:13.586471",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "10-K",
+    "filing_date": "2020-11-19",
+    "accession_number": "0001403161-20-000070",
+    "primary_document": "v-20200930.htm",
+    "fetched_at": "2026-03-16T21:21:13.586499",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2020-11-18",
+    "accession_number": "0001403161-20-000066",
+    "primary_document": "v-20201112.htm",
+    "fetched_at": "2026-03-16T21:21:13.586508",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2020-10-28",
+    "accession_number": "0001403161-20-000061",
+    "primary_document": "v-20201023.htm",
+    "fetched_at": "2026-03-16T21:21:13.586515",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2020-09-01",
+    "accession_number": "0001403161-20-000056",
+    "primary_document": "v-20200901.htm",
+    "fetched_at": "2026-03-16T21:21:13.586520",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2020-09-01",
+    "accession_number": "0001403161-20-000053",
+    "primary_document": "v-20200901.htm",
+    "fetched_at": "2026-03-16T21:21:13.586526",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2020-08-17",
+    "accession_number": "0001193125-20-222423",
+    "primary_document": "d941277d8k.htm",
+    "fetched_at": "2026-03-16T21:21:13.586533",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "10-Q",
+    "filing_date": "2020-07-31",
+    "accession_number": "0001403161-20-000048",
+    "primary_document": "v-20200630.htm",
+    "fetched_at": "2026-03-16T21:21:13.586541",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2020-07-28",
+    "accession_number": "0001403161-20-000043",
+    "primary_document": "v-20200728.htm",
+    "fetched_at": "2026-03-16T21:21:13.586546",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2020-07-22",
+    "accession_number": "0001403161-20-000036",
+    "primary_document": "v-20200720.htm",
+    "fetched_at": "2026-03-16T21:21:13.586551",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2020-06-01",
+    "accession_number": "0001403161-20-000031",
+    "primary_document": "v8-k70106012020.htm",
+    "fetched_at": "2026-03-16T21:21:13.586558",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "10-Q",
+    "filing_date": "2020-05-04",
+    "accession_number": "0001403161-20-000028",
+    "primary_document": "v033120form10q.htm",
+    "fetched_at": "2026-03-16T21:21:13.586564",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2020-04-30",
+    "accession_number": "0001403161-20-000024",
+    "primary_document": "form8-kearningsrelease.htm",
+    "fetched_at": "2026-03-16T21:21:13.586570",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2020-04-22",
+    "accession_number": "0001403161-20-000019",
+    "primary_document": "v8-k801dividend04222020.htm",
+    "fetched_at": "2026-03-16T21:21:13.586576",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2020-04-02",
+    "accession_number": "0001193125-20-095989",
+    "primary_document": "d885000d8k.htm",
+    "fetched_at": "2026-03-16T21:21:13.586581",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2020-03-30",
+    "accession_number": "0001403161-20-000017",
+    "primary_document": "v8-k70103302020.htm",
+    "fetched_at": "2026-03-16T21:21:13.586587",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2020-03-02",
+    "accession_number": "0001403161-20-000014",
+    "primary_document": "v8-k701030220.htm",
+    "fetched_at": "2026-03-16T21:21:13.586593",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "10-Q",
+    "filing_date": "2020-01-31",
+    "accession_number": "0001403161-20-000012",
+    "primary_document": "v123119form10q.htm",
+    "fetched_at": "2026-03-16T21:21:13.586600",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2020-01-30",
+    "accession_number": "0001403161-20-000010",
+    "primary_document": "form8-kearningsrelease.htm",
+    "fetched_at": "2026-03-16T21:21:13.586605",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2020-01-29",
+    "accession_number": "0001403161-20-000005",
+    "primary_document": "v8-k507013120.htm",
+    "fetched_at": "2026-03-16T21:21:13.586614",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "10-K",
+    "filing_date": "2019-11-14",
+    "accession_number": "0001403161-19-000050",
+    "primary_document": "v093019form10k.htm",
+    "fetched_at": "2026-03-16T21:21:13.586623",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2019-11-13",
+    "accession_number": "0001403161-19-000045",
+    "primary_document": "v8-k502112019.htm",
+    "fetched_at": "2026-03-16T21:21:13.586628",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2019-10-24",
+    "accession_number": "0001403161-19-000042",
+    "primary_document": "form8-kforearningsrele.htm",
+    "fetched_at": "2026-03-16T21:21:13.586634",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2019-09-30",
+    "accession_number": "0001403161-19-000036",
+    "primary_document": "v8-kconversionrate0930.htm",
+    "fetched_at": "2026-03-16T21:21:13.586639",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2019-09-26",
+    "accession_number": "0001403161-19-000033",
+    "primary_document": "v8-kescrowdeposit092019.htm",
+    "fetched_at": "2026-03-16T21:21:13.586645",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "10-Q",
+    "filing_date": "2019-07-26",
+    "accession_number": "0001403161-19-000030",
+    "primary_document": "v63019form10q.htm",
+    "fetched_at": "2026-03-16T21:21:13.586651",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2019-07-23",
+    "accession_number": "0001403161-19-000026",
+    "primary_document": "form8-kearningsrelease63019.htm",
+    "fetched_at": "2026-03-16T21:21:13.586656",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2019-07-17",
+    "accession_number": "0001403161-19-000020",
+    "primary_document": "v8-kdividend07162019.htm",
+    "fetched_at": "2026-03-16T21:21:13.586663",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "10-Q",
+    "filing_date": "2019-04-26",
+    "accession_number": "0001403161-19-000017",
+    "primary_document": "v33119form10q.htm",
+    "fetched_at": "2026-03-16T21:21:13.586669",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2019-04-24",
+    "accession_number": "0001403161-19-000014",
+    "primary_document": "form8-kearningsrelease33119.htm",
+    "fetched_at": "2026-03-16T21:21:13.586674",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2019-04-19",
+    "accession_number": "0001403161-19-000011",
+    "primary_document": "v8-k801.htm",
+    "fetched_at": "2026-03-16T21:21:13.586679",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2019-04-17",
+    "accession_number": "0001403161-19-000008",
+    "primary_document": "v8-kdividend04172019.htm",
+    "fetched_at": "2026-03-16T21:21:13.586689",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2019-01-31",
+    "accession_number": "0001403161-19-000006",
+    "primary_document": "v8-k2019amvotes.htm",
+    "fetched_at": "2026-03-16T21:21:13.586698",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "10-Q",
+    "filing_date": "2019-01-31",
+    "accession_number": "0001403161-19-000005",
+    "primary_document": "v123118form10q.htm",
+    "fetched_at": "2026-03-16T21:21:13.586703",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2019-01-30",
+    "accession_number": "0001403161-19-000002",
+    "primary_document": "form8-kearningsrelease1231.htm",
+    "fetched_at": "2026-03-16T21:21:13.586708",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "10-K",
+    "filing_date": "2018-11-16",
+    "accession_number": "0001403161-18-000055",
+    "primary_document": "v093018.htm",
+    "fetched_at": "2026-03-16T21:21:13.586716",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2018-10-24",
+    "accession_number": "0001403161-18-000052",
+    "primary_document": "form8-kforearningsrelease9.htm",
+    "fetched_at": "2026-03-16T21:21:13.586722",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2018-10-17",
+    "accession_number": "0001403161-18-000047",
+    "primary_document": "v8-kdividendannualmeeting1.htm",
+    "fetched_at": "2026-03-16T21:21:13.586727",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2018-09-18",
+    "accession_number": "0001403161-18-000043",
+    "primary_document": "v8-k101.htm",
+    "fetched_at": "2026-03-16T21:21:13.586732",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2018-08-06",
+    "accession_number": "0001403161-18-000039",
+    "primary_document": "v8-k502.htm",
+    "fetched_at": "2026-03-16T21:21:13.586738",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "10-Q",
+    "filing_date": "2018-07-27",
+    "accession_number": "0001403161-18-000034",
+    "primary_document": "v63018form10q.htm",
+    "fetched_at": "2026-03-16T21:21:13.586743",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2018-07-25",
+    "accession_number": "0001403161-18-000030",
+    "primary_document": "form8-kearningsrelease63018.htm",
+    "fetched_at": "2026-03-16T21:21:13.586749",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2018-07-17",
+    "accession_number": "0001403161-18-000026",
+    "primary_document": "v8-kdividend07x17x2018.htm",
+    "fetched_at": "2026-03-16T21:21:13.586754",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2018-07-05",
+    "accession_number": "0001403161-18-000024",
+    "primary_document": "v8-kconversionrate07052018.htm",
+    "fetched_at": "2026-03-16T21:21:13.586760",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2018-06-26",
+    "accession_number": "0001403161-18-000022",
+    "primary_document": "v8-kescrowdeposit06262018.htm",
+    "fetched_at": "2026-03-16T21:21:13.586765",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "10-Q",
+    "filing_date": "2018-04-27",
+    "accession_number": "0001403161-18-000020",
+    "primary_document": "v33118form10q.htm",
+    "fetched_at": "2026-03-16T21:21:13.586770",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2018-04-25",
+    "accession_number": "0001403161-18-000018",
+    "primary_document": "form8-kearningsrelease33118.htm",
+    "fetched_at": "2026-03-16T21:21:13.586775",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2018-04-18",
+    "accession_number": "0001403161-18-000014",
+    "primary_document": "v8-kdividend04182018.htm",
+    "fetched_at": "2026-03-16T21:21:13.586782",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2018-03-30",
+    "accession_number": "0001403161-18-000012",
+    "primary_document": "v8-k50233018.htm",
+    "fetched_at": "2026-03-16T21:21:13.586787",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "10-Q",
+    "filing_date": "2018-02-01",
+    "accession_number": "0001403161-18-000009",
+    "primary_document": "v123117form10q.htm",
+    "fetched_at": "2026-03-16T21:21:13.586794",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2018-02-01",
+    "accession_number": "0001403161-18-000008",
+    "primary_document": "form8-kearningsrelease1231.htm",
+    "fetched_at": "2026-03-16T21:21:13.586799",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2018-01-31",
+    "accession_number": "0001403161-18-000003",
+    "primary_document": "v8-k2018amvotes.htm",
+    "fetched_at": "2026-03-16T21:21:13.586804",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "10-K",
+    "filing_date": "2017-11-17",
+    "accession_number": "0001403161-17-000044",
+    "primary_document": "v093017.htm",
+    "fetched_at": "2026-03-16T21:21:13.586813",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2017-10-25",
+    "accession_number": "0001403161-17-000041",
+    "primary_document": "form8-kforearningsrelease9.htm",
+    "fetched_at": "2026-03-16T21:21:13.586818",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2017-10-18",
+    "accession_number": "0001403161-17-000039",
+    "primary_document": "v8-kdividendannualmeeting1.htm",
+    "fetched_at": "2026-03-16T21:21:13.586824",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2017-09-11",
+    "accession_number": "0001193125-17-281776",
+    "primary_document": "d456880d8k.htm",
+    "fetched_at": "2026-03-16T21:21:13.586829",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "10-Q",
+    "filing_date": "2017-07-20",
+    "accession_number": "0001403161-17-000037",
+    "primary_document": "v63017form10q.htm",
+    "fetched_at": "2026-03-16T21:21:13.586835",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2017-07-20",
+    "accession_number": "0001403161-17-000036",
+    "primary_document": "form8-kearningsrelease63017.htm",
+    "fetched_at": "2026-03-16T21:21:13.586841",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2017-07-18",
+    "accession_number": "0001403161-17-000031",
+    "primary_document": "visaform8-kdividends801jul.htm",
+    "fetched_at": "2026-03-16T21:21:13.586846",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2017-06-06",
+    "accession_number": "0001193125-17-195339",
+    "primary_document": "d363630d8k.htm",
+    "fetched_at": "2026-03-16T21:21:13.586851",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2017-05-31",
+    "accession_number": "0001193125-17-189237",
+    "primary_document": "d363945d8k.htm",
+    "fetched_at": "2026-03-16T21:21:13.586857",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "10-Q",
+    "filing_date": "2017-04-21",
+    "accession_number": "0001403161-17-000028",
+    "primary_document": "v33117form10q.htm",
+    "fetched_at": "2026-03-16T21:21:13.586863",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2017-04-20",
+    "accession_number": "0001403161-17-000026",
+    "primary_document": "earningsrelease33117.htm",
+    "fetched_at": "2026-03-16T21:21:13.586868",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2017-04-18",
+    "accession_number": "0001403161-17-000023",
+    "primary_document": "visaform8-k502and801april2.htm",
+    "fetched_at": "2026-03-16T21:21:13.586873",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "10-Q",
+    "filing_date": "2017-02-02",
+    "accession_number": "0001403161-17-000011",
+    "primary_document": "v123116form10q.htm",
+    "fetched_at": "2026-03-16T21:21:13.586882",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2017-02-02",
+    "accession_number": "0001403161-17-000010",
+    "primary_document": "earningsrelease123116.htm",
+    "fetched_at": "2026-03-16T21:21:13.586887",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2017-02-01",
+    "accession_number": "0001403161-17-000005",
+    "primary_document": "v8-k507and8012117.htm",
+    "fetched_at": "2026-03-16T21:21:13.586893",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "10-K",
+    "filing_date": "2016-11-15",
+    "accession_number": "0001403161-16-000058",
+    "primary_document": "v093016.htm",
+    "fetched_at": "2026-03-16T21:21:13.586903",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2016-10-24",
+    "accession_number": "0001403161-16-000053",
+    "primary_document": "earningsrelease93016.htm",
+    "fetched_at": "2026-03-16T21:21:13.586909",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2016-10-21",
+    "accession_number": "0001403161-16-000047",
+    "primary_document": "v8-kitem502.htm",
+    "fetched_at": "2026-03-16T21:21:13.586914",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2016-10-18",
+    "accession_number": "0001403161-16-000044",
+    "primary_document": "v8-kdividendannualmeeting1.htm",
+    "fetched_at": "2026-03-16T21:21:13.586919",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2016-10-17",
+    "accession_number": "0000898822-16-000466",
+    "primary_document": "body.htm",
+    "fetched_at": "2026-03-16T21:21:13.586925",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "10-Q",
+    "filing_date": "2016-07-25",
+    "accession_number": "0001403161-16-000039",
+    "primary_document": "v63016form10q.htm",
+    "fetched_at": "2026-03-16T21:21:13.586932",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2016-07-21",
+    "accession_number": "0001193125-16-653695",
+    "primary_document": "d222651d8k.htm",
+    "fetched_at": "2026-03-16T21:21:13.586938",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2016-07-19",
+    "accession_number": "0001403161-16-000037",
+    "primary_document": "v8-kdividend71916.htm",
+    "fetched_at": "2026-03-16T21:21:13.586943",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2016-06-21",
+    "accession_number": "0001193125-16-627003",
+    "primary_document": "d212927d8k.htm",
+    "fetched_at": "2026-03-16T21:21:13.586953",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2016-06-03",
+    "accession_number": "0001403161-16-000034",
+    "primary_document": "v8-k6316.htm",
+    "fetched_at": "2026-03-16T21:21:13.586958",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2016-05-23",
+    "accession_number": "0001403161-16-000029",
+    "primary_document": "v523168-k.htm",
+    "fetched_at": "2026-03-16T21:21:13.586964",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2016-05-10",
+    "accession_number": "0001403161-16-000027",
+    "primary_document": "a8-k101.htm",
+    "fetched_at": "2026-03-16T21:21:13.586969",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2016-04-25",
+    "accession_number": "0001403161-16-000024",
+    "primary_document": "a8-kpao.htm",
+    "fetched_at": "2026-03-16T21:21:13.586974",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "10-Q",
+    "filing_date": "2016-04-25",
+    "accession_number": "0001403161-16-000022",
+    "primary_document": "v33116form10q.htm",
+    "fetched_at": "2026-03-16T21:21:13.586979",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2016-04-21",
+    "accession_number": "0001628280-16-014658",
+    "primary_document": "v8-kotherevents.htm",
+    "fetched_at": "2026-03-16T21:21:13.586984",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2016-04-21",
+    "accession_number": "0001193125-16-550256",
+    "primary_document": "d173021d8k.htm",
+    "fetched_at": "2026-03-16T21:21:13.586989",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2016-04-20",
+    "accession_number": "0001193125-16-548247",
+    "primary_document": "d179617d8k.htm",
+    "fetched_at": "2026-03-16T21:21:13.586994",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2016-02-05",
+    "accession_number": "0001193125-16-452251",
+    "primary_document": "d63779d8k.htm",
+    "fetched_at": "2026-03-16T21:21:13.587000",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "10-Q",
+    "filing_date": "2016-01-28",
+    "accession_number": "0001403161-16-000015",
+    "primary_document": "v123115form10q.htm",
+    "fetched_at": "2026-03-16T21:21:13.587007",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2016-01-28",
+    "accession_number": "0001193125-16-441825",
+    "primary_document": "d72749d8k.htm",
+    "fetched_at": "2026-03-16T21:21:13.587012",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2015-12-14",
+    "accession_number": "0001193125-15-402678",
+    "primary_document": "d19669d8k.htm",
+    "fetched_at": "2026-03-16T21:21:13.587018",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2015-12-09",
+    "accession_number": "0001193125-15-398361",
+    "primary_document": "d46076d8k.htm",
+    "fetched_at": "2026-03-16T21:21:13.587025",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2015-12-02",
+    "accession_number": "0001193125-15-392294",
+    "primary_document": "d215097d8k.htm",
+    "fetched_at": "2026-03-16T21:21:13.587031",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "10-K",
+    "filing_date": "2015-11-20",
+    "accession_number": "0001403161-15-000013",
+    "primary_document": "v093015.htm",
+    "fetched_at": "2026-03-16T21:21:13.587041",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2015-11-04",
+    "accession_number": "0001193125-15-364620",
+    "primary_document": "d63037d8k.htm",
+    "fetched_at": "2026-03-16T21:21:13.587048",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2015-11-02",
+    "accession_number": "0001193125-15-361234",
+    "primary_document": "d89014d8k.htm",
+    "fetched_at": "2026-03-16T21:21:13.587053",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2015-11-02",
+    "accession_number": "0001193125-15-361228",
+    "primary_document": "d44556d8k.htm",
+    "fetched_at": "2026-03-16T21:21:13.587059",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2015-10-21",
+    "accession_number": "0001193125-15-349399",
+    "primary_document": "d25316d8k.htm",
+    "fetched_at": "2026-03-16T21:21:13.587064",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "10-Q",
+    "filing_date": "2015-07-23",
+    "accession_number": "0001403161-15-000010",
+    "primary_document": "v63015form10q.htm",
+    "fetched_at": "2026-03-16T21:21:13.587070",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2015-07-23",
+    "accession_number": "0001193125-15-261161",
+    "primary_document": "d86330d8k.htm",
+    "fetched_at": "2026-03-16T21:21:13.587075",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2015-07-22",
+    "accession_number": "0001193125-15-259844",
+    "primary_document": "d38968d8k.htm",
+    "fetched_at": "2026-03-16T21:21:13.587080",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2015-06-12",
+    "accession_number": "0001193125-15-221236",
+    "primary_document": "d941635d8k.htm",
+    "fetched_at": "2026-03-16T21:21:13.587087",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2015-06-10",
+    "accession_number": "0001193125-15-218509",
+    "primary_document": "d940472d8k.htm",
+    "fetched_at": "2026-03-16T21:21:13.587094",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "10-Q",
+    "filing_date": "2015-04-30",
+    "accession_number": "0001403161-15-000007",
+    "primary_document": "v33115form10q.htm",
+    "fetched_at": "2026-03-16T21:21:13.587099",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2015-04-30",
+    "accession_number": "0001193125-15-161900",
+    "primary_document": "d916255d8k.htm",
+    "fetched_at": "2026-03-16T21:21:13.587104",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2015-04-23",
+    "accession_number": "0001193125-15-144209",
+    "primary_document": "d914563d8k.htm",
+    "fetched_at": "2026-03-16T21:21:13.587109",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2015-04-14",
+    "accession_number": "0001193125-15-129403",
+    "primary_document": "d909221d8k.htm",
+    "fetched_at": "2026-03-16T21:21:13.587114",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2015-02-27",
+    "accession_number": "0001193125-15-070363",
+    "primary_document": "d880154d8k.htm",
+    "fetched_at": "2026-03-16T21:21:13.587120",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2015-02-02",
+    "accession_number": "0001193125-15-029688",
+    "primary_document": "d857873d8k.htm",
+    "fetched_at": "2026-03-16T21:21:13.587127",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "10-Q",
+    "filing_date": "2015-01-29",
+    "accession_number": "0001403161-15-000003",
+    "primary_document": "v123114form10q.htm",
+    "fetched_at": "2026-03-16T21:21:13.587133",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2015-01-29",
+    "accession_number": "0001193125-15-025534",
+    "primary_document": "d858600d8k.htm",
+    "fetched_at": "2026-03-16T21:21:13.587138",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2015-01-29",
+    "accession_number": "0001193125-15-024600",
+    "primary_document": "d859996d8k.htm",
+    "fetched_at": "2026-03-16T21:21:13.587143",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2015-01-28",
+    "accession_number": "0001193125-15-023627",
+    "primary_document": "d858762d8k.htm",
+    "fetched_at": "2026-03-16T21:21:13.587148",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2014-12-19",
+    "accession_number": "0001193125-14-447137",
+    "primary_document": "d839709d8k.htm",
+    "fetched_at": "2026-03-16T21:21:13.587156",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "10-K",
+    "filing_date": "2014-11-21",
+    "accession_number": "0001403161-14-000017",
+    "primary_document": "v09301410-k.htm",
+    "fetched_at": "2026-03-16T21:21:13.587166",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "V",
+    "cik": "1403161",
+    "form_type": "8-K",
+    "filing_date": "2014-10-29",
+    "accession_number": "0001193125-14-387186",
+    "primary_document": "d812512d8k.htm",
+    "fetched_at": "2026-03-16T21:21:13.587173",
+    "source_name": "sec_edgar"
+  }
+]

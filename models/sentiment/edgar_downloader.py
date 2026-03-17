@@ -12,9 +12,11 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-logging.basicConfig(level=logging.INFO,
+logging.basicConfig(
+    level=logging.INFO,
     format="%(asctime)s | %(levelname)s | %(module)s | %(message)s",
-    datefmt="%Y-%m-%d %H:%M:%S")
+    datefmt="%Y-%m-%d %H:%M:%S",
+)
 logger = logging.getLogger("edgar_downloader")
 
 EDGAR_BASE = "https://data.sec.gov"
@@ -24,15 +26,31 @@ HEADERS = {
 }
 
 TICKER_CIK = {
-    "AAPL" : "0000320193",
-    "MSFT" : "0000789019",
+    "AAPL": "0000320193",
+    "MSFT": "0000789019",
     "GOOGL": "0001652044",
-    "AMZN" : "0001018724",
-    "JPM"  : "0000019617",
-    "JNJ"  : "0000200406",
-    "XOM"  : "0000034088",
+    "AMZN": "0001018724",
+    "JPM": "0000019617",
+    "JNJ": "0000200406",
+    "XOM": "0000034088",
     "BRK-B": "0001067983",
-    "TSLA" : "0001318605",
+    "TSLA": "0001318605",
+    "NVDA": "0001045810",
+    "AMD": "0000002488",
+    "GS": "0000886982",
+    "BAC": "0000070858",
+    "V": "0001403161",
+    "WMT": "0000104169",
+    "COST": "0000909832",
+    "UNH": "0000731766",
+    "PFE": "0000078003",
+    "ABBV": "0001551152",
+    "CVX": "0000093410",
+    "PG": "0000080424",
+    "KO": "0000021344",
+    "META": "0001326801",
+    "NFLX": "0001065280",
+    "CRM": "0001108524",
 }
 
 FORM_TYPES = ["10-K", "10-Q", "8-K"]
@@ -54,9 +72,9 @@ def get_filings_index(cik: str, form_type: str, start_date: str, end_date: str) 
 
     filings = []
     recent = data.get("filings", {}).get("recent", {})
-    forms       = recent.get("form", [])
+    forms = recent.get("form", [])
     filed_dates = recent.get("filingDate", [])
-    accessions  = recent.get("accessionNumber", [])
+    accessions = recent.get("accessionNumber", [])
 
     for i, form in enumerate(forms):
         if form != form_type:
@@ -65,8 +83,9 @@ def get_filings_index(cik: str, form_type: str, start_date: str, end_date: str) 
         if not (start_date <= filed <= end_date):
             continue
         acc = accessions[i] if i < len(accessions) else ""
-        filings.append({"cik": cik, "form_type": form_type,
-                         "filed": filed, "accession": acc})
+        filings.append(
+            {"cik": cik, "form_type": form_type, "filed": filed, "accession": acc}
+        )
     return filings
 
 
@@ -75,7 +94,7 @@ def get_narrative_doc_url(cik: str, accession: str) -> str | None:
     Fetch the filing index JSON and find the actual narrative HTML document.
     Strategy: skip XBRL/XML files, find the largest .htm file — that's the 10-K/10-Q text.
     """
-    cik_num  = cik.lstrip("0")
+    cik_num = cik.lstrip("0")
     acc_path = accession.replace("-", "")
     index_url = f"https://data.sec.gov/Archives/edgar/data/{cik_num}/{acc_path}/{accession}-index.json"
 
@@ -94,7 +113,7 @@ def get_narrative_doc_url(cik: str, accession: str) -> str | None:
     for doc in docs:
         name = doc.get("name", "").lower()
         dtype = doc.get("type", "").upper()
-        size  = doc.get("size", 0) or 0
+        size = doc.get("size", 0) or 0
 
         # Skip exhibits, XBRL inline, and XML
         if any(x in name for x in ["ex-", "ex_", "xbrl", "r1.", "r2.", "r3."]):
@@ -115,7 +134,7 @@ def get_narrative_doc_url(cik: str, accession: str) -> str | None:
 
 def get_narrative_doc_url_htm(cik: str, accession: str) -> str | None:
     """Fallback: parse the HTML index page to find document links."""
-    cik_num  = cik.lstrip("0")
+    cik_num = cik.lstrip("0")
     acc_path = accession.replace("-", "")
     index_url = f"https://www.sec.gov/Archives/edgar/data/{cik_num}/{acc_path}/{accession}-index.htm"
 
@@ -127,10 +146,14 @@ def get_narrative_doc_url_htm(cik: str, accession: str) -> str | None:
         # Find all document links — pick largest non-exhibit htm
         links = re.findall(
             r'href="(/Archives/edgar/data/[^"]+\.htm)"[^>]*>.*?</a>.*?(\d+)',
-            resp.text, re.IGNORECASE | re.DOTALL
+            resp.text,
+            re.IGNORECASE | re.DOTALL,
         )
-        candidates = [(int(size), url) for url, size in links
-                      if not any(x in url.lower() for x in ["ex-", "ex_", "xbrl"])]
+        candidates = [
+            (int(size), url)
+            for url, size in links
+            if not any(x in url.lower() for x in ["ex-", "ex_", "xbrl"])
+        ]
         if candidates:
             candidates.sort(reverse=True)
             return "https://www.sec.gov" + candidates[0][1]
@@ -149,8 +172,12 @@ def extract_text_from_doc(doc_url: str) -> str:
         raw = resp.text
 
         # Remove scripts, styles, XBRL tags
-        raw = re.sub(r"<(script|style|ix:[^>]+)[^>]*>.*?</\1>", " ", raw,
-                     flags=re.DOTALL | re.IGNORECASE)
+        raw = re.sub(
+            r"<(script|style|ix:[^>]+)[^>]*>.*?</\1>",
+            " ",
+            raw,
+            flags=re.DOTALL | re.IGNORECASE,
+        )
         # Strip remaining HTML tags
         text = re.sub(r"<[^>]+>", " ", raw)
         text = re.sub(r"&[a-z#0-9]+;", " ", text)
@@ -160,14 +187,15 @@ def extract_text_from_doc(doc_url: str) -> str:
         # Find where the real narrative begins (after page 10 worth of TOC)
         # Heuristic: skip first 3000 chars if they look like a TOC
         toc_check = text[:3000]
-        toc_hits  = len(re.findall(r"Item\s+\d+[A-Z]?\.", toc_check))
+        toc_hits = len(re.findall(r"Item\s+\d+[A-Z]?\.", toc_check))
         if toc_hits > 6:
             # It's a TOC — find where content restarts after it
             narrative_start = re.search(
                 r"(?i)(PART\s+I\b|ITEM\s+1\b.*?BUSINESS|MANAGEMENT.{0,20}DISCUSSION)",
-                text[3000:])
+                text[3000:],
+            )
             if narrative_start:
-                text = text[3000 + narrative_start.start():]
+                text = text[3000 + narrative_start.start() :]
 
         return text[:80_000]
     except Exception as e:
@@ -212,7 +240,9 @@ def extract_key_sections(raw_text: str) -> dict:
     return sections
 
 
-def download_edgar_for_ticker(ticker: str, start_date="2021-01-01", end_date=None) -> pd.DataFrame:
+def download_edgar_for_ticker(
+    ticker: str, start_date="2021-01-01", end_date=None
+) -> pd.DataFrame:
     if end_date is None:
         end_date = datetime.today().strftime("%Y-%m-%d")
     cik = TICKER_CIK.get(ticker)
@@ -227,7 +257,9 @@ def download_edgar_for_ticker(ticker: str, start_date="2021-01-01", end_date=Non
         for filing in filings[:12]:
             doc_url = get_narrative_doc_url(cik, filing["accession"])
             if not doc_url:
-                logger.warning(f"    ⚠ No narrative doc found for {filing['accession']}")
+                logger.warning(
+                    f"    ⚠ No narrative doc found for {filing['accession']}"
+                )
                 continue
 
             raw_text = extract_text_from_doc(doc_url)
@@ -236,24 +268,30 @@ def download_edgar_for_ticker(ticker: str, start_date="2021-01-01", end_date=Non
 
             sections = extract_key_sections(raw_text)
             for section_name, text in sections.items():
-                all_records.append({
-                    "ticker"     : ticker,
-                    "form_type"  : form_type,
-                    "filed"      : filing["filed"],
-                    "section"    : section_name,
-                    "text"       : text,
-                    "text_length": len(text),
-                    "fetched_at" : datetime.utcnow().isoformat(),
-                })
-            logger.info(f"    ✓ {filing['filed']} | {len(sections)} sections "
-                        f"| lengths: {[len(v) for v in sections.values()]}")
+                all_records.append(
+                    {
+                        "ticker": ticker,
+                        "form_type": form_type,
+                        "filed": filing["filed"],
+                        "section": section_name,
+                        "text": text,
+                        "text_length": len(text),
+                        "fetched_at": datetime.utcnow().isoformat(),
+                    }
+                )
+            logger.info(
+                f"    ✓ {filing['filed']} | {len(sections)} sections "
+                f"| lengths: {[len(v) for v in sections.values()]}"
+            )
 
     df = pd.DataFrame(all_records)
     logger.info(f"  ✓ {ticker}: {len(df)} sections total")
     return df
 
 
-def run_edgar_download(tickers=None, start_date="2021-01-01", end_date=None) -> pd.DataFrame:
+def run_edgar_download(
+    tickers=None, start_date="2021-01-01", end_date=None
+) -> pd.DataFrame:
     if tickers is None:
         tickers = list(TICKER_CIK.keys())
     if end_date is None:
@@ -284,7 +322,9 @@ def run_edgar_download(tickers=None, start_date="2021-01-01", end_date=None) -> 
         logger.info(f"  Total sections : {len(combined)}")
         logger.info(f"  Tickers        : {combined['ticker'].nunique()}")
         logger.info(f"  Avg text length: {int(combined['text_length'].mean())} chars")
-        logger.info(f"  Form types     : {combined['form_type'].value_counts().to_dict()}")
+        logger.info(
+            f"  Form types     : {combined['form_type'].value_counts().to_dict()}"
+        )
         return combined
 
     logger.warning("No EDGAR data downloaded.")
@@ -293,8 +333,12 @@ def run_edgar_download(tickers=None, start_date="2021-01-01", end_date=None) -> 
 
 if __name__ == "__main__":
     df = run_edgar_download(
-        tickers=["AAPL", "MSFT", "GOOGL", "AMZN", "JPM", "JNJ", "XOM", "BRK-B", "TSLA"],
+        tickers=None,
         start_date="2021-01-01",
     )
     if not df.empty:
-        print(df[["ticker","form_type","filed","section","text_length"]].head(15).to_string())
+        print(
+            df[["ticker", "form_type", "filed", "section", "text_length"]]
+            .head(15)
+            .to_string()
+        )

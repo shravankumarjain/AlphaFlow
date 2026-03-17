@@ -1,0 +1,372 @@
+[
+  {
+    "ticker": "CRM",
+    "cik": "1108524",
+    "form_type": "8-K",
+    "filing_date": "2026-03-16",
+    "accession_number": "0001193125-26-107403",
+    "primary_document": "d887663d8k.htm",
+    "fetched_at": "2026-03-16T21:21:34.064338",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "CRM",
+    "cik": "1108524",
+    "form_type": "8-K",
+    "filing_date": "2026-03-13",
+    "accession_number": "0001193125-26-106356",
+    "primary_document": "d114728d8k.htm",
+    "fetched_at": "2026-03-16T21:21:34.064369",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "CRM",
+    "cik": "1108524",
+    "form_type": "8-K",
+    "filing_date": "2026-03-12",
+    "accession_number": "0001193125-26-104282",
+    "primary_document": "d887348d8k.htm",
+    "fetched_at": "2026-03-16T21:21:34.064378",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "CRM",
+    "cik": "1108524",
+    "form_type": "8-K",
+    "filing_date": "2026-03-06",
+    "accession_number": "0001108524-26-000062",
+    "primary_document": "crm-20260306.htm",
+    "fetched_at": "2026-03-16T21:21:34.064386",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "CRM",
+    "cik": "1108524",
+    "form_type": "10-K",
+    "filing_date": "2026-03-02",
+    "accession_number": "0001108524-26-000060",
+    "primary_document": "crm-20260131.htm",
+    "fetched_at": "2026-03-16T21:21:34.064394",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "CRM",
+    "cik": "1108524",
+    "form_type": "8-K",
+    "filing_date": "2026-02-25",
+    "accession_number": "0001108524-26-000056",
+    "primary_document": "crm-20260225.htm",
+    "fetched_at": "2026-03-16T21:21:34.064402",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "CRM",
+    "cik": "1108524",
+    "form_type": "10-Q",
+    "filing_date": "2025-12-04",
+    "accession_number": "0001108524-25-000238",
+    "primary_document": "crm-20251031.htm",
+    "fetched_at": "2026-03-16T21:21:34.064418",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "CRM",
+    "cik": "1108524",
+    "form_type": "8-K",
+    "filing_date": "2025-12-03",
+    "accession_number": "0001108524-25-000234",
+    "primary_document": "crm-20251203.htm",
+    "fetched_at": "2026-03-16T21:21:34.064426",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "CRM",
+    "cik": "1108524",
+    "form_type": "8-K",
+    "filing_date": "2025-11-18",
+    "accession_number": "0001108524-25-000207",
+    "primary_document": "crm-20251118.htm",
+    "fetched_at": "2026-03-16T21:21:34.064437",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "CRM",
+    "cik": "1108524",
+    "form_type": "8-K",
+    "filing_date": "2025-10-16",
+    "accession_number": "0001108524-25-000168",
+    "primary_document": "crm-20251015.htm",
+    "fetched_at": "2026-03-16T21:21:34.064448",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "CRM",
+    "cik": "1108524",
+    "form_type": "10-Q",
+    "filing_date": "2025-09-04",
+    "accession_number": "0001108524-25-000088",
+    "primary_document": "crm-20250731.htm",
+    "fetched_at": "2026-03-16T21:21:34.064463",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "CRM",
+    "cik": "1108524",
+    "form_type": "8-K",
+    "filing_date": "2025-09-03",
+    "accession_number": "0001108524-25-000083",
+    "primary_document": "crm-20250903.htm",
+    "fetched_at": "2026-03-16T21:21:34.064471",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "CRM",
+    "cik": "1108524",
+    "form_type": "8-K",
+    "filing_date": "2025-07-09",
+    "accession_number": "0001108524-25-000040",
+    "primary_document": "crm-20250709.htm",
+    "fetched_at": "2026-03-16T21:21:34.064488",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "CRM",
+    "cik": "1108524",
+    "form_type": "8-K",
+    "filing_date": "2025-06-24",
+    "accession_number": "0001193125-25-145772",
+    "primary_document": "d71627d8k.htm",
+    "fetched_at": "2026-03-16T21:21:34.064496",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "CRM",
+    "cik": "1108524",
+    "form_type": "8-K",
+    "filing_date": "2025-06-09",
+    "accession_number": "0001108524-25-000033",
+    "primary_document": "crm-20250605.htm",
+    "fetched_at": "2026-03-16T21:21:34.064505",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "CRM",
+    "cik": "1108524",
+    "form_type": "10-Q",
+    "filing_date": "2025-05-29",
+    "accession_number": "0001108524-25-000030",
+    "primary_document": "crm-20250430.htm",
+    "fetched_at": "2026-03-16T21:21:34.064512",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "CRM",
+    "cik": "1108524",
+    "form_type": "8-K",
+    "filing_date": "2025-05-28",
+    "accession_number": "0001108524-25-000027",
+    "primary_document": "crm-20250528.htm",
+    "fetched_at": "2026-03-16T21:21:34.064520",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "CRM",
+    "cik": "1108524",
+    "form_type": "8-K",
+    "filing_date": "2025-05-27",
+    "accession_number": "0001193125-25-126271",
+    "primary_document": "d866821d8k.htm",
+    "fetched_at": "2026-03-16T21:21:34.064528",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "CRM",
+    "cik": "1108524",
+    "form_type": "10-K",
+    "filing_date": "2025-03-05",
+    "accession_number": "0001108524-25-000006",
+    "primary_document": "crm-20250131.htm",
+    "fetched_at": "2026-03-16T21:21:34.064546",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "CRM",
+    "cik": "1108524",
+    "form_type": "8-K",
+    "filing_date": "2025-02-26",
+    "accession_number": "0001108524-25-000002",
+    "primary_document": "crm-20250226.htm",
+    "fetched_at": "2026-03-16T21:21:34.064554",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "CRM",
+    "cik": "1108524",
+    "form_type": "8-K",
+    "filing_date": "2025-02-05",
+    "accession_number": "0001193125-25-020881",
+    "primary_document": "d926032d8k.htm",
+    "fetched_at": "2026-03-16T21:21:34.064565",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "CRM",
+    "cik": "1108524",
+    "form_type": "8-K",
+    "filing_date": "2024-12-10",
+    "accession_number": "0001108524-24-000036",
+    "primary_document": "crm-20241205.htm",
+    "fetched_at": "2026-03-16T21:21:34.064582",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "CRM",
+    "cik": "1108524",
+    "form_type": "10-Q",
+    "filing_date": "2024-12-04",
+    "accession_number": "0001108524-24-000034",
+    "primary_document": "crm-20241031.htm",
+    "fetched_at": "2026-03-16T21:21:34.064590",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "CRM",
+    "cik": "1108524",
+    "form_type": "8-K",
+    "filing_date": "2024-12-03",
+    "accession_number": "0001108524-24-000033",
+    "primary_document": "crm-20241203.htm",
+    "fetched_at": "2026-03-16T21:21:34.064599",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "CRM",
+    "cik": "1108524",
+    "form_type": "8-K",
+    "filing_date": "2024-11-05",
+    "accession_number": "0001193125-24-251243",
+    "primary_document": "d854367d8k.htm",
+    "fetched_at": "2026-03-16T21:21:34.064610",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "CRM",
+    "cik": "1108524",
+    "form_type": "8-K",
+    "filing_date": "2024-09-05",
+    "accession_number": "0001108524-24-000024",
+    "primary_document": "crm-20240905.htm",
+    "fetched_at": "2026-03-16T21:21:34.064626",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "CRM",
+    "cik": "1108524",
+    "form_type": "10-Q",
+    "filing_date": "2024-08-29",
+    "accession_number": "0001108524-24-000022",
+    "primary_document": "crm-20240731.htm",
+    "fetched_at": "2026-03-16T21:21:34.064636",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "CRM",
+    "cik": "1108524",
+    "form_type": "8-K",
+    "filing_date": "2024-08-28",
+    "accession_number": "0001108524-24-000020",
+    "primary_document": "crm-20240828.htm",
+    "fetched_at": "2026-03-16T21:21:34.064643",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "CRM",
+    "cik": "1108524",
+    "form_type": "8-K",
+    "filing_date": "2024-07-01",
+    "accession_number": "0001108524-24-000014",
+    "primary_document": "crm-20240627.htm",
+    "fetched_at": "2026-03-16T21:21:34.064659",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "CRM",
+    "cik": "1108524",
+    "form_type": "10-Q",
+    "filing_date": "2024-05-30",
+    "accession_number": "0001108524-24-000009",
+    "primary_document": "crm-20240430.htm",
+    "fetched_at": "2026-03-16T21:21:34.064674",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "CRM",
+    "cik": "1108524",
+    "form_type": "8-K",
+    "filing_date": "2024-05-29",
+    "accession_number": "0001108524-24-000007",
+    "primary_document": "crm-20240529.htm",
+    "fetched_at": "2026-03-16T21:21:34.064681",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "CRM",
+    "cik": "1108524",
+    "form_type": "10-K",
+    "filing_date": "2024-03-06",
+    "accession_number": "0001108524-24-000005",
+    "primary_document": "crm-20240131.htm",
+    "fetched_at": "2026-03-16T21:21:34.064798",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "CRM",
+    "cik": "1108524",
+    "form_type": "8-K",
+    "filing_date": "2024-02-28",
+    "accession_number": "0001108524-24-000002",
+    "primary_document": "crm-20240228.htm",
+    "fetched_at": "2026-03-16T21:21:34.064829",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "CRM",
+    "cik": "1108524",
+    "form_type": "10-Q",
+    "filing_date": "2023-11-30",
+    "accession_number": "0001108524-23-000048",
+    "primary_document": "crm-20231031.htm",
+    "fetched_at": "2026-03-16T21:21:34.064869",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "CRM",
+    "cik": "1108524",
+    "form_type": "8-K",
+    "filing_date": "2023-11-29",
+    "accession_number": "0001108524-23-000046",
+    "primary_document": "crm-20231129.htm",
+    "fetched_at": "2026-03-16T21:21:34.064876",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "CRM",
+    "cik": "1108524",
+    "form_type": "10-Q",
+    "filing_date": "2023-08-31",
+    "accession_number": "0001108524-23-000040",
+    "primary_document": "crm-20230731.htm",
+    "fetched_at": "2026-03-16T21:21:34.064908",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "CRM",
+    "cik": "1108524",
+    "form_type": "8-K",
+    "filing_date": "2023-08-30",
+    "accession_number": "0001108524-23-000037",
+    "primary_document": "crm-20230830.htm",
+    "fetched_at": "2026-03-16T21:21:34.064914",
+    "source_name": "sec_edgar"
+  }
+]

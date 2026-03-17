@@ -44,6 +44,22 @@ TICKERS = [
     "XOM",
     "BRK-B",
     "TSLA",
+    "NVDA",
+    "AMD",
+    "GS",
+    "BAC",
+    "V",
+    "WMT",
+    "COST",
+    "UNH",
+    "PFE",
+    "ABBV",
+    "CVX",
+    "PG",
+    "KO",
+    "META",
+    "NFLX",
+    "CRM",
 ]
 
 # Sentiment feature columns to merge
@@ -292,4 +308,3 @@ def update_dataset_config():
 
 if __name__ == "__main__":
     results = run_sentiment_pipeline()
-    

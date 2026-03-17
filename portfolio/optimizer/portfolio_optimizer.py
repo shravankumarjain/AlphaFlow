@@ -135,12 +135,12 @@ class MarkowitzOptimizer:
         tickers = list(ret_matrix.columns)
         n = len(tickers)
 
-        mu = (
-            np.array([expected_returns.get(t, ret_matrix[t].mean()) for t in tickers])
-            * 252
-            if expected_returns
-            else ret_matrix.mean().values * 252
-        )
+        hist_mu = ret_matrix.mean().values * 252
+        if expected_returns:
+            tft_signal = np.array([expected_returns.get(t, 0.0) for t in tickers]) * 52
+            mu = 0.6 * tft_signal + 0.4 * hist_mu
+        else:
+            mu = hist_mu
 
         cov = ret_matrix.cov().values * 252
         w = cp.Variable(n)
@@ -487,7 +487,7 @@ def run_portfolio_optimization(train_rl: bool = True) -> dict:
 
 
 if __name__ == "__main__":
-    allocation = run_portfolio_optimization(train_rl=True)
+    allocation = run_portfolio_optimization(train_rl=False)
     print("\n── Final Portfolio Allocation ───────────────────")
     print(
         f"  Regime : {allocation['regime'].upper()} "

@@ -266,14 +266,8 @@ def build_daily_sentiment_features(
     return pd.DataFrame(daily_records)
 
 
-def run_finbert_scoring(tickers: list[str] = None) -> pd.DataFrame:
+def run_finbert_scoring(tickers: list = None) -> pd.DataFrame:
     """Full pipeline: load EDGAR text → score → delta → daily features."""
-    if tickers is None:
-        tickers = [
-            "AAPL", "MSFT", "GOOGL", "AMZN", "JPM",
-            "JNJ",  "XOM",  "BRK-B", "TSLA",
-        ]
-
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
     # ── Step 1: Load EDGAR text ───────────────────────────────────────────────
@@ -285,7 +279,10 @@ def run_finbert_scoring(tickers: list[str] = None) -> pd.DataFrame:
         return pd.DataFrame()
 
     edgar_df = pd.read_parquet(combined_path)
-    edgar_df = edgar_df[edgar_df["ticker"].isin(tickers)]
+
+    if tickers is not None:
+        edgar_df = edgar_df[edgar_df["ticker"].isin(tickers)]
+
     logger.info(f"  ✓ Loaded {len(edgar_df)} text sections for {edgar_df['ticker'].nunique()} tickers")
 
     # ── Step 2: FinBERT scoring ───────────────────────────────────────────────
@@ -315,7 +312,9 @@ def run_finbert_scoring(tickers: list[str] = None) -> pd.DataFrame:
     logger.info("=" * 60)
     logger.info("FinBERT Scoring Complete")
     logger.info("=" * 60)
-    for ticker in tickers:
+    
+    all_tickers = delta_df["ticker"].unique().tolist()
+    for ticker in all_tickers:
         t_df = delta_df[delta_df["ticker"] == ticker]
         if t_df.empty:
             continue
@@ -330,7 +329,7 @@ def run_finbert_scoring(tickers: list[str] = None) -> pd.DataFrame:
 
 
 if __name__ == "__main__":
-    delta_df = run_finbert_scoring()
+    delta_df = run_finbert_scoring(tickers=None) 
     if not delta_df.empty:
         print("\nTop signals by sentiment delta:")
         top = (

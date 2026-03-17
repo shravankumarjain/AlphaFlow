@@ -1,0 +1,1042 @@
+[
+  {
+    "ticker": "PG",
+    "cik": "80424",
+    "form_type": "10-Q",
+    "filing_date": "2026-01-23",
+    "accession_number": "0000080424-26-000011",
+    "primary_document": "pg-20251231.htm",
+    "fetched_at": "2026-03-16T21:21:26.306997",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PG",
+    "cik": "80424",
+    "form_type": "8-K",
+    "filing_date": "2026-01-22",
+    "accession_number": "0000080424-26-000009",
+    "primary_document": "pg-20260122.htm",
+    "fetched_at": "2026-03-16T21:21:26.307023",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PG",
+    "cik": "80424",
+    "form_type": "8-K",
+    "filing_date": "2026-01-22",
+    "accession_number": "0000080424-26-000006",
+    "primary_document": "pg-20260122.htm",
+    "fetched_at": "2026-03-16T21:21:26.307029",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PG",
+    "cik": "80424",
+    "form_type": "8-K",
+    "filing_date": "2026-01-13",
+    "accession_number": "0000080424-26-000002",
+    "primary_document": "pg-20260113.htm",
+    "fetched_at": "2026-03-16T21:21:26.307034",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PG",
+    "cik": "80424",
+    "form_type": "8-K",
+    "filing_date": "2025-12-15",
+    "accession_number": "0000080424-25-000287",
+    "primary_document": "pg-20251215.htm",
+    "fetched_at": "2026-03-16T21:21:26.307039",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PG",
+    "cik": "80424",
+    "form_type": "8-K",
+    "filing_date": "2025-11-04",
+    "accession_number": "0001193125-25-264728",
+    "primary_document": "d47629d8k.htm",
+    "fetched_at": "2026-03-16T21:21:26.307048",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PG",
+    "cik": "80424",
+    "form_type": "8-K",
+    "filing_date": "2025-11-03",
+    "accession_number": "0001193125-25-262609",
+    "primary_document": "d35820d8k.htm",
+    "fetched_at": "2026-03-16T21:21:26.307053",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PG",
+    "cik": "80424",
+    "form_type": "10-Q",
+    "filing_date": "2025-10-24",
+    "accession_number": "0000080424-25-000245",
+    "primary_document": "pg-20250930.htm",
+    "fetched_at": "2026-03-16T21:21:26.307061",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PG",
+    "cik": "80424",
+    "form_type": "8-K",
+    "filing_date": "2025-10-24",
+    "accession_number": "0000080424-25-000243",
+    "primary_document": "pg-20251024.htm",
+    "fetched_at": "2026-03-16T21:21:26.307066",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PG",
+    "cik": "80424",
+    "form_type": "8-K",
+    "filing_date": "2025-10-24",
+    "accession_number": "0000080424-25-000240",
+    "primary_document": "pg-20251024.htm",
+    "fetched_at": "2026-03-16T21:21:26.307071",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PG",
+    "cik": "80424",
+    "form_type": "8-K",
+    "filing_date": "2025-10-16",
+    "accession_number": "0000080424-25-000235",
+    "primary_document": "pg-20251016.htm",
+    "fetched_at": "2026-03-16T21:21:26.307075",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PG",
+    "cik": "80424",
+    "form_type": "8-K",
+    "filing_date": "2025-10-14",
+    "accession_number": "0000080424-25-000217",
+    "primary_document": "pg-20251014.htm",
+    "fetched_at": "2026-03-16T21:21:26.307082",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PG",
+    "cik": "80424",
+    "form_type": "8-K",
+    "filing_date": "2025-08-14",
+    "accession_number": "0000080424-25-000111",
+    "primary_document": "pg-20250814.htm",
+    "fetched_at": "2026-03-16T21:21:26.307098",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PG",
+    "cik": "80424",
+    "form_type": "10-K",
+    "filing_date": "2025-08-04",
+    "accession_number": "0000080424-25-000076",
+    "primary_document": "pg-20250630.htm",
+    "fetched_at": "2026-03-16T21:21:26.307104",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PG",
+    "cik": "80424",
+    "form_type": "8-K",
+    "filing_date": "2025-07-29",
+    "accession_number": "0000080424-25-000069",
+    "primary_document": "pg-20250729.htm",
+    "fetched_at": "2026-03-16T21:21:26.307109",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PG",
+    "cik": "80424",
+    "form_type": "8-K",
+    "filing_date": "2025-07-29",
+    "accession_number": "0000080424-25-000067",
+    "primary_document": "pg-20250729.htm",
+    "fetched_at": "2026-03-16T21:21:26.307114",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PG",
+    "cik": "80424",
+    "form_type": "8-K",
+    "filing_date": "2025-07-28",
+    "accession_number": "0000080424-25-000061",
+    "primary_document": "ceotransition.htm",
+    "fetched_at": "2026-03-16T21:21:26.307118",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PG",
+    "cik": "80424",
+    "form_type": "8-K",
+    "filing_date": "2025-07-08",
+    "accession_number": "0000080424-25-000057",
+    "primary_document": "july2025dividend.htm",
+    "fetched_at": "2026-03-16T21:21:26.307124",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PG",
+    "cik": "80424",
+    "form_type": "8-K",
+    "filing_date": "2025-06-09",
+    "accession_number": "0000080424-25-000052",
+    "primary_document": "arnoldannouncement.htm",
+    "fetched_at": "2026-03-16T21:21:26.307130",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PG",
+    "cik": "80424",
+    "form_type": "8-K",
+    "filing_date": "2025-06-05",
+    "accession_number": "0000080424-25-000050",
+    "primary_document": "deutschebankpresentation.htm",
+    "fetched_at": "2026-03-16T21:21:26.307135",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PG",
+    "cik": "80424",
+    "form_type": "8-K",
+    "filing_date": "2025-05-01",
+    "accession_number": "0001193125-25-110040",
+    "primary_document": "d946236d8k.htm",
+    "fetched_at": "2026-03-16T21:21:26.307141",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PG",
+    "cik": "80424",
+    "form_type": "10-Q",
+    "filing_date": "2025-04-24",
+    "accession_number": "0000080424-25-000037",
+    "primary_document": "pg-20250331.htm",
+    "fetched_at": "2026-03-16T21:21:26.307148",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PG",
+    "cik": "80424",
+    "form_type": "8-K",
+    "filing_date": "2025-04-24",
+    "accession_number": "0000080424-25-000035",
+    "primary_document": "jfmq3fy25earningsslides.htm",
+    "fetched_at": "2026-03-16T21:21:26.307152",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PG",
+    "cik": "80424",
+    "form_type": "8-K",
+    "filing_date": "2025-04-24",
+    "accession_number": "0000080424-25-000032",
+    "primary_document": "pg-20250424.htm",
+    "fetched_at": "2026-03-16T21:21:26.307156",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PG",
+    "cik": "80424",
+    "form_type": "8-K",
+    "filing_date": "2025-04-08",
+    "accession_number": "0000080424-25-000025",
+    "primary_document": "april2025dividend.htm",
+    "fetched_at": "2026-03-16T21:21:26.307160",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PG",
+    "cik": "80424",
+    "form_type": "10-Q",
+    "filing_date": "2025-01-22",
+    "accession_number": "0000080424-25-000013",
+    "primary_document": "pg-20241231.htm",
+    "fetched_at": "2026-03-16T21:21:26.307168",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PG",
+    "cik": "80424",
+    "form_type": "8-K",
+    "filing_date": "2025-01-22",
+    "accession_number": "0000080424-25-000011",
+    "primary_document": "ondq2fy25earningsslides.htm",
+    "fetched_at": "2026-03-16T21:21:26.307173",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PG",
+    "cik": "80424",
+    "form_type": "8-K",
+    "filing_date": "2025-01-22",
+    "accession_number": "0000080424-25-000009",
+    "primary_document": "pg-20250122.htm",
+    "fetched_at": "2026-03-16T21:21:26.307177",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PG",
+    "cik": "80424",
+    "form_type": "8-K",
+    "filing_date": "2025-01-14",
+    "accession_number": "0000080424-25-000003",
+    "primary_document": "january2025dividend.htm",
+    "fetched_at": "2026-03-16T21:21:26.307182",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PG",
+    "cik": "80424",
+    "form_type": "8-K",
+    "filing_date": "2024-10-24",
+    "accession_number": "0001193125-24-242887",
+    "primary_document": "d849483d8k.htm",
+    "fetched_at": "2026-03-16T21:21:26.307191",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PG",
+    "cik": "80424",
+    "form_type": "10-Q",
+    "filing_date": "2024-10-18",
+    "accession_number": "0000080424-24-000113",
+    "primary_document": "pg-20240930.htm",
+    "fetched_at": "2026-03-16T21:21:26.307196",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PG",
+    "cik": "80424",
+    "form_type": "8-K",
+    "filing_date": "2024-10-18",
+    "accession_number": "0000080424-24-000110",
+    "primary_document": "jasq1fy25earningsslides.htm",
+    "fetched_at": "2026-03-16T21:21:26.307202",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PG",
+    "cik": "80424",
+    "form_type": "8-K",
+    "filing_date": "2024-10-18",
+    "accession_number": "0000080424-24-000108",
+    "primary_document": "pg-20241018.htm",
+    "fetched_at": "2026-03-16T21:21:26.307207",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PG",
+    "cik": "80424",
+    "form_type": "8-K",
+    "filing_date": "2024-10-10",
+    "accession_number": "0000080424-24-000100",
+    "primary_document": "annlmtgvote2024.htm",
+    "fetched_at": "2026-03-16T21:21:26.307211",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PG",
+    "cik": "80424",
+    "form_type": "8-K",
+    "filing_date": "2024-10-08",
+    "accession_number": "0000080424-24-000098",
+    "primary_document": "october202424dividends.htm",
+    "fetched_at": "2026-03-16T21:21:26.307218",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PG",
+    "cik": "80424",
+    "form_type": "10-K",
+    "filing_date": "2024-08-05",
+    "accession_number": "0000080424-24-000083",
+    "primary_document": "pg-20240630.htm",
+    "fetched_at": "2026-03-16T21:21:26.307242",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PG",
+    "cik": "80424",
+    "form_type": "8-K",
+    "filing_date": "2024-07-30",
+    "accession_number": "0000080424-24-000073",
+    "primary_document": "amjq4fy2324earningsslides.htm",
+    "fetched_at": "2026-03-16T21:21:26.307247",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PG",
+    "cik": "80424",
+    "form_type": "8-K",
+    "filing_date": "2024-07-30",
+    "accession_number": "0000080424-24-000071",
+    "primary_document": "pg-20240730.htm",
+    "fetched_at": "2026-03-16T21:21:26.307253",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PG",
+    "cik": "80424",
+    "form_type": "8-K",
+    "filing_date": "2024-07-09",
+    "accession_number": "0000080424-24-000063",
+    "primary_document": "july2024dividends.htm",
+    "fetched_at": "2026-03-16T21:21:26.307258",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PG",
+    "cik": "80424",
+    "form_type": "8-K",
+    "filing_date": "2024-04-29",
+    "accession_number": "0001193125-24-122626",
+    "primary_document": "d794816d8k.htm",
+    "fetched_at": "2026-03-16T21:21:26.307272",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PG",
+    "cik": "80424",
+    "form_type": "10-Q",
+    "filing_date": "2024-04-19",
+    "accession_number": "0000080424-24-000051",
+    "primary_document": "pg-20240331.htm",
+    "fetched_at": "2026-03-16T21:21:26.307279",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PG",
+    "cik": "80424",
+    "form_type": "8-K",
+    "filing_date": "2024-04-19",
+    "accession_number": "0000080424-24-000048",
+    "primary_document": "jfmq3fy24earningsslides.htm",
+    "fetched_at": "2026-03-16T21:21:26.307284",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PG",
+    "cik": "80424",
+    "form_type": "8-K",
+    "filing_date": "2024-04-19",
+    "accession_number": "0000080424-24-000046",
+    "primary_document": "pg-20240419.htm",
+    "fetched_at": "2026-03-16T21:21:26.307288",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PG",
+    "cik": "80424",
+    "form_type": "8-K",
+    "filing_date": "2024-04-09",
+    "accession_number": "0000080424-24-000030",
+    "primary_document": "bralyretirement.htm",
+    "fetched_at": "2026-03-16T21:21:26.307296",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PG",
+    "cik": "80424",
+    "form_type": "8-K",
+    "filing_date": "2024-04-09",
+    "accession_number": "0000080424-24-000029",
+    "primary_document": "april2024dividend.htm",
+    "fetched_at": "2026-03-16T21:21:26.307301",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PG",
+    "cik": "80424",
+    "form_type": "8-K",
+    "filing_date": "2024-01-29",
+    "accession_number": "0001193125-24-018146",
+    "primary_document": "d680446d8k.htm",
+    "fetched_at": "2026-03-16T21:21:26.307314",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PG",
+    "cik": "80424",
+    "form_type": "10-Q",
+    "filing_date": "2024-01-23",
+    "accession_number": "0000080424-24-000018",
+    "primary_document": "pg-20231231.htm",
+    "fetched_at": "2026-03-16T21:21:26.307324",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PG",
+    "cik": "80424",
+    "form_type": "8-K",
+    "filing_date": "2024-01-23",
+    "accession_number": "0000080424-24-000015",
+    "primary_document": "ondq2fy24earningsslides.htm",
+    "fetched_at": "2026-03-16T21:21:26.307332",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PG",
+    "cik": "80424",
+    "form_type": "8-K",
+    "filing_date": "2024-01-23",
+    "accession_number": "0000080424-24-000013",
+    "primary_document": "pg-20240123.htm",
+    "fetched_at": "2026-03-16T21:21:26.307337",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PG",
+    "cik": "80424",
+    "form_type": "8-K",
+    "filing_date": "2024-01-09",
+    "accession_number": "0000080424-24-000004",
+    "primary_document": "january2024dividend.htm",
+    "fetched_at": "2026-03-16T21:21:26.307343",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PG",
+    "cik": "80424",
+    "form_type": "8-K",
+    "filing_date": "2023-12-13",
+    "accession_number": "0000080424-23-000114",
+    "primary_document": "mcevoyannouncement.htm",
+    "fetched_at": "2026-03-16T21:21:26.307352",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PG",
+    "cik": "80424",
+    "form_type": "8-K",
+    "filing_date": "2023-12-05",
+    "accession_number": "0000080424-23-000107",
+    "primary_document": "emrestructureannouncemnt.htm",
+    "fetched_at": "2026-03-16T21:21:26.307361",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PG",
+    "cik": "80424",
+    "form_type": "8-K",
+    "filing_date": "2023-11-01",
+    "accession_number": "0001193125-23-268205",
+    "primary_document": "d573847d8k.htm",
+    "fetched_at": "2026-03-16T21:21:26.307369",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PG",
+    "cik": "80424",
+    "form_type": "10-Q",
+    "filing_date": "2023-10-18",
+    "accession_number": "0000080424-23-000103",
+    "primary_document": "pg-20230930.htm",
+    "fetched_at": "2026-03-16T21:21:26.307380",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PG",
+    "cik": "80424",
+    "form_type": "8-K",
+    "filing_date": "2023-10-18",
+    "accession_number": "0000080424-23-000096",
+    "primary_document": "jasq1fy24earningsslides.htm",
+    "fetched_at": "2026-03-16T21:21:26.307393",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PG",
+    "cik": "80424",
+    "form_type": "8-K",
+    "filing_date": "2023-10-18",
+    "accession_number": "0000080424-23-000094",
+    "primary_document": "pg-20231018.htm",
+    "fetched_at": "2026-03-16T21:21:26.307399",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PG",
+    "cik": "80424",
+    "form_type": "8-K",
+    "filing_date": "2023-10-13",
+    "accession_number": "0000080424-23-000090",
+    "primary_document": "annualmtgvote2023.htm",
+    "fetched_at": "2026-03-16T21:21:26.307403",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PG",
+    "cik": "80424",
+    "form_type": "8-K",
+    "filing_date": "2023-10-10",
+    "accession_number": "0000080424-23-000088",
+    "primary_document": "oct23dividendbiggs.htm",
+    "fetched_at": "2026-03-16T21:21:26.307413",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PG",
+    "cik": "80424",
+    "form_type": "10-K",
+    "filing_date": "2023-08-04",
+    "accession_number": "0000080424-23-000073",
+    "primary_document": "pg-20230630.htm",
+    "fetched_at": "2026-03-16T21:21:26.307443",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PG",
+    "cik": "80424",
+    "form_type": "8-K",
+    "filing_date": "2023-07-28",
+    "accession_number": "0000080424-23-000061",
+    "primary_document": "amjq4fy23earningsslides.htm",
+    "fetched_at": "2026-03-16T21:21:26.307455",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PG",
+    "cik": "80424",
+    "form_type": "8-K",
+    "filing_date": "2023-07-28",
+    "accession_number": "0000080424-23-000059",
+    "primary_document": "pg-20230728.htm",
+    "fetched_at": "2026-03-16T21:21:26.307461",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PG",
+    "cik": "80424",
+    "form_type": "8-K",
+    "filing_date": "2023-07-11",
+    "accession_number": "0000080424-23-000056",
+    "primary_document": "july2023dividend.htm",
+    "fetched_at": "2026-03-16T21:21:26.307467",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PG",
+    "cik": "80424",
+    "form_type": "8-K",
+    "filing_date": "2023-05-02",
+    "accession_number": "0001193125-23-132560",
+    "primary_document": "d430441d8k.htm",
+    "fetched_at": "2026-03-16T21:21:26.307477",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PG",
+    "cik": "80424",
+    "form_type": "10-Q",
+    "filing_date": "2023-04-21",
+    "accession_number": "0000080424-23-000046",
+    "primary_document": "pg-20230331.htm",
+    "fetched_at": "2026-03-16T21:21:26.307492",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PG",
+    "cik": "80424",
+    "form_type": "8-K",
+    "filing_date": "2023-04-21",
+    "accession_number": "0000080424-23-000043",
+    "primary_document": "jfmq3fy23earningsslides.htm",
+    "fetched_at": "2026-03-16T21:21:26.307499",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PG",
+    "cik": "80424",
+    "form_type": "8-K",
+    "filing_date": "2023-04-21",
+    "accession_number": "0000080424-23-000039",
+    "primary_document": "pg-20230421.htm",
+    "fetched_at": "2026-03-16T21:21:26.307509",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PG",
+    "cik": "80424",
+    "form_type": "8-K",
+    "filing_date": "2023-04-11",
+    "accession_number": "0000080424-23-000027",
+    "primary_document": "boniniportmanappointment.htm",
+    "fetched_at": "2026-03-16T21:21:26.307514",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PG",
+    "cik": "80424",
+    "form_type": "8-K",
+    "filing_date": "2023-04-11",
+    "accession_number": "0000080424-23-000026",
+    "primary_document": "april2023dividend.htm",
+    "fetched_at": "2026-03-16T21:21:26.307519",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PG",
+    "cik": "80424",
+    "form_type": "8-K",
+    "filing_date": "2023-02-03",
+    "accession_number": "0001193125-23-024268",
+    "primary_document": "d293337d8k.htm",
+    "fetched_at": "2026-03-16T21:21:26.307527",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PG",
+    "cik": "80424",
+    "form_type": "8-K",
+    "filing_date": "2023-01-26",
+    "accession_number": "0001193125-23-016270",
+    "primary_document": "d440879d8k.htm",
+    "fetched_at": "2026-03-16T21:21:26.307531",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PG",
+    "cik": "80424",
+    "form_type": "10-Q",
+    "filing_date": "2023-01-19",
+    "accession_number": "0000080424-23-000014",
+    "primary_document": "pg-20221231.htm",
+    "fetched_at": "2026-03-16T21:21:26.307537",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PG",
+    "cik": "80424",
+    "form_type": "8-K",
+    "filing_date": "2023-01-19",
+    "accession_number": "0000080424-23-000010",
+    "primary_document": "ondq2fy23earningsslides.htm",
+    "fetched_at": "2026-03-16T21:21:26.307542",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PG",
+    "cik": "80424",
+    "form_type": "8-K",
+    "filing_date": "2023-01-19",
+    "accession_number": "0000080424-23-000008",
+    "primary_document": "pg-20230119.htm",
+    "fetched_at": "2026-03-16T21:21:26.307547",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PG",
+    "cik": "80424",
+    "form_type": "8-K",
+    "filing_date": "2023-01-10",
+    "accession_number": "0000080424-23-000003",
+    "primary_document": "januarydividend2023.htm",
+    "fetched_at": "2026-03-16T21:21:26.307551",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PG",
+    "cik": "80424",
+    "form_type": "8-K",
+    "filing_date": "2022-12-13",
+    "accession_number": "0000080424-22-000109",
+    "primary_document": "regulations2022.htm",
+    "fetched_at": "2026-03-16T21:21:26.307559",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PG",
+    "cik": "80424",
+    "form_type": "10-Q",
+    "filing_date": "2022-10-19",
+    "accession_number": "0000080424-22-000102",
+    "primary_document": "pg-20220930.htm",
+    "fetched_at": "2026-03-16T21:21:26.307570",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PG",
+    "cik": "80424",
+    "form_type": "8-K",
+    "filing_date": "2022-10-19",
+    "accession_number": "0000080424-22-000099",
+    "primary_document": "jasq1fy23earningsslides.htm",
+    "fetched_at": "2026-03-16T21:21:26.307579",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PG",
+    "cik": "80424",
+    "form_type": "8-K",
+    "filing_date": "2022-10-19",
+    "accession_number": "0000080424-22-000097",
+    "primary_document": "pg-20221019.htm",
+    "fetched_at": "2026-03-16T21:21:26.307590",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PG",
+    "cik": "80424",
+    "form_type": "8-K",
+    "filing_date": "2022-10-14",
+    "accession_number": "0000080424-22-000086",
+    "primary_document": "annualmtgvote2022.htm",
+    "fetched_at": "2026-03-16T21:21:26.307596",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PG",
+    "cik": "80424",
+    "form_type": "8-K",
+    "filing_date": "2022-10-11",
+    "accession_number": "0000080424-22-000074",
+    "primary_document": "oct22dividendsubramaniam.htm",
+    "fetched_at": "2026-03-16T21:21:26.307610",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PG",
+    "cik": "80424",
+    "form_type": "10-K",
+    "filing_date": "2022-08-05",
+    "accession_number": "0000080424-22-000064",
+    "primary_document": "pg-20220630.htm",
+    "fetched_at": "2026-03-16T21:21:26.307629",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PG",
+    "cik": "80424",
+    "form_type": "8-K",
+    "filing_date": "2022-07-29",
+    "accession_number": "0000080424-22-000053",
+    "primary_document": "amjq422earningsslides.htm",
+    "fetched_at": "2026-03-16T21:21:26.307640",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PG",
+    "cik": "80424",
+    "form_type": "8-K",
+    "filing_date": "2022-07-29",
+    "accession_number": "0000080424-22-000051",
+    "primary_document": "pg-20220729.htm",
+    "fetched_at": "2026-03-16T21:21:26.307648",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PG",
+    "cik": "80424",
+    "form_type": "8-K",
+    "filing_date": "2022-07-12",
+    "accession_number": "0000080424-22-000044",
+    "primary_document": "julydividend2022.htm",
+    "fetched_at": "2026-03-16T21:21:26.307656",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PG",
+    "cik": "80424",
+    "form_type": "10-Q",
+    "filing_date": "2022-04-20",
+    "accession_number": "0000080424-22-000035",
+    "primary_document": "pg-20220331.htm",
+    "fetched_at": "2026-03-16T21:21:26.307669",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PG",
+    "cik": "80424",
+    "form_type": "8-K",
+    "filing_date": "2022-04-20",
+    "accession_number": "0000080424-22-000032",
+    "primary_document": "jfmq322earningsslides.htm",
+    "fetched_at": "2026-03-16T21:21:26.307677",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PG",
+    "cik": "80424",
+    "form_type": "8-K",
+    "filing_date": "2022-04-20",
+    "accession_number": "0000080424-22-000029",
+    "primary_document": "pg-20220420.htm",
+    "fetched_at": "2026-03-16T21:21:26.307684",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PG",
+    "cik": "80424",
+    "form_type": "8-K",
+    "filing_date": "2022-04-14",
+    "accession_number": "0000080424-22-000025",
+    "primary_document": "taylorretirement.htm",
+    "fetched_at": "2026-03-16T21:21:26.307692",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PG",
+    "cik": "80424",
+    "form_type": "8-K",
+    "filing_date": "2022-04-12",
+    "accession_number": "0000080424-22-000022",
+    "primary_document": "april2022dividend.htm",
+    "fetched_at": "2026-03-16T21:21:26.307699",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PG",
+    "cik": "80424",
+    "form_type": "8-K",
+    "filing_date": "2022-02-08",
+    "accession_number": "0001193125-22-031163",
+    "primary_document": "d226913d8k.htm",
+    "fetched_at": "2026-03-16T21:21:26.307710",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PG",
+    "cik": "80424",
+    "form_type": "8-K",
+    "filing_date": "2022-02-01",
+    "accession_number": "0001193125-22-024644",
+    "primary_document": "d265403d8k.htm",
+    "fetched_at": "2026-03-16T21:21:26.307719",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PG",
+    "cik": "80424",
+    "form_type": "10-Q",
+    "filing_date": "2022-01-19",
+    "accession_number": "0000080424-22-000016",
+    "primary_document": "pg-20211231.htm",
+    "fetched_at": "2026-03-16T21:21:26.307728",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PG",
+    "cik": "80424",
+    "form_type": "8-K",
+    "filing_date": "2022-01-19",
+    "accession_number": "0000080424-22-000014",
+    "primary_document": "ondq222earningsslides.htm",
+    "fetched_at": "2026-03-16T21:21:26.307736",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PG",
+    "cik": "80424",
+    "form_type": "8-K",
+    "filing_date": "2022-01-19",
+    "accession_number": "0000080424-22-000011",
+    "primary_document": "pg-20220119.htm",
+    "fetched_at": "2026-03-16T21:21:26.307745",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PG",
+    "cik": "80424",
+    "form_type": "8-K",
+    "filing_date": "2022-01-12",
+    "accession_number": "0000080424-22-000004",
+    "primary_document": "caoannouncement.htm",
+    "fetched_at": "2026-03-16T21:21:26.307752",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PG",
+    "cik": "80424",
+    "form_type": "8-K",
+    "filing_date": "2022-01-11",
+    "accession_number": "0000080424-22-000002",
+    "primary_document": "jan2022dividend.htm",
+    "fetched_at": "2026-03-16T21:21:26.307757",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PG",
+    "cik": "80424",
+    "form_type": "8-K",
+    "filing_date": "2021-12-10",
+    "accession_number": "0000080424-21-000138",
+    "primary_document": "whitmanannouncment2021.htm",
+    "fetched_at": "2026-03-16T21:21:26.307765",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PG",
+    "cik": "80424",
+    "form_type": "8-K",
+    "filing_date": "2021-11-08",
+    "accession_number": "0001193125-21-323196",
+    "primary_document": "d236448d8k.htm",
+    "fetched_at": "2026-03-16T21:21:26.307777",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PG",
+    "cik": "80424",
+    "form_type": "8-K",
+    "filing_date": "2021-11-05",
+    "accession_number": "0001193125-21-321765",
+    "primary_document": "d220071d8k.htm",
+    "fetched_at": "2026-03-16T21:21:26.307784",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PG",
+    "cik": "80424",
+    "form_type": "10-Q",
+    "filing_date": "2021-10-19",
+    "accession_number": "0000080424-21-000129",
+    "primary_document": "pg-20210930.htm",
+    "fetched_at": "2026-03-16T21:21:26.307797",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PG",
+    "cik": "80424",
+    "form_type": "8-K",
+    "filing_date": "2021-10-19",
+    "accession_number": "0000080424-21-000125",
+    "primary_document": "jasq122earningsslides.htm",
+    "fetched_at": "2026-03-16T21:21:26.307804",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PG",
+    "cik": "80424",
+    "form_type": "8-K",
+    "filing_date": "2021-10-19",
+    "accession_number": "0000080424-21-000123",
+    "primary_document": "pg-20211019.htm",
+    "fetched_at": "2026-03-16T21:21:26.307811",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PG",
+    "cik": "80424",
+    "form_type": "8-K",
+    "filing_date": "2021-10-15",
+    "accession_number": "0000080424-21-000116",
+    "primary_document": "annualmtgvote2021.htm",
+    "fetched_at": "2026-03-16T21:21:26.307817",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PG",
+    "cik": "80424",
+    "form_type": "8-K",
+    "filing_date": "2021-10-12",
+    "accession_number": "0000080424-21-000114",
+    "primary_document": "oct2021dividenddirector.htm",
+    "fetched_at": "2026-03-16T21:21:26.307828",
+    "source_name": "sec_edgar"
+  }
+]

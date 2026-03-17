@@ -1,0 +1,592 @@
+[
+  {
+    "ticker": "WMT",
+    "cik": "104169",
+    "form_type": "8-K",
+    "filing_date": "2026-03-13",
+    "accession_number": "0000104169-26-000057",
+    "primary_document": "wmt-20260310.htm",
+    "fetched_at": "2026-03-16T21:21:05.082349",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "WMT",
+    "cik": "104169",
+    "form_type": "10-K",
+    "filing_date": "2026-03-13",
+    "accession_number": "0000104169-26-000055",
+    "primary_document": "wmt-20260131.htm",
+    "fetched_at": "2026-03-16T21:21:05.082363",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "WMT",
+    "cik": "104169",
+    "form_type": "8-K",
+    "filing_date": "2026-02-19",
+    "accession_number": "0000104169-26-000032",
+    "primary_document": "wmt-20260219.htm",
+    "fetched_at": "2026-03-16T21:21:05.082370",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "WMT",
+    "cik": "104169",
+    "form_type": "8-K",
+    "filing_date": "2026-01-16",
+    "accession_number": "0000104169-26-000023",
+    "primary_document": "wmt-20260115.htm",
+    "fetched_at": "2026-03-16T21:21:05.082375",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "WMT",
+    "cik": "104169",
+    "form_type": "8-K",
+    "filing_date": "2026-01-08",
+    "accession_number": "0000104169-26-000008",
+    "primary_document": "wmt-20260108.htm",
+    "fetched_at": "2026-03-16T21:21:05.082378",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "WMT",
+    "cik": "104169",
+    "form_type": "8-K",
+    "filing_date": "2025-12-29",
+    "accession_number": "0000104169-25-000238",
+    "primary_document": "wmt-20251224.htm",
+    "fetched_at": "2026-03-16T21:21:05.082381",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "WMT",
+    "cik": "104169",
+    "form_type": "10-Q",
+    "filing_date": "2025-12-03",
+    "accession_number": "0000104169-25-000191",
+    "primary_document": "wmt-20251031.htm",
+    "fetched_at": "2026-03-16T21:21:05.082386",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "WMT",
+    "cik": "104169",
+    "form_type": "8-K",
+    "filing_date": "2025-11-20",
+    "accession_number": "0000104169-25-000177",
+    "primary_document": "wmt-20251119.htm",
+    "fetched_at": "2026-03-16T21:21:05.082389",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "WMT",
+    "cik": "104169",
+    "form_type": "8-K",
+    "filing_date": "2025-11-14",
+    "accession_number": "0000104169-25-000172",
+    "primary_document": "wmt-20251111.htm",
+    "fetched_at": "2026-03-16T21:21:05.082392",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "WMT",
+    "cik": "104169",
+    "form_type": "8-K",
+    "filing_date": "2025-10-22",
+    "accession_number": "0000104169-25-000168",
+    "primary_document": "wmt-20251022.htm",
+    "fetched_at": "2026-03-16T21:21:05.082395",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "WMT",
+    "cik": "104169",
+    "form_type": "8-K",
+    "filing_date": "2025-09-22",
+    "accession_number": "0000104169-25-000153",
+    "primary_document": "wmt-20250922.htm",
+    "fetched_at": "2026-03-16T21:21:05.082398",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "WMT",
+    "cik": "104169",
+    "form_type": "8-K",
+    "filing_date": "2025-09-19",
+    "accession_number": "0000104169-25-000151",
+    "primary_document": "wmt-20250919.htm",
+    "fetched_at": "2026-03-16T21:21:05.082401",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "WMT",
+    "cik": "104169",
+    "form_type": "8-K",
+    "filing_date": "2025-09-05",
+    "accession_number": "0000104169-25-000143",
+    "primary_document": "wmt-20250905.htm",
+    "fetched_at": "2026-03-16T21:21:05.082405",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "WMT",
+    "cik": "104169",
+    "form_type": "10-Q",
+    "filing_date": "2025-08-29",
+    "accession_number": "0000104169-25-000137",
+    "primary_document": "wmt-20250731.htm",
+    "fetched_at": "2026-03-16T21:21:05.082407",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "WMT",
+    "cik": "104169",
+    "form_type": "8-K",
+    "filing_date": "2025-08-21",
+    "accession_number": "0000104169-25-000120",
+    "primary_document": "wmt-20250821.htm",
+    "fetched_at": "2026-03-16T21:21:05.082410",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "WMT",
+    "cik": "104169",
+    "form_type": "8-K",
+    "filing_date": "2025-06-06",
+    "accession_number": "0000104169-25-000092",
+    "primary_document": "wmt-20250605.htm",
+    "fetched_at": "2026-03-16T21:21:05.082416",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "WMT",
+    "cik": "104169",
+    "form_type": "10-Q",
+    "filing_date": "2025-06-06",
+    "accession_number": "0000104169-25-000090",
+    "primary_document": "wmt-20250430.htm",
+    "fetched_at": "2026-03-16T21:21:05.082418",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "WMT",
+    "cik": "104169",
+    "form_type": "8-K",
+    "filing_date": "2025-05-15",
+    "accession_number": "0000104169-25-000069",
+    "primary_document": "wmt-20250515.htm",
+    "fetched_at": "2026-03-16T21:21:05.082423",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "WMT",
+    "cik": "104169",
+    "form_type": "8-K",
+    "filing_date": "2025-04-28",
+    "accession_number": "0001193125-25-098253",
+    "primary_document": "d926281d8k.htm",
+    "fetched_at": "2026-03-16T21:21:05.082426",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "WMT",
+    "cik": "104169",
+    "form_type": "8-K",
+    "filing_date": "2025-04-09",
+    "accession_number": "0000104169-25-000036",
+    "primary_document": "wmt-20250409.htm",
+    "fetched_at": "2026-03-16T21:21:05.082430",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "WMT",
+    "cik": "104169",
+    "form_type": "8-K",
+    "filing_date": "2025-03-17",
+    "accession_number": "0000104169-25-000027",
+    "primary_document": "wmt-20250317.htm",
+    "fetched_at": "2026-03-16T21:21:05.082434",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "WMT",
+    "cik": "104169",
+    "form_type": "8-K",
+    "filing_date": "2025-03-17",
+    "accession_number": "0000104169-25-000025",
+    "primary_document": "wmt-20250317.htm",
+    "fetched_at": "2026-03-16T21:21:05.082437",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "WMT",
+    "cik": "104169",
+    "form_type": "10-K",
+    "filing_date": "2025-03-14",
+    "accession_number": "0000104169-25-000021",
+    "primary_document": "wmt-20250131.htm",
+    "fetched_at": "2026-03-16T21:21:05.082439",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "WMT",
+    "cik": "104169",
+    "form_type": "8-K",
+    "filing_date": "2025-02-20",
+    "accession_number": "0000104169-25-000010",
+    "primary_document": "wmt-20250220.htm",
+    "fetched_at": "2026-03-16T21:21:05.082444",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "WMT",
+    "cik": "104169",
+    "form_type": "10-Q",
+    "filing_date": "2024-12-06",
+    "accession_number": "0000104169-24-000178",
+    "primary_document": "wmt-20241031.htm",
+    "fetched_at": "2026-03-16T21:21:05.082451",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "WMT",
+    "cik": "104169",
+    "form_type": "8-K",
+    "filing_date": "2024-11-22",
+    "accession_number": "0000104169-24-000173",
+    "primary_document": "wmt-20241122.htm",
+    "fetched_at": "2026-03-16T21:21:05.082453",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "WMT",
+    "cik": "104169",
+    "form_type": "8-K",
+    "filing_date": "2024-11-19",
+    "accession_number": "0000104169-24-000170",
+    "primary_document": "wmt-20241119.htm",
+    "fetched_at": "2026-03-16T21:21:05.082456",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "WMT",
+    "cik": "104169",
+    "form_type": "8-K",
+    "filing_date": "2024-10-18",
+    "accession_number": "0000104169-24-000166",
+    "primary_document": "wmt-20241018.htm",
+    "fetched_at": "2026-03-16T21:21:05.082459",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "WMT",
+    "cik": "104169",
+    "form_type": "8-K",
+    "filing_date": "2024-09-06",
+    "accession_number": "0000104169-24-000146",
+    "primary_document": "wmt-20240906.htm",
+    "fetched_at": "2026-03-16T21:21:05.082464",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "WMT",
+    "cik": "104169",
+    "form_type": "10-Q",
+    "filing_date": "2024-08-30",
+    "accession_number": "0000104169-24-000141",
+    "primary_document": "wmt-20240731.htm",
+    "fetched_at": "2026-03-16T21:21:05.082467",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "WMT",
+    "cik": "104169",
+    "form_type": "8-K",
+    "filing_date": "2024-08-15",
+    "accession_number": "0000104169-24-000132",
+    "primary_document": "wmt-20240815.htm",
+    "fetched_at": "2026-03-16T21:21:05.082469",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "WMT",
+    "cik": "104169",
+    "form_type": "8-K",
+    "filing_date": "2024-08-15",
+    "accession_number": "0000104169-24-000131",
+    "primary_document": "wmt-20240815.htm",
+    "fetched_at": "2026-03-16T21:21:05.082472",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "WMT",
+    "cik": "104169",
+    "form_type": "10-Q",
+    "filing_date": "2024-06-07",
+    "accession_number": "0000104169-24-000105",
+    "primary_document": "wmt-20240430.htm",
+    "fetched_at": "2026-03-16T21:21:05.082477",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "WMT",
+    "cik": "104169",
+    "form_type": "8-K",
+    "filing_date": "2024-06-07",
+    "accession_number": "0000104169-24-000103",
+    "primary_document": "wmt-20240605.htm",
+    "fetched_at": "2026-03-16T21:21:05.082480",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "WMT",
+    "cik": "104169",
+    "form_type": "8-K",
+    "filing_date": "2024-05-16",
+    "accession_number": "0000104169-24-000088",
+    "primary_document": "wmt-20240516.htm",
+    "fetched_at": "2026-03-16T21:21:05.082484",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "WMT",
+    "cik": "104169",
+    "form_type": "8-K",
+    "filing_date": "2024-03-28",
+    "accession_number": "0000104169-24-000064",
+    "primary_document": "wmt-20240328.htm",
+    "fetched_at": "2026-03-16T21:21:05.082489",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "WMT",
+    "cik": "104169",
+    "form_type": "10-K",
+    "filing_date": "2024-03-15",
+    "accession_number": "0000104169-24-000056",
+    "primary_document": "wmt-20240131.htm",
+    "fetched_at": "2026-03-16T21:21:05.082491",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "WMT",
+    "cik": "104169",
+    "form_type": "8-K",
+    "filing_date": "2024-02-28",
+    "accession_number": "0000104169-24-000039",
+    "primary_document": "wmt-20240228.htm",
+    "fetched_at": "2026-03-16T21:21:05.082495",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "WMT",
+    "cik": "104169",
+    "form_type": "8-K",
+    "filing_date": "2024-02-23",
+    "accession_number": "0000104169-24-000033",
+    "primary_document": "wmt-20240223.htm",
+    "fetched_at": "2026-03-16T21:21:05.082498",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "WMT",
+    "cik": "104169",
+    "form_type": "8-K",
+    "filing_date": "2024-02-20",
+    "accession_number": "0000104169-24-000019",
+    "primary_document": "wmt-20240220.htm",
+    "fetched_at": "2026-03-16T21:21:05.082501",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "WMT",
+    "cik": "104169",
+    "form_type": "8-K",
+    "filing_date": "2024-01-31",
+    "accession_number": "0000104169-24-000004",
+    "primary_document": "wmt-20240130.htm",
+    "fetched_at": "2026-03-16T21:21:05.082504",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "WMT",
+    "cik": "104169",
+    "form_type": "10-Q",
+    "filing_date": "2023-11-30",
+    "accession_number": "0000104169-23-000132",
+    "primary_document": "wmt-20231031.htm",
+    "fetched_at": "2026-03-16T21:21:05.082511",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "WMT",
+    "cik": "104169",
+    "form_type": "8-K",
+    "filing_date": "2023-11-16",
+    "accession_number": "0000104169-23-000124",
+    "primary_document": "wmt-20231116.htm",
+    "fetched_at": "2026-03-16T21:21:05.082515",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "WMT",
+    "cik": "104169",
+    "form_type": "10-Q",
+    "filing_date": "2023-09-01",
+    "accession_number": "0000104169-23-000097",
+    "primary_document": "wmt-20230731.htm",
+    "fetched_at": "2026-03-16T21:21:05.082520",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "WMT",
+    "cik": "104169",
+    "form_type": "8-K",
+    "filing_date": "2023-08-22",
+    "accession_number": "0000104169-23-000091",
+    "primary_document": "wmt-20230822.htm",
+    "fetched_at": "2026-03-16T21:21:05.082522",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "WMT",
+    "cik": "104169",
+    "form_type": "8-K",
+    "filing_date": "2023-08-17",
+    "accession_number": "0000104169-23-000088",
+    "primary_document": "wmt-20230817.htm",
+    "fetched_at": "2026-03-16T21:21:05.082525",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "WMT",
+    "cik": "104169",
+    "form_type": "8-K",
+    "filing_date": "2023-08-16",
+    "accession_number": "0000104169-23-000082",
+    "primary_document": "wmt-20230814.htm",
+    "fetched_at": "2026-03-16T21:21:05.082527",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "WMT",
+    "cik": "104169",
+    "form_type": "8-K",
+    "filing_date": "2023-06-02",
+    "accession_number": "0000104169-23-000054",
+    "primary_document": "wmt-20230531.htm",
+    "fetched_at": "2026-03-16T21:21:05.082533",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "WMT",
+    "cik": "104169",
+    "form_type": "10-Q",
+    "filing_date": "2023-06-02",
+    "accession_number": "0000104169-23-000052",
+    "primary_document": "wmt-20230430.htm",
+    "fetched_at": "2026-03-16T21:21:05.082536",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "WMT",
+    "cik": "104169",
+    "form_type": "8-K",
+    "filing_date": "2023-05-18",
+    "accession_number": "0000104169-23-000043",
+    "primary_document": "wmt-20230518.htm",
+    "fetched_at": "2026-03-16T21:21:05.082539",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "WMT",
+    "cik": "104169",
+    "form_type": "8-K",
+    "filing_date": "2023-04-17",
+    "accession_number": "0001193125-23-103832",
+    "primary_document": "d484375d8k.htm",
+    "fetched_at": "2026-03-16T21:21:05.082542",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "WMT",
+    "cik": "104169",
+    "form_type": "8-K",
+    "filing_date": "2023-04-04",
+    "accession_number": "0000104169-23-000026",
+    "primary_document": "wmt-20230404.htm",
+    "fetched_at": "2026-03-16T21:21:05.082545",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "WMT",
+    "cik": "104169",
+    "form_type": "8-K",
+    "filing_date": "2023-03-24",
+    "accession_number": "0000104169-23-000022",
+    "primary_document": "wmt-20230324.htm",
+    "fetched_at": "2026-03-16T21:21:05.082548",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "WMT",
+    "cik": "104169",
+    "form_type": "10-K",
+    "filing_date": "2023-03-17",
+    "accession_number": "0000104169-23-000020",
+    "primary_document": "wmt-20230131.htm",
+    "fetched_at": "2026-03-16T21:21:05.082551",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "WMT",
+    "cik": "104169",
+    "form_type": "8-K",
+    "filing_date": "2023-03-06",
+    "accession_number": "0000104169-23-000015",
+    "primary_document": "wmt-20230306.htm",
+    "fetched_at": "2026-03-16T21:21:05.082554",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "WMT",
+    "cik": "104169",
+    "form_type": "8-K",
+    "filing_date": "2023-02-24",
+    "accession_number": "0000104169-23-000013",
+    "primary_document": "wmt-20230224.htm",
+    "fetched_at": "2026-03-16T21:21:05.082557",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "WMT",
+    "cik": "104169",
+    "form_type": "8-K",
+    "filing_date": "2023-02-21",
+    "accession_number": "0000104169-23-000010",
+    "primary_document": "wmt-20230221.htm",
+    "fetched_at": "2026-03-16T21:21:05.082560",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "WMT",
+    "cik": "104169",
+    "form_type": "8-K",
+    "filing_date": "2022-12-23",
+    "accession_number": "0000104169-22-000088",
+    "primary_document": "wmt-20221223.htm",
+    "fetched_at": "2026-03-16T21:21:05.082565",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "WMT",
+    "cik": "104169",
+    "form_type": "8-K",
+    "filing_date": "2022-12-20",
+    "accession_number": "0000104169-22-000085",
+    "primary_document": "wmt-20221220.htm",
+    "fetched_at": "2026-03-16T21:21:05.082568",
+    "source_name": "sec_edgar"
+  }
+]

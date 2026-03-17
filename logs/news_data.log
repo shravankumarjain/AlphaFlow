@@ -429,3 +429,237 @@ Processing TSLA...
 2026-03-15 21:16:57 | INFO | news_data |   XOM    | yfinance news:  10 articles | SEC: 132 filings
 2026-03-15 21:16:57 | INFO | news_data |   BRK-B  | yfinance news:  10 articles | SEC: 114 filings
 2026-03-15 21:16:57 | INFO | news_data |   TSLA   | yfinance news:  10 articles | SEC: 159 filings
+2026-03-16 21:20:53 | INFO | news_data | ============================================================
+2026-03-16 21:20:53 | INFO | news_data | AlphaFlow — News & SEC Ingestion Pipeline
+2026-03-16 21:20:53 | INFO | news_data | Tickers: ['AAPL', 'MSFT', 'GOOGL', 'NVDA', 'AMD', 'AMZN', 'WMT', 'COST', 'JPM', 'GS', 'BAC', 'V', 'JNJ', 'UNH', 'PFE', 'ABBV', 'XOM', 'CVX', 'BRK-B', 'PG', 'KO', 'TSLA', 'META', 'NFLX', 'CRM']
+2026-03-16 21:20:53 | INFO | news_data | ============================================================
+2026-03-16 21:20:53 | INFO | botocore.credentials | Found credentials in shared credentials file: ~/.aws/credentials
+2026-03-16 21:20:53 | INFO | news_data | 
+Processing AAPL...
+2026-03-16 21:20:54 | INFO | news_data |   ✓ yfinance news AAPL: 10 articles
+2026-03-16 21:20:54 | INFO | news_data |   ✓ Saved locally: data/local/raw/news/yfinance_news/AAPL_20260316.json
+2026-03-16 21:20:54 | INFO | news_data |   ✓ Uploaded to S3: s3://alphaflow-data-lake-291572330987/raw/news/yfinance_news/AAPL/AAPL_20260316.json
+2026-03-16 21:20:55 | INFO | news_data |   ✓ SEC EDGAR AAPL: 150 filings (10-K, 10-Q, 8-K)
+2026-03-16 21:20:56 | INFO | news_data |   ✓ Saved locally: data/local/raw/news/sec_edgar/AAPL_20260316.json
+2026-03-16 21:20:56 | INFO | news_data |   ✓ Uploaded to S3: s3://alphaflow-data-lake-291572330987/raw/news/sec_edgar/AAPL/AAPL_20260316.json
+2026-03-16 21:20:56 | INFO | news_data | 
+Processing MSFT...
+2026-03-16 21:20:56 | INFO | news_data |   ✓ yfinance news MSFT: 10 articles
+2026-03-16 21:20:56 | INFO | news_data |   ✓ Saved locally: data/local/raw/news/yfinance_news/MSFT_20260316.json
+2026-03-16 21:20:56 | INFO | news_data |   ✓ Uploaded to S3: s3://alphaflow-data-lake-291572330987/raw/news/yfinance_news/MSFT/MSFT_20260316.json
+2026-03-16 21:20:57 | INFO | news_data |   ✓ SEC EDGAR MSFT: 90 filings (10-K, 10-Q, 8-K)
+2026-03-16 21:20:57 | INFO | news_data |   ✓ Saved locally: data/local/raw/news/sec_edgar/MSFT_20260316.json
+2026-03-16 21:20:57 | INFO | news_data |   ✓ Uploaded to S3: s3://alphaflow-data-lake-291572330987/raw/news/sec_edgar/MSFT/MSFT_20260316.json
+2026-03-16 21:20:57 | INFO | news_data | 
+Processing GOOGL...
+2026-03-16 21:20:57 | INFO | news_data |   ✓ yfinance news GOOGL: 10 articles
+2026-03-16 21:20:57 | INFO | news_data |   ✓ Saved locally: data/local/raw/news/yfinance_news/GOOGL_20260316.json
+2026-03-16 21:20:58 | INFO | news_data |   ✓ Uploaded to S3: s3://alphaflow-data-lake-291572330987/raw/news/yfinance_news/GOOGL/GOOGL_20260316.json
+2026-03-16 21:20:59 | INFO | news_data |   ✓ SEC EDGAR GOOGL: 53 filings (10-K, 10-Q, 8-K)
+2026-03-16 21:20:59 | INFO | news_data |   ✓ Saved locally: data/local/raw/news/sec_edgar/GOOGL_20260316.json
+2026-03-16 21:20:59 | INFO | news_data |   ✓ Uploaded to S3: s3://alphaflow-data-lake-291572330987/raw/news/sec_edgar/GOOGL/GOOGL_20260316.json
+2026-03-16 21:20:59 | INFO | news_data | 
+Processing NVDA...
+2026-03-16 21:20:59 | INFO | news_data |   ✓ yfinance news NVDA: 10 articles
+2026-03-16 21:20:59 | INFO | news_data |   ✓ Saved locally: data/local/raw/news/yfinance_news/NVDA_20260316.json
+2026-03-16 21:20:59 | INFO | news_data |   ✓ Uploaded to S3: s3://alphaflow-data-lake-291572330987/raw/news/yfinance_news/NVDA/NVDA_20260316.json
+2026-03-16 21:21:00 | INFO | news_data |   ✓ SEC EDGAR NVDA: 86 filings (10-K, 10-Q, 8-K)
+2026-03-16 21:21:00 | INFO | news_data |   ✓ Saved locally: data/local/raw/news/sec_edgar/NVDA_20260316.json
+2026-03-16 21:21:00 | INFO | news_data |   ✓ Uploaded to S3: s3://alphaflow-data-lake-291572330987/raw/news/sec_edgar/NVDA/NVDA_20260316.json
+2026-03-16 21:21:00 | INFO | news_data | 
+Processing AMD...
+2026-03-16 21:21:00 | INFO | news_data |   ✓ yfinance news AMD: 10 articles
+2026-03-16 21:21:00 | INFO | news_data |   ✓ Saved locally: data/local/raw/news/yfinance_news/AMD_20260316.json
+2026-03-16 21:21:01 | INFO | news_data |   ✓ Uploaded to S3: s3://alphaflow-data-lake-291572330987/raw/news/yfinance_news/AMD/AMD_20260316.json
+2026-03-16 21:21:02 | INFO | news_data |   ✓ SEC EDGAR AMD: 146 filings (10-K, 10-Q, 8-K)
+2026-03-16 21:21:02 | INFO | news_data |   ✓ Saved locally: data/local/raw/news/sec_edgar/AMD_20260316.json
+2026-03-16 21:21:02 | INFO | news_data |   ✓ Uploaded to S3: s3://alphaflow-data-lake-291572330987/raw/news/sec_edgar/AMD/AMD_20260316.json
+2026-03-16 21:21:02 | INFO | news_data | 
+Processing AMZN...
+2026-03-16 21:21:02 | INFO | news_data |   ✓ yfinance news AMZN: 10 articles
+2026-03-16 21:21:02 | INFO | news_data |   ✓ Saved locally: data/local/raw/news/yfinance_news/AMZN_20260316.json
+2026-03-16 21:21:02 | INFO | news_data |   ✓ Uploaded to S3: s3://alphaflow-data-lake-291572330987/raw/news/yfinance_news/AMZN/AMZN_20260316.json
+2026-03-16 21:21:03 | INFO | news_data |   ✓ SEC EDGAR AMZN: 87 filings (10-K, 10-Q, 8-K)
+2026-03-16 21:21:03 | INFO | news_data |   ✓ Saved locally: data/local/raw/news/sec_edgar/AMZN_20260316.json
+2026-03-16 21:21:03 | INFO | news_data |   ✓ Uploaded to S3: s3://alphaflow-data-lake-291572330987/raw/news/sec_edgar/AMZN/AMZN_20260316.json
+2026-03-16 21:21:03 | INFO | news_data | 
+Processing WMT...
+2026-03-16 21:21:04 | INFO | news_data |   ✓ yfinance news WMT: 10 articles
+2026-03-16 21:21:04 | INFO | news_data |   ✓ Saved locally: data/local/raw/news/yfinance_news/WMT_20260316.json
+2026-03-16 21:21:04 | INFO | news_data |   ✓ Uploaded to S3: s3://alphaflow-data-lake-291572330987/raw/news/yfinance_news/WMT/WMT_20260316.json
+2026-03-16 21:21:05 | INFO | news_data |   ✓ SEC EDGAR WMT: 59 filings (10-K, 10-Q, 8-K)
+2026-03-16 21:21:05 | INFO | news_data |   ✓ Saved locally: data/local/raw/news/sec_edgar/WMT_20260316.json
+2026-03-16 21:21:05 | INFO | news_data |   ✓ Uploaded to S3: s3://alphaflow-data-lake-291572330987/raw/news/sec_edgar/WMT/WMT_20260316.json
+2026-03-16 21:21:05 | INFO | news_data | 
+Processing COST...
+2026-03-16 21:21:05 | INFO | news_data |   ✓ yfinance news COST: 10 articles
+2026-03-16 21:21:05 | INFO | news_data |   ✓ Saved locally: data/local/raw/news/yfinance_news/COST_20260316.json
+2026-03-16 21:21:05 | INFO | news_data |   ✓ Uploaded to S3: s3://alphaflow-data-lake-291572330987/raw/news/yfinance_news/COST/COST_20260316.json
+2026-03-16 21:21:06 | INFO | news_data |   ✓ SEC EDGAR COST: 157 filings (10-K, 10-Q, 8-K)
+2026-03-16 21:21:06 | INFO | news_data |   ✓ Saved locally: data/local/raw/news/sec_edgar/COST_20260316.json
+2026-03-16 21:21:07 | INFO | news_data |   ✓ Uploaded to S3: s3://alphaflow-data-lake-291572330987/raw/news/sec_edgar/COST/COST_20260316.json
+2026-03-16 21:21:07 | INFO | news_data | 
+Processing JPM...
+2026-03-16 21:21:07 | INFO | news_data |   ✓ yfinance news JPM: 10 articles
+2026-03-16 21:21:07 | INFO | news_data |   ✓ Saved locally: data/local/raw/news/yfinance_news/JPM_20260316.json
+2026-03-16 21:21:07 | INFO | news_data |   ✓ Uploaded to S3: s3://alphaflow-data-lake-291572330987/raw/news/yfinance_news/JPM/JPM_20260316.json
+2026-03-16 21:21:08 | INFO | news_data |   ✓ SEC EDGAR JPM: 26 filings (10-K, 10-Q, 8-K)
+2026-03-16 21:21:08 | INFO | news_data |   ✓ Saved locally: data/local/raw/news/sec_edgar/JPM_20260316.json
+2026-03-16 21:21:08 | INFO | news_data |   ✓ Uploaded to S3: s3://alphaflow-data-lake-291572330987/raw/news/sec_edgar/JPM/JPM_20260316.json
+2026-03-16 21:21:08 | INFO | news_data | 
+Processing GS...
+2026-03-16 21:21:08 | INFO | news_data |   ✓ yfinance news GS: 10 articles
+2026-03-16 21:21:08 | INFO | news_data |   ✓ Saved locally: data/local/raw/news/yfinance_news/GS_20260316.json
+2026-03-16 21:21:09 | INFO | news_data |   ✓ Uploaded to S3: s3://alphaflow-data-lake-291572330987/raw/news/yfinance_news/GS/GS_20260316.json
+2026-03-16 21:21:10 | INFO | news_data |   ✓ SEC EDGAR GS: 19 filings (10-K, 10-Q, 8-K)
+2026-03-16 21:21:10 | INFO | news_data |   ✓ Saved locally: data/local/raw/news/sec_edgar/GS_20260316.json
+2026-03-16 21:21:10 | INFO | news_data |   ✓ Uploaded to S3: s3://alphaflow-data-lake-291572330987/raw/news/sec_edgar/GS/GS_20260316.json
+2026-03-16 21:21:10 | INFO | news_data | 
+Processing BAC...
+2026-03-16 21:21:10 | INFO | news_data |   ✓ yfinance news BAC: 10 articles
+2026-03-16 21:21:10 | INFO | news_data |   ✓ Saved locally: data/local/raw/news/yfinance_news/BAC_20260316.json
+2026-03-16 21:21:10 | INFO | news_data |   ✓ Uploaded to S3: s3://alphaflow-data-lake-291572330987/raw/news/yfinance_news/BAC/BAC_20260316.json
+2026-03-16 21:21:12 | INFO | news_data |   ✓ SEC EDGAR BAC: 19 filings (10-K, 10-Q, 8-K)
+2026-03-16 21:21:12 | INFO | news_data |   ✓ Saved locally: data/local/raw/news/sec_edgar/BAC_20260316.json
+2026-03-16 21:21:12 | INFO | news_data |   ✓ Uploaded to S3: s3://alphaflow-data-lake-291572330987/raw/news/sec_edgar/BAC/BAC_20260316.json
+2026-03-16 21:21:12 | INFO | news_data | 
+Processing V...
+2026-03-16 21:21:12 | INFO | news_data |   ✓ yfinance news V: 10 articles
+2026-03-16 21:21:12 | INFO | news_data |   ✓ Saved locally: data/local/raw/news/yfinance_news/V_20260316.json
+2026-03-16 21:21:12 | INFO | news_data |   ✓ Uploaded to S3: s3://alphaflow-data-lake-291572330987/raw/news/yfinance_news/V/V_20260316.json
+2026-03-16 21:21:13 | INFO | news_data |   ✓ SEC EDGAR V: 215 filings (10-K, 10-Q, 8-K)
+2026-03-16 21:21:13 | INFO | news_data |   ✓ Saved locally: data/local/raw/news/sec_edgar/V_20260316.json
+2026-03-16 21:21:13 | INFO | news_data |   ✓ Uploaded to S3: s3://alphaflow-data-lake-291572330987/raw/news/sec_edgar/V/V_20260316.json
+2026-03-16 21:21:13 | INFO | news_data | 
+Processing JNJ...
+2026-03-16 21:21:14 | INFO | news_data |   ✓ yfinance news JNJ: 10 articles
+2026-03-16 21:21:14 | INFO | news_data |   ✓ Saved locally: data/local/raw/news/yfinance_news/JNJ_20260316.json
+2026-03-16 21:21:14 | INFO | news_data |   ✓ Uploaded to S3: s3://alphaflow-data-lake-291572330987/raw/news/yfinance_news/JNJ/JNJ_20260316.json
+2026-03-16 21:21:15 | INFO | news_data |   ✓ SEC EDGAR JNJ: 130 filings (10-K, 10-Q, 8-K)
+2026-03-16 21:21:15 | INFO | news_data |   ✓ Saved locally: data/local/raw/news/sec_edgar/JNJ_20260316.json
+2026-03-16 21:21:15 | INFO | news_data |   ✓ Uploaded to S3: s3://alphaflow-data-lake-291572330987/raw/news/sec_edgar/JNJ/JNJ_20260316.json
+2026-03-16 21:21:15 | INFO | news_data | 
+Processing UNH...
+2026-03-16 21:21:15 | INFO | news_data |   ✓ yfinance news UNH: 10 articles
+2026-03-16 21:21:15 | INFO | news_data |   ✓ Saved locally: data/local/raw/news/yfinance_news/UNH_20260316.json
+2026-03-16 21:21:15 | INFO | news_data |   ✓ Uploaded to S3: s3://alphaflow-data-lake-291572330987/raw/news/yfinance_news/UNH/UNH_20260316.json
+2026-03-16 21:21:16 | INFO | news_data |   ✓ SEC EDGAR UNH: 114 filings (10-K, 10-Q, 8-K)
+2026-03-16 21:21:17 | INFO | news_data |   ✓ Saved locally: data/local/raw/news/sec_edgar/UNH_20260316.json
+2026-03-16 21:21:17 | INFO | news_data |   ✓ Uploaded to S3: s3://alphaflow-data-lake-291572330987/raw/news/sec_edgar/UNH/UNH_20260316.json
+2026-03-16 21:21:17 | INFO | news_data | 
+Processing PFE...
+2026-03-16 21:21:17 | INFO | news_data |   ✓ yfinance news PFE: 10 articles
+2026-03-16 21:21:17 | INFO | news_data |   ✓ Saved locally: data/local/raw/news/yfinance_news/PFE_20260316.json
+2026-03-16 21:21:17 | INFO | news_data |   ✓ Uploaded to S3: s3://alphaflow-data-lake-291572330987/raw/news/yfinance_news/PFE/PFE_20260316.json
+2026-03-16 21:21:18 | INFO | news_data |   ✓ SEC EDGAR PFE: 86 filings (10-K, 10-Q, 8-K)
+2026-03-16 21:21:18 | INFO | news_data |   ✓ Saved locally: data/local/raw/news/sec_edgar/PFE_20260316.json
+2026-03-16 21:21:18 | INFO | news_data |   ✓ Uploaded to S3: s3://alphaflow-data-lake-291572330987/raw/news/sec_edgar/PFE/PFE_20260316.json
+2026-03-16 21:21:18 | INFO | news_data | 
+Processing ABBV...
+2026-03-16 21:21:18 | INFO | news_data |   ✓ yfinance news ABBV: 10 articles
+2026-03-16 21:21:18 | INFO | news_data |   ✓ Saved locally: data/local/raw/news/yfinance_news/ABBV_20260316.json
+2026-03-16 21:21:19 | INFO | news_data |   ✓ Uploaded to S3: s3://alphaflow-data-lake-291572330987/raw/news/yfinance_news/ABBV/ABBV_20260316.json
+2026-03-16 21:21:20 | INFO | news_data |   ✓ SEC EDGAR ABBV: 171 filings (10-K, 10-Q, 8-K)
+2026-03-16 21:21:20 | INFO | news_data |   ✓ Saved locally: data/local/raw/news/sec_edgar/ABBV_20260316.json
+2026-03-16 21:21:20 | INFO | news_data |   ✓ Uploaded to S3: s3://alphaflow-data-lake-291572330987/raw/news/sec_edgar/ABBV/ABBV_20260316.json
+2026-03-16 21:21:20 | INFO | news_data | 
+Processing XOM...
+2026-03-16 21:21:20 | INFO | news_data |   ✓ yfinance news XOM: 10 articles
+2026-03-16 21:21:20 | INFO | news_data |   ✓ Saved locally: data/local/raw/news/yfinance_news/XOM_20260316.json
+2026-03-16 21:21:20 | INFO | news_data |   ✓ Uploaded to S3: s3://alphaflow-data-lake-291572330987/raw/news/yfinance_news/XOM/XOM_20260316.json
+2026-03-16 21:21:21 | INFO | news_data |   ✓ SEC EDGAR XOM: 132 filings (10-K, 10-Q, 8-K)
+2026-03-16 21:21:21 | INFO | news_data |   ✓ Saved locally: data/local/raw/news/sec_edgar/XOM_20260316.json
+2026-03-16 21:21:21 | INFO | news_data |   ✓ Uploaded to S3: s3://alphaflow-data-lake-291572330987/raw/news/sec_edgar/XOM/XOM_20260316.json
+2026-03-16 21:21:21 | INFO | news_data | 
+Processing CVX...
+2026-03-16 21:21:22 | INFO | news_data |   ✓ yfinance news CVX: 10 articles
+2026-03-16 21:21:22 | INFO | news_data |   ✓ Saved locally: data/local/raw/news/yfinance_news/CVX_20260316.json
+2026-03-16 21:21:22 | INFO | news_data |   ✓ Uploaded to S3: s3://alphaflow-data-lake-291572330987/raw/news/yfinance_news/CVX/CVX_20260316.json
+2026-03-16 21:21:23 | INFO | news_data |   ✓ SEC EDGAR CVX: 128 filings (10-K, 10-Q, 8-K)
+2026-03-16 21:21:23 | INFO | news_data |   ✓ Saved locally: data/local/raw/news/sec_edgar/CVX_20260316.json
+2026-03-16 21:21:23 | INFO | news_data |   ✓ Uploaded to S3: s3://alphaflow-data-lake-291572330987/raw/news/sec_edgar/CVX/CVX_20260316.json
+2026-03-16 21:21:23 | INFO | news_data | 
+Processing BRK-B...
+2026-03-16 21:21:23 | INFO | news_data |   ✓ yfinance news BRK-B: 10 articles
+2026-03-16 21:21:23 | INFO | news_data |   ✓ Saved locally: data/local/raw/news/yfinance_news/BRK-B_20260316.json
+2026-03-16 21:21:23 | INFO | news_data |   ✓ Uploaded to S3: s3://alphaflow-data-lake-291572330987/raw/news/yfinance_news/BRK-B/BRK-B_20260316.json
+2026-03-16 21:21:24 | INFO | news_data |   ✓ SEC EDGAR BRK-B: 114 filings (10-K, 10-Q, 8-K)
+2026-03-16 21:21:25 | INFO | news_data |   ✓ Saved locally: data/local/raw/news/sec_edgar/BRK-B_20260316.json
+2026-03-16 21:21:25 | INFO | news_data |   ✓ Uploaded to S3: s3://alphaflow-data-lake-291572330987/raw/news/sec_edgar/BRK-B/BRK-B_20260316.json
+2026-03-16 21:21:25 | INFO | news_data | 
+Processing PG...
+2026-03-16 21:21:25 | INFO | news_data |   ✓ yfinance news PG: 10 articles
+2026-03-16 21:21:25 | INFO | news_data |   ✓ Saved locally: data/local/raw/news/yfinance_news/PG_20260316.json
+2026-03-16 21:21:25 | INFO | news_data |   ✓ Uploaded to S3: s3://alphaflow-data-lake-291572330987/raw/news/yfinance_news/PG/PG_20260316.json
+2026-03-16 21:21:26 | INFO | news_data |   ✓ SEC EDGAR PG: 104 filings (10-K, 10-Q, 8-K)
+2026-03-16 21:21:26 | INFO | news_data |   ✓ Saved locally: data/local/raw/news/sec_edgar/PG_20260316.json
+2026-03-16 21:21:26 | INFO | news_data |   ✓ Uploaded to S3: s3://alphaflow-data-lake-291572330987/raw/news/sec_edgar/PG/PG_20260316.json
+2026-03-16 21:21:26 | INFO | news_data | 
+Processing KO...
+2026-03-16 21:21:27 | INFO | news_data |   ✓ yfinance news KO: 10 articles
+2026-03-16 21:21:27 | INFO | news_data |   ✓ Saved locally: data/local/raw/news/yfinance_news/KO_20260316.json
+2026-03-16 21:21:27 | INFO | news_data |   ✓ Uploaded to S3: s3://alphaflow-data-lake-291572330987/raw/news/yfinance_news/KO/KO_20260316.json
+2026-03-16 21:21:28 | INFO | news_data |   ✓ SEC EDGAR KO: 146 filings (10-K, 10-Q, 8-K)
+2026-03-16 21:21:28 | INFO | news_data |   ✓ Saved locally: data/local/raw/news/sec_edgar/KO_20260316.json
+2026-03-16 21:21:28 | INFO | news_data |   ✓ Uploaded to S3: s3://alphaflow-data-lake-291572330987/raw/news/sec_edgar/KO/KO_20260316.json
+2026-03-16 21:21:28 | INFO | news_data | 
+Processing TSLA...
+2026-03-16 21:21:28 | INFO | news_data |   ✓ yfinance news TSLA: 10 articles
+2026-03-16 21:21:28 | INFO | news_data |   ✓ Saved locally: data/local/raw/news/yfinance_news/TSLA_20260316.json
+2026-03-16 21:21:28 | INFO | news_data |   ✓ Uploaded to S3: s3://alphaflow-data-lake-291572330987/raw/news/yfinance_news/TSLA/TSLA_20260316.json
+2026-03-16 21:21:29 | INFO | news_data |   ✓ SEC EDGAR TSLA: 159 filings (10-K, 10-Q, 8-K)
+2026-03-16 21:21:29 | INFO | news_data |   ✓ Saved locally: data/local/raw/news/sec_edgar/TSLA_20260316.json
+2026-03-16 21:21:29 | INFO | news_data |   ✓ Uploaded to S3: s3://alphaflow-data-lake-291572330987/raw/news/sec_edgar/TSLA/TSLA_20260316.json
+2026-03-16 21:21:29 | INFO | news_data | 
+Processing META...
+2026-03-16 21:21:30 | INFO | news_data |   ✓ yfinance news META: 10 articles
+2026-03-16 21:21:30 | INFO | news_data |   ✓ Saved locally: data/local/raw/news/yfinance_news/META_20260316.json
+2026-03-16 21:21:30 | INFO | news_data |   ✓ Uploaded to S3: s3://alphaflow-data-lake-291572330987/raw/news/yfinance_news/META/META_20260316.json
+2026-03-16 21:21:31 | INFO | news_data |   ✓ SEC EDGAR META: 27 filings (10-K, 10-Q, 8-K)
+2026-03-16 21:21:31 | INFO | news_data |   ✓ Saved locally: data/local/raw/news/sec_edgar/META_20260316.json
+2026-03-16 21:21:31 | INFO | news_data |   ✓ Uploaded to S3: s3://alphaflow-data-lake-291572330987/raw/news/sec_edgar/META/META_20260316.json
+2026-03-16 21:21:31 | INFO | news_data | 
+Processing NFLX...
+2026-03-16 21:21:31 | INFO | news_data |   ✓ yfinance news NFLX: 10 articles
+2026-03-16 21:21:31 | INFO | news_data |   ✓ Saved locally: data/local/raw/news/yfinance_news/NFLX_20260316.json
+2026-03-16 21:21:31 | INFO | news_data |   ✓ Uploaded to S3: s3://alphaflow-data-lake-291572330987/raw/news/yfinance_news/NFLX/NFLX_20260316.json
+2026-03-16 21:21:32 | INFO | news_data |   ✓ SEC EDGAR NFLX: 44 filings (10-K, 10-Q, 8-K)
+2026-03-16 21:21:32 | INFO | news_data |   ✓ Saved locally: data/local/raw/news/sec_edgar/NFLX_20260316.json
+2026-03-16 21:21:32 | INFO | news_data |   ✓ Uploaded to S3: s3://alphaflow-data-lake-291572330987/raw/news/sec_edgar/NFLX/NFLX_20260316.json
+2026-03-16 21:21:32 | INFO | news_data | 
+Processing CRM...
+2026-03-16 21:21:32 | INFO | news_data |   ✓ yfinance news CRM: 10 articles
+2026-03-16 21:21:32 | INFO | news_data |   ✓ Saved locally: data/local/raw/news/yfinance_news/CRM_20260316.json
+2026-03-16 21:21:33 | INFO | news_data |   ✓ Uploaded to S3: s3://alphaflow-data-lake-291572330987/raw/news/yfinance_news/CRM/CRM_20260316.json
+2026-03-16 21:21:34 | INFO | news_data |   ✓ SEC EDGAR CRM: 37 filings (10-K, 10-Q, 8-K)
+2026-03-16 21:21:34 | INFO | news_data |   ✓ Saved locally: data/local/raw/news/sec_edgar/CRM_20260316.json
+2026-03-16 21:21:34 | INFO | news_data |   ✓ Uploaded to S3: s3://alphaflow-data-lake-291572330987/raw/news/sec_edgar/CRM/CRM_20260316.json
+2026-03-16 21:21:34 | INFO | news_data | 
+============================================================
+2026-03-16 21:21:34 | INFO | news_data | NEWS INGESTION SUMMARY
+2026-03-16 21:21:34 | INFO | news_data | ============================================================
+2026-03-16 21:21:34 | INFO | news_data |   AAPL   | yfinance news:  10 articles | SEC: 150 filings
+2026-03-16 21:21:34 | INFO | news_data |   MSFT   | yfinance news:  10 articles | SEC:  90 filings
+2026-03-16 21:21:34 | INFO | news_data |   GOOGL  | yfinance news:  10 articles | SEC:  53 filings
+2026-03-16 21:21:34 | INFO | news_data |   NVDA   | yfinance news:  10 articles | SEC:  86 filings
+2026-03-16 21:21:34 | INFO | news_data |   AMD    | yfinance news:  10 articles | SEC: 146 filings
+2026-03-16 21:21:34 | INFO | news_data |   AMZN   | yfinance news:  10 articles | SEC:  87 filings
+2026-03-16 21:21:34 | INFO | news_data |   WMT    | yfinance news:  10 articles | SEC:  59 filings
+2026-03-16 21:21:34 | INFO | news_data |   COST   | yfinance news:  10 articles | SEC: 157 filings
+2026-03-16 21:21:34 | INFO | news_data |   JPM    | yfinance news:  10 articles | SEC:  26 filings
+2026-03-16 21:21:34 | INFO | news_data |   GS     | yfinance news:  10 articles | SEC:  19 filings
+2026-03-16 21:21:34 | INFO | news_data |   BAC    | yfinance news:  10 articles | SEC:  19 filings
+2026-03-16 21:21:34 | INFO | news_data |   V      | yfinance news:  10 articles | SEC: 215 filings
+2026-03-16 21:21:34 | INFO | news_data |   JNJ    | yfinance news:  10 articles | SEC: 130 filings
+2026-03-16 21:21:34 | INFO | news_data |   UNH    | yfinance news:  10 articles | SEC: 114 filings
+2026-03-16 21:21:34 | INFO | news_data |   PFE    | yfinance news:  10 articles | SEC:  86 filings
+2026-03-16 21:21:34 | INFO | news_data |   ABBV   | yfinance news:  10 articles | SEC: 171 filings
+2026-03-16 21:21:34 | INFO | news_data |   XOM    | yfinance news:  10 articles | SEC: 132 filings
+2026-03-16 21:21:34 | INFO | news_data |   CVX    | yfinance news:  10 articles | SEC: 128 filings
+2026-03-16 21:21:34 | INFO | news_data |   BRK-B  | yfinance news:  10 articles | SEC: 114 filings
+2026-03-16 21:21:34 | INFO | news_data |   PG     | yfinance news:  10 articles | SEC: 104 filings
+2026-03-16 21:21:34 | INFO | news_data |   KO     | yfinance news:  10 articles | SEC: 146 filings
+2026-03-16 21:21:34 | INFO | news_data |   TSLA   | yfinance news:  10 articles | SEC: 159 filings
+2026-03-16 21:21:34 | INFO | news_data |   META   | yfinance news:  10 articles | SEC:  27 filings
+2026-03-16 21:21:34 | INFO | news_data |   NFLX   | yfinance news:  10 articles | SEC:  44 filings
+2026-03-16 21:21:34 | INFO | news_data |   CRM    | yfinance news:  10 articles | SEC:  37 filings

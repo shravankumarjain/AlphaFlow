@@ -1309,3 +1309,616 @@ Step 8: Charts...
 2026-03-16 17:40:00 | INFO | evaluate | 
 Step 9: MLflow...
 2026-03-16 17:40:00 | INFO | evaluate |   ✓ Done. Open: reports/backtest_report.html
+2026-03-16 21:26:33 | INFO | botocore.credentials | Found credentials in shared credentials file: ~/.aws/credentials
+2026-03-16 21:26:34 | INFO | dataset | ============================================================
+2026-03-16 21:26:34 | INFO | dataset | AlphaFlow — TFT Dataset Preparation
+2026-03-16 21:26:34 | INFO | dataset | ============================================================
+2026-03-16 21:26:34 | INFO | dataset | 
+Step 1: Loading features from S3...
+2026-03-16 21:26:34 | INFO | dataset |   ✓ Loaded AAPL: 1357 rows
+2026-03-16 21:26:34 | INFO | dataset |   ✓ Loaded MSFT: 1357 rows
+2026-03-16 21:26:34 | INFO | dataset |   ✓ Loaded GOOGL: 1357 rows
+2026-03-16 21:26:34 | ERROR | dataset |   ✗ Could not load NVDA: An error occurred (NoSuchKey) when calling the GetObject operation: The specified key does not exist.
+2026-03-16 21:26:34 | ERROR | dataset |   ✗ Could not load AMD: An error occurred (NoSuchKey) when calling the GetObject operation: The specified key does not exist.
+2026-03-16 21:26:35 | INFO | dataset |   ✓ Loaded AMZN: 1357 rows
+2026-03-16 21:26:35 | ERROR | dataset |   ✗ Could not load WMT: An error occurred (NoSuchKey) when calling the GetObject operation: The specified key does not exist.
+2026-03-16 21:26:35 | ERROR | dataset |   ✗ Could not load COST: An error occurred (NoSuchKey) when calling the GetObject operation: The specified key does not exist.
+2026-03-16 21:26:35 | INFO | dataset |   ✓ Loaded JPM: 1357 rows
+2026-03-16 21:26:35 | ERROR | dataset |   ✗ Could not load GS: An error occurred (NoSuchKey) when calling the GetObject operation: The specified key does not exist.
+2026-03-16 21:26:35 | ERROR | dataset |   ✗ Could not load BAC: An error occurred (NoSuchKey) when calling the GetObject operation: The specified key does not exist.
+2026-03-16 21:26:35 | ERROR | dataset |   ✗ Could not load V: An error occurred (NoSuchKey) when calling the GetObject operation: The specified key does not exist.
+2026-03-16 21:26:35 | INFO | dataset |   ✓ Loaded JNJ: 1357 rows
+2026-03-16 21:26:35 | ERROR | dataset |   ✗ Could not load UNH: An error occurred (NoSuchKey) when calling the GetObject operation: The specified key does not exist.
+2026-03-16 21:26:35 | ERROR | dataset |   ✗ Could not load PFE: An error occurred (NoSuchKey) when calling the GetObject operation: The specified key does not exist.
+2026-03-16 21:26:35 | ERROR | dataset |   ✗ Could not load ABBV: An error occurred (NoSuchKey) when calling the GetObject operation: The specified key does not exist.
+2026-03-16 21:26:35 | INFO | dataset |   ✓ Loaded XOM: 1357 rows
+2026-03-16 21:26:35 | ERROR | dataset |   ✗ Could not load CVX: An error occurred (NoSuchKey) when calling the GetObject operation: The specified key does not exist.
+2026-03-16 21:26:36 | INFO | dataset |   ✓ Loaded BRK-B: 1357 rows
+2026-03-16 21:26:36 | ERROR | dataset |   ✗ Could not load PG: An error occurred (NoSuchKey) when calling the GetObject operation: The specified key does not exist.
+2026-03-16 21:26:36 | ERROR | dataset |   ✗ Could not load KO: An error occurred (NoSuchKey) when calling the GetObject operation: The specified key does not exist.
+2026-03-16 21:26:36 | INFO | dataset |   ✓ Loaded TSLA: 1357 rows
+2026-03-16 21:26:36 | ERROR | dataset |   ✗ Could not load META: An error occurred (NoSuchKey) when calling the GetObject operation: The specified key does not exist.
+2026-03-16 21:26:36 | ERROR | dataset |   ✗ Could not load NFLX: An error occurred (NoSuchKey) when calling the GetObject operation: The specified key does not exist.
+2026-03-16 21:26:36 | ERROR | dataset |   ✗ Could not load CRM: An error occurred (NoSuchKey) when calling the GetObject operation: The specified key does not exist.
+2026-03-16 21:26:36 | INFO | dataset | 
+  ✓ Combined dataset: 12213 rows | 65 cols
+2026-03-16 21:26:36 | INFO | dataset | 
+Step 2: Adding calendar features...
+2026-03-16 21:26:36 | INFO | dataset |   ✓ Calendar features added
+2026-03-16 21:26:36 | INFO | dataset | 
+Step 3: Cleaning dataset...
+2026-03-16 21:26:36 | INFO | dataset |   ✓ Dropped 45 rows with NaN target
+2026-03-16 21:26:36 | WARNING | dataset |   ⚠ Missing columns (will skip): ['sentiment_velocity', 'sentiment_accel', 'sentiment_divergence', 'sec_filing_spike']
+2026-03-16 21:26:36 | INFO | dataset |   ✓ Clean dataset: 12168 rows | 41 columns
+2026-03-16 21:26:36 | INFO | dataset |   ✓ Date range: 2020-10-16 00:00:00 → 2026-03-06 00:00:00
+2026-03-16 21:26:36 | INFO | dataset |   ✓ Tickers: 9
+2026-03-16 21:26:36 | INFO | dataset | 
+Step 4: Time-based train/val split...
+2026-03-16 21:26:36 | INFO | dataset |   ✓ Train: 10341 rows | 2020-10-16 00:00:00 → 2025-05-14 00:00:00
+2026-03-16 21:26:36 | INFO | dataset |   ✓ Val:   1827 rows   | 2025-05-15 00:00:00 → 2026-03-06 00:00:00
+2026-03-16 21:26:36 | INFO | dataset | 
+  ✓ Saved train/val locally to data/local/model_input
+2026-03-16 21:26:36 | INFO | dataset | 
+Step 5: Building TimeSeriesDataSets...
+2026-03-16 21:26:41 | INFO | dataset | 
+ Building TimeSeriesDataSet...
+2026-03-16 21:26:41 | INFO | dataset |   Known future features : 6
+2026-03-16 21:26:41 | INFO | dataset |   Unknown past features : 30
+2026-03-16 21:26:41 | INFO | dataset |   Static categoricals   : 2
+2026-03-16 21:26:41 | INFO | dataset |   Target                : target_return_5d
+2026-03-16 21:26:41 | INFO | dataset |   Encoder length        : 63 days
+2026-03-16 21:26:41 | INFO | dataset |   Prediction length     : 5 days
+2026-03-16 21:26:41 | INFO | dataset |   ✓ Training dataset  : 9738 samples
+2026-03-16 21:26:41 | INFO | dataset |   ✓ Validation dataset: 1224 samples
+2026-03-16 21:26:41 | INFO | dataset | 
+============================================================
+2026-03-16 21:26:41 | INFO | dataset | DATASET PREPARATION COMPLETE
+2026-03-16 21:26:41 | INFO | dataset | ============================================================
+2026-03-16 21:43:38 | INFO | botocore.credentials | Found credentials in shared credentials file: ~/.aws/credentials
+2026-03-16 21:43:38 | INFO | evaluate | ============================================================
+2026-03-16 21:43:38 | INFO | evaluate | AlphaFlow — Backtesting & Evaluation
+2026-03-16 21:43:38 | INFO | evaluate | ============================================================
+2026-03-16 21:43:38 | INFO | evaluate | 
+Step 1: Loading datasets...
+2026-03-16 21:43:38 | INFO | dataset | ============================================================
+2026-03-16 21:43:38 | INFO | dataset | AlphaFlow — TFT Dataset Preparation
+2026-03-16 21:43:38 | INFO | dataset | ============================================================
+2026-03-16 21:43:38 | INFO | dataset | 
+Step 1: Loading features from S3...
+2026-03-16 21:43:39 | INFO | dataset |   ✓ Loaded AAPL: 1357 rows
+2026-03-16 21:43:41 | INFO | dataset |   ✓ Loaded MSFT: 1357 rows
+2026-03-16 21:43:42 | INFO | dataset |   ✓ Loaded GOOGL: 1357 rows
+2026-03-16 21:43:42 | ERROR | dataset |   ✗ Could not load NVDA: An error occurred (NoSuchKey) when calling the GetObject operation: The specified key does not exist.
+2026-03-16 21:43:42 | ERROR | dataset |   ✗ Could not load AMD: An error occurred (NoSuchKey) when calling the GetObject operation: The specified key does not exist.
+2026-03-16 21:43:42 | INFO | dataset |   ✓ Loaded AMZN: 1357 rows
+2026-03-16 21:43:42 | ERROR | dataset |   ✗ Could not load WMT: An error occurred (NoSuchKey) when calling the GetObject operation: The specified key does not exist.
+2026-03-16 21:43:42 | ERROR | dataset |   ✗ Could not load COST: An error occurred (NoSuchKey) when calling the GetObject operation: The specified key does not exist.
+2026-03-16 21:43:43 | INFO | dataset |   ✓ Loaded JPM: 1357 rows
+2026-03-16 21:43:43 | ERROR | dataset |   ✗ Could not load GS: An error occurred (NoSuchKey) when calling the GetObject operation: The specified key does not exist.
+2026-03-16 21:43:43 | ERROR | dataset |   ✗ Could not load BAC: An error occurred (NoSuchKey) when calling the GetObject operation: The specified key does not exist.
+2026-03-16 21:43:43 | ERROR | dataset |   ✗ Could not load V: An error occurred (NoSuchKey) when calling the GetObject operation: The specified key does not exist.
+2026-03-16 21:43:43 | INFO | dataset |   ✓ Loaded JNJ: 1357 rows
+2026-03-16 21:43:43 | ERROR | dataset |   ✗ Could not load UNH: An error occurred (NoSuchKey) when calling the GetObject operation: The specified key does not exist.
+2026-03-16 21:43:43 | ERROR | dataset |   ✗ Could not load PFE: An error occurred (NoSuchKey) when calling the GetObject operation: The specified key does not exist.
+2026-03-16 21:43:43 | ERROR | dataset |   ✗ Could not load ABBV: An error occurred (NoSuchKey) when calling the GetObject operation: The specified key does not exist.
+2026-03-16 21:43:44 | INFO | dataset |   ✓ Loaded XOM: 1357 rows
+2026-03-16 21:43:44 | ERROR | dataset |   ✗ Could not load CVX: An error occurred (NoSuchKey) when calling the GetObject operation: The specified key does not exist.
+2026-03-16 21:43:44 | INFO | dataset |   ✓ Loaded BRK-B: 1357 rows
+2026-03-16 21:43:44 | ERROR | dataset |   ✗ Could not load PG: An error occurred (NoSuchKey) when calling the GetObject operation: The specified key does not exist.
+2026-03-16 21:43:44 | ERROR | dataset |   ✗ Could not load KO: An error occurred (NoSuchKey) when calling the GetObject operation: The specified key does not exist.
+2026-03-16 21:43:45 | INFO | dataset |   ✓ Loaded TSLA: 1357 rows
+2026-03-16 21:43:45 | ERROR | dataset |   ✗ Could not load META: An error occurred (NoSuchKey) when calling the GetObject operation: The specified key does not exist.
+2026-03-16 21:43:45 | ERROR | dataset |   ✗ Could not load NFLX: An error occurred (NoSuchKey) when calling the GetObject operation: The specified key does not exist.
+2026-03-16 21:43:45 | ERROR | dataset |   ✗ Could not load CRM: An error occurred (NoSuchKey) when calling the GetObject operation: The specified key does not exist.
+2026-03-16 21:43:45 | INFO | dataset | 
+  ✓ Combined dataset: 12213 rows | 65 cols
+2026-03-16 21:43:45 | INFO | dataset | 
+Step 2: Adding calendar features...
+2026-03-16 21:43:45 | INFO | dataset |   ✓ Calendar features added
+2026-03-16 21:43:45 | INFO | dataset | 
+Step 3: Cleaning dataset...
+2026-03-16 21:43:45 | INFO | dataset |   ✓ Dropped 45 rows with NaN target
+2026-03-16 21:43:45 | WARNING | dataset |   ⚠ Missing columns (will skip): ['sentiment_velocity', 'sentiment_accel', 'sentiment_divergence', 'sec_filing_spike']
+2026-03-16 21:43:45 | INFO | dataset |   ✓ Clean dataset: 12168 rows | 41 columns
+2026-03-16 21:43:45 | INFO | dataset |   ✓ Date range: 2020-10-16 00:00:00 → 2026-03-06 00:00:00
+2026-03-16 21:43:45 | INFO | dataset |   ✓ Tickers: 9
+2026-03-16 21:43:45 | INFO | dataset | 
+Step 4: Time-based train/val split...
+2026-03-16 21:43:45 | INFO | dataset |   ✓ Train: 10341 rows | 2020-10-16 00:00:00 → 2025-05-14 00:00:00
+2026-03-16 21:43:45 | INFO | dataset |   ✓ Val:   1827 rows   | 2025-05-15 00:00:00 → 2026-03-06 00:00:00
+2026-03-16 21:43:45 | INFO | dataset | 
+  ✓ Saved train/val locally to data/local/model_input
+2026-03-16 21:43:45 | INFO | dataset | 
+Step 5: Building TimeSeriesDataSets...
+2026-03-16 21:43:45 | INFO | dataset | 
+ Building TimeSeriesDataSet...
+2026-03-16 21:43:45 | INFO | dataset |   Known future features : 6
+2026-03-16 21:43:45 | INFO | dataset |   Unknown past features : 30
+2026-03-16 21:43:45 | INFO | dataset |   Static categoricals   : 2
+2026-03-16 21:43:45 | INFO | dataset |   Target                : target_return_5d
+2026-03-16 21:43:45 | INFO | dataset |   Encoder length        : 63 days
+2026-03-16 21:43:45 | INFO | dataset |   Prediction length     : 5 days
+2026-03-16 21:43:45 | INFO | dataset |   ✓ Training dataset  : 9738 samples
+2026-03-16 21:43:45 | INFO | dataset |   ✓ Validation dataset: 1224 samples
+2026-03-16 21:43:45 | INFO | dataset | 
+============================================================
+2026-03-16 21:43:45 | INFO | dataset | DATASET PREPARATION COMPLETE
+2026-03-16 21:43:45 | INFO | dataset | ============================================================
+2026-03-16 21:43:45 | INFO | tft_model |   ✓ Train batches: 152
+2026-03-16 21:43:45 | INFO | tft_model |   ✓ Val batches  : 10
+2026-03-16 21:43:45 | INFO | evaluate | 
+Step 2: Loading model...
+2026-03-16 21:43:45 | INFO | evaluate |   ✓ Loading: tft-epoch=03-val_loss=0.0217.ckpt
+2026-03-16 21:43:47 | INFO | evaluate | 
+Step 3: Predictions...
+2026-03-16 21:43:47 | INFO | evaluate |   Generating predictions...
+2026-03-16 21:43:50 | INFO | evaluate |   ✓ 1224 predictions | pred_p50 range: 0.00005 to 0.01458
+2026-03-16 21:43:50 | INFO | evaluate |   ✓ actual range: -0.14435 to 0.22447
+2026-03-16 21:43:50 | INFO | evaluate | 
+Step 4: Signals...
+2026-03-16 21:43:50 | INFO | evaluate |   ✓ Signals: 784 long | 0 short | 440 flat
+2026-03-16 21:43:50 | INFO | evaluate | 
+Step 5: Backtest...
+2026-03-16 21:43:50 | INFO | evaluate |   ✓ Backtest: 136 days
+2026-03-16 21:43:50 | INFO | evaluate | 
+Step 6: Benchmarks...
+2026-03-16 21:43:50 | INFO | evaluate | 
+Step 7: Metrics...
+2026-03-16 21:43:50 | INFO | evaluate | 
+Step 8: Charts...
+2026-03-16 21:43:50 | INFO | evaluate |   ✓ Chart saved: reports/backtest_report.html
+2026-03-16 21:43:50 | INFO | evaluate | 
+Step 9: MLflow...
+2026-03-16 21:43:50 | INFO | evaluate |   ✓ Done. Open: reports/backtest_report.html
+2026-03-16 22:32:20 | INFO | botocore.credentials | Found credentials in shared credentials file: ~/.aws/credentials
+2026-03-16 22:32:20 | INFO | dataset | ============================================================
+2026-03-16 22:32:20 | INFO | dataset | AlphaFlow — TFT Dataset Preparation
+2026-03-16 22:32:20 | INFO | dataset | ============================================================
+2026-03-16 22:32:20 | INFO | dataset | 
+Step 1: Loading features from S3...
+2026-03-16 22:32:20 | INFO | dataset |   ✓ Loaded AAPL: 1357 rows
+2026-03-16 22:32:21 | INFO | dataset |   ✓ Loaded MSFT: 1357 rows
+2026-03-16 22:32:21 | INFO | dataset |   ✓ Loaded GOOGL: 1357 rows
+2026-03-16 22:32:21 | ERROR | dataset |   ✗ Could not load NVDA: An error occurred (NoSuchKey) when calling the GetObject operation: The specified key does not exist.
+2026-03-16 22:32:21 | ERROR | dataset |   ✗ Could not load AMD: An error occurred (NoSuchKey) when calling the GetObject operation: The specified key does not exist.
+2026-03-16 22:32:21 | INFO | dataset |   ✓ Loaded AMZN: 1357 rows
+2026-03-16 22:32:21 | ERROR | dataset |   ✗ Could not load WMT: An error occurred (NoSuchKey) when calling the GetObject operation: The specified key does not exist.
+2026-03-16 22:32:21 | ERROR | dataset |   ✗ Could not load COST: An error occurred (NoSuchKey) when calling the GetObject operation: The specified key does not exist.
+2026-03-16 22:32:21 | INFO | dataset |   ✓ Loaded JPM: 1357 rows
+2026-03-16 22:32:21 | ERROR | dataset |   ✗ Could not load GS: An error occurred (NoSuchKey) when calling the GetObject operation: The specified key does not exist.
+2026-03-16 22:32:21 | ERROR | dataset |   ✗ Could not load BAC: An error occurred (NoSuchKey) when calling the GetObject operation: The specified key does not exist.
+2026-03-16 22:32:21 | ERROR | dataset |   ✗ Could not load V: An error occurred (NoSuchKey) when calling the GetObject operation: The specified key does not exist.
+2026-03-16 22:32:22 | INFO | dataset |   ✓ Loaded JNJ: 1357 rows
+2026-03-16 22:32:22 | ERROR | dataset |   ✗ Could not load UNH: An error occurred (NoSuchKey) when calling the GetObject operation: The specified key does not exist.
+2026-03-16 22:32:22 | ERROR | dataset |   ✗ Could not load PFE: An error occurred (NoSuchKey) when calling the GetObject operation: The specified key does not exist.
+2026-03-16 22:32:22 | ERROR | dataset |   ✗ Could not load ABBV: An error occurred (NoSuchKey) when calling the GetObject operation: The specified key does not exist.
+2026-03-16 22:32:22 | INFO | dataset |   ✓ Loaded XOM: 1357 rows
+2026-03-16 22:32:22 | ERROR | dataset |   ✗ Could not load CVX: An error occurred (NoSuchKey) when calling the GetObject operation: The specified key does not exist.
+2026-03-16 22:32:22 | INFO | dataset |   ✓ Loaded BRK-B: 1357 rows
+2026-03-16 22:32:22 | ERROR | dataset |   ✗ Could not load PG: An error occurred (NoSuchKey) when calling the GetObject operation: The specified key does not exist.
+2026-03-16 22:32:22 | ERROR | dataset |   ✗ Could not load KO: An error occurred (NoSuchKey) when calling the GetObject operation: The specified key does not exist.
+2026-03-16 22:32:23 | INFO | dataset |   ✓ Loaded TSLA: 1357 rows
+2026-03-16 22:32:23 | ERROR | dataset |   ✗ Could not load META: An error occurred (NoSuchKey) when calling the GetObject operation: The specified key does not exist.
+2026-03-16 22:32:23 | ERROR | dataset |   ✗ Could not load NFLX: An error occurred (NoSuchKey) when calling the GetObject operation: The specified key does not exist.
+2026-03-16 22:32:23 | ERROR | dataset |   ✗ Could not load CRM: An error occurred (NoSuchKey) when calling the GetObject operation: The specified key does not exist.
+2026-03-16 22:32:23 | INFO | dataset | 
+  ✓ Combined dataset: 12213 rows | 65 cols
+2026-03-16 22:32:23 | INFO | dataset | 
+Step 2: Adding calendar features...
+2026-03-16 22:32:23 | INFO | dataset |   ✓ Calendar features added
+2026-03-16 22:32:23 | INFO | dataset | 
+Step 3: Cleaning dataset...
+2026-03-16 22:32:23 | INFO | dataset |   ✓ Dropped 45 rows with NaN target
+2026-03-16 22:32:23 | WARNING | dataset |   ⚠ Missing columns (will skip): ['sentiment_velocity', 'sentiment_accel', 'sentiment_divergence', 'sec_filing_spike']
+2026-03-16 22:32:23 | INFO | dataset |   ✓ Clean dataset: 12168 rows | 41 columns
+2026-03-16 22:32:23 | INFO | dataset |   ✓ Date range: 2020-10-16 00:00:00 → 2026-03-06 00:00:00
+2026-03-16 22:32:23 | INFO | dataset |   ✓ Tickers: 9
+2026-03-16 22:32:23 | INFO | dataset | 
+Step 4: Time-based train/val split...
+2026-03-16 22:32:23 | INFO | dataset |   ✓ Train: 10341 rows | 2020-10-16 00:00:00 → 2025-05-14 00:00:00
+2026-03-16 22:32:23 | INFO | dataset |   ✓ Val:   1827 rows   | 2025-05-15 00:00:00 → 2026-03-06 00:00:00
+2026-03-16 22:32:23 | INFO | dataset | 
+  ✓ Saved train/val locally to data/local/model_input
+2026-03-16 22:32:23 | INFO | dataset | 
+Step 5: Building TimeSeriesDataSets...
+2026-03-16 22:32:27 | INFO | dataset | 
+ Building TimeSeriesDataSet...
+2026-03-16 22:32:27 | INFO | dataset |   Known future features : 6
+2026-03-16 22:32:27 | INFO | dataset |   Unknown past features : 30
+2026-03-16 22:32:27 | INFO | dataset |   Static categoricals   : 2
+2026-03-16 22:32:27 | INFO | dataset |   Target                : target_return_5d
+2026-03-16 22:32:27 | INFO | dataset |   Encoder length        : 63 days
+2026-03-16 22:32:27 | INFO | dataset |   Prediction length     : 5 days
+2026-03-16 22:32:27 | INFO | dataset |   ✓ Training dataset  : 9738 samples
+2026-03-16 22:32:27 | INFO | dataset |   ✓ Validation dataset: 1224 samples
+2026-03-16 22:32:27 | INFO | dataset | 
+============================================================
+2026-03-16 22:32:27 | INFO | dataset | DATASET PREPARATION COMPLETE
+2026-03-16 22:32:27 | INFO | dataset | ============================================================
+2026-03-16 22:47:25 | INFO | botocore.credentials | Found credentials in shared credentials file: ~/.aws/credentials
+2026-03-16 22:47:25 | INFO | dataset | ============================================================
+2026-03-16 22:47:25 | INFO | dataset | AlphaFlow — TFT Dataset Preparation
+2026-03-16 22:47:25 | INFO | dataset | ============================================================
+2026-03-16 22:47:25 | INFO | dataset | 
+Step 1: Loading features from S3...
+2026-03-16 22:47:25 | INFO | dataset |   ✓ Loaded AAPL: 1357 rows
+2026-03-16 22:47:25 | INFO | dataset |   ✓ Loaded MSFT: 1357 rows
+2026-03-16 22:47:26 | INFO | dataset |   ✓ Loaded GOOGL: 1357 rows
+2026-03-16 22:47:26 | ERROR | dataset |   ✗ Could not load NVDA: An error occurred (NoSuchKey) when calling the GetObject operation: The specified key does not exist.
+2026-03-16 22:47:26 | ERROR | dataset |   ✗ Could not load AMD: An error occurred (NoSuchKey) when calling the GetObject operation: The specified key does not exist.
+2026-03-16 22:47:26 | INFO | dataset |   ✓ Loaded AMZN: 1357 rows
+2026-03-16 22:47:26 | ERROR | dataset |   ✗ Could not load WMT: An error occurred (NoSuchKey) when calling the GetObject operation: The specified key does not exist.
+2026-03-16 22:47:26 | ERROR | dataset |   ✗ Could not load COST: An error occurred (NoSuchKey) when calling the GetObject operation: The specified key does not exist.
+2026-03-16 22:47:26 | INFO | dataset |   ✓ Loaded JPM: 1357 rows
+2026-03-16 22:47:26 | ERROR | dataset |   ✗ Could not load GS: An error occurred (NoSuchKey) when calling the GetObject operation: The specified key does not exist.
+2026-03-16 22:47:26 | ERROR | dataset |   ✗ Could not load BAC: An error occurred (NoSuchKey) when calling the GetObject operation: The specified key does not exist.
+2026-03-16 22:47:26 | ERROR | dataset |   ✗ Could not load V: An error occurred (NoSuchKey) when calling the GetObject operation: The specified key does not exist.
+2026-03-16 22:47:27 | INFO | dataset |   ✓ Loaded JNJ: 1357 rows
+2026-03-16 22:47:27 | ERROR | dataset |   ✗ Could not load UNH: An error occurred (NoSuchKey) when calling the GetObject operation: The specified key does not exist.
+2026-03-16 22:47:27 | ERROR | dataset |   ✗ Could not load PFE: An error occurred (NoSuchKey) when calling the GetObject operation: The specified key does not exist.
+2026-03-16 22:47:27 | ERROR | dataset |   ✗ Could not load ABBV: An error occurred (NoSuchKey) when calling the GetObject operation: The specified key does not exist.
+2026-03-16 22:47:27 | INFO | dataset |   ✓ Loaded XOM: 1357 rows
+2026-03-16 22:47:27 | ERROR | dataset |   ✗ Could not load CVX: An error occurred (NoSuchKey) when calling the GetObject operation: The specified key does not exist.
+2026-03-16 22:47:27 | INFO | dataset |   ✓ Loaded BRK-B: 1357 rows
+2026-03-16 22:47:27 | ERROR | dataset |   ✗ Could not load PG: An error occurred (NoSuchKey) when calling the GetObject operation: The specified key does not exist.
+2026-03-16 22:47:27 | ERROR | dataset |   ✗ Could not load KO: An error occurred (NoSuchKey) when calling the GetObject operation: The specified key does not exist.
+2026-03-16 22:47:27 | INFO | dataset |   ✓ Loaded TSLA: 1357 rows
+2026-03-16 22:47:28 | ERROR | dataset |   ✗ Could not load META: An error occurred (NoSuchKey) when calling the GetObject operation: The specified key does not exist.
+2026-03-16 22:47:28 | ERROR | dataset |   ✗ Could not load NFLX: An error occurred (NoSuchKey) when calling the GetObject operation: The specified key does not exist.
+2026-03-16 22:47:28 | ERROR | dataset |   ✗ Could not load CRM: An error occurred (NoSuchKey) when calling the GetObject operation: The specified key does not exist.
+2026-03-16 22:47:28 | INFO | dataset | 
+  ✓ Combined dataset: 12213 rows | 65 cols
+2026-03-16 22:47:28 | INFO | dataset | 
+Step 2: Adding calendar features...
+2026-03-16 22:47:28 | INFO | dataset |   ✓ Calendar features added
+2026-03-16 22:47:28 | INFO | dataset | 
+Step 3: Cleaning dataset...
+2026-03-16 22:47:28 | INFO | dataset |   ✓ Dropped 45 rows with NaN target
+2026-03-16 22:47:28 | WARNING | dataset |   ⚠ Missing columns (will skip): ['sentiment_velocity', 'sentiment_accel', 'sentiment_divergence', 'sec_filing_spike']
+2026-03-16 22:47:28 | INFO | dataset |   ✓ Clean dataset: 12168 rows | 41 columns
+2026-03-16 22:47:28 | INFO | dataset |   ✓ Date range: 2020-10-16 00:00:00 → 2026-03-06 00:00:00
+2026-03-16 22:47:28 | INFO | dataset |   ✓ Tickers: 9
+2026-03-16 22:47:28 | INFO | dataset | 
+Step 4: Time-based train/val split...
+2026-03-16 22:47:28 | INFO | dataset |   ✓ Train: 10341 rows | 2020-10-16 00:00:00 → 2025-05-14 00:00:00
+2026-03-16 22:47:28 | INFO | dataset |   ✓ Val:   1827 rows   | 2025-05-15 00:00:00 → 2026-03-06 00:00:00
+2026-03-16 22:47:28 | INFO | dataset | 
+  ✓ Saved train/val locally to data/local/model_input
+2026-03-16 22:47:28 | INFO | dataset | 
+Step 5: Building TimeSeriesDataSets...
+2026-03-16 22:47:32 | INFO | dataset | 
+ Building TimeSeriesDataSet...
+2026-03-16 22:47:32 | INFO | dataset |   Known future features : 6
+2026-03-16 22:47:32 | INFO | dataset |   Unknown past features : 30
+2026-03-16 22:47:32 | INFO | dataset |   Static categoricals   : 2
+2026-03-16 22:47:32 | INFO | dataset |   Target                : target_return_5d
+2026-03-16 22:47:32 | INFO | dataset |   Encoder length        : 63 days
+2026-03-16 22:47:32 | INFO | dataset |   Prediction length     : 5 days
+2026-03-16 22:47:32 | INFO | dataset |   ✓ Training dataset  : 9738 samples
+2026-03-16 22:47:32 | INFO | dataset |   ✓ Validation dataset: 1224 samples
+2026-03-16 22:47:32 | INFO | dataset | 
+============================================================
+2026-03-16 22:47:32 | INFO | dataset | DATASET PREPARATION COMPLETE
+2026-03-16 22:47:32 | INFO | dataset | ============================================================
+2026-03-16 23:15:33 | INFO | botocore.credentials | Found credentials in shared credentials file: ~/.aws/credentials
+2026-03-16 23:15:33 | INFO | dataset | ============================================================
+2026-03-16 23:15:33 | INFO | dataset | AlphaFlow — TFT Dataset Preparation
+2026-03-16 23:15:33 | INFO | dataset | ============================================================
+2026-03-16 23:15:33 | INFO | dataset | 
+Step 1: Loading features from S3...
+2026-03-16 23:15:33 | INFO | dataset |   ✓ Loaded AAPL: 1357 rows
+2026-03-16 23:15:33 | INFO | dataset |   ✓ Loaded MSFT: 1357 rows
+2026-03-16 23:15:34 | INFO | dataset |   ✓ Loaded GOOGL: 1357 rows
+2026-03-16 23:15:34 | INFO | dataset |   ✓ Loaded NVDA: 1357 rows
+2026-03-16 23:15:34 | INFO | dataset |   ✓ Loaded AMD: 1357 rows
+2026-03-16 23:15:34 | INFO | dataset |   ✓ Loaded AMZN: 1357 rows
+2026-03-16 23:15:34 | INFO | dataset |   ✓ Loaded WMT: 1357 rows
+2026-03-16 23:15:35 | INFO | dataset |   ✓ Loaded COST: 1357 rows
+2026-03-16 23:15:35 | INFO | dataset |   ✓ Loaded JPM: 1357 rows
+2026-03-16 23:15:35 | INFO | dataset |   ✓ Loaded GS: 1357 rows
+2026-03-16 23:15:35 | INFO | dataset |   ✓ Loaded BAC: 1357 rows
+2026-03-16 23:15:36 | INFO | dataset |   ✓ Loaded V: 1357 rows
+2026-03-16 23:15:36 | INFO | dataset |   ✓ Loaded JNJ: 1357 rows
+2026-03-16 23:15:37 | INFO | dataset |   ✓ Loaded UNH: 1357 rows
+2026-03-16 23:15:37 | INFO | dataset |   ✓ Loaded PFE: 1357 rows
+2026-03-16 23:15:38 | INFO | dataset |   ✓ Loaded ABBV: 1357 rows
+2026-03-16 23:15:39 | INFO | dataset |   ✓ Loaded XOM: 1357 rows
+2026-03-16 23:15:39 | INFO | dataset |   ✓ Loaded CVX: 1357 rows
+2026-03-16 23:15:40 | INFO | dataset |   ✓ Loaded BRK-B: 1357 rows
+2026-03-16 23:15:41 | INFO | dataset |   ✓ Loaded PG: 1357 rows
+2026-03-16 23:15:41 | INFO | dataset |   ✓ Loaded KO: 1357 rows
+2026-03-16 23:15:42 | INFO | dataset |   ✓ Loaded TSLA: 1357 rows
+2026-03-16 23:15:42 | INFO | dataset |   ✓ Loaded META: 1357 rows
+2026-03-16 23:15:43 | INFO | dataset |   ✓ Loaded NFLX: 1357 rows
+2026-03-16 23:15:43 | INFO | dataset |   ✓ Loaded CRM: 1357 rows
+2026-03-16 23:15:43 | INFO | dataset | 
+  ✓ Combined dataset: 33925 rows | 66 cols
+2026-03-16 23:15:43 | INFO | dataset | 
+Step 2: Adding calendar features...
+2026-03-16 23:15:43 | INFO | dataset |   ✓ Calendar features added
+2026-03-16 23:15:43 | INFO | dataset | 
+Step 3: Cleaning dataset...
+2026-03-16 23:15:43 | INFO | dataset |   ✓ Dropped 125 rows with NaN target
+2026-03-16 23:15:43 | WARNING | dataset |   ⚠ Missing columns (will skip): ['sentiment_velocity', 'sentiment_accel', 'sentiment_divergence', 'sec_filing_spike']
+2026-03-16 23:15:43 | INFO | dataset |   ✓ Clean dataset: 33800 rows | 41 columns
+2026-03-16 23:15:43 | INFO | dataset |   ✓ Date range: 2020-10-16 00:00:00 → 2026-03-06 00:00:00
+2026-03-16 23:15:43 | INFO | dataset |   ✓ Tickers: 25
+2026-03-16 23:15:43 | INFO | dataset | 
+Step 4: Time-based train/val split...
+2026-03-16 23:15:43 | INFO | dataset |   ✓ Train: 28725 rows | 2020-10-16 00:00:00 → 2025-05-14 00:00:00
+2026-03-16 23:15:43 | INFO | dataset |   ✓ Val:   5075 rows   | 2025-05-15 00:00:00 → 2026-03-06 00:00:00
+2026-03-16 23:15:43 | INFO | dataset | 
+  ✓ Saved train/val locally to data/local/model_input
+2026-03-16 23:15:43 | INFO | dataset | 
+Step 5: Building TimeSeriesDataSets...
+2026-03-16 23:15:47 | INFO | dataset | 
+ Building TimeSeriesDataSet...
+2026-03-16 23:15:47 | INFO | dataset |   Known future features : 6
+2026-03-16 23:15:47 | INFO | dataset |   Unknown past features : 30
+2026-03-16 23:15:47 | INFO | dataset |   Static categoricals   : 2
+2026-03-16 23:15:47 | INFO | dataset |   Target                : target_return_5d
+2026-03-16 23:15:47 | INFO | dataset |   Encoder length        : 63 days
+2026-03-16 23:15:47 | INFO | dataset |   Prediction length     : 5 days
+2026-03-16 23:15:48 | INFO | dataset |   ✓ Training dataset  : 27050 samples
+2026-03-16 23:15:48 | INFO | dataset |   ✓ Validation dataset: 3400 samples
+2026-03-16 23:15:48 | INFO | dataset | 
+============================================================
+2026-03-16 23:15:48 | INFO | dataset | DATASET PREPARATION COMPLETE
+2026-03-16 23:15:48 | INFO | dataset | ============================================================
+2026-03-16 23:49:29 | INFO | botocore.credentials | Found credentials in shared credentials file: ~/.aws/credentials
+2026-03-16 23:49:29 | INFO | evaluate | ============================================================
+2026-03-16 23:49:29 | INFO | evaluate | AlphaFlow — Backtesting & Evaluation
+2026-03-16 23:49:29 | INFO | evaluate | ============================================================
+2026-03-16 23:49:29 | INFO | evaluate | 
+Step 1: Loading datasets...
+2026-03-16 23:49:29 | INFO | dataset | ============================================================
+2026-03-16 23:49:29 | INFO | dataset | AlphaFlow — TFT Dataset Preparation
+2026-03-16 23:49:29 | INFO | dataset | ============================================================
+2026-03-16 23:49:29 | INFO | dataset | 
+Step 1: Loading features from S3...
+2026-03-16 23:49:29 | INFO | dataset |   ✓ Loaded AAPL: 1357 rows
+2026-03-16 23:49:29 | INFO | dataset |   ✓ Loaded MSFT: 1357 rows
+2026-03-16 23:49:30 | INFO | dataset |   ✓ Loaded GOOGL: 1357 rows
+2026-03-16 23:49:30 | INFO | dataset |   ✓ Loaded NVDA: 1357 rows
+2026-03-16 23:49:30 | INFO | dataset |   ✓ Loaded AMD: 1357 rows
+2026-03-16 23:49:30 | INFO | dataset |   ✓ Loaded AMZN: 1357 rows
+2026-03-16 23:49:30 | INFO | dataset |   ✓ Loaded WMT: 1357 rows
+2026-03-16 23:49:31 | INFO | dataset |   ✓ Loaded COST: 1357 rows
+2026-03-16 23:49:31 | INFO | dataset |   ✓ Loaded JPM: 1357 rows
+2026-03-16 23:49:31 | INFO | dataset |   ✓ Loaded GS: 1357 rows
+2026-03-16 23:49:32 | INFO | dataset |   ✓ Loaded BAC: 1357 rows
+2026-03-16 23:49:32 | INFO | dataset |   ✓ Loaded V: 1357 rows
+2026-03-16 23:49:33 | INFO | dataset |   ✓ Loaded JNJ: 1357 rows
+2026-03-16 23:49:33 | INFO | dataset |   ✓ Loaded UNH: 1357 rows
+2026-03-16 23:49:34 | INFO | dataset |   ✓ Loaded PFE: 1357 rows
+2026-03-16 23:49:34 | INFO | dataset |   ✓ Loaded ABBV: 1357 rows
+2026-03-16 23:49:34 | INFO | dataset |   ✓ Loaded XOM: 1357 rows
+2026-03-16 23:49:35 | INFO | dataset |   ✓ Loaded CVX: 1357 rows
+2026-03-16 23:49:35 | INFO | dataset |   ✓ Loaded BRK-B: 1357 rows
+2026-03-16 23:49:36 | INFO | dataset |   ✓ Loaded PG: 1357 rows
+2026-03-16 23:49:36 | INFO | dataset |   ✓ Loaded KO: 1357 rows
+2026-03-16 23:49:37 | INFO | dataset |   ✓ Loaded TSLA: 1357 rows
+2026-03-16 23:49:37 | INFO | dataset |   ✓ Loaded META: 1357 rows
+2026-03-16 23:49:38 | INFO | dataset |   ✓ Loaded NFLX: 1357 rows
+2026-03-16 23:49:38 | INFO | dataset |   ✓ Loaded CRM: 1357 rows
+2026-03-16 23:49:38 | INFO | dataset | 
+  ✓ Combined dataset: 33925 rows | 66 cols
+2026-03-16 23:49:38 | INFO | dataset | 
+Step 2: Adding calendar features...
+2026-03-16 23:49:38 | INFO | dataset |   ✓ Calendar features added
+2026-03-16 23:49:38 | INFO | dataset | 
+Step 3: Cleaning dataset...
+2026-03-16 23:49:38 | INFO | dataset |   ✓ Dropped 125 rows with NaN target
+2026-03-16 23:49:38 | WARNING | dataset |   ⚠ Missing columns (will skip): ['sentiment_velocity', 'sentiment_accel', 'sentiment_divergence', 'sec_filing_spike']
+2026-03-16 23:49:38 | INFO | dataset |   ✓ Clean dataset: 33800 rows | 41 columns
+2026-03-16 23:49:38 | INFO | dataset |   ✓ Date range: 2020-10-16 00:00:00 → 2026-03-06 00:00:00
+2026-03-16 23:49:38 | INFO | dataset |   ✓ Tickers: 25
+2026-03-16 23:49:38 | INFO | dataset | 
+Step 4: Time-based train/val split...
+2026-03-16 23:49:38 | INFO | dataset |   ✓ Train: 28725 rows | 2020-10-16 00:00:00 → 2025-05-14 00:00:00
+2026-03-16 23:49:38 | INFO | dataset |   ✓ Val:   5075 rows   | 2025-05-15 00:00:00 → 2026-03-06 00:00:00
+2026-03-16 23:49:38 | INFO | dataset | 
+  ✓ Saved train/val locally to data/local/model_input
+2026-03-16 23:49:38 | INFO | dataset | 
+Step 5: Building TimeSeriesDataSets...
+2026-03-16 23:49:38 | INFO | dataset | 
+ Building TimeSeriesDataSet...
+2026-03-16 23:49:38 | INFO | dataset |   Known future features : 6
+2026-03-16 23:49:38 | INFO | dataset |   Unknown past features : 30
+2026-03-16 23:49:38 | INFO | dataset |   Static categoricals   : 2
+2026-03-16 23:49:38 | INFO | dataset |   Target                : target_return_5d
+2026-03-16 23:49:38 | INFO | dataset |   Encoder length        : 63 days
+2026-03-16 23:49:38 | INFO | dataset |   Prediction length     : 5 days
+2026-03-16 23:49:39 | INFO | dataset |   ✓ Training dataset  : 27050 samples
+2026-03-16 23:49:39 | INFO | dataset |   ✓ Validation dataset: 3400 samples
+2026-03-16 23:49:39 | INFO | dataset | 
+============================================================
+2026-03-16 23:49:39 | INFO | dataset | DATASET PREPARATION COMPLETE
+2026-03-16 23:49:39 | INFO | dataset | ============================================================
+2026-03-16 23:49:39 | INFO | tft_model |   ✓ Train batches: 422
+2026-03-16 23:49:39 | INFO | tft_model |   ✓ Val batches  : 27
+2026-03-16 23:49:39 | INFO | evaluate | 
+Step 2: Loading model...
+2026-03-16 23:49:39 | INFO | evaluate |   ✓ Loading: tft-epoch=00-val_loss=0.0234.ckpt
+2026-03-16 23:49:40 | INFO | evaluate | 
+Step 3: Predictions...
+2026-03-16 23:49:40 | INFO | evaluate |   Generating predictions...
+2026-03-16 23:49:46 | INFO | evaluate |   ✓ 3400 predictions | pred_p50 range: 0.00009 to 0.00722
+2026-03-16 23:49:46 | INFO | evaluate |   ✓ actual range: -0.23666 to 0.43625
+2026-03-16 23:49:46 | INFO | evaluate | 
+Step 4: Signals...
+2026-03-16 23:49:46 | INFO | evaluate |   ✓ Signals: 2448 long | 0 short | 952 flat
+2026-03-16 23:49:46 | INFO | evaluate | 
+Step 5: Backtest...
+2026-03-16 23:49:46 | INFO | evaluate |   ✓ Backtest: 136 days
+2026-03-16 23:49:46 | INFO | evaluate | 
+Step 6: Benchmarks...
+2026-03-16 23:49:47 | INFO | evaluate | 
+Step 7: Metrics...
+2026-03-16 23:49:47 | INFO | evaluate | 
+Step 8: Charts...
+2026-03-16 23:49:47 | INFO | evaluate |   ✓ Chart saved: reports/backtest_report.html
+2026-03-16 23:49:47 | INFO | evaluate | 
+Step 9: MLflow...
+2026-03-16 23:49:47 | INFO | evaluate |   ✓ Done. Open: reports/backtest_report.html
+2026-03-17 00:20:45 | INFO | botocore.credentials | Found credentials in shared credentials file: ~/.aws/credentials
+2026-03-17 00:20:45 | INFO | dataset | ============================================================
+2026-03-17 00:20:45 | INFO | dataset | AlphaFlow — TFT Dataset Preparation
+2026-03-17 00:20:45 | INFO | dataset | ============================================================
+2026-03-17 00:20:45 | INFO | dataset | 
+Step 1: Loading features from S3...
+2026-03-17 00:20:46 | INFO | dataset |   ✓ Loaded AAPL: 1357 rows
+2026-03-17 00:20:46 | INFO | dataset |   ✓ Loaded MSFT: 1357 rows
+2026-03-17 00:20:46 | INFO | dataset |   ✓ Loaded GOOGL: 1357 rows
+2026-03-17 00:20:47 | INFO | dataset |   ✓ Loaded NVDA: 1357 rows
+2026-03-17 00:20:47 | INFO | dataset |   ✓ Loaded AMD: 1357 rows
+2026-03-17 00:20:47 | INFO | dataset |   ✓ Loaded AMZN: 1357 rows
+2026-03-17 00:20:47 | INFO | dataset |   ✓ Loaded WMT: 1357 rows
+2026-03-17 00:20:48 | INFO | dataset |   ✓ Loaded COST: 1357 rows
+2026-03-17 00:20:48 | INFO | dataset |   ✓ Loaded JPM: 1357 rows
+2026-03-17 00:20:49 | INFO | dataset |   ✓ Loaded GS: 1357 rows
+2026-03-17 00:20:49 | INFO | dataset |   ✓ Loaded BAC: 1357 rows
+2026-03-17 00:20:49 | INFO | dataset |   ✓ Loaded V: 1357 rows
+2026-03-17 00:20:50 | INFO | dataset |   ✓ Loaded JNJ: 1357 rows
+2026-03-17 00:20:50 | INFO | dataset |   ✓ Loaded UNH: 1357 rows
+2026-03-17 00:20:50 | INFO | dataset |   ✓ Loaded PFE: 1357 rows
+2026-03-17 00:20:50 | INFO | dataset |   ✓ Loaded ABBV: 1357 rows
+2026-03-17 00:20:51 | INFO | dataset |   ✓ Loaded XOM: 1357 rows
+2026-03-17 00:20:51 | INFO | dataset |   ✓ Loaded CVX: 1357 rows
+2026-03-17 00:20:51 | INFO | dataset |   ✓ Loaded BRK-B: 1357 rows
+2026-03-17 00:20:51 | INFO | dataset |   ✓ Loaded PG: 1357 rows
+2026-03-17 00:20:52 | INFO | dataset |   ✓ Loaded KO: 1357 rows
+2026-03-17 00:20:52 | INFO | dataset |   ✓ Loaded TSLA: 1357 rows
+2026-03-17 00:20:53 | INFO | dataset |   ✓ Loaded META: 1357 rows
+2026-03-17 00:20:54 | INFO | dataset |   ✓ Loaded NFLX: 1357 rows
+2026-03-17 00:20:55 | INFO | dataset |   ✓ Loaded CRM: 1357 rows
+2026-03-17 00:20:55 | INFO | dataset | 
+  ✓ Combined dataset: 33925 rows | 65 cols
+2026-03-17 00:20:55 | INFO | dataset | 
+Step 2: Adding calendar features...
+2026-03-17 00:20:55 | INFO | dataset |   ✓ Calendar features added
+2026-03-17 00:20:55 | INFO | dataset | 
+Step 3: Cleaning dataset...
+2026-03-17 00:20:55 | INFO | dataset |   ✓ Dropped 125 rows with NaN target
+2026-03-17 00:20:55 | WARNING | dataset |   ⚠ Missing columns (will skip): ['sentiment_velocity', 'sentiment_accel', 'sentiment_divergence', 'sec_filing_spike']
+2026-03-17 00:20:55 | INFO | dataset |   ✓ Clean dataset: 33800 rows | 41 columns
+2026-03-17 00:20:55 | INFO | dataset |   ✓ Date range: 2020-10-16 00:00:00 → 2026-03-06 00:00:00
+2026-03-17 00:20:55 | INFO | dataset |   ✓ Tickers: 25
+2026-03-17 00:20:55 | INFO | dataset | 
+Step 4: Time-based train/val split...
+2026-03-17 00:20:55 | INFO | dataset |   ✓ Train: 28725 rows | 2020-10-16 00:00:00 → 2025-05-14 00:00:00
+2026-03-17 00:20:55 | INFO | dataset |   ✓ Val:   5075 rows   | 2025-05-15 00:00:00 → 2026-03-06 00:00:00
+2026-03-17 00:20:55 | INFO | dataset | 
+  ✓ Saved train/val locally to data/local/model_input
+2026-03-17 00:20:55 | INFO | dataset | 
+Step 5: Building TimeSeriesDataSets...
+2026-03-17 00:21:00 | INFO | dataset | 
+ Building TimeSeriesDataSet...
+2026-03-17 00:21:00 | INFO | dataset |   Known future features : 6
+2026-03-17 00:21:00 | INFO | dataset |   Unknown past features : 30
+2026-03-17 00:21:00 | INFO | dataset |   Static categoricals   : 2
+2026-03-17 00:21:00 | INFO | dataset |   Target                : target_return_5d
+2026-03-17 00:21:00 | INFO | dataset |   Encoder length        : 63 days
+2026-03-17 00:21:00 | INFO | dataset |   Prediction length     : 5 days
+2026-03-17 00:21:00 | INFO | dataset |   ✓ Training dataset  : 27050 samples
+2026-03-17 00:21:00 | INFO | dataset |   ✓ Validation dataset: 3400 samples
+2026-03-17 00:21:00 | INFO | dataset | 
+============================================================
+2026-03-17 00:21:00 | INFO | dataset | DATASET PREPARATION COMPLETE
+2026-03-17 00:21:00 | INFO | dataset | ============================================================
+2026-03-17 01:06:19 | INFO | botocore.credentials | Found credentials in shared credentials file: ~/.aws/credentials
+2026-03-17 01:06:19 | INFO | evaluate | ============================================================
+2026-03-17 01:06:19 | INFO | evaluate | AlphaFlow — Backtesting & Evaluation
+2026-03-17 01:06:19 | INFO | evaluate | ============================================================
+2026-03-17 01:06:19 | INFO | evaluate | 
+Step 1: Loading datasets...
+2026-03-17 01:06:19 | INFO | dataset | ============================================================
+2026-03-17 01:06:19 | INFO | dataset | AlphaFlow — TFT Dataset Preparation
+2026-03-17 01:06:19 | INFO | dataset | ============================================================
+2026-03-17 01:06:19 | INFO | dataset | 
+Step 1: Loading features from S3...
+2026-03-17 01:06:21 | INFO | dataset |   ✓ Loaded AAPL: 1357 rows
+2026-03-17 01:06:22 | INFO | dataset |   ✓ Loaded MSFT: 1357 rows
+2026-03-17 01:06:23 | INFO | dataset |   ✓ Loaded GOOGL: 1357 rows
+2026-03-17 01:06:23 | INFO | dataset |   ✓ Loaded NVDA: 1357 rows
+2026-03-17 01:06:24 | INFO | dataset |   ✓ Loaded AMD: 1357 rows
+2026-03-17 01:06:24 | INFO | dataset |   ✓ Loaded AMZN: 1357 rows
+2026-03-17 01:06:25 | INFO | dataset |   ✓ Loaded WMT: 1357 rows
+2026-03-17 01:06:25 | INFO | dataset |   ✓ Loaded COST: 1357 rows
+2026-03-17 01:06:25 | INFO | dataset |   ✓ Loaded JPM: 1357 rows
+2026-03-17 01:06:26 | INFO | dataset |   ✓ Loaded GS: 1357 rows
+2026-03-17 01:06:26 | INFO | dataset |   ✓ Loaded BAC: 1357 rows
+2026-03-17 01:06:26 | INFO | dataset |   ✓ Loaded V: 1357 rows
+2026-03-17 01:06:26 | INFO | dataset |   ✓ Loaded JNJ: 1357 rows
+2026-03-17 01:06:27 | INFO | dataset |   ✓ Loaded UNH: 1357 rows
+2026-03-17 01:06:27 | INFO | dataset |   ✓ Loaded PFE: 1357 rows
+2026-03-17 01:06:27 | INFO | dataset |   ✓ Loaded ABBV: 1357 rows
+2026-03-17 01:06:28 | INFO | dataset |   ✓ Loaded XOM: 1357 rows
+2026-03-17 01:06:28 | INFO | dataset |   ✓ Loaded CVX: 1357 rows
+2026-03-17 01:06:29 | INFO | dataset |   ✓ Loaded BRK-B: 1357 rows
+2026-03-17 01:06:29 | INFO | dataset |   ✓ Loaded PG: 1357 rows
+2026-03-17 01:06:29 | INFO | dataset |   ✓ Loaded KO: 1357 rows
+2026-03-17 01:06:29 | INFO | dataset |   ✓ Loaded TSLA: 1357 rows
+2026-03-17 01:06:30 | INFO | dataset |   ✓ Loaded META: 1357 rows
+2026-03-17 01:06:30 | INFO | dataset |   ✓ Loaded NFLX: 1357 rows
+2026-03-17 01:06:30 | INFO | dataset |   ✓ Loaded CRM: 1357 rows
+2026-03-17 01:06:30 | INFO | dataset | 
+  ✓ Combined dataset: 33925 rows | 65 cols
+2026-03-17 01:06:30 | INFO | dataset | 
+Step 2: Adding calendar features...
+2026-03-17 01:06:31 | INFO | dataset |   ✓ Calendar features added
+2026-03-17 01:06:31 | INFO | dataset | 
+Step 3: Cleaning dataset...
+2026-03-17 01:06:31 | INFO | dataset |   ✓ Dropped 125 rows with NaN target
+2026-03-17 01:06:31 | WARNING | dataset |   ⚠ Missing columns (will skip): ['sentiment_velocity', 'sentiment_accel', 'sentiment_divergence', 'sec_filing_spike']
+2026-03-17 01:06:31 | INFO | dataset |   ✓ Clean dataset: 33800 rows | 41 columns
+2026-03-17 01:06:31 | INFO | dataset |   ✓ Date range: 2020-10-16 00:00:00 → 2026-03-06 00:00:00
+2026-03-17 01:06:31 | INFO | dataset |   ✓ Tickers: 25
+2026-03-17 01:06:31 | INFO | dataset | 
+Step 4: Time-based train/val split...
+2026-03-17 01:06:31 | INFO | dataset |   ✓ Train: 28725 rows | 2020-10-16 00:00:00 → 2025-05-14 00:00:00
+2026-03-17 01:06:31 | INFO | dataset |   ✓ Val:   5075 rows   | 2025-05-15 00:00:00 → 2026-03-06 00:00:00
+2026-03-17 01:06:31 | INFO | dataset | 
+  ✓ Saved train/val locally to data/local/model_input
+2026-03-17 01:06:31 | INFO | dataset | 
+Step 5: Building TimeSeriesDataSets...
+2026-03-17 01:06:31 | INFO | dataset | 
+ Building TimeSeriesDataSet...
+2026-03-17 01:06:31 | INFO | dataset |   Known future features : 6
+2026-03-17 01:06:31 | INFO | dataset |   Unknown past features : 30
+2026-03-17 01:06:31 | INFO | dataset |   Static categoricals   : 2
+2026-03-17 01:06:31 | INFO | dataset |   Target                : target_return_5d
+2026-03-17 01:06:31 | INFO | dataset |   Encoder length        : 63 days
+2026-03-17 01:06:31 | INFO | dataset |   Prediction length     : 5 days
+2026-03-17 01:06:31 | INFO | dataset |   ✓ Training dataset  : 27050 samples
+2026-03-17 01:06:31 | INFO | dataset |   ✓ Validation dataset: 3400 samples
+2026-03-17 01:06:31 | INFO | dataset | 
+============================================================
+2026-03-17 01:06:31 | INFO | dataset | DATASET PREPARATION COMPLETE
+2026-03-17 01:06:31 | INFO | dataset | ============================================================
+2026-03-17 01:06:31 | INFO | tft_model |   ✓ Train batches: 422
+2026-03-17 01:06:31 | INFO | tft_model |   ✓ Val batches  : 27
+2026-03-17 01:06:31 | INFO | evaluate | 
+Step 2: Loading model...
+2026-03-17 01:06:31 | INFO | evaluate |   ✓ Loading: tft-epoch=03-val_loss=0.0234.ckpt
+2026-03-17 01:06:32 | INFO | evaluate | 
+Step 3: Predictions...
+2026-03-17 01:06:32 | INFO | evaluate |   Generating predictions...
+2026-03-17 01:06:40 | INFO | evaluate |   ✓ 3400 predictions | pred_p50 range: 0.00032 to 0.02905
+2026-03-17 01:06:40 | INFO | evaluate |   ✓ actual range: -0.23666 to 0.43625
+2026-03-17 01:06:40 | INFO | evaluate | 
+Step 4: Signals...
+2026-03-17 01:06:40 | INFO | evaluate |   ✓ Signals: 2563 long | 0 short | 837 flat
+2026-03-17 01:06:40 | INFO | evaluate | 
+Step 5: Backtest...
+2026-03-17 01:06:40 | INFO | evaluate |   ✓ Backtest: 136 days
+2026-03-17 01:06:40 | INFO | evaluate | 
+Step 6: Benchmarks...
+2026-03-17 01:06:41 | INFO | evaluate | 
+Step 7: Metrics...
+2026-03-17 01:06:41 | INFO | evaluate | 
+Step 8: Charts...
+2026-03-17 01:06:41 | INFO | evaluate |   ✓ Chart saved: reports/backtest_report.html
+2026-03-17 01:06:41 | INFO | evaluate | 
+Step 9: MLflow...
+2026-03-17 01:06:41 | INFO | evaluate |   ✓ Done. Open: reports/backtest_report.html

@@ -160,28 +160,27 @@ TICKER_SECTOR = {
 def load_features_from_s3(tickers: list) -> pd.DataFrame:
     """
     Load feature Parquet files for all tickers from S3.
-    Stacks them into a single long-format DataFrame.
-
-    Long format means:
-        date     | ticker | feature1 | feature2 | ...
-        2021-01-04 | AAPL  | 132.05  | 0.45     | ...
-        2021-01-04 | MSFT  | 217.69  | 0.51     | ...
-        2021-01-05 | AAPL  | 133.11  | 0.47     | ...
-
-    This is what TFT expects — one row per (date, ticker) pair.
+    Tries sentiment-enriched path first, falls back to market features.
     """
     frames = []
     for ticker in tickers:
-        s3_key = f"features/sentiment_enriched/{ticker}/{ticker}_features_v2.parquet"
-        try:
-            obj = s3.get_object(Bucket=S3_BUCKET, Key=s3_key)
-            df = pd.read_parquet(BytesIO(obj["Body"].read()))
-            df["ticker"] = ticker
-            df["sector"] = TICKER_SECTOR.get(ticker, "Unknown")
-            frames.append(df)
-            logger.info(f"  ✓ Loaded {ticker}: {len(df)} rows")
-        except Exception as e:
-            logger.error(f"  ✗ Could not load {ticker}: {e}")
+        df = None
+        for s3_key in [
+            f"features/sentiment_enriched/{ticker}/{ticker}_features_v2.parquet",
+            f"features/market/{ticker}/{ticker}_features.parquet",
+        ]:
+            try:
+                obj = s3.get_object(Bucket=S3_BUCKET, Key=s3_key)
+                df = pd.read_parquet(BytesIO(obj["Body"].read()))
+                df["ticker"] = ticker
+                df["sector"] = TICKER_SECTOR.get(ticker, "Unknown")
+                frames.append(df)
+                logger.info(f"  ✓ Loaded {ticker}: {len(df)} rows")
+                break
+            except Exception:
+                continue
+        if df is None:
+            logger.error(f"  ✗ Could not load {ticker}: not found in S3")
 
     if not frames:
         raise RuntimeError("No feature files loaded — run feature_pipeline.py first")
@@ -189,7 +188,6 @@ def load_features_from_s3(tickers: list) -> pd.DataFrame:
     combined = pd.concat(frames, ignore_index=True)
     combined["date"] = pd.to_datetime(combined["date"])
     combined = combined.sort_values(["ticker", "date"]).reset_index(drop=True)
-
     logger.info(
         f"\n  ✓ Combined dataset: {len(combined)} rows | {len(combined.columns)} cols"
     )

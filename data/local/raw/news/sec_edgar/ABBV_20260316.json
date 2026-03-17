@@ -1,0 +1,1712 @@
+[
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "8-K",
+    "filing_date": "2026-03-04",
+    "accession_number": "0001104659-26-023534",
+    "primary_document": "tm266774d4_8k.htm",
+    "fetched_at": "2026-03-16T21:21:20.122782",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "8-K",
+    "filing_date": "2026-02-26",
+    "accession_number": "0001104659-26-020643",
+    "primary_document": "tm266774d4_8k.htm",
+    "fetched_at": "2026-03-16T21:21:20.122798",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "10-K",
+    "filing_date": "2026-02-20",
+    "accession_number": "0001551152-26-000008",
+    "primary_document": "abbv-20251231.htm",
+    "fetched_at": "2026-03-16T21:21:20.122802",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "8-K",
+    "filing_date": "2026-02-04",
+    "accession_number": "0001551152-26-000004",
+    "primary_document": "abbv-20260204.htm",
+    "fetched_at": "2026-03-16T21:21:20.122805",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "8-K",
+    "filing_date": "2026-01-07",
+    "accession_number": "0001551152-26-000002",
+    "primary_document": "abbv-20260107.htm",
+    "fetched_at": "2026-03-16T21:21:20.122807",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "10-Q",
+    "filing_date": "2025-11-04",
+    "accession_number": "0001551152-25-000049",
+    "primary_document": "abbv-20250930.htm",
+    "fetched_at": "2026-03-16T21:21:20.122810",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "8-K",
+    "filing_date": "2025-10-31",
+    "accession_number": "0001551152-25-000047",
+    "primary_document": "abbv-20251031.htm",
+    "fetched_at": "2026-03-16T21:21:20.122812",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "8-K",
+    "filing_date": "2025-10-03",
+    "accession_number": "0001551152-25-000043",
+    "primary_document": "abbv-20251003.htm",
+    "fetched_at": "2026-03-16T21:21:20.122815",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "8-K",
+    "filing_date": "2025-09-11",
+    "accession_number": "0001104659-25-089245",
+    "primary_document": "tm2525781d1_8k.htm",
+    "fetched_at": "2026-03-16T21:21:20.122818",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "10-Q",
+    "filing_date": "2025-08-04",
+    "accession_number": "0001551152-25-000040",
+    "primary_document": "abbv-20250630.htm",
+    "fetched_at": "2026-03-16T21:21:20.122822",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "8-K",
+    "filing_date": "2025-07-31",
+    "accession_number": "0001551152-25-000036",
+    "primary_document": "abbv-20250731.htm",
+    "fetched_at": "2026-03-16T21:21:20.122824",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "8-K",
+    "filing_date": "2025-07-03",
+    "accession_number": "0001551152-25-000034",
+    "primary_document": "abbv-20250703.htm",
+    "fetched_at": "2026-03-16T21:21:20.122827",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "8-K",
+    "filing_date": "2025-05-13",
+    "accession_number": "0001104659-25-047402",
+    "primary_document": "tm2513856d1_8k.htm",
+    "fetched_at": "2026-03-16T21:21:20.122830",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "10-Q",
+    "filing_date": "2025-05-09",
+    "accession_number": "0001551152-25-000029",
+    "primary_document": "abbv-20250331.htm",
+    "fetched_at": "2026-03-16T21:21:20.122833",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "8-K",
+    "filing_date": "2025-04-25",
+    "accession_number": "0001551152-25-000026",
+    "primary_document": "abbv-20250425.htm",
+    "fetched_at": "2026-03-16T21:21:20.122835",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "8-K",
+    "filing_date": "2025-04-03",
+    "accession_number": "0001551152-25-000023",
+    "primary_document": "abbv-20250403.htm",
+    "fetched_at": "2026-03-16T21:21:20.122838",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "8-K",
+    "filing_date": "2025-02-26",
+    "accession_number": "0001104659-25-017490",
+    "primary_document": "tm255723d7_8k.htm",
+    "fetched_at": "2026-03-16T21:21:20.122842",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "8-K",
+    "filing_date": "2025-02-19",
+    "accession_number": "0001104659-25-015015",
+    "primary_document": "tm255723d4_8k.htm",
+    "fetched_at": "2026-03-16T21:21:20.122845",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "10-K",
+    "filing_date": "2025-02-14",
+    "accession_number": "0001551152-25-000020",
+    "primary_document": "abbv-20241231.htm",
+    "fetched_at": "2026-03-16T21:21:20.122848",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "8-K",
+    "filing_date": "2025-02-14",
+    "accession_number": "0001104659-25-013467",
+    "primary_document": "tm256372d1_8k.htm",
+    "fetched_at": "2026-03-16T21:21:20.122850",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "8-K",
+    "filing_date": "2025-02-05",
+    "accession_number": "0001104659-25-009673",
+    "primary_document": "tm255474d1_8k.htm",
+    "fetched_at": "2026-03-16T21:21:20.122853",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "8-K",
+    "filing_date": "2025-01-31",
+    "accession_number": "0001551152-25-000011",
+    "primary_document": "abbv-20250131.htm",
+    "fetched_at": "2026-03-16T21:21:20.122855",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "8-K",
+    "filing_date": "2025-01-10",
+    "accession_number": "0001551152-25-000006",
+    "primary_document": "abbv-20250109.htm",
+    "fetched_at": "2026-03-16T21:21:20.122857",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "8-K",
+    "filing_date": "2025-01-06",
+    "accession_number": "0001551152-25-000002",
+    "primary_document": "abbv-20250106.htm",
+    "fetched_at": "2026-03-16T21:21:20.122860",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "8-K",
+    "filing_date": "2024-12-13",
+    "accession_number": "0001104659-24-128413",
+    "primary_document": "tm2430950d1_8k.htm",
+    "fetched_at": "2026-03-16T21:21:20.122863",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "10-Q",
+    "filing_date": "2024-11-04",
+    "accession_number": "0001551152-24-000040",
+    "primary_document": "abbv-20240930.htm",
+    "fetched_at": "2026-03-16T21:21:20.122865",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "8-K",
+    "filing_date": "2024-10-30",
+    "accession_number": "0001551152-24-000036",
+    "primary_document": "abbv-20241030.htm",
+    "fetched_at": "2026-03-16T21:21:20.122867",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "8-K",
+    "filing_date": "2024-10-03",
+    "accession_number": "0001551152-24-000033",
+    "primary_document": "abbv-20241003.htm",
+    "fetched_at": "2026-03-16T21:21:20.122870",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "8-K",
+    "filing_date": "2024-09-10",
+    "accession_number": "0001104659-24-098564",
+    "primary_document": "tm2423380d1_8k.htm",
+    "fetched_at": "2026-03-16T21:21:20.122872",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "10-Q",
+    "filing_date": "2024-08-07",
+    "accession_number": "0001551152-24-000031",
+    "primary_document": "abbv-20240630.htm",
+    "fetched_at": "2026-03-16T21:21:20.122875",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "8-K",
+    "filing_date": "2024-07-25",
+    "accession_number": "0001551152-24-000026",
+    "primary_document": "abbv-20240725.htm",
+    "fetched_at": "2026-03-16T21:21:20.122877",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "8-K",
+    "filing_date": "2024-07-03",
+    "accession_number": "0001551152-24-000024",
+    "primary_document": "abbv-20240703.htm",
+    "fetched_at": "2026-03-16T21:21:20.122880",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "10-Q",
+    "filing_date": "2024-05-03",
+    "accession_number": "0001551152-24-000020",
+    "primary_document": "abbv-20240331.htm",
+    "fetched_at": "2026-03-16T21:21:20.122884",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "8-K",
+    "filing_date": "2024-04-26",
+    "accession_number": "0001551152-24-000016",
+    "primary_document": "abbv-20240426.htm",
+    "fetched_at": "2026-03-16T21:21:20.122886",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "8-K",
+    "filing_date": "2024-04-03",
+    "accession_number": "0001551152-24-000013",
+    "primary_document": "abbv-20240403.htm",
+    "fetched_at": "2026-03-16T21:21:20.122889",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "8-K",
+    "filing_date": "2024-02-26",
+    "accession_number": "0001104659-24-027585",
+    "primary_document": "tm246405d5_8k.htm",
+    "fetched_at": "2026-03-16T21:21:20.122893",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "10-K",
+    "filing_date": "2024-02-20",
+    "accession_number": "0001551152-24-000011",
+    "primary_document": "abbv-20231231.htm",
+    "fetched_at": "2026-03-16T21:21:20.122896",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "8-K",
+    "filing_date": "2024-02-20",
+    "accession_number": "0001104659-24-025262",
+    "primary_document": "tm246649d1_8k.htm",
+    "fetched_at": "2026-03-16T21:21:20.122899",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "8-K",
+    "filing_date": "2024-02-12",
+    "accession_number": "0001104659-24-013692",
+    "primary_document": "tm245657d1_8k.htm",
+    "fetched_at": "2026-03-16T21:21:20.122901",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "8-K",
+    "filing_date": "2024-02-02",
+    "accession_number": "0001551152-24-000007",
+    "primary_document": "abbv-20240202.htm",
+    "fetched_at": "2026-03-16T21:21:20.122904",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "8-K",
+    "filing_date": "2024-01-05",
+    "accession_number": "0001551152-24-000002",
+    "primary_document": "abbv-20240105.htm",
+    "fetched_at": "2026-03-16T21:21:20.122906",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "8-K",
+    "filing_date": "2023-12-06",
+    "accession_number": "0001104659-23-124047",
+    "primary_document": "tm2332303d1_8k.htm",
+    "fetched_at": "2026-03-16T21:21:20.122909",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "8-K",
+    "filing_date": "2023-11-30",
+    "accession_number": "0001104659-23-122241",
+    "primary_document": "tm2331814d1_8k.htm",
+    "fetched_at": "2026-03-16T21:21:20.122912",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "10-Q",
+    "filing_date": "2023-11-06",
+    "accession_number": "0001551152-23-000045",
+    "primary_document": "abbv-20230930.htm",
+    "fetched_at": "2026-03-16T21:21:20.122914",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "8-K",
+    "filing_date": "2023-10-27",
+    "accession_number": "0001551152-23-000040",
+    "primary_document": "abbv-20231027.htm",
+    "fetched_at": "2026-03-16T21:21:20.122916",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "8-K",
+    "filing_date": "2023-10-12",
+    "accession_number": "0001104659-23-108864",
+    "primary_document": "tm2328138d1_8k.htm",
+    "fetched_at": "2026-03-16T21:21:20.122919",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "8-K",
+    "filing_date": "2023-10-04",
+    "accession_number": "0001551152-23-000036",
+    "primary_document": "abbv-20231004.htm",
+    "fetched_at": "2026-03-16T21:21:20.122921",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "10-Q",
+    "filing_date": "2023-08-07",
+    "accession_number": "0001551152-23-000033",
+    "primary_document": "abbv-20230630.htm",
+    "fetched_at": "2026-03-16T21:21:20.122924",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "8-K",
+    "filing_date": "2023-07-27",
+    "accession_number": "0001551152-23-000028",
+    "primary_document": "abbv-20230727.htm",
+    "fetched_at": "2026-03-16T21:21:20.122926",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "8-K",
+    "filing_date": "2023-07-06",
+    "accession_number": "0001551152-23-000026",
+    "primary_document": "abbv-20230706.htm",
+    "fetched_at": "2026-03-16T21:21:20.122929",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "8-K",
+    "filing_date": "2023-06-29",
+    "accession_number": "0001104659-23-076373",
+    "primary_document": "tm2320134d1_8k.htm",
+    "fetched_at": "2026-03-16T21:21:20.122932",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "8-K",
+    "filing_date": "2023-05-10",
+    "accession_number": "0001104659-23-058520",
+    "primary_document": "tm2315162d1_8k.htm",
+    "fetched_at": "2026-03-16T21:21:20.122934",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "10-Q",
+    "filing_date": "2023-05-05",
+    "accession_number": "0001551152-23-000023",
+    "primary_document": "abbv-20230331.htm",
+    "fetched_at": "2026-03-16T21:21:20.122937",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "8-K",
+    "filing_date": "2023-04-27",
+    "accession_number": "0001551152-23-000019",
+    "primary_document": "abbv-20230427.htm",
+    "fetched_at": "2026-03-16T21:21:20.122940",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "8-K",
+    "filing_date": "2023-04-05",
+    "accession_number": "0001551152-23-000015",
+    "primary_document": "abbv-20230405.htm",
+    "fetched_at": "2026-03-16T21:21:20.122943",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "8-K",
+    "filing_date": "2023-03-28",
+    "accession_number": "0001104659-23-037749",
+    "primary_document": "tm2310687d1_8k.htm",
+    "fetched_at": "2026-03-16T21:21:20.122945",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "10-K",
+    "filing_date": "2023-02-17",
+    "accession_number": "0001551152-23-000011",
+    "primary_document": "abbv-20221231.htm",
+    "fetched_at": "2026-03-16T21:21:20.122950",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "8-K",
+    "filing_date": "2023-02-09",
+    "accession_number": "0001551152-23-000006",
+    "primary_document": "abbv-20230209.htm",
+    "fetched_at": "2026-03-16T21:21:20.122953",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "8-K",
+    "filing_date": "2023-01-10",
+    "accession_number": "0001104659-23-002452",
+    "primary_document": "tm232769d1_8k.htm",
+    "fetched_at": "2026-03-16T21:21:20.122955",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "8-K",
+    "filing_date": "2023-01-06",
+    "accession_number": "0001551152-23-000004",
+    "primary_document": "abbv-20230106.htm",
+    "fetched_at": "2026-03-16T21:21:20.122957",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "8-K",
+    "filing_date": "2022-11-29",
+    "accession_number": "0001104659-22-122661",
+    "primary_document": "tm2231449d1_8k.htm",
+    "fetched_at": "2026-03-16T21:21:20.122960",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "10-Q",
+    "filing_date": "2022-11-04",
+    "accession_number": "0001551152-22-000045",
+    "primary_document": "abbv-20220930.htm",
+    "fetched_at": "2026-03-16T21:21:20.122962",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "8-K",
+    "filing_date": "2022-10-28",
+    "accession_number": "0001551152-22-000038",
+    "primary_document": "abbv-20221028.htm",
+    "fetched_at": "2026-03-16T21:21:20.122965",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "8-K",
+    "filing_date": "2022-10-17",
+    "accession_number": "0001104659-22-109061",
+    "primary_document": "tm2228315d1_8k.htm",
+    "fetched_at": "2026-03-16T21:21:20.122967",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "8-K",
+    "filing_date": "2022-10-14",
+    "accession_number": "0001104659-22-108910",
+    "primary_document": "tm2228135d1_8k.htm",
+    "fetched_at": "2026-03-16T21:21:20.122970",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "8-K",
+    "filing_date": "2022-10-05",
+    "accession_number": "0001551152-22-000034",
+    "primary_document": "abbv-20221005.htm",
+    "fetched_at": "2026-03-16T21:21:20.122972",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "10-Q",
+    "filing_date": "2022-08-04",
+    "accession_number": "0001551152-22-000030",
+    "primary_document": "abbv-20220630.htm",
+    "fetched_at": "2026-03-16T21:21:20.122975",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "8-K",
+    "filing_date": "2022-07-29",
+    "accession_number": "0001551152-22-000026",
+    "primary_document": "abbv-20220729.htm",
+    "fetched_at": "2026-03-16T21:21:20.122977",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "8-K",
+    "filing_date": "2022-07-06",
+    "accession_number": "0001551152-22-000023",
+    "primary_document": "abbv-20220706.htm",
+    "fetched_at": "2026-03-16T21:21:20.122980",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "8-K",
+    "filing_date": "2022-06-29",
+    "accession_number": "0001104659-22-075519",
+    "primary_document": "tm2219873d1_8k.htm",
+    "fetched_at": "2026-03-16T21:21:20.122982",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "8-K",
+    "filing_date": "2022-06-28",
+    "accession_number": "0001104659-22-075039",
+    "primary_document": "tm2219549d1_8k.htm",
+    "fetched_at": "2026-03-16T21:21:20.122985",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "8-K",
+    "filing_date": "2022-05-11",
+    "accession_number": "0001104659-22-058862",
+    "primary_document": "tm2215079d1_8k.htm",
+    "fetched_at": "2026-03-16T21:21:20.122988",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "10-Q",
+    "filing_date": "2022-05-06",
+    "accession_number": "0001551152-22-000017",
+    "primary_document": "abbv-20220331.htm",
+    "fetched_at": "2026-03-16T21:21:20.122992",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "8-K",
+    "filing_date": "2022-04-29",
+    "accession_number": "0001551152-22-000012",
+    "primary_document": "abbv-20220429.htm",
+    "fetched_at": "2026-03-16T21:21:20.122994",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "8-K",
+    "filing_date": "2022-04-29",
+    "accession_number": "0001551152-22-000010",
+    "primary_document": "abbv-20220429.htm",
+    "fetched_at": "2026-03-16T21:21:20.122996",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "8-K",
+    "filing_date": "2022-04-21",
+    "accession_number": "0001104659-22-048450",
+    "primary_document": "tm2213254d1_8k.htm",
+    "fetched_at": "2026-03-16T21:21:20.122999",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "8-K",
+    "filing_date": "2022-04-13",
+    "accession_number": "0001104659-22-045308",
+    "primary_document": "tm2212581d1_8k.htm",
+    "fetched_at": "2026-03-16T21:21:20.123002",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "8-K",
+    "filing_date": "2022-03-04",
+    "accession_number": "0001104659-22-030613",
+    "primary_document": "tm228136d1_8k.htm",
+    "fetched_at": "2026-03-16T21:21:20.123005",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "10-K",
+    "filing_date": "2022-02-18",
+    "accession_number": "0001551152-22-000007",
+    "primary_document": "abbv-20211231.htm",
+    "fetched_at": "2026-03-16T21:21:20.123009",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "8-K",
+    "filing_date": "2022-02-02",
+    "accession_number": "0001551152-22-000003",
+    "primary_document": "abbv-20220202.htm",
+    "fetched_at": "2026-03-16T21:21:20.123013",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "8-K",
+    "filing_date": "2021-12-17",
+    "accession_number": "0001104659-21-151213",
+    "primary_document": "tm2135667d2_8k.htm",
+    "fetched_at": "2026-03-16T21:21:20.123017",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "8-K",
+    "filing_date": "2021-12-16",
+    "accession_number": "0001104659-21-150570",
+    "primary_document": "tm2135667d1_8k.htm",
+    "fetched_at": "2026-03-16T21:21:20.123020",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "10-Q",
+    "filing_date": "2021-11-02",
+    "accession_number": "0001551152-21-000031",
+    "primary_document": "abbv-20210930.htm",
+    "fetched_at": "2026-03-16T21:21:20.123022",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "8-K",
+    "filing_date": "2021-10-29",
+    "accession_number": "0001551152-21-000028",
+    "primary_document": "abbv-20211029.htm",
+    "fetched_at": "2026-03-16T21:21:20.123025",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "8-K",
+    "filing_date": "2021-08-19",
+    "accession_number": "0001104659-21-107639",
+    "primary_document": "tm2125525d1_8k.htm",
+    "fetched_at": "2026-03-16T21:21:20.123028",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "10-Q",
+    "filing_date": "2021-08-02",
+    "accession_number": "0001551152-21-000025",
+    "primary_document": "abbv-20210630.htm",
+    "fetched_at": "2026-03-16T21:21:20.123030",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "8-K",
+    "filing_date": "2021-07-30",
+    "accession_number": "0001551152-21-000021",
+    "primary_document": "abbv-20210730.htm",
+    "fetched_at": "2026-03-16T21:21:20.123033",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "8-K",
+    "filing_date": "2021-05-10",
+    "accession_number": "0001104659-21-063958",
+    "primary_document": "tm2115632d1_8k.htm",
+    "fetched_at": "2026-03-16T21:21:20.123036",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "10-Q",
+    "filing_date": "2021-05-07",
+    "accession_number": "0001551152-21-000016",
+    "primary_document": "abbv-20210331.htm",
+    "fetched_at": "2026-03-16T21:21:20.123039",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "8-K",
+    "filing_date": "2021-04-30",
+    "accession_number": "0001551152-21-000013",
+    "primary_document": "abbv-20210430.htm",
+    "fetched_at": "2026-03-16T21:21:20.123041",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "8-K",
+    "filing_date": "2021-04-20",
+    "accession_number": "0001104659-21-052229",
+    "primary_document": "tm2113328d1_8k.htm",
+    "fetched_at": "2026-03-16T21:21:20.123044",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "8-K",
+    "filing_date": "2021-03-12",
+    "accession_number": "0001104659-21-035654",
+    "primary_document": "tm219217d1_8k.htm",
+    "fetched_at": "2026-03-16T21:21:20.123047",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "10-K",
+    "filing_date": "2021-02-19",
+    "accession_number": "0001551152-21-000008",
+    "primary_document": "abbv-20201231.htm",
+    "fetched_at": "2026-03-16T21:21:20.123052",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "8-K",
+    "filing_date": "2021-02-03",
+    "accession_number": "0001551152-21-000003",
+    "primary_document": "abbv-20210203.htm",
+    "fetched_at": "2026-03-16T21:21:20.123055",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "8-K",
+    "filing_date": "2021-01-12",
+    "accession_number": "0001104659-21-003462",
+    "primary_document": "tm212802d1_8k.htm",
+    "fetched_at": "2026-03-16T21:21:20.123057",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "8-K",
+    "filing_date": "2021-01-06",
+    "accession_number": "0001104659-21-001570",
+    "primary_document": "tm211488d1_8k.htm",
+    "fetched_at": "2026-03-16T21:21:20.123060",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "8-K",
+    "filing_date": "2020-11-18",
+    "accession_number": "0001104659-20-126925",
+    "primary_document": "tm2036246-1_8k.htm",
+    "fetched_at": "2026-03-16T21:21:20.123063",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "8-K",
+    "filing_date": "2020-11-12",
+    "accession_number": "0001104659-20-124093",
+    "primary_document": "tm2035696d1_8k.htm",
+    "fetched_at": "2026-03-16T21:21:20.123066",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "10-Q",
+    "filing_date": "2020-11-04",
+    "accession_number": "0001551152-20-000032",
+    "primary_document": "abbv-20200930x10q.htm",
+    "fetched_at": "2026-03-16T21:21:20.123068",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "8-K",
+    "filing_date": "2020-10-30",
+    "accession_number": "0001551152-20-000029",
+    "primary_document": "abbv-20201030.htm",
+    "fetched_at": "2026-03-16T21:21:20.123070",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "8-K",
+    "filing_date": "2020-10-19",
+    "accession_number": "0001104659-20-115857",
+    "primary_document": "tm2031835d6_8k.htm",
+    "fetched_at": "2026-03-16T21:21:20.123073",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "8-K",
+    "filing_date": "2020-10-02",
+    "accession_number": "0001104659-20-111687",
+    "primary_document": "tm2031835d3_8k.htm",
+    "fetched_at": "2026-03-16T21:21:20.123076",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "10-Q",
+    "filing_date": "2020-08-04",
+    "accession_number": "0001551152-20-000023",
+    "primary_document": "abbv-20200630x10q.htm",
+    "fetched_at": "2026-03-16T21:21:20.123078",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "8-K",
+    "filing_date": "2020-07-31",
+    "accession_number": "0001551152-20-000019",
+    "primary_document": "abbv-20200630x8k.htm",
+    "fetched_at": "2026-03-16T21:21:20.123081",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "8-K",
+    "filing_date": "2020-07-29",
+    "accession_number": "0001104659-20-087827",
+    "primary_document": "tm2025879d1_8k.htm",
+    "fetched_at": "2026-03-16T21:21:20.123083",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "8-K",
+    "filing_date": "2020-05-14",
+    "accession_number": "0001104659-20-061621",
+    "primary_document": "tm2019527-2_8k.htm",
+    "fetched_at": "2026-03-16T21:21:20.123086",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "8-K",
+    "filing_date": "2020-05-12",
+    "accession_number": "0001104659-20-060256",
+    "primary_document": "tm2019418d1_8k.htm",
+    "fetched_at": "2026-03-16T21:21:20.123089",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "8-K",
+    "filing_date": "2020-05-08",
+    "accession_number": "0001104659-20-058837",
+    "primary_document": "tm2018740d2_8k.htm",
+    "fetched_at": "2026-03-16T21:21:20.123092",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "10-Q",
+    "filing_date": "2020-05-08",
+    "accession_number": "0001551152-20-000015",
+    "primary_document": "abbv-20200331x10q.htm",
+    "fetched_at": "2026-03-16T21:21:20.123094",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "8-K",
+    "filing_date": "2020-05-06",
+    "accession_number": "0001104659-20-057093",
+    "primary_document": "tm2018740-1_8k.htm",
+    "fetched_at": "2026-03-16T21:21:20.123097",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "8-K",
+    "filing_date": "2020-05-01",
+    "accession_number": "0001551152-20-000010",
+    "primary_document": "abbv-20200331x8k.htm",
+    "fetched_at": "2026-03-16T21:21:20.123099",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "8-K",
+    "filing_date": "2020-04-27",
+    "accession_number": "0001104659-20-051316",
+    "primary_document": "tm2016900-1_8k.htm",
+    "fetched_at": "2026-03-16T21:21:20.123101",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "8-K",
+    "filing_date": "2020-04-20",
+    "accession_number": "0001104659-20-048487",
+    "primary_document": "tm2016296-1_8k.htm",
+    "fetched_at": "2026-03-16T21:21:20.123104",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "8-K",
+    "filing_date": "2020-04-06",
+    "accession_number": "0001104659-20-043408",
+    "primary_document": "tm2015052-1_8k.htm",
+    "fetched_at": "2026-03-16T21:21:20.123107",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "8-K",
+    "filing_date": "2020-03-23",
+    "accession_number": "0001104659-20-037093",
+    "primary_document": "tm2013434d1_8k.htm",
+    "fetched_at": "2026-03-16T21:21:20.123110",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "8-K",
+    "filing_date": "2020-03-09",
+    "accession_number": "0001104659-20-030507",
+    "primary_document": "tm2012020-1_8k.htm",
+    "fetched_at": "2026-03-16T21:21:20.123113",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "8-K",
+    "filing_date": "2020-02-24",
+    "accession_number": "0001104659-20-024097",
+    "primary_document": "tm209721d1_8k.htm",
+    "fetched_at": "2026-03-16T21:21:20.123116",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "10-K",
+    "filing_date": "2020-02-21",
+    "accession_number": "0001551152-20-000007",
+    "primary_document": "abbv-20191231x10k.htm",
+    "fetched_at": "2026-03-16T21:21:20.123119",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "8-K",
+    "filing_date": "2020-02-14",
+    "accession_number": "0001104659-20-022002",
+    "primary_document": "tm206687d1_8k.htm",
+    "fetched_at": "2026-03-16T21:21:20.123121",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "8-K",
+    "filing_date": "2020-02-07",
+    "accession_number": "0001551152-20-000004",
+    "primary_document": "abbv-20191231x8k.htm",
+    "fetched_at": "2026-03-16T21:21:20.123124",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "8-K",
+    "filing_date": "2020-01-27",
+    "accession_number": "0001104659-20-006940",
+    "primary_document": "tm205890d1_8k.htm",
+    "fetched_at": "2026-03-16T21:21:20.123126",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "8-K",
+    "filing_date": "2019-12-20",
+    "accession_number": "0001104659-19-074689",
+    "primary_document": "tm1926572d1_8k.htm",
+    "fetched_at": "2026-03-16T21:21:20.123128",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "8-K",
+    "filing_date": "2019-11-26",
+    "accession_number": "0001104659-19-067264",
+    "primary_document": "tm1923664d1_8k.htm",
+    "fetched_at": "2026-03-16T21:21:20.123131",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "8-K",
+    "filing_date": "2019-11-18",
+    "accession_number": "0001104659-19-064905",
+    "primary_document": "tm1922045-3_8k.htm",
+    "fetched_at": "2026-03-16T21:21:20.123133",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "8-K",
+    "filing_date": "2019-11-13",
+    "accession_number": "0001104659-19-063366",
+    "primary_document": "tm1922692-1_8k.htm",
+    "fetched_at": "2026-03-16T21:21:20.123137",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "8-K",
+    "filing_date": "2019-11-08",
+    "accession_number": "0001104659-19-061290",
+    "primary_document": "tm1922184d1_8k.htm",
+    "fetched_at": "2026-03-16T21:21:20.123140",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "8-K",
+    "filing_date": "2019-11-07",
+    "accession_number": "0001104659-19-060862",
+    "primary_document": "tm1921884-1_8k.htm",
+    "fetched_at": "2026-03-16T21:21:20.123143",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "8-K",
+    "filing_date": "2019-11-06",
+    "accession_number": "0001104659-19-060477",
+    "primary_document": "tm1922012-1_8k.htm",
+    "fetched_at": "2026-03-16T21:21:20.123146",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "10-Q",
+    "filing_date": "2019-11-06",
+    "accession_number": "0001551152-19-000030",
+    "primary_document": "abbv-20190930x10q.htm",
+    "fetched_at": "2026-03-16T21:21:20.123149",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "8-K",
+    "filing_date": "2019-11-01",
+    "accession_number": "0001551152-19-000026",
+    "primary_document": "abbv-20190930x8k.htm",
+    "fetched_at": "2026-03-16T21:21:20.123151",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "8-K",
+    "filing_date": "2019-10-25",
+    "accession_number": "0001104659-19-056315",
+    "primary_document": "tm1920906-1_8k.htm",
+    "fetched_at": "2026-03-16T21:21:20.123154",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "8-K",
+    "filing_date": "2019-10-22",
+    "accession_number": "0001104659-19-055567",
+    "primary_document": "tm1920558-2_8k.htm",
+    "fetched_at": "2026-03-16T21:21:20.123156",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "8-K",
+    "filing_date": "2019-09-26",
+    "accession_number": "0001410578-19-001438",
+    "primary_document": "tv530006_8k.htm",
+    "fetched_at": "2026-03-16T21:21:20.123159",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "8-K",
+    "filing_date": "2019-09-23",
+    "accession_number": "0001410578-19-001379",
+    "primary_document": "tv529698_8k.htm",
+    "fetched_at": "2026-03-16T21:21:20.123161",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "8-K",
+    "filing_date": "2019-09-16",
+    "accession_number": "0001410578-19-001244",
+    "primary_document": "tv529457_8k.htm",
+    "fetched_at": "2026-03-16T21:21:20.123164",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "8-K",
+    "filing_date": "2019-09-16",
+    "accession_number": "0001410578-19-001242",
+    "primary_document": "tv529395_8k.htm",
+    "fetched_at": "2026-03-16T21:21:20.123166",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "8-K",
+    "filing_date": "2019-08-30",
+    "accession_number": "0001410578-19-000980",
+    "primary_document": "tv528398_8k.htm",
+    "fetched_at": "2026-03-16T21:21:20.123168",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "10-Q",
+    "filing_date": "2019-08-05",
+    "accession_number": "0001551152-19-000023",
+    "primary_document": "abbv-20190630x10q.htm",
+    "fetched_at": "2026-03-16T21:21:20.123171",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "8-K",
+    "filing_date": "2019-07-26",
+    "accession_number": "0001551152-19-000021",
+    "primary_document": "abbv-20190630x8k.htm",
+    "fetched_at": "2026-03-16T21:21:20.123174",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "8-K",
+    "filing_date": "2019-07-16",
+    "accession_number": "0001104659-19-040574",
+    "primary_document": "a19-12093_28k.htm",
+    "fetched_at": "2026-03-16T21:21:20.123176",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "8-K",
+    "filing_date": "2019-06-25",
+    "accession_number": "0001104659-19-037446",
+    "primary_document": "a19-12093_18k.htm",
+    "fetched_at": "2026-03-16T21:21:20.123179",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "8-K",
+    "filing_date": "2019-05-06",
+    "accession_number": "0001104659-19-027194",
+    "primary_document": "a19-9433_18k.htm",
+    "fetched_at": "2026-03-16T21:21:20.123182",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "10-Q",
+    "filing_date": "2019-05-03",
+    "accession_number": "0001551152-19-000016",
+    "primary_document": "abbv-20190331x10q.htm",
+    "fetched_at": "2026-03-16T21:21:20.123185",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "8-K",
+    "filing_date": "2019-04-25",
+    "accession_number": "0001551152-19-000012",
+    "primary_document": "abbv-20190331x8k.htm",
+    "fetched_at": "2026-03-16T21:21:20.123187",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "10-K",
+    "filing_date": "2019-02-27",
+    "accession_number": "0001551152-19-000008",
+    "primary_document": "abbv-20181231x10k.htm",
+    "fetched_at": "2026-03-16T21:21:20.123191",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "8-K",
+    "filing_date": "2019-01-25",
+    "accession_number": "0001551152-19-000004",
+    "primary_document": "abbv-20181231x8k.htm",
+    "fetched_at": "2026-03-16T21:21:20.123195",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "8-K",
+    "filing_date": "2019-01-04",
+    "accession_number": "0001104659-19-000837",
+    "primary_document": "a19-1169_18k.htm",
+    "fetched_at": "2026-03-16T21:21:20.123197",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "8-K",
+    "filing_date": "2019-01-04",
+    "accession_number": "0001104659-19-000836",
+    "primary_document": "a19-1169_28k.htm",
+    "fetched_at": "2026-03-16T21:21:20.123199",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "8-K",
+    "filing_date": "2018-12-17",
+    "accession_number": "0001104659-18-073224",
+    "primary_document": "a18-41691_18k.htm",
+    "fetched_at": "2026-03-16T21:21:20.123202",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "10-Q",
+    "filing_date": "2018-11-07",
+    "accession_number": "0001551152-18-000042",
+    "primary_document": "abbv-20180930x10q.htm",
+    "fetched_at": "2026-03-16T21:21:20.123205",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "8-K",
+    "filing_date": "2018-11-02",
+    "accession_number": "0001551152-18-000038",
+    "primary_document": "abbv-20180930x8k.htm",
+    "fetched_at": "2026-03-16T21:21:20.123208",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "8-K",
+    "filing_date": "2018-10-19",
+    "accession_number": "0001104659-18-062867",
+    "primary_document": "a18-36964_18k.htm",
+    "fetched_at": "2026-03-16T21:21:20.123210",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "8-K",
+    "filing_date": "2018-09-18",
+    "accession_number": "0001104659-18-057447",
+    "primary_document": "a18-27129_58k.htm",
+    "fetched_at": "2026-03-16T21:21:20.123213",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "8-K",
+    "filing_date": "2018-09-06",
+    "accession_number": "0001104659-18-055609",
+    "primary_document": "a18-24082_18k.htm",
+    "fetched_at": "2026-03-16T21:21:20.123216",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "10-Q",
+    "filing_date": "2018-08-07",
+    "accession_number": "0001551152-18-000032",
+    "primary_document": "abbv-20180630x10q.htm",
+    "fetched_at": "2026-03-16T21:21:20.123218",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "8-K",
+    "filing_date": "2018-07-27",
+    "accession_number": "0001551152-18-000029",
+    "primary_document": "abbv-20180630x8k.htm",
+    "fetched_at": "2026-03-16T21:21:20.123220",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "8-K",
+    "filing_date": "2018-05-18",
+    "accession_number": "0001104659-18-034532",
+    "primary_document": "a18-12281_178k.htm",
+    "fetched_at": "2026-03-16T21:21:20.123224",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "8-K",
+    "filing_date": "2018-05-08",
+    "accession_number": "0001104659-18-031358",
+    "primary_document": "a18-13062_18k.htm",
+    "fetched_at": "2026-03-16T21:21:20.123226",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "10-Q",
+    "filing_date": "2018-05-04",
+    "accession_number": "0001551152-18-000025",
+    "primary_document": "abbv-20180331x10q.htm",
+    "fetched_at": "2026-03-16T21:21:20.123229",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "8-K",
+    "filing_date": "2018-05-01",
+    "accession_number": "0001104659-18-029415",
+    "primary_document": "a18-12281_118k.htm",
+    "fetched_at": "2026-03-16T21:21:20.123232",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "8-K",
+    "filing_date": "2018-04-26",
+    "accession_number": "0001551152-18-000020",
+    "primary_document": "abbv-20180331x8kclassic.htm",
+    "fetched_at": "2026-03-16T21:21:20.123234",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "10-K",
+    "filing_date": "2018-02-16",
+    "accession_number": "0001551152-18-000014",
+    "primary_document": "abbv-20171231x10k.htm",
+    "fetched_at": "2026-03-16T21:21:20.123239",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "8-K",
+    "filing_date": "2018-01-26",
+    "accession_number": "0001551152-18-000008",
+    "primary_document": "abbv-20171231x8k.htm",
+    "fetched_at": "2026-03-16T21:21:20.123241",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "10-Q",
+    "filing_date": "2017-11-07",
+    "accession_number": "0001551152-17-000035",
+    "primary_document": "abbv-20170930x10q.htm",
+    "fetched_at": "2026-03-16T21:21:20.123244",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "8-K",
+    "filing_date": "2017-10-27",
+    "accession_number": "0001551152-17-000032",
+    "primary_document": "abbv-20170930x8k.htm",
+    "fetched_at": "2026-03-16T21:21:20.123247",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "10-Q",
+    "filing_date": "2017-08-07",
+    "accession_number": "0001551152-17-000025",
+    "primary_document": "abbv-20170630x10q.htm",
+    "fetched_at": "2026-03-16T21:21:20.123250",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "8-K",
+    "filing_date": "2017-07-28",
+    "accession_number": "0001551152-17-000021",
+    "primary_document": "abbv_20170630x8k.htm",
+    "fetched_at": "2026-03-16T21:21:20.123252",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "8-K",
+    "filing_date": "2017-05-09",
+    "accession_number": "0001104659-17-031175",
+    "primary_document": "a17-12687_18k.htm",
+    "fetched_at": "2026-03-16T21:21:20.123257",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "10-Q",
+    "filing_date": "2017-05-05",
+    "accession_number": "0001551152-17-000016",
+    "primary_document": "abbv-20170331x10q.htm",
+    "fetched_at": "2026-03-16T21:21:20.123259",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "8-K",
+    "filing_date": "2017-04-27",
+    "accession_number": "0001551152-17-000008",
+    "primary_document": "abbv_20170331x8k.htm",
+    "fetched_at": "2026-03-16T21:21:20.123262",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "ABBV",
+    "cik": "1551152",
+    "form_type": "10-K",
+    "filing_date": "2017-02-17",
+    "accession_number": "0001551152-17-000004",
+    "primary_document": "abbv-12312016x10k.htm",
+    "fetched_at": "2026-03-16T21:21:20.123267",
+    "source_name": "sec_edgar"
+  }
+]

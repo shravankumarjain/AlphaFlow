@@ -1,0 +1,1572 @@
+[
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "10-Q",
+    "filing_date": "2026-03-11",
+    "accession_number": "0000909832-26-000029",
+    "primary_document": "cost-20260215.htm",
+    "fetched_at": "2026-03-16T21:21:06.709621",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "8-K",
+    "filing_date": "2026-03-05",
+    "accession_number": "0000909832-26-000025",
+    "primary_document": "cost-20260305.htm",
+    "fetched_at": "2026-03-16T21:21:06.709649",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "8-K",
+    "filing_date": "2026-01-21",
+    "accession_number": "0000909832-26-000016",
+    "primary_document": "cost-20260115.htm",
+    "fetched_at": "2026-03-16T21:21:06.709656",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "10-Q",
+    "filing_date": "2025-12-17",
+    "accession_number": "0000909832-25-000169",
+    "primary_document": "cost-20251123.htm",
+    "fetched_at": "2026-03-16T21:21:06.709665",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "8-K",
+    "filing_date": "2025-12-11",
+    "accession_number": "0000909832-25-000164",
+    "primary_document": "cost-20251211.htm",
+    "fetched_at": "2026-03-16T21:21:06.709670",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "8-K",
+    "filing_date": "2025-10-20",
+    "accession_number": "0000909832-25-000107",
+    "primary_document": "cost-20251014.htm",
+    "fetched_at": "2026-03-16T21:21:06.709680",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "8-K",
+    "filing_date": "2025-10-15",
+    "accession_number": "0000909832-25-000105",
+    "primary_document": "cost-20251015.htm",
+    "fetched_at": "2026-03-16T21:21:06.709686",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "10-K",
+    "filing_date": "2025-10-08",
+    "accession_number": "0000909832-25-000101",
+    "primary_document": "cost-20250831.htm",
+    "fetched_at": "2026-03-16T21:21:06.709691",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "8-K",
+    "filing_date": "2025-09-25",
+    "accession_number": "0000909832-25-000093",
+    "primary_document": "cost-20250925.htm",
+    "fetched_at": "2026-03-16T21:21:06.709697",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "8-K",
+    "filing_date": "2025-08-07",
+    "accession_number": "0000909832-25-000064",
+    "primary_document": "cost-20250804.htm",
+    "fetched_at": "2026-03-16T21:21:06.709704",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "8-K",
+    "filing_date": "2025-07-16",
+    "accession_number": "0000909832-25-000061",
+    "primary_document": "cost-20250715.htm",
+    "fetched_at": "2026-03-16T21:21:06.709709",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "8-K",
+    "filing_date": "2025-06-11",
+    "accession_number": "0000909832-25-000036",
+    "primary_document": "cost-20250610.htm",
+    "fetched_at": "2026-03-16T21:21:06.709716",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "10-Q",
+    "filing_date": "2025-06-05",
+    "accession_number": "0000909832-25-000033",
+    "primary_document": "cost-20250511.htm",
+    "fetched_at": "2026-03-16T21:21:06.709722",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "8-K",
+    "filing_date": "2025-05-29",
+    "accession_number": "0000909832-25-000031",
+    "primary_document": "cost-20250529.htm",
+    "fetched_at": "2026-03-16T21:21:06.709734",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "8-K",
+    "filing_date": "2025-04-16",
+    "accession_number": "0000909832-25-000023",
+    "primary_document": "cost-20250416.htm",
+    "fetched_at": "2026-03-16T21:21:06.709740",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "10-Q",
+    "filing_date": "2025-03-13",
+    "accession_number": "0000909832-25-000015",
+    "primary_document": "cost-20250216.htm",
+    "fetched_at": "2026-03-16T21:21:06.709747",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "8-K",
+    "filing_date": "2025-03-06",
+    "accession_number": "0000909832-25-000012",
+    "primary_document": "cost-20250306.htm",
+    "fetched_at": "2026-03-16T21:21:06.709752",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "8-K",
+    "filing_date": "2025-02-03",
+    "accession_number": "0000909832-25-000008",
+    "primary_document": "cost-20250130.htm",
+    "fetched_at": "2026-03-16T21:21:06.709757",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "8-K",
+    "filing_date": "2025-01-27",
+    "accession_number": "0000909832-25-000005",
+    "primary_document": "cost-20250123.htm",
+    "fetched_at": "2026-03-16T21:21:06.709762",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "10-Q",
+    "filing_date": "2024-12-19",
+    "accession_number": "0000909832-24-000079",
+    "primary_document": "cost-20241124.htm",
+    "fetched_at": "2026-03-16T21:21:06.709767",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "8-K",
+    "filing_date": "2024-12-12",
+    "accession_number": "0000909832-24-000075",
+    "primary_document": "cost-20241212.htm",
+    "fetched_at": "2026-03-16T21:21:06.709772",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "8-K",
+    "filing_date": "2024-11-07",
+    "accession_number": "0000909832-24-000054",
+    "primary_document": "cost-20241104.htm",
+    "fetched_at": "2026-03-16T21:21:06.709777",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "8-K",
+    "filing_date": "2024-10-17",
+    "accession_number": "0000909832-24-000052",
+    "primary_document": "cost-20241016.htm",
+    "fetched_at": "2026-03-16T21:21:06.709786",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "10-K",
+    "filing_date": "2024-10-09",
+    "accession_number": "0000909832-24-000049",
+    "primary_document": "cost-20240901.htm",
+    "fetched_at": "2026-03-16T21:21:06.709792",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "8-K",
+    "filing_date": "2024-09-26",
+    "accession_number": "0000909832-24-000043",
+    "primary_document": "cost-20240926.htm",
+    "fetched_at": "2026-03-16T21:21:06.709799",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "8-K",
+    "filing_date": "2024-09-20",
+    "accession_number": "0000909832-24-000039",
+    "primary_document": "cost-20240916.htm",
+    "fetched_at": "2026-03-16T21:21:06.709804",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "8-K",
+    "filing_date": "2024-07-10",
+    "accession_number": "0000909832-24-000036",
+    "primary_document": "cost-20240710.htm",
+    "fetched_at": "2026-03-16T21:21:06.709813",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "10-Q",
+    "filing_date": "2024-06-06",
+    "accession_number": "0000909832-24-000029",
+    "primary_document": "cost-20240512.htm",
+    "fetched_at": "2026-03-16T21:21:06.709818",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "8-K",
+    "filing_date": "2024-05-30",
+    "accession_number": "0000909832-24-000026",
+    "primary_document": "cost-20240530.htm",
+    "fetched_at": "2026-03-16T21:21:06.709823",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "8-K",
+    "filing_date": "2024-04-10",
+    "accession_number": "0000909832-24-000020",
+    "primary_document": "cost-20240410.htm",
+    "fetched_at": "2026-03-16T21:21:06.709829",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "10-Q",
+    "filing_date": "2024-03-13",
+    "accession_number": "0000909832-24-000017",
+    "primary_document": "cost-20240218.htm",
+    "fetched_at": "2026-03-16T21:21:06.709834",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "8-K",
+    "filing_date": "2024-03-07",
+    "accession_number": "0000909832-24-000012",
+    "primary_document": "cost-20240307.htm",
+    "fetched_at": "2026-03-16T21:21:06.709858",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "8-K",
+    "filing_date": "2024-02-09",
+    "accession_number": "0000909832-24-000008",
+    "primary_document": "cost-20240205.htm",
+    "fetched_at": "2026-03-16T21:21:06.709871",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "8-K",
+    "filing_date": "2024-01-22",
+    "accession_number": "0000909832-24-000003",
+    "primary_document": "cost-20240118.htm",
+    "fetched_at": "2026-03-16T21:21:06.709878",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "10-Q",
+    "filing_date": "2023-12-20",
+    "accession_number": "0000909832-23-000065",
+    "primary_document": "cost-20231126.htm",
+    "fetched_at": "2026-03-16T21:21:06.709887",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "8-K",
+    "filing_date": "2023-12-14",
+    "accession_number": "0000909832-23-000062",
+    "primary_document": "cost-20231213.htm",
+    "fetched_at": "2026-03-16T21:21:06.709893",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "8-K",
+    "filing_date": "2023-11-24",
+    "accession_number": "0000909832-23-000049",
+    "primary_document": "cost-20231117.htm",
+    "fetched_at": "2026-03-16T21:21:06.709898",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "8-K",
+    "filing_date": "2023-10-20",
+    "accession_number": "0000909832-23-000047",
+    "primary_document": "cost-20231018.htm",
+    "fetched_at": "2026-03-16T21:21:06.709908",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "10-K",
+    "filing_date": "2023-10-11",
+    "accession_number": "0000909832-23-000042",
+    "primary_document": "cost-20230903.htm",
+    "fetched_at": "2026-03-16T21:21:06.709915",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "8-K",
+    "filing_date": "2023-09-26",
+    "accession_number": "0000909832-23-000038",
+    "primary_document": "cost-20230926.htm",
+    "fetched_at": "2026-03-16T21:21:06.709920",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "8-K",
+    "filing_date": "2023-08-17",
+    "accession_number": "0000909832-23-000036",
+    "primary_document": "cost-20230816.htm",
+    "fetched_at": "2026-03-16T21:21:06.709927",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "8-K",
+    "filing_date": "2023-08-10",
+    "accession_number": "0000909832-23-000034",
+    "primary_document": "cost-20230809.htm",
+    "fetched_at": "2026-03-16T21:21:06.709932",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "10-Q",
+    "filing_date": "2023-06-01",
+    "accession_number": "0000909832-23-000028",
+    "primary_document": "cost-20230507.htm",
+    "fetched_at": "2026-03-16T21:21:06.709939",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "8-K",
+    "filing_date": "2023-05-25",
+    "accession_number": "0000909832-23-000025",
+    "primary_document": "cost-20230525.htm",
+    "fetched_at": "2026-03-16T21:21:06.709943",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "8-K",
+    "filing_date": "2023-04-19",
+    "accession_number": "0000909832-23-000019",
+    "primary_document": "cost-20230419.htm",
+    "fetched_at": "2026-03-16T21:21:06.709948",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "10-Q",
+    "filing_date": "2023-03-09",
+    "accession_number": "0000909832-23-000014",
+    "primary_document": "cost-20230212.htm",
+    "fetched_at": "2026-03-16T21:21:06.709954",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "8-K",
+    "filing_date": "2023-03-03",
+    "accession_number": "0000909832-23-000010",
+    "primary_document": "cost-20230302.htm",
+    "fetched_at": "2026-03-16T21:21:06.709959",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "8-K",
+    "filing_date": "2023-01-25",
+    "accession_number": "0000909832-23-000007",
+    "primary_document": "cost-20230119.htm",
+    "fetched_at": "2026-03-16T21:21:06.709965",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "8-K",
+    "filing_date": "2023-01-19",
+    "accession_number": "0000909832-23-000004",
+    "primary_document": "cost-20230119.htm",
+    "fetched_at": "2026-03-16T21:21:06.709970",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "10-Q",
+    "filing_date": "2022-12-29",
+    "accession_number": "0000909832-22-000035",
+    "primary_document": "cost-20221120.htm",
+    "fetched_at": "2026-03-16T21:21:06.709974",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "8-K",
+    "filing_date": "2022-12-09",
+    "accession_number": "0000909832-22-000029",
+    "primary_document": "cost-20221208.htm",
+    "fetched_at": "2026-03-16T21:21:06.709980",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "8-K",
+    "filing_date": "2022-11-09",
+    "accession_number": "0001193125-22-281298",
+    "primary_document": "d352180d8k.htm",
+    "fetched_at": "2026-03-16T21:21:06.709985",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "8-K",
+    "filing_date": "2022-10-12",
+    "accession_number": "0001193125-22-261321",
+    "primary_document": "d329642d8k.htm",
+    "fetched_at": "2026-03-16T21:21:06.709993",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "10-K",
+    "filing_date": "2022-10-05",
+    "accession_number": "0000909832-22-000021",
+    "primary_document": "cost-20220828.htm",
+    "fetched_at": "2026-03-16T21:21:06.710000",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "8-K",
+    "filing_date": "2022-09-23",
+    "accession_number": "0001193125-22-249988",
+    "primary_document": "d327884d8k.htm",
+    "fetched_at": "2026-03-16T21:21:06.710005",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "8-K",
+    "filing_date": "2022-07-13",
+    "accession_number": "0001193125-22-192921",
+    "primary_document": "d381572d8k.htm",
+    "fetched_at": "2026-03-16T21:21:06.710012",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "10-Q",
+    "filing_date": "2022-06-02",
+    "accession_number": "0000909832-22-000014",
+    "primary_document": "cost-20220508.htm",
+    "fetched_at": "2026-03-16T21:21:06.710026",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "8-K",
+    "filing_date": "2022-05-26",
+    "accession_number": "0001193125-22-161034",
+    "primary_document": "d362298d8k.htm",
+    "fetched_at": "2026-03-16T21:21:06.710032",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "8-K",
+    "filing_date": "2022-05-06",
+    "accession_number": "0001193125-22-143698",
+    "primary_document": "d301283d8k.htm",
+    "fetched_at": "2026-03-16T21:21:06.710037",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "8-K",
+    "filing_date": "2022-04-13",
+    "accession_number": "0001193125-22-104414",
+    "primary_document": "d321332d8k.htm",
+    "fetched_at": "2026-03-16T21:21:06.710060",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "10-Q",
+    "filing_date": "2022-03-10",
+    "accession_number": "0000909832-22-000005",
+    "primary_document": "cost-20220213.htm",
+    "fetched_at": "2026-03-16T21:21:06.710076",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "8-K",
+    "filing_date": "2022-03-09",
+    "accession_number": "0001193125-22-070653",
+    "primary_document": "d283681d8k.htm",
+    "fetched_at": "2026-03-16T21:21:06.710083",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "8-K",
+    "filing_date": "2022-03-04",
+    "accession_number": "0001193125-22-065629",
+    "primary_document": "d264475d8k.htm",
+    "fetched_at": "2026-03-16T21:21:06.710089",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "8-K",
+    "filing_date": "2022-02-03",
+    "accession_number": "0001193125-22-027035",
+    "primary_document": "d497640d8k.htm",
+    "fetched_at": "2026-03-16T21:21:06.710095",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "8-K",
+    "filing_date": "2022-01-25",
+    "accession_number": "0001193125-22-016856",
+    "primary_document": "d289189d8k.htm",
+    "fetched_at": "2026-03-16T21:21:06.710100",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "8-K",
+    "filing_date": "2022-01-20",
+    "accession_number": "0001193125-22-013868",
+    "primary_document": "d296761d8k.htm",
+    "fetched_at": "2026-03-16T21:21:06.710106",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "10-Q",
+    "filing_date": "2021-12-22",
+    "accession_number": "0000909832-21-000021",
+    "primary_document": "cost-20211121.htm",
+    "fetched_at": "2026-03-16T21:21:06.710112",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "8-K",
+    "filing_date": "2021-12-09",
+    "accession_number": "0001193125-21-352764",
+    "primary_document": "d241963d8k.htm",
+    "fetched_at": "2026-03-16T21:21:06.710119",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "8-K",
+    "filing_date": "2021-11-10",
+    "accession_number": "0001193125-21-325451",
+    "primary_document": "d167405d8k.htm",
+    "fetched_at": "2026-03-16T21:21:06.710124",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "8-K",
+    "filing_date": "2021-10-13",
+    "accession_number": "0001193125-21-297919",
+    "primary_document": "d237606d8k.htm",
+    "fetched_at": "2026-03-16T21:21:06.710132",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "10-K",
+    "filing_date": "2021-10-06",
+    "accession_number": "0000909832-21-000014",
+    "primary_document": "cost-20210829.htm",
+    "fetched_at": "2026-03-16T21:21:06.710138",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "8-K",
+    "filing_date": "2021-09-23",
+    "accession_number": "0001193125-21-280728",
+    "primary_document": "d233121d8k.htm",
+    "fetched_at": "2026-03-16T21:21:06.710143",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "8-K",
+    "filing_date": "2021-09-03",
+    "accession_number": "0001193125-21-265542",
+    "primary_document": "d197612d8k.htm",
+    "fetched_at": "2026-03-16T21:21:06.710150",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "8-K",
+    "filing_date": "2021-07-14",
+    "accession_number": "0001193125-21-214773",
+    "primary_document": "d201780d8k.htm",
+    "fetched_at": "2026-03-16T21:21:06.710155",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "10-Q",
+    "filing_date": "2021-06-03",
+    "accession_number": "0000909832-21-000008",
+    "primary_document": "cost-20210509.htm",
+    "fetched_at": "2026-03-16T21:21:06.710162",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "8-K",
+    "filing_date": "2021-05-27",
+    "accession_number": "0001193125-21-175491",
+    "primary_document": "d168243d8k.htm",
+    "fetched_at": "2026-03-16T21:21:06.710167",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "8-K",
+    "filing_date": "2021-04-14",
+    "accession_number": "0001193125-21-116374",
+    "primary_document": "d135001d8k.htm",
+    "fetched_at": "2026-03-16T21:21:06.710173",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "10-Q",
+    "filing_date": "2021-03-10",
+    "accession_number": "0000909832-21-000003",
+    "primary_document": "cost-20210214.htm",
+    "fetched_at": "2026-03-16T21:21:06.710181",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "8-K",
+    "filing_date": "2021-03-04",
+    "accession_number": "0001193125-21-069673",
+    "primary_document": "d100504d8k.htm",
+    "fetched_at": "2026-03-16T21:21:06.710186",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "8-K",
+    "filing_date": "2021-01-26",
+    "accession_number": "0001193125-21-017361",
+    "primary_document": "d115093d8k.htm",
+    "fetched_at": "2026-03-16T21:21:06.710192",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "8-K",
+    "filing_date": "2021-01-26",
+    "accession_number": "0001193125-21-016502",
+    "primary_document": "d100960d8k.htm",
+    "fetched_at": "2026-03-16T21:21:06.710197",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "10-Q",
+    "filing_date": "2020-12-16",
+    "accession_number": "0000909832-20-000026",
+    "primary_document": "cost-20201122.htm",
+    "fetched_at": "2026-03-16T21:21:06.710203",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "8-K",
+    "filing_date": "2020-12-10",
+    "accession_number": "0001193125-20-314970",
+    "primary_document": "d33609d8k.htm",
+    "fetched_at": "2026-03-16T21:21:06.710211",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "8-K",
+    "filing_date": "2020-11-18",
+    "accession_number": "0001193125-20-296223",
+    "primary_document": "d54011d8k.htm",
+    "fetched_at": "2026-03-16T21:21:06.710216",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "8-K",
+    "filing_date": "2020-10-15",
+    "accession_number": "0001193125-20-270247",
+    "primary_document": "d41700d8k.htm",
+    "fetched_at": "2026-03-16T21:21:06.710228",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "8-K",
+    "filing_date": "2020-10-14",
+    "accession_number": "0001193125-20-269236",
+    "primary_document": "d19903d8k.htm",
+    "fetched_at": "2026-03-16T21:21:06.710233",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "10-K",
+    "filing_date": "2020-10-07",
+    "accession_number": "0000909832-20-000017",
+    "primary_document": "cost-20200830.htm",
+    "fetched_at": "2026-03-16T21:21:06.710237",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "8-K",
+    "filing_date": "2020-09-24",
+    "accession_number": "0001193125-20-253502",
+    "primary_document": "d79176d8k.htm",
+    "fetched_at": "2026-03-16T21:21:06.710242",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "8-K",
+    "filing_date": "2020-09-16",
+    "accession_number": "0001193125-20-247153",
+    "primary_document": "d87006d8k.htm",
+    "fetched_at": "2026-03-16T21:21:06.710247",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "8-K",
+    "filing_date": "2020-07-16",
+    "accession_number": "0001193125-20-193637",
+    "primary_document": "d88644d8k.htm",
+    "fetched_at": "2026-03-16T21:21:06.710254",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "10-Q",
+    "filing_date": "2020-06-04",
+    "accession_number": "0000909832-20-000009",
+    "primary_document": "cost-20200510.htm",
+    "fetched_at": "2026-03-16T21:21:06.710261",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "8-K",
+    "filing_date": "2020-05-28",
+    "accession_number": "0001193125-20-154276",
+    "primary_document": "d918657d8k.htm",
+    "fetched_at": "2026-03-16T21:21:06.710266",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "8-K",
+    "filing_date": "2020-04-17",
+    "accession_number": "0001193125-20-110803",
+    "primary_document": "d903866d8k.htm",
+    "fetched_at": "2026-03-16T21:21:06.710271",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "8-K",
+    "filing_date": "2020-04-16",
+    "accession_number": "0001193125-20-109082",
+    "primary_document": "d919166d8k.htm",
+    "fetched_at": "2026-03-16T21:21:06.710277",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "10-Q",
+    "filing_date": "2020-03-12",
+    "accession_number": "0000909832-20-000004",
+    "primary_document": "cost10q21620.htm",
+    "fetched_at": "2026-03-16T21:21:06.710283",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "8-K",
+    "filing_date": "2020-03-05",
+    "accession_number": "0001193125-20-063247",
+    "primary_document": "d875804d8k.htm",
+    "fetched_at": "2026-03-16T21:21:06.710287",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "8-K",
+    "filing_date": "2020-01-29",
+    "accession_number": "0001193125-20-018115",
+    "primary_document": "d880773d8k.htm",
+    "fetched_at": "2026-03-16T21:21:06.710293",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "8-K",
+    "filing_date": "2020-01-28",
+    "accession_number": "0001193125-20-017134",
+    "primary_document": "d873620d8k.htm",
+    "fetched_at": "2026-03-16T21:21:06.710298",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "8-K",
+    "filing_date": "2020-01-24",
+    "accession_number": "0001193125-20-014071",
+    "primary_document": "d704254d8k.htm",
+    "fetched_at": "2026-03-16T21:21:06.710303",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "10-Q",
+    "filing_date": "2019-12-23",
+    "accession_number": "0000909832-19-000033",
+    "primary_document": "cost10q112419.htm",
+    "fetched_at": "2026-03-16T21:21:06.710308",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "8-K",
+    "filing_date": "2019-12-12",
+    "accession_number": "0001193125-19-312824",
+    "primary_document": "d826784d8k.htm",
+    "fetched_at": "2026-03-16T21:21:06.710313",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "8-K",
+    "filing_date": "2019-11-27",
+    "accession_number": "0001193125-19-302315",
+    "primary_document": "d841545d8k.htm",
+    "fetched_at": "2026-03-16T21:21:06.710319",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "8-K",
+    "filing_date": "2019-10-21",
+    "accession_number": "0001193125-19-270742",
+    "primary_document": "d816585d8k.htm",
+    "fetched_at": "2026-03-16T21:21:06.710327",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "8-K",
+    "filing_date": "2019-10-21",
+    "accession_number": "0001193125-19-270170",
+    "primary_document": "d784705d8k.htm",
+    "fetched_at": "2026-03-16T21:21:06.710332",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "10-K",
+    "filing_date": "2019-10-11",
+    "accession_number": "0000909832-19-000019",
+    "primary_document": "cost10k9119.htm",
+    "fetched_at": "2026-03-16T21:21:06.710338",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "8-K",
+    "filing_date": "2019-10-03",
+    "accession_number": "0001193125-19-261698",
+    "primary_document": "d814465d8k.htm",
+    "fetched_at": "2026-03-16T21:21:06.710342",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "8-K",
+    "filing_date": "2019-08-14",
+    "accession_number": "0001193125-19-221072",
+    "primary_document": "d792584d8k.htm",
+    "fetched_at": "2026-03-16T21:21:06.710350",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "10-Q",
+    "filing_date": "2019-06-06",
+    "accession_number": "0000909832-19-000013",
+    "primary_document": "cost10q51219.htm",
+    "fetched_at": "2026-03-16T21:21:06.710357",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "8-K",
+    "filing_date": "2019-05-31",
+    "accession_number": "0001193125-19-161475",
+    "primary_document": "d753197d8k.htm",
+    "fetched_at": "2026-03-16T21:21:06.710361",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "8-K",
+    "filing_date": "2019-04-30",
+    "accession_number": "0001193125-19-125993",
+    "primary_document": "d730783d8k.htm",
+    "fetched_at": "2026-03-16T21:21:06.710367",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "10-Q",
+    "filing_date": "2019-03-13",
+    "accession_number": "0000909832-19-000003",
+    "primary_document": "cost10q21719.htm",
+    "fetched_at": "2026-03-16T21:21:06.710373",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "8-K",
+    "filing_date": "2019-03-07",
+    "accession_number": "0001193125-19-067406",
+    "primary_document": "d710929d8k.htm",
+    "fetched_at": "2026-03-16T21:21:06.710379",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "8-K",
+    "filing_date": "2019-01-30",
+    "accession_number": "0001193125-19-022426",
+    "primary_document": "d699746d8k.htm",
+    "fetched_at": "2026-03-16T21:21:06.710384",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "8-K",
+    "filing_date": "2019-01-25",
+    "accession_number": "0001193125-19-017059",
+    "primary_document": "d696902d8k.htm",
+    "fetched_at": "2026-03-16T21:21:06.710389",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "10-Q",
+    "filing_date": "2018-12-20",
+    "accession_number": "0000909832-18-000022",
+    "primary_document": "cost10q112518.htm",
+    "fetched_at": "2026-03-16T21:21:06.710395",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "8-K",
+    "filing_date": "2018-12-13",
+    "accession_number": "0001193125-18-348921",
+    "primary_document": "d672004d8k.htm",
+    "fetched_at": "2026-03-16T21:21:06.710400",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "8-K",
+    "filing_date": "2018-10-26",
+    "accession_number": "0001193125-18-308900",
+    "primary_document": "d645635d8k.htm",
+    "fetched_at": "2026-03-16T21:21:06.710407",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "10-K",
+    "filing_date": "2018-10-26",
+    "accession_number": "0000909832-18-000013",
+    "primary_document": "cost10k9218.htm",
+    "fetched_at": "2026-03-16T21:21:06.710413",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "8-K",
+    "filing_date": "2018-10-24",
+    "accession_number": "0001193125-18-306510",
+    "primary_document": "d611814d8k.htm",
+    "fetched_at": "2026-03-16T21:21:06.710421",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "8-K",
+    "filing_date": "2018-10-04",
+    "accession_number": "0001193125-18-293414",
+    "primary_document": "d586980d8k.htm",
+    "fetched_at": "2026-03-16T21:21:06.710426",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "8-K",
+    "filing_date": "2018-08-17",
+    "accession_number": "0001193125-18-251830",
+    "primary_document": "d580516d8k.htm",
+    "fetched_at": "2026-03-16T21:21:06.710434",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "10-Q",
+    "filing_date": "2018-06-07",
+    "accession_number": "0000909832-18-000008",
+    "primary_document": "cost10q51318.htm",
+    "fetched_at": "2026-03-16T21:21:06.710440",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "8-K",
+    "filing_date": "2018-06-01",
+    "accession_number": "0001193125-18-180670",
+    "primary_document": "d585537d8k.htm",
+    "fetched_at": "2026-03-16T21:21:06.710445",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "8-K",
+    "filing_date": "2018-04-25",
+    "accession_number": "0001193125-18-129200",
+    "primary_document": "d519487d8k.htm",
+    "fetched_at": "2026-03-16T21:21:06.710451",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "10-Q",
+    "filing_date": "2018-03-15",
+    "accession_number": "0000909832-18-000002",
+    "primary_document": "cost10q21818.htm",
+    "fetched_at": "2026-03-16T21:21:06.710456",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "8-K",
+    "filing_date": "2018-03-07",
+    "accession_number": "0001193125-18-073668",
+    "primary_document": "d528611d8k.htm",
+    "fetched_at": "2026-03-16T21:21:06.710462",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "8-K",
+    "filing_date": "2018-02-05",
+    "accession_number": "0001193125-18-031999",
+    "primary_document": "d476310d8k.htm",
+    "fetched_at": "2026-03-16T21:21:06.710467",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "8-K",
+    "filing_date": "2018-01-31",
+    "accession_number": "0001193125-18-026879",
+    "primary_document": "d531823d8k.htm",
+    "fetched_at": "2026-03-16T21:21:06.710472",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "8-K",
+    "filing_date": "2018-01-09",
+    "accession_number": "0001193125-18-006983",
+    "primary_document": "d496076d8k.htm",
+    "fetched_at": "2026-03-16T21:21:06.710478",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "10-Q",
+    "filing_date": "2017-12-21",
+    "accession_number": "0000909832-17-000022",
+    "primary_document": "cost10q112617.htm",
+    "fetched_at": "2026-03-16T21:21:06.710486",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "8-K",
+    "filing_date": "2017-12-15",
+    "accession_number": "0001193125-17-369704",
+    "primary_document": "d493088d8k.htm",
+    "fetched_at": "2026-03-16T21:21:06.710492",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "8-K",
+    "filing_date": "2017-11-02",
+    "accession_number": "0001193125-17-330827",
+    "primary_document": "d482406d8k.htm",
+    "fetched_at": "2026-03-16T21:21:06.710497",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "8-K",
+    "filing_date": "2017-10-31",
+    "accession_number": "0001193125-17-327404",
+    "primary_document": "d485001d8k.htm",
+    "fetched_at": "2026-03-16T21:21:06.710502",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "10-K",
+    "filing_date": "2017-10-18",
+    "accession_number": "0000909832-17-000014",
+    "primary_document": "cost10k90317.htm",
+    "fetched_at": "2026-03-16T21:21:06.710513",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "8-K",
+    "filing_date": "2017-10-05",
+    "accession_number": "0001193125-17-304742",
+    "primary_document": "d466022d8k.htm",
+    "fetched_at": "2026-03-16T21:21:06.710520",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "8-K",
+    "filing_date": "2017-08-01",
+    "accession_number": "0001193125-17-243839",
+    "primary_document": "d432796d8k.htm",
+    "fetched_at": "2026-03-16T21:21:06.710528",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "10-Q",
+    "filing_date": "2017-06-01",
+    "accession_number": "0000909832-17-000009",
+    "primary_document": "cost10q50717.htm",
+    "fetched_at": "2026-03-16T21:21:06.710534",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "8-K",
+    "filing_date": "2017-05-26",
+    "accession_number": "0001193125-17-184018",
+    "primary_document": "d403696d8k.htm",
+    "fetched_at": "2026-03-16T21:21:06.710539",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "8-K",
+    "filing_date": "2017-05-16",
+    "accession_number": "0001193125-17-172294",
+    "primary_document": "d398248d8k.htm",
+    "fetched_at": "2026-03-16T21:21:06.710547",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "8-K",
+    "filing_date": "2017-04-26",
+    "accession_number": "0001193125-17-139196",
+    "primary_document": "d323475d8k.htm",
+    "fetched_at": "2026-03-16T21:21:06.710566",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "8-K",
+    "filing_date": "2017-03-21",
+    "accession_number": "0001193125-17-089659",
+    "primary_document": "d334685d8k.htm",
+    "fetched_at": "2026-03-16T21:21:06.710572",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "10-Q",
+    "filing_date": "2017-03-09",
+    "accession_number": "0000909832-17-000004",
+    "primary_document": "cost10q21217.htm",
+    "fetched_at": "2026-03-16T21:21:06.710578",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "8-K",
+    "filing_date": "2017-03-03",
+    "accession_number": "0001193125-17-069544",
+    "primary_document": "d355755d8k.htm",
+    "fetched_at": "2026-03-16T21:21:06.710596",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "8-K",
+    "filing_date": "2017-02-01",
+    "accession_number": "0001193125-17-027552",
+    "primary_document": "d338705d8k.htm",
+    "fetched_at": "2026-03-16T21:21:06.710604",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "8-K",
+    "filing_date": "2017-01-31",
+    "accession_number": "0001193125-17-025920",
+    "primary_document": "d338705d8k.htm",
+    "fetched_at": "2026-03-16T21:21:06.710609",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "8-K",
+    "filing_date": "2017-01-30",
+    "accession_number": "0001193125-17-022779",
+    "primary_document": "d339483d8k.htm",
+    "fetched_at": "2026-03-16T21:21:06.710614",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "10-Q",
+    "filing_date": "2016-12-16",
+    "accession_number": "0000909832-16-000040",
+    "primary_document": "cost10q112016.htm",
+    "fetched_at": "2026-03-16T21:21:06.710620",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "8-K",
+    "filing_date": "2016-12-08",
+    "accession_number": "0001193125-16-787613",
+    "primary_document": "d296238d8k.htm",
+    "fetched_at": "2026-03-16T21:21:06.710626",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "8-K",
+    "filing_date": "2016-12-08",
+    "accession_number": "0001193125-16-787609",
+    "primary_document": "d289248d8k.htm",
+    "fetched_at": "2026-03-16T21:21:06.710631",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "8-K",
+    "filing_date": "2016-11-03",
+    "accession_number": "0001193125-16-758884",
+    "primary_document": "d280773d8k.htm",
+    "fetched_at": "2026-03-16T21:21:06.710638",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "8-K",
+    "filing_date": "2016-10-26",
+    "accession_number": "0001193125-16-747484",
+    "primary_document": "d276215d8k.htm",
+    "fetched_at": "2026-03-16T21:21:06.710643",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "10-K",
+    "filing_date": "2016-10-12",
+    "accession_number": "0000909832-16-000032",
+    "primary_document": "cost10k82816.htm",
+    "fetched_at": "2026-03-16T21:21:06.710651",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "8-K",
+    "filing_date": "2016-09-30",
+    "accession_number": "0001193125-16-727544",
+    "primary_document": "d66078d8k.htm",
+    "fetched_at": "2026-03-16T21:21:06.710659",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "8-K",
+    "filing_date": "2016-09-29",
+    "accession_number": "0001193125-16-725850",
+    "primary_document": "d272304d8k.htm",
+    "fetched_at": "2026-03-16T21:21:06.710663",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "8-K",
+    "filing_date": "2016-07-26",
+    "accession_number": "0001193125-16-657523",
+    "primary_document": "d208703d8k.htm",
+    "fetched_at": "2026-03-16T21:21:06.710670",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "10-Q",
+    "filing_date": "2016-06-01",
+    "accession_number": "0000909832-16-000028",
+    "primary_document": "cost10q50816.htm",
+    "fetched_at": "2026-03-16T21:21:06.710676",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "COST",
+    "cik": "909832",
+    "form_type": "8-K",
+    "filing_date": "2016-05-26",
+    "accession_number": "0001193125-16-603698",
+    "primary_document": "d196507d8k.htm",
+    "fetched_at": "2026-03-16T21:21:06.710681",
+    "source_name": "sec_edgar"
+  }
+]

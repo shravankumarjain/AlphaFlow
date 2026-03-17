@@ -1,0 +1,1462 @@
+[
+  {
+    "ticker": "KO",
+    "cik": "21344",
+    "form_type": "8-K",
+    "filing_date": "2026-02-20",
+    "accession_number": "0001628280-26-010052",
+    "primary_document": "ko-20260219.htm",
+    "fetched_at": "2026-03-16T21:21:28.202854",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "KO",
+    "cik": "21344",
+    "form_type": "10-K",
+    "filing_date": "2026-02-20",
+    "accession_number": "0001628280-26-010047",
+    "primary_document": "ko-20251231.htm",
+    "fetched_at": "2026-03-16T21:21:28.202879",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "KO",
+    "cik": "21344",
+    "form_type": "8-K",
+    "filing_date": "2026-02-10",
+    "accession_number": "0001628280-26-006642",
+    "primary_document": "ko-20260210.htm",
+    "fetched_at": "2026-03-16T21:21:28.202886",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "KO",
+    "cik": "21344",
+    "form_type": "8-K",
+    "filing_date": "2026-01-14",
+    "accession_number": "0001552781-26-000017",
+    "primary_document": "e26024_ko-8k.htm",
+    "fetched_at": "2026-03-16T21:21:28.202893",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "KO",
+    "cik": "21344",
+    "form_type": "8-K",
+    "filing_date": "2025-12-10",
+    "accession_number": "0001552781-25-000454",
+    "primary_document": "e25454_ko-8k.htm",
+    "fetched_at": "2026-03-16T21:21:28.202897",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "KO",
+    "cik": "21344",
+    "form_type": "10-Q",
+    "filing_date": "2025-10-23",
+    "accession_number": "0001628280-25-046054",
+    "primary_document": "ko-20250926.htm",
+    "fetched_at": "2026-03-16T21:21:28.202908",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "KO",
+    "cik": "21344",
+    "form_type": "8-K",
+    "filing_date": "2025-10-21",
+    "accession_number": "0001628280-25-045577",
+    "primary_document": "ko-20251021.htm",
+    "fetched_at": "2026-03-16T21:21:28.202914",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "KO",
+    "cik": "21344",
+    "form_type": "8-K",
+    "filing_date": "2025-10-16",
+    "accession_number": "0001628280-25-045223",
+    "primary_document": "ko-20251016.htm",
+    "fetched_at": "2026-03-16T21:21:28.202919",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "KO",
+    "cik": "21344",
+    "form_type": "10-Q",
+    "filing_date": "2025-07-24",
+    "accession_number": "0000021344-25-000061",
+    "primary_document": "ko-20250627.htm",
+    "fetched_at": "2026-03-16T21:21:28.202926",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "KO",
+    "cik": "21344",
+    "form_type": "8-K",
+    "filing_date": "2025-07-22",
+    "accession_number": "0000021344-25-000054",
+    "primary_document": "ko-20250722.htm",
+    "fetched_at": "2026-03-16T21:21:28.202930",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "KO",
+    "cik": "21344",
+    "form_type": "8-K",
+    "filing_date": "2025-06-26",
+    "accession_number": "0000021344-25-000047",
+    "primary_document": "ko-20250626.htm",
+    "fetched_at": "2026-03-16T21:21:28.202935",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "KO",
+    "cik": "21344",
+    "form_type": "8-K",
+    "filing_date": "2025-05-02",
+    "accession_number": "0000021344-25-000033",
+    "primary_document": "ko-20250430.htm",
+    "fetched_at": "2026-03-16T21:21:28.202945",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "KO",
+    "cik": "21344",
+    "form_type": "10-Q",
+    "filing_date": "2025-05-01",
+    "accession_number": "0000021344-25-000029",
+    "primary_document": "ko-20250328.htm",
+    "fetched_at": "2026-03-16T21:21:28.202949",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "KO",
+    "cik": "21344",
+    "form_type": "8-K",
+    "filing_date": "2025-04-29",
+    "accession_number": "0000021344-25-000024",
+    "primary_document": "ko-20250429.htm",
+    "fetched_at": "2026-03-16T21:21:28.202953",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "KO",
+    "cik": "21344",
+    "form_type": "8-K",
+    "filing_date": "2025-03-27",
+    "accession_number": "0000021344-25-000019",
+    "primary_document": "ko-20250327.htm",
+    "fetched_at": "2026-03-16T21:21:28.202961",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "KO",
+    "cik": "21344",
+    "form_type": "10-K",
+    "filing_date": "2025-02-20",
+    "accession_number": "0000021344-25-000011",
+    "primary_document": "ko-20241231.htm",
+    "fetched_at": "2026-03-16T21:21:28.202972",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "KO",
+    "cik": "21344",
+    "form_type": "8-K",
+    "filing_date": "2025-02-11",
+    "accession_number": "0000021344-25-000005",
+    "primary_document": "ko-20250211.htm",
+    "fetched_at": "2026-03-16T21:21:28.202978",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "KO",
+    "cik": "21344",
+    "form_type": "8-K",
+    "filing_date": "2024-12-16",
+    "accession_number": "0001552781-24-000634",
+    "primary_document": "e24475_ko-8k.htm",
+    "fetched_at": "2026-03-16T21:21:28.202985",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "KO",
+    "cik": "21344",
+    "form_type": "8-K",
+    "filing_date": "2024-12-11",
+    "accession_number": "0001552781-24-000626",
+    "primary_document": "e24365_ko-8k.htm",
+    "fetched_at": "2026-03-16T21:21:28.202989",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "KO",
+    "cik": "21344",
+    "form_type": "10-Q",
+    "filing_date": "2024-10-24",
+    "accession_number": "0000021344-24-000060",
+    "primary_document": "ko-20240927.htm",
+    "fetched_at": "2026-03-16T21:21:28.202996",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "KO",
+    "cik": "21344",
+    "form_type": "8-K",
+    "filing_date": "2024-10-23",
+    "accession_number": "0000021344-24-000056",
+    "primary_document": "ko-20241023.htm",
+    "fetched_at": "2026-03-16T21:21:28.203001",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "KO",
+    "cik": "21344",
+    "form_type": "8-K",
+    "filing_date": "2024-10-17",
+    "accession_number": "0000021344-24-000051",
+    "primary_document": "ko-20241017.htm",
+    "fetched_at": "2026-03-16T21:21:28.203006",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "KO",
+    "cik": "21344",
+    "form_type": "8-K",
+    "filing_date": "2024-08-21",
+    "accession_number": "0000021344-24-000047",
+    "primary_document": "ko-20240821.htm",
+    "fetched_at": "2026-03-16T21:21:28.203013",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "KO",
+    "cik": "21344",
+    "form_type": "8-K",
+    "filing_date": "2024-08-15",
+    "accession_number": "0001552781-24-000497",
+    "primary_document": "e24348_koeuro-8k.htm",
+    "fetched_at": "2026-03-16T21:21:28.203019",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "KO",
+    "cik": "21344",
+    "form_type": "8-K",
+    "filing_date": "2024-08-14",
+    "accession_number": "0001552781-24-000487",
+    "primary_document": "e24347_kousd-8k.htm",
+    "fetched_at": "2026-03-16T21:21:28.203023",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "KO",
+    "cik": "21344",
+    "form_type": "8-K",
+    "filing_date": "2024-08-09",
+    "accession_number": "0001552781-24-000465",
+    "primary_document": "e24341_ko-8k.htm",
+    "fetched_at": "2026-03-16T21:21:28.203030",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "KO",
+    "cik": "21344",
+    "form_type": "10-Q",
+    "filing_date": "2024-07-29",
+    "accession_number": "0000021344-24-000044",
+    "primary_document": "ko-20240628.htm",
+    "fetched_at": "2026-03-16T21:21:28.203039",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "KO",
+    "cik": "21344",
+    "form_type": "8-K",
+    "filing_date": "2024-07-23",
+    "accession_number": "0000021344-24-000040",
+    "primary_document": "ko-20240719.htm",
+    "fetched_at": "2026-03-16T21:21:28.203043",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "KO",
+    "cik": "21344",
+    "form_type": "8-K",
+    "filing_date": "2024-07-23",
+    "accession_number": "0000021344-24-000037",
+    "primary_document": "ko-20240723.htm",
+    "fetched_at": "2026-03-16T21:21:28.203048",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "KO",
+    "cik": "21344",
+    "form_type": "8-K",
+    "filing_date": "2024-05-14",
+    "accession_number": "0001552781-24-000325",
+    "primary_document": "e24243_koeuro-8k.htm",
+    "fetched_at": "2026-03-16T21:21:28.203057",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "KO",
+    "cik": "21344",
+    "form_type": "8-K",
+    "filing_date": "2024-05-13",
+    "accession_number": "0001552781-24-000313",
+    "primary_document": "e24242_ko-8k.htm",
+    "fetched_at": "2026-03-16T21:21:28.203062",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "KO",
+    "cik": "21344",
+    "form_type": "8-K",
+    "filing_date": "2024-05-08",
+    "accession_number": "0001552781-24-000299",
+    "primary_document": "e24235_ko-8k.htm",
+    "fetched_at": "2026-03-16T21:21:28.203068",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "KO",
+    "cik": "21344",
+    "form_type": "8-K",
+    "filing_date": "2024-05-02",
+    "accession_number": "0001552781-24-000261",
+    "primary_document": "e24215_ko-8k.htm",
+    "fetched_at": "2026-03-16T21:21:28.203076",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "KO",
+    "cik": "21344",
+    "form_type": "10-Q",
+    "filing_date": "2024-05-02",
+    "accession_number": "0000021344-24-000017",
+    "primary_document": "ko-20240329.htm",
+    "fetched_at": "2026-03-16T21:21:28.203082",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "KO",
+    "cik": "21344",
+    "form_type": "8-K",
+    "filing_date": "2024-04-30",
+    "accession_number": "0000021344-24-000013",
+    "primary_document": "ko-20240430.htm",
+    "fetched_at": "2026-03-16T21:21:28.203090",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "KO",
+    "cik": "21344",
+    "form_type": "10-K",
+    "filing_date": "2024-02-20",
+    "accession_number": "0000021344-24-000009",
+    "primary_document": "ko-20231231.htm",
+    "fetched_at": "2026-03-16T21:21:28.203102",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "KO",
+    "cik": "21344",
+    "form_type": "8-K",
+    "filing_date": "2024-02-13",
+    "accession_number": "0000021344-24-000004",
+    "primary_document": "ko-20240213.htm",
+    "fetched_at": "2026-03-16T21:21:28.203107",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "KO",
+    "cik": "21344",
+    "form_type": "10-Q",
+    "filing_date": "2023-10-24",
+    "accession_number": "0000021344-23-000060",
+    "primary_document": "ko-20230929.htm",
+    "fetched_at": "2026-03-16T21:21:28.203114",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "KO",
+    "cik": "21344",
+    "form_type": "8-K",
+    "filing_date": "2023-10-24",
+    "accession_number": "0000021344-23-000057",
+    "primary_document": "ko-20231024.htm",
+    "fetched_at": "2026-03-16T21:21:28.203119",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "KO",
+    "cik": "21344",
+    "form_type": "8-K",
+    "filing_date": "2023-10-20",
+    "accession_number": "0000021344-23-000051",
+    "primary_document": "ko-20231019.htm",
+    "fetched_at": "2026-03-16T21:21:28.203124",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "KO",
+    "cik": "21344",
+    "form_type": "10-Q",
+    "filing_date": "2023-07-27",
+    "accession_number": "0000021344-23-000048",
+    "primary_document": "ko-20230630.htm",
+    "fetched_at": "2026-03-16T21:21:28.203133",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "KO",
+    "cik": "21344",
+    "form_type": "8-K",
+    "filing_date": "2023-07-26",
+    "accession_number": "0000021344-23-000045",
+    "primary_document": "ko-20230726.htm",
+    "fetched_at": "2026-03-16T21:21:28.203139",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "KO",
+    "cik": "21344",
+    "form_type": "8-K",
+    "filing_date": "2023-07-19",
+    "accession_number": "0000021344-23-000041",
+    "primary_document": "ko-20230719.htm",
+    "fetched_at": "2026-03-16T21:21:28.203144",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "KO",
+    "cik": "21344",
+    "form_type": "8-K",
+    "filing_date": "2023-04-26",
+    "accession_number": "0000021344-23-000026",
+    "primary_document": "ko-20230425.htm",
+    "fetched_at": "2026-03-16T21:21:28.203155",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "KO",
+    "cik": "21344",
+    "form_type": "10-Q",
+    "filing_date": "2023-04-26",
+    "accession_number": "0000021344-23-000024",
+    "primary_document": "ko-20230331.htm",
+    "fetched_at": "2026-03-16T21:21:28.203162",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "KO",
+    "cik": "21344",
+    "form_type": "8-K",
+    "filing_date": "2023-04-24",
+    "accession_number": "0000021344-23-000017",
+    "primary_document": "ko-20230424.htm",
+    "fetched_at": "2026-03-16T21:21:28.203167",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "KO",
+    "cik": "21344",
+    "form_type": "10-K",
+    "filing_date": "2023-02-21",
+    "accession_number": "0000021344-23-000011",
+    "primary_document": "ko-20221231.htm",
+    "fetched_at": "2026-03-16T21:21:28.203179",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "KO",
+    "cik": "21344",
+    "form_type": "8-K",
+    "filing_date": "2023-02-14",
+    "accession_number": "0000021344-23-000005",
+    "primary_document": "ko-20230214.htm",
+    "fetched_at": "2026-03-16T21:21:28.203185",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "KO",
+    "cik": "21344",
+    "form_type": "8-K",
+    "filing_date": "2022-12-12",
+    "accession_number": "0001552781-22-000649",
+    "primary_document": "e22509_ko-8k.htm",
+    "fetched_at": "2026-03-16T21:21:28.203192",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "KO",
+    "cik": "21344",
+    "form_type": "10-Q",
+    "filing_date": "2022-10-26",
+    "accession_number": "0000021344-22-000042",
+    "primary_document": "ko-20220930.htm",
+    "fetched_at": "2026-03-16T21:21:28.203199",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "KO",
+    "cik": "21344",
+    "form_type": "8-K",
+    "filing_date": "2022-10-25",
+    "accession_number": "0000021344-22-000038",
+    "primary_document": "ko-20221025.htm",
+    "fetched_at": "2026-03-16T21:21:28.203203",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "KO",
+    "cik": "21344",
+    "form_type": "8-K",
+    "filing_date": "2022-08-23",
+    "accession_number": "0001552781-22-000543",
+    "primary_document": "e22401_ko-8k.htm",
+    "fetched_at": "2026-03-16T21:21:28.203208",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "KO",
+    "cik": "21344",
+    "form_type": "10-Q",
+    "filing_date": "2022-07-27",
+    "accession_number": "0000021344-22-000034",
+    "primary_document": "ko-20220701.htm",
+    "fetched_at": "2026-03-16T21:21:28.203213",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "KO",
+    "cik": "21344",
+    "form_type": "8-K",
+    "filing_date": "2022-07-26",
+    "accession_number": "0000021344-22-000030",
+    "primary_document": "ko-20220726.htm",
+    "fetched_at": "2026-03-16T21:21:28.203219",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "KO",
+    "cik": "21344",
+    "form_type": "8-K",
+    "filing_date": "2022-07-21",
+    "accession_number": "0001552781-22-000509",
+    "primary_document": "e22375_ko-8k.htm",
+    "fetched_at": "2026-03-16T21:21:28.203224",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "KO",
+    "cik": "21344",
+    "form_type": "10-Q",
+    "filing_date": "2022-04-28",
+    "accession_number": "0000021344-22-000016",
+    "primary_document": "ko-20220401.htm",
+    "fetched_at": "2026-03-16T21:21:28.203231",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "KO",
+    "cik": "21344",
+    "form_type": "8-K",
+    "filing_date": "2022-04-27",
+    "accession_number": "0001552781-22-000366",
+    "primary_document": "e22265_ko-8k.htm",
+    "fetched_at": "2026-03-16T21:21:28.203235",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "KO",
+    "cik": "21344",
+    "form_type": "8-K",
+    "filing_date": "2022-04-25",
+    "accession_number": "0000021344-22-000013",
+    "primary_document": "ko-20220425.htm",
+    "fetched_at": "2026-03-16T21:21:28.203244",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "KO",
+    "cik": "21344",
+    "form_type": "8-K",
+    "filing_date": "2022-03-08",
+    "accession_number": "0001552781-22-000242",
+    "primary_document": "e22134_ko-8k.htm",
+    "fetched_at": "2026-03-16T21:21:28.203253",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "KO",
+    "cik": "21344",
+    "form_type": "8-K",
+    "filing_date": "2022-03-04",
+    "accession_number": "0001552781-22-000236",
+    "primary_document": "e22121_ko-8k.htm",
+    "fetched_at": "2026-03-16T21:21:28.203257",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "KO",
+    "cik": "21344",
+    "form_type": "10-K",
+    "filing_date": "2022-02-22",
+    "accession_number": "0000021344-22-000009",
+    "primary_document": "ko-20211231.htm",
+    "fetched_at": "2026-03-16T21:21:28.203264",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "KO",
+    "cik": "21344",
+    "form_type": "8-K",
+    "filing_date": "2022-02-16",
+    "accession_number": "0001552781-22-000167",
+    "primary_document": "e22073_ko-8k.htm",
+    "fetched_at": "2026-03-16T21:21:28.203273",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "KO",
+    "cik": "21344",
+    "form_type": "8-K",
+    "filing_date": "2022-02-10",
+    "accession_number": "0000021344-22-000004",
+    "primary_document": "ko-20220210.htm",
+    "fetched_at": "2026-03-16T21:21:28.203279",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "KO",
+    "cik": "21344",
+    "form_type": "8-K",
+    "filing_date": "2021-12-20",
+    "accession_number": "0001552781-21-000856",
+    "primary_document": "e21666_ko-8k.htm",
+    "fetched_at": "2026-03-16T21:21:28.203286",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "KO",
+    "cik": "21344",
+    "form_type": "10-Q",
+    "filing_date": "2021-10-28",
+    "accession_number": "0000021344-21-000030",
+    "primary_document": "ko-20211001.htm",
+    "fetched_at": "2026-03-16T21:21:28.203295",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "KO",
+    "cik": "21344",
+    "form_type": "8-K",
+    "filing_date": "2021-10-27",
+    "accession_number": "0000021344-21-000027",
+    "primary_document": "ko-20211027.htm",
+    "fetched_at": "2026-03-16T21:21:28.203302",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "KO",
+    "cik": "21344",
+    "form_type": "8-K",
+    "filing_date": "2021-08-24",
+    "accession_number": "0001552781-21-000687",
+    "primary_document": "e21534_ko-8k.htm",
+    "fetched_at": "2026-03-16T21:21:28.203307",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "KO",
+    "cik": "21344",
+    "form_type": "10-Q",
+    "filing_date": "2021-07-26",
+    "accession_number": "0000021344-21-000024",
+    "primary_document": "ko-20210702.htm",
+    "fetched_at": "2026-03-16T21:21:28.203311",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "KO",
+    "cik": "21344",
+    "form_type": "8-K",
+    "filing_date": "2021-07-21",
+    "accession_number": "0000021344-21-000021",
+    "primary_document": "ko-20210721.htm",
+    "fetched_at": "2026-03-16T21:21:28.203316",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "KO",
+    "cik": "21344",
+    "form_type": "8-K",
+    "filing_date": "2021-06-04",
+    "accession_number": "0001552781-21-000502",
+    "primary_document": "e21423_ko-8k.htm",
+    "fetched_at": "2026-03-16T21:21:28.203322",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "KO",
+    "cik": "21344",
+    "form_type": "8-K",
+    "filing_date": "2021-05-20",
+    "accession_number": "0001552781-21-000451",
+    "primary_document": "e21398_ko-8k.htm",
+    "fetched_at": "2026-03-16T21:21:28.203327",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "KO",
+    "cik": "21344",
+    "form_type": "8-K",
+    "filing_date": "2021-05-17",
+    "accession_number": "0001552781-21-000435",
+    "primary_document": "e21388_ko-8k.htm",
+    "fetched_at": "2026-03-16T21:21:28.203331",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "KO",
+    "cik": "21344",
+    "form_type": "8-K",
+    "filing_date": "2021-05-12",
+    "accession_number": "0001552781-21-000415",
+    "primary_document": "e21384_ko-8k.htm",
+    "fetched_at": "2026-03-16T21:21:28.203336",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "KO",
+    "cik": "21344",
+    "form_type": "8-K",
+    "filing_date": "2021-05-06",
+    "accession_number": "0001552781-21-000351",
+    "primary_document": "e21345_ko-8k.htm",
+    "fetched_at": "2026-03-16T21:21:28.203342",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "KO",
+    "cik": "21344",
+    "form_type": "8-K",
+    "filing_date": "2021-05-05",
+    "accession_number": "0001552781-21-000338",
+    "primary_document": "e21319_ko-8k.htm",
+    "fetched_at": "2026-03-16T21:21:28.203347",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "KO",
+    "cik": "21344",
+    "form_type": "8-K",
+    "filing_date": "2021-04-30",
+    "accession_number": "0001552781-21-000269",
+    "primary_document": "e21263_ko-8k.htm",
+    "fetched_at": "2026-03-16T21:21:28.203353",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "KO",
+    "cik": "21344",
+    "form_type": "8-K",
+    "filing_date": "2021-04-28",
+    "accession_number": "0001552781-21-000255",
+    "primary_document": "e21260_ko-8k.htm",
+    "fetched_at": "2026-03-16T21:21:28.203359",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "KO",
+    "cik": "21344",
+    "form_type": "10-Q",
+    "filing_date": "2021-04-27",
+    "accession_number": "0000021344-21-000014",
+    "primary_document": "ko-20210402.htm",
+    "fetched_at": "2026-03-16T21:21:28.203368",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "KO",
+    "cik": "21344",
+    "form_type": "8-K",
+    "filing_date": "2021-04-22",
+    "accession_number": "0001552781-21-000242",
+    "primary_document": "e21256_ko-8k.htm",
+    "fetched_at": "2026-03-16T21:21:28.203373",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "KO",
+    "cik": "21344",
+    "form_type": "8-K",
+    "filing_date": "2021-04-21",
+    "accession_number": "0001552781-21-000235",
+    "primary_document": "e21249_ko-8k.htm",
+    "fetched_at": "2026-03-16T21:21:28.203378",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "KO",
+    "cik": "21344",
+    "form_type": "8-K",
+    "filing_date": "2021-04-19",
+    "accession_number": "0001552781-21-000224",
+    "primary_document": "e21237_ko-8k.htm",
+    "fetched_at": "2026-03-16T21:21:28.203383",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "KO",
+    "cik": "21344",
+    "form_type": "8-K",
+    "filing_date": "2021-04-19",
+    "accession_number": "0000021344-21-000011",
+    "primary_document": "ko-20210419.htm",
+    "fetched_at": "2026-03-16T21:21:28.203389",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "KO",
+    "cik": "21344",
+    "form_type": "8-K",
+    "filing_date": "2021-04-08",
+    "accession_number": "0001552781-21-000188",
+    "primary_document": "e21191_ko-8k.htm",
+    "fetched_at": "2026-03-16T21:21:28.203394",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "KO",
+    "cik": "21344",
+    "form_type": "8-K",
+    "filing_date": "2021-03-09",
+    "accession_number": "0001552781-21-000083",
+    "primary_document": "e21102_koeuro-8k.htm",
+    "fetched_at": "2026-03-16T21:21:28.203401",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "KO",
+    "cik": "21344",
+    "form_type": "8-K",
+    "filing_date": "2021-03-08",
+    "accession_number": "0001552781-21-000082",
+    "primary_document": "e21103_ko-8k.htm",
+    "fetched_at": "2026-03-16T21:21:28.203406",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "KO",
+    "cik": "21344",
+    "form_type": "8-K",
+    "filing_date": "2021-03-05",
+    "accession_number": "0001552781-21-000076",
+    "primary_document": "e21091_ko-8k.htm",
+    "fetched_at": "2026-03-16T21:21:28.203410",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "KO",
+    "cik": "21344",
+    "form_type": "8-K",
+    "filing_date": "2021-03-01",
+    "accession_number": "0001552781-21-000052",
+    "primary_document": "e21074_ko-8k.htm",
+    "fetched_at": "2026-03-16T21:21:28.203416",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "KO",
+    "cik": "21344",
+    "form_type": "10-K",
+    "filing_date": "2021-02-25",
+    "accession_number": "0000021344-21-000008",
+    "primary_document": "ko-20201231.htm",
+    "fetched_at": "2026-03-16T21:21:28.203421",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "KO",
+    "cik": "21344",
+    "form_type": "8-K",
+    "filing_date": "2021-02-22",
+    "accession_number": "0001552781-21-000039",
+    "primary_document": "e21063_ko-8k.htm",
+    "fetched_at": "2026-03-16T21:21:28.203429",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "KO",
+    "cik": "21344",
+    "form_type": "8-K",
+    "filing_date": "2021-02-10",
+    "accession_number": "0000021344-21-000003",
+    "primary_document": "ko-20210210.htm",
+    "fetched_at": "2026-03-16T21:21:28.203438",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "KO",
+    "cik": "21344",
+    "form_type": "8-K",
+    "filing_date": "2020-12-10",
+    "accession_number": "0001552781-20-000603",
+    "primary_document": "e20625_ko-8k.htm",
+    "fetched_at": "2026-03-16T21:21:28.203445",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "KO",
+    "cik": "21344",
+    "form_type": "10-Q",
+    "filing_date": "2020-10-22",
+    "accession_number": "0000021344-20-000046",
+    "primary_document": "ko-20200925.htm",
+    "fetched_at": "2026-03-16T21:21:28.203452",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "KO",
+    "cik": "21344",
+    "form_type": "8-K",
+    "filing_date": "2020-10-22",
+    "accession_number": "0000021344-20-000044",
+    "primary_document": "ko-20201022.htm",
+    "fetched_at": "2026-03-16T21:21:28.203457",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "KO",
+    "cik": "21344",
+    "form_type": "8-K",
+    "filing_date": "2020-10-20",
+    "accession_number": "0001552781-20-000530",
+    "primary_document": "e20543_ko-8k.htm",
+    "fetched_at": "2026-03-16T21:21:28.203463",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "KO",
+    "cik": "21344",
+    "form_type": "8-K",
+    "filing_date": "2020-10-05",
+    "accession_number": "0001552781-20-000505",
+    "primary_document": "e20529_ko-8k.htm",
+    "fetched_at": "2026-03-16T21:21:28.203468",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "KO",
+    "cik": "21344",
+    "form_type": "8-K",
+    "filing_date": "2020-09-21",
+    "accession_number": "0001552781-20-000492",
+    "primary_document": "e20515_ko-8k.htm",
+    "fetched_at": "2026-03-16T21:21:28.203473",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "KO",
+    "cik": "21344",
+    "form_type": "8-K",
+    "filing_date": "2020-09-18",
+    "accession_number": "0001552781-20-000488",
+    "primary_document": "e20511_ko-8k.htm",
+    "fetched_at": "2026-03-16T21:21:28.203481",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "KO",
+    "cik": "21344",
+    "form_type": "8-K",
+    "filing_date": "2020-09-14",
+    "accession_number": "0001552781-20-000475",
+    "primary_document": "e20503_ko-8k.htm",
+    "fetched_at": "2026-03-16T21:21:28.203487",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "KO",
+    "cik": "21344",
+    "form_type": "8-K",
+    "filing_date": "2020-08-28",
+    "accession_number": "0001552781-20-000463",
+    "primary_document": "e20478_ko-8k.htm",
+    "fetched_at": "2026-03-16T21:21:28.203494",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "KO",
+    "cik": "21344",
+    "form_type": "8-K",
+    "filing_date": "2020-08-24",
+    "accession_number": "0001552781-20-000461",
+    "primary_document": "e20471_ko-8k.htm",
+    "fetched_at": "2026-03-16T21:21:28.203500",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "KO",
+    "cik": "21344",
+    "form_type": "10-Q",
+    "filing_date": "2020-07-22",
+    "accession_number": "0000021344-20-000041",
+    "primary_document": "ko-20200626.htm",
+    "fetched_at": "2026-03-16T21:21:28.203506",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "KO",
+    "cik": "21344",
+    "form_type": "8-K",
+    "filing_date": "2020-07-21",
+    "accession_number": "0000021344-20-000037",
+    "primary_document": "ko-20200721.htm",
+    "fetched_at": "2026-03-16T21:21:28.203510",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "KO",
+    "cik": "21344",
+    "form_type": "8-K",
+    "filing_date": "2020-05-04",
+    "accession_number": "0001104659-20-055758",
+    "primary_document": "tm2017862-4_8k.htm",
+    "fetched_at": "2026-03-16T21:21:28.203517",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "KO",
+    "cik": "21344",
+    "form_type": "10-Q",
+    "filing_date": "2020-04-24",
+    "accession_number": "0000021344-20-000014",
+    "primary_document": "a2020032710-q.htm",
+    "fetched_at": "2026-03-16T21:21:28.203523",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "KO",
+    "cik": "21344",
+    "form_type": "8-K",
+    "filing_date": "2020-04-22",
+    "accession_number": "0001552781-20-000277",
+    "primary_document": "e20266_ko-8k.htm",
+    "fetched_at": "2026-03-16T21:21:28.203528",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "KO",
+    "cik": "21344",
+    "form_type": "8-K",
+    "filing_date": "2020-04-21",
+    "accession_number": "0000021344-20-000011",
+    "primary_document": "a2020q1form8-kearnings.htm",
+    "fetched_at": "2026-03-16T21:21:28.203533",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "KO",
+    "cik": "21344",
+    "form_type": "8-K",
+    "filing_date": "2020-03-25",
+    "accession_number": "0001104659-20-038321",
+    "primary_document": "tm2013248d2_8k.htm",
+    "fetched_at": "2026-03-16T21:21:28.203542",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "KO",
+    "cik": "21344",
+    "form_type": "8-K",
+    "filing_date": "2020-03-20",
+    "accession_number": "0001104659-20-036458",
+    "primary_document": "tm2013248-1_8k.htm",
+    "fetched_at": "2026-03-16T21:21:28.203549",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "KO",
+    "cik": "21344",
+    "form_type": "10-K",
+    "filing_date": "2020-02-24",
+    "accession_number": "0000021344-20-000006",
+    "primary_document": "a2019123110-k.htm",
+    "fetched_at": "2026-03-16T21:21:28.203560",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "KO",
+    "cik": "21344",
+    "form_type": "8-K",
+    "filing_date": "2020-01-30",
+    "accession_number": "0000021344-20-000002",
+    "primary_document": "a2019q4form8-kearnings.htm",
+    "fetched_at": "2026-03-16T21:21:28.203572",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "KO",
+    "cik": "21344",
+    "form_type": "8-K",
+    "filing_date": "2020-01-14",
+    "accession_number": "0001552781-20-000076",
+    "primary_document": "e20034_ko-8k.htm",
+    "fetched_at": "2026-03-16T21:21:28.203577",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "KO",
+    "cik": "21344",
+    "form_type": "10-Q",
+    "filing_date": "2019-10-24",
+    "accession_number": "0000021344-19-000042",
+    "primary_document": "a2019092710-q.htm",
+    "fetched_at": "2026-03-16T21:21:28.203583",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "KO",
+    "cik": "21344",
+    "form_type": "8-K",
+    "filing_date": "2019-10-18",
+    "accession_number": "0001628280-19-012399",
+    "primary_document": "a2019q3form8-kearnings.htm",
+    "fetched_at": "2026-03-16T21:21:28.203589",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "KO",
+    "cik": "21344",
+    "form_type": "8-K",
+    "filing_date": "2019-09-20",
+    "accession_number": "0000021344-19-000039",
+    "primary_document": "a201909208-kupdated201.htm",
+    "fetched_at": "2026-03-16T21:21:28.203594",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "KO",
+    "cik": "21344",
+    "form_type": "8-K",
+    "filing_date": "2019-09-09",
+    "accession_number": "0001410578-19-001096",
+    "primary_document": "tv528943_8k.htm",
+    "fetched_at": "2026-03-16T21:21:28.203601",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "KO",
+    "cik": "21344",
+    "form_type": "10-Q",
+    "filing_date": "2019-07-25",
+    "accession_number": "0000021344-19-000034",
+    "primary_document": "a2019062810-q.htm",
+    "fetched_at": "2026-03-16T21:21:28.203608",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "KO",
+    "cik": "21344",
+    "form_type": "8-K",
+    "filing_date": "2019-07-23",
+    "accession_number": "0000021344-19-000031",
+    "primary_document": "a2019q2form8-kearningsrele.htm",
+    "fetched_at": "2026-03-16T21:21:28.203613",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "KO",
+    "cik": "21344",
+    "form_type": "8-K",
+    "filing_date": "2019-06-28",
+    "accession_number": "0001628280-19-008450",
+    "primary_document": "form8-kccbareclassifiedope.htm",
+    "fetched_at": "2026-03-16T21:21:28.203619",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "KO",
+    "cik": "21344",
+    "form_type": "10-Q",
+    "filing_date": "2019-04-25",
+    "accession_number": "0000021344-19-000028",
+    "primary_document": "a2019032910-q.htm",
+    "fetched_at": "2026-03-16T21:21:28.203628",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "KO",
+    "cik": "21344",
+    "form_type": "8-K",
+    "filing_date": "2019-04-24",
+    "accession_number": "0001552781-19-000204",
+    "primary_document": "e19244_ko-8k.htm",
+    "fetched_at": "2026-03-16T21:21:28.203634",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "KO",
+    "cik": "21344",
+    "form_type": "8-K",
+    "filing_date": "2019-04-23",
+    "accession_number": "0000021344-19-000022",
+    "primary_document": "a2019q1form8-kearningsrele.htm",
+    "fetched_at": "2026-03-16T21:21:28.203638",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "KO",
+    "cik": "21344",
+    "form_type": "8-K",
+    "filing_date": "2019-04-10",
+    "accession_number": "0001552781-19-000156",
+    "primary_document": "e19195_ko-8k.htm",
+    "fetched_at": "2026-03-16T21:21:28.203643",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "KO",
+    "cik": "21344",
+    "form_type": "8-K",
+    "filing_date": "2019-04-01",
+    "accession_number": "0000021344-19-000019",
+    "primary_document": "form8-kreclassifiedoperati.htm",
+    "fetched_at": "2026-03-16T21:21:28.203649",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "KO",
+    "cik": "21344",
+    "form_type": "8-K",
+    "filing_date": "2019-03-08",
+    "accession_number": "0001104659-19-013658",
+    "primary_document": "a19-5248_68k.htm",
+    "fetched_at": "2026-03-16T21:21:28.203654",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "KO",
+    "cik": "21344",
+    "form_type": "8-K",
+    "filing_date": "2019-02-28",
+    "accession_number": "0001104659-19-011570",
+    "primary_document": "a19-5248_58k.htm",
+    "fetched_at": "2026-03-16T21:21:28.203662",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "KO",
+    "cik": "21344",
+    "form_type": "10-K",
+    "filing_date": "2019-02-21",
+    "accession_number": "0000021344-19-000014",
+    "primary_document": "a2018123110-k.htm",
+    "fetched_at": "2026-03-16T21:21:28.203670",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "KO",
+    "cik": "21344",
+    "form_type": "8-K",
+    "filing_date": "2019-02-21",
+    "accession_number": "0001552781-19-000063",
+    "primary_document": "e19082_ko-8k.htm",
+    "fetched_at": "2026-03-16T21:21:28.203675",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "KO",
+    "cik": "21344",
+    "form_type": "8-K",
+    "filing_date": "2019-02-14",
+    "accession_number": "0000021344-19-000010",
+    "primary_document": "a2018q4form8-kearningsrele.htm",
+    "fetched_at": "2026-03-16T21:21:28.203682",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "KO",
+    "cik": "21344",
+    "form_type": "8-K",
+    "filing_date": "2019-01-08",
+    "accession_number": "0001104659-19-001190",
+    "primary_document": "a19-2018_18k.htm",
+    "fetched_at": "2026-03-16T21:21:28.203689",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "KO",
+    "cik": "21344",
+    "form_type": "8-K",
+    "filing_date": "2018-12-06",
+    "accession_number": "0001552781-18-000517",
+    "primary_document": "e18450_ko-8k.htm",
+    "fetched_at": "2026-03-16T21:21:28.203695",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "KO",
+    "cik": "21344",
+    "form_type": "10-Q",
+    "filing_date": "2018-10-30",
+    "accession_number": "0000021344-18-000042",
+    "primary_document": "a2018092810-q.htm",
+    "fetched_at": "2026-03-16T21:21:28.203702",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "KO",
+    "cik": "21344",
+    "form_type": "8-K",
+    "filing_date": "2018-10-30",
+    "accession_number": "0000021344-18-000039",
+    "primary_document": "a2018q3form8-kearningsrele.htm",
+    "fetched_at": "2026-03-16T21:21:28.203708",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "KO",
+    "cik": "21344",
+    "form_type": "8-K",
+    "filing_date": "2018-10-18",
+    "accession_number": "0001552781-18-000440",
+    "primary_document": "e18397_ko-8k.htm",
+    "fetched_at": "2026-03-16T21:21:28.203714",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "KO",
+    "cik": "21344",
+    "form_type": "8-K",
+    "filing_date": "2018-08-31",
+    "accession_number": "0001104659-18-054636",
+    "primary_document": "a18-24104_18k.htm",
+    "fetched_at": "2026-03-16T21:21:28.203721",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "KO",
+    "cik": "21344",
+    "form_type": "10-Q",
+    "filing_date": "2018-07-26",
+    "accession_number": "0000021344-18-000032",
+    "primary_document": "a2018062910-q.htm",
+    "fetched_at": "2026-03-16T21:21:28.203728",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "KO",
+    "cik": "21344",
+    "form_type": "8-K",
+    "filing_date": "2018-07-25",
+    "accession_number": "0000021344-18-000029",
+    "primary_document": "a2018q2form8-kearningsrele.htm",
+    "fetched_at": "2026-03-16T21:21:28.203733",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "KO",
+    "cik": "21344",
+    "form_type": "10-Q",
+    "filing_date": "2018-05-01",
+    "accession_number": "0000021344-18-000023",
+    "primary_document": "a2018033010-q.htm",
+    "fetched_at": "2026-03-16T21:21:28.203739",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "KO",
+    "cik": "21344",
+    "form_type": "8-K",
+    "filing_date": "2018-04-26",
+    "accession_number": "0001552781-18-000176",
+    "primary_document": "e18194_ko-8k.htm",
+    "fetched_at": "2026-03-16T21:21:28.203747",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "KO",
+    "cik": "21344",
+    "form_type": "8-K",
+    "filing_date": "2018-04-24",
+    "accession_number": "0000021344-18-000018",
+    "primary_document": "a2018q1form8-kearningsrele.htm",
+    "fetched_at": "2026-03-16T21:21:28.203752",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "KO",
+    "cik": "21344",
+    "form_type": "8-K",
+    "filing_date": "2018-04-04",
+    "accession_number": "0000021344-18-000012",
+    "primary_document": "form8-k2018operatingsegmen.htm",
+    "fetched_at": "2026-03-16T21:21:28.203757",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "KO",
+    "cik": "21344",
+    "form_type": "10-K",
+    "filing_date": "2018-02-23",
+    "accession_number": "0000021344-18-000008",
+    "primary_document": "a2017123110-k.htm",
+    "fetched_at": "2026-03-16T21:21:28.203768",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "KO",
+    "cik": "21344",
+    "form_type": "8-K",
+    "filing_date": "2018-02-20",
+    "accession_number": "0001552781-18-000101",
+    "primary_document": "e18063_ko-8k.htm",
+    "fetched_at": "2026-03-16T21:21:28.203777",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "KO",
+    "cik": "21344",
+    "form_type": "8-K",
+    "filing_date": "2018-02-16",
+    "accession_number": "0000021344-18-000004",
+    "primary_document": "a2017q4form8-kearningsrele.htm",
+    "fetched_at": "2026-03-16T21:21:28.203784",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "KO",
+    "cik": "21344",
+    "form_type": "8-K",
+    "filing_date": "2017-12-08",
+    "accession_number": "0001552781-17-000649",
+    "primary_document": "e17529_ko-8k.htm",
+    "fetched_at": "2026-03-16T21:21:28.203793",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "KO",
+    "cik": "21344",
+    "form_type": "10-Q",
+    "filing_date": "2017-10-26",
+    "accession_number": "0000021344-17-000032",
+    "primary_document": "a2017092910-q.htm",
+    "fetched_at": "2026-03-16T21:21:28.203798",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "KO",
+    "cik": "21344",
+    "form_type": "8-K",
+    "filing_date": "2017-10-25",
+    "accession_number": "0000021344-17-000029",
+    "primary_document": "a2017q3form8-kearningsrele.htm",
+    "fetched_at": "2026-03-16T21:21:28.203803",
+    "source_name": "sec_edgar"
+  }
+]

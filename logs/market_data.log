@@ -205,3 +205,329 @@
 2026-03-15 21:16:42 | INFO | market_data | ============================================================
 2026-03-15 21:16:42 | INFO | market_data | ✓ Success : 9 tickers — ['AAPL', 'MSFT', 'GOOGL', 'AMZN', 'JPM', 'JNJ', 'XOM', 'BRK-B', 'TSLA']
 2026-03-15 21:16:42 | INFO | market_data | ✗ Failed  : 0 tickers  — []
+2026-03-16 21:20:42 | INFO | market_data | ============================================================
+2026-03-16 21:20:42 | INFO | market_data | AlphaFlow — Market Data Ingestion Pipeline
+2026-03-16 21:20:42 | INFO | market_data | Tickers : ['AAPL', 'MSFT', 'GOOGL', 'NVDA', 'AMD', 'AMZN', 'WMT', 'COST', 'JPM', 'GS', 'BAC', 'V', 'JNJ', 'UNH', 'PFE', 'ABBV', 'XOM', 'CVX', 'BRK-B', 'PG', 'KO', 'TSLA', 'META', 'NFLX', 'CRM']
+2026-03-16 21:20:42 | INFO | market_data | Period  : 2020-01-01 → 2026-03-16
+2026-03-16 21:20:42 | INFO | market_data | Interval: 1d
+2026-03-16 21:20:42 | INFO | market_data | ============================================================
+2026-03-16 21:20:42 | INFO | botocore.credentials | Found credentials in shared credentials file: ~/.aws/credentials
+2026-03-16 21:20:42 | INFO | market_data | Downloading AAPL | 2020-01-01 → 2026-03-16 | interval=1d
+2026-03-16 21:20:43 | INFO | market_data |   ✓ AAPL: 1557 rows | 2020-01-02 00:00:00 → 2026-03-13 00:00:00
+2026-03-16 21:20:43 | INFO | market_data | Validating AAPL | 1557 rows
+2026-03-16 21:20:43 | INFO | market_data |   ✓ AAPL: validation passed | 1557 rows remain | issues: none
+2026-03-16 21:20:43 | INFO | market_data |   ✓ Saved locally: data/local/raw/market/AAPL.parquet
+2026-03-16 21:20:43 | INFO | market_data |   ✓ Uploaded to S3: s3://alphaflow-data-lake-291572330987/raw/market/daily/AAPL/AAPL_daily.parquet
+2026-03-16 21:20:43 | INFO | market_data | Downloading MSFT | 2020-01-01 → 2026-03-16 | interval=1d
+2026-03-16 21:20:44 | INFO | market_data |   ✓ MSFT: 1557 rows | 2020-01-02 00:00:00 → 2026-03-13 00:00:00
+2026-03-16 21:20:44 | INFO | market_data | Validating MSFT | 1557 rows
+2026-03-16 21:20:44 | INFO | market_data |   ✓ MSFT: validation passed | 1557 rows remain | issues: none
+2026-03-16 21:20:44 | INFO | market_data |   ✓ Saved locally: data/local/raw/market/MSFT.parquet
+2026-03-16 21:20:44 | INFO | market_data |   ✓ Uploaded to S3: s3://alphaflow-data-lake-291572330987/raw/market/daily/MSFT/MSFT_daily.parquet
+2026-03-16 21:20:44 | INFO | market_data | Downloading GOOGL | 2020-01-01 → 2026-03-16 | interval=1d
+2026-03-16 21:20:44 | INFO | market_data |   ✓ GOOGL: 1557 rows | 2020-01-02 00:00:00 → 2026-03-13 00:00:00
+2026-03-16 21:20:44 | INFO | market_data | Validating GOOGL | 1557 rows
+2026-03-16 21:20:44 | INFO | market_data |   ✓ GOOGL: validation passed | 1557 rows remain | issues: none
+2026-03-16 21:20:44 | INFO | market_data |   ✓ Saved locally: data/local/raw/market/GOOGL.parquet
+2026-03-16 21:20:44 | INFO | market_data |   ✓ Uploaded to S3: s3://alphaflow-data-lake-291572330987/raw/market/daily/GOOGL/GOOGL_daily.parquet
+2026-03-16 21:20:44 | INFO | market_data | Downloading NVDA | 2020-01-01 → 2026-03-16 | interval=1d
+2026-03-16 21:20:44 | INFO | market_data |   ✓ NVDA: 1557 rows | 2020-01-02 00:00:00 → 2026-03-13 00:00:00
+2026-03-16 21:20:44 | INFO | market_data | Validating NVDA | 1557 rows
+2026-03-16 21:20:44 | INFO | market_data |   ✓ NVDA: validation passed | 1557 rows remain | issues: none
+2026-03-16 21:20:44 | INFO | market_data |   ✓ Saved locally: data/local/raw/market/NVDA.parquet
+2026-03-16 21:20:44 | INFO | market_data |   ✓ Uploaded to S3: s3://alphaflow-data-lake-291572330987/raw/market/daily/NVDA/NVDA_daily.parquet
+2026-03-16 21:20:44 | INFO | market_data | Downloading AMD | 2020-01-01 → 2026-03-16 | interval=1d
+2026-03-16 21:20:44 | INFO | market_data |   ✓ AMD: 1557 rows | 2020-01-02 00:00:00 → 2026-03-13 00:00:00
+2026-03-16 21:20:44 | INFO | market_data | Validating AMD | 1557 rows
+2026-03-16 21:20:44 | INFO | market_data |   ✓ AMD: validation passed | 1557 rows remain | issues: none
+2026-03-16 21:20:44 | INFO | market_data |   ✓ Saved locally: data/local/raw/market/AMD.parquet
+2026-03-16 21:20:45 | INFO | market_data |   ✓ Uploaded to S3: s3://alphaflow-data-lake-291572330987/raw/market/daily/AMD/AMD_daily.parquet
+2026-03-16 21:20:45 | INFO | market_data | Downloading AMZN | 2020-01-01 → 2026-03-16 | interval=1d
+2026-03-16 21:20:45 | INFO | market_data |   ✓ AMZN: 1557 rows | 2020-01-02 00:00:00 → 2026-03-13 00:00:00
+2026-03-16 21:20:45 | INFO | market_data | Validating AMZN | 1557 rows
+2026-03-16 21:20:45 | INFO | market_data |   ✓ AMZN: validation passed | 1557 rows remain | issues: none
+2026-03-16 21:20:45 | INFO | market_data |   ✓ Saved locally: data/local/raw/market/AMZN.parquet
+2026-03-16 21:20:45 | INFO | market_data |   ✓ Uploaded to S3: s3://alphaflow-data-lake-291572330987/raw/market/daily/AMZN/AMZN_daily.parquet
+2026-03-16 21:20:45 | INFO | market_data | Downloading WMT | 2020-01-01 → 2026-03-16 | interval=1d
+2026-03-16 21:20:45 | INFO | market_data |   ✓ WMT: 1557 rows | 2020-01-02 00:00:00 → 2026-03-13 00:00:00
+2026-03-16 21:20:45 | INFO | market_data | Validating WMT | 1557 rows
+2026-03-16 21:20:45 | INFO | market_data |   ✓ WMT: validation passed | 1557 rows remain | issues: none
+2026-03-16 21:20:45 | INFO | market_data |   ✓ Saved locally: data/local/raw/market/WMT.parquet
+2026-03-16 21:20:45 | INFO | market_data |   ✓ Uploaded to S3: s3://alphaflow-data-lake-291572330987/raw/market/daily/WMT/WMT_daily.parquet
+2026-03-16 21:20:45 | INFO | market_data | Downloading COST | 2020-01-01 → 2026-03-16 | interval=1d
+2026-03-16 21:20:46 | INFO | market_data |   ✓ COST: 1557 rows | 2020-01-02 00:00:00 → 2026-03-13 00:00:00
+2026-03-16 21:20:46 | INFO | market_data | Validating COST | 1557 rows
+2026-03-16 21:20:46 | INFO | market_data |   ✓ COST: validation passed | 1557 rows remain | issues: none
+2026-03-16 21:20:46 | INFO | market_data |   ✓ Saved locally: data/local/raw/market/COST.parquet
+2026-03-16 21:20:46 | INFO | market_data |   ✓ Uploaded to S3: s3://alphaflow-data-lake-291572330987/raw/market/daily/COST/COST_daily.parquet
+2026-03-16 21:20:46 | INFO | market_data | Downloading JPM | 2020-01-01 → 2026-03-16 | interval=1d
+2026-03-16 21:20:46 | INFO | market_data |   ✓ JPM: 1557 rows | 2020-01-02 00:00:00 → 2026-03-13 00:00:00
+2026-03-16 21:20:46 | INFO | market_data | Validating JPM | 1557 rows
+2026-03-16 21:20:46 | INFO | market_data |   ✓ JPM: validation passed | 1557 rows remain | issues: none
+2026-03-16 21:20:46 | INFO | market_data |   ✓ Saved locally: data/local/raw/market/JPM.parquet
+2026-03-16 21:20:46 | INFO | market_data |   ✓ Uploaded to S3: s3://alphaflow-data-lake-291572330987/raw/market/daily/JPM/JPM_daily.parquet
+2026-03-16 21:20:46 | INFO | market_data | Downloading GS | 2020-01-01 → 2026-03-16 | interval=1d
+2026-03-16 21:20:46 | INFO | market_data |   ✓ GS: 1557 rows | 2020-01-02 00:00:00 → 2026-03-13 00:00:00
+2026-03-16 21:20:46 | INFO | market_data | Validating GS | 1557 rows
+2026-03-16 21:20:46 | INFO | market_data |   ✓ GS: validation passed | 1557 rows remain | issues: none
+2026-03-16 21:20:46 | INFO | market_data |   ✓ Saved locally: data/local/raw/market/GS.parquet
+2026-03-16 21:20:46 | INFO | market_data |   ✓ Uploaded to S3: s3://alphaflow-data-lake-291572330987/raw/market/daily/GS/GS_daily.parquet
+2026-03-16 21:20:46 | INFO | market_data | Downloading BAC | 2020-01-01 → 2026-03-16 | interval=1d
+2026-03-16 21:20:47 | INFO | market_data |   ✓ BAC: 1557 rows | 2020-01-02 00:00:00 → 2026-03-13 00:00:00
+2026-03-16 21:20:47 | INFO | market_data | Validating BAC | 1557 rows
+2026-03-16 21:20:47 | INFO | market_data |   ✓ BAC: validation passed | 1557 rows remain | issues: none
+2026-03-16 21:20:47 | INFO | market_data |   ✓ Saved locally: data/local/raw/market/BAC.parquet
+2026-03-16 21:20:47 | INFO | market_data |   ✓ Uploaded to S3: s3://alphaflow-data-lake-291572330987/raw/market/daily/BAC/BAC_daily.parquet
+2026-03-16 21:20:47 | INFO | market_data | Downloading V | 2020-01-01 → 2026-03-16 | interval=1d
+2026-03-16 21:20:47 | INFO | market_data |   ✓ V: 1557 rows | 2020-01-02 00:00:00 → 2026-03-13 00:00:00
+2026-03-16 21:20:47 | INFO | market_data | Validating V | 1557 rows
+2026-03-16 21:20:47 | INFO | market_data |   ✓ V: validation passed | 1557 rows remain | issues: none
+2026-03-16 21:20:47 | INFO | market_data |   ✓ Saved locally: data/local/raw/market/V.parquet
+2026-03-16 21:20:47 | INFO | market_data |   ✓ Uploaded to S3: s3://alphaflow-data-lake-291572330987/raw/market/daily/V/V_daily.parquet
+2026-03-16 21:20:47 | INFO | market_data | Downloading JNJ | 2020-01-01 → 2026-03-16 | interval=1d
+2026-03-16 21:20:47 | INFO | market_data |   ✓ JNJ: 1557 rows | 2020-01-02 00:00:00 → 2026-03-13 00:00:00
+2026-03-16 21:20:47 | INFO | market_data | Validating JNJ | 1557 rows
+2026-03-16 21:20:47 | INFO | market_data |   ✓ JNJ: validation passed | 1557 rows remain | issues: none
+2026-03-16 21:20:47 | INFO | market_data |   ✓ Saved locally: data/local/raw/market/JNJ.parquet
+2026-03-16 21:20:48 | INFO | market_data |   ✓ Uploaded to S3: s3://alphaflow-data-lake-291572330987/raw/market/daily/JNJ/JNJ_daily.parquet
+2026-03-16 21:20:48 | INFO | market_data | Downloading UNH | 2020-01-01 → 2026-03-16 | interval=1d
+2026-03-16 21:20:48 | INFO | market_data |   ✓ UNH: 1557 rows | 2020-01-02 00:00:00 → 2026-03-13 00:00:00
+2026-03-16 21:20:48 | INFO | market_data | Validating UNH | 1557 rows
+2026-03-16 21:20:48 | INFO | market_data |   ✓ UNH: validation passed | 1557 rows remain | issues: none
+2026-03-16 21:20:48 | INFO | market_data |   ✓ Saved locally: data/local/raw/market/UNH.parquet
+2026-03-16 21:20:48 | INFO | market_data |   ✓ Uploaded to S3: s3://alphaflow-data-lake-291572330987/raw/market/daily/UNH/UNH_daily.parquet
+2026-03-16 21:20:48 | INFO | market_data | Downloading PFE | 2020-01-01 → 2026-03-16 | interval=1d
+2026-03-16 21:20:48 | INFO | market_data |   ✓ PFE: 1557 rows | 2020-01-02 00:00:00 → 2026-03-13 00:00:00
+2026-03-16 21:20:48 | INFO | market_data | Validating PFE | 1557 rows
+2026-03-16 21:20:48 | INFO | market_data |   ✓ PFE: validation passed | 1557 rows remain | issues: none
+2026-03-16 21:20:48 | INFO | market_data |   ✓ Saved locally: data/local/raw/market/PFE.parquet
+2026-03-16 21:20:48 | INFO | market_data |   ✓ Uploaded to S3: s3://alphaflow-data-lake-291572330987/raw/market/daily/PFE/PFE_daily.parquet
+2026-03-16 21:20:48 | INFO | market_data | Downloading ABBV | 2020-01-01 → 2026-03-16 | interval=1d
+2026-03-16 21:20:49 | INFO | market_data |   ✓ ABBV: 1557 rows | 2020-01-02 00:00:00 → 2026-03-13 00:00:00
+2026-03-16 21:20:49 | INFO | market_data | Validating ABBV | 1557 rows
+2026-03-16 21:20:49 | INFO | market_data |   ✓ ABBV: validation passed | 1557 rows remain | issues: none
+2026-03-16 21:20:49 | INFO | market_data |   ✓ Saved locally: data/local/raw/market/ABBV.parquet
+2026-03-16 21:20:49 | INFO | market_data |   ✓ Uploaded to S3: s3://alphaflow-data-lake-291572330987/raw/market/daily/ABBV/ABBV_daily.parquet
+2026-03-16 21:20:49 | INFO | market_data | Downloading XOM | 2020-01-01 → 2026-03-16 | interval=1d
+2026-03-16 21:20:49 | INFO | market_data |   ✓ XOM: 1557 rows | 2020-01-02 00:00:00 → 2026-03-13 00:00:00
+2026-03-16 21:20:49 | INFO | market_data | Validating XOM | 1557 rows
+2026-03-16 21:20:49 | INFO | market_data |   ✓ XOM: validation passed | 1557 rows remain | issues: none
+2026-03-16 21:20:49 | INFO | market_data |   ✓ Saved locally: data/local/raw/market/XOM.parquet
+2026-03-16 21:20:49 | INFO | market_data |   ✓ Uploaded to S3: s3://alphaflow-data-lake-291572330987/raw/market/daily/XOM/XOM_daily.parquet
+2026-03-16 21:20:49 | INFO | market_data | Downloading CVX | 2020-01-01 → 2026-03-16 | interval=1d
+2026-03-16 21:20:50 | INFO | market_data |   ✓ CVX: 1557 rows | 2020-01-02 00:00:00 → 2026-03-13 00:00:00
+2026-03-16 21:20:50 | INFO | market_data | Validating CVX | 1557 rows
+2026-03-16 21:20:50 | INFO | market_data |   ✓ CVX: validation passed | 1557 rows remain | issues: none
+2026-03-16 21:20:50 | INFO | market_data |   ✓ Saved locally: data/local/raw/market/CVX.parquet
+2026-03-16 21:20:50 | INFO | market_data |   ✓ Uploaded to S3: s3://alphaflow-data-lake-291572330987/raw/market/daily/CVX/CVX_daily.parquet
+2026-03-16 21:20:50 | INFO | market_data | Downloading BRK-B | 2020-01-01 → 2026-03-16 | interval=1d
+2026-03-16 21:20:50 | INFO | market_data |   ✓ BRK-B: 1557 rows | 2020-01-02 00:00:00 → 2026-03-13 00:00:00
+2026-03-16 21:20:50 | INFO | market_data | Validating BRK-B | 1557 rows
+2026-03-16 21:20:50 | INFO | market_data |   ✓ BRK-B: validation passed | 1557 rows remain | issues: none
+2026-03-16 21:20:50 | INFO | market_data |   ✓ Saved locally: data/local/raw/market/BRK-B.parquet
+2026-03-16 21:20:50 | INFO | market_data |   ✓ Uploaded to S3: s3://alphaflow-data-lake-291572330987/raw/market/daily/BRK-B/BRK-B_daily.parquet
+2026-03-16 21:20:50 | INFO | market_data | Downloading PG | 2020-01-01 → 2026-03-16 | interval=1d
+2026-03-16 21:20:51 | INFO | market_data |   ✓ PG: 1557 rows | 2020-01-02 00:00:00 → 2026-03-13 00:00:00
+2026-03-16 21:20:51 | INFO | market_data | Validating PG | 1557 rows
+2026-03-16 21:20:51 | INFO | market_data |   ✓ PG: validation passed | 1557 rows remain | issues: none
+2026-03-16 21:20:51 | INFO | market_data |   ✓ Saved locally: data/local/raw/market/PG.parquet
+2026-03-16 21:20:51 | INFO | market_data |   ✓ Uploaded to S3: s3://alphaflow-data-lake-291572330987/raw/market/daily/PG/PG_daily.parquet
+2026-03-16 21:20:51 | INFO | market_data | Downloading KO | 2020-01-01 → 2026-03-16 | interval=1d
+2026-03-16 21:20:51 | INFO | market_data |   ✓ KO: 1557 rows | 2020-01-02 00:00:00 → 2026-03-13 00:00:00
+2026-03-16 21:20:51 | INFO | market_data | Validating KO | 1557 rows
+2026-03-16 21:20:51 | INFO | market_data |   ✓ KO: validation passed | 1557 rows remain | issues: none
+2026-03-16 21:20:51 | INFO | market_data |   ✓ Saved locally: data/local/raw/market/KO.parquet
+2026-03-16 21:20:51 | INFO | market_data |   ✓ Uploaded to S3: s3://alphaflow-data-lake-291572330987/raw/market/daily/KO/KO_daily.parquet
+2026-03-16 21:20:51 | INFO | market_data | Downloading TSLA | 2020-01-01 → 2026-03-16 | interval=1d
+2026-03-16 21:20:51 | INFO | market_data |   ✓ TSLA: 1557 rows | 2020-01-02 00:00:00 → 2026-03-13 00:00:00
+2026-03-16 21:20:51 | INFO | market_data | Validating TSLA | 1557 rows
+2026-03-16 21:20:51 | INFO | market_data |   ✓ TSLA: validation passed | 1557 rows remain | issues: none
+2026-03-16 21:20:51 | INFO | market_data |   ✓ Saved locally: data/local/raw/market/TSLA.parquet
+2026-03-16 21:20:51 | INFO | market_data |   ✓ Uploaded to S3: s3://alphaflow-data-lake-291572330987/raw/market/daily/TSLA/TSLA_daily.parquet
+2026-03-16 21:20:51 | INFO | market_data | Downloading META | 2020-01-01 → 2026-03-16 | interval=1d
+2026-03-16 21:20:52 | INFO | market_data |   ✓ META: 1557 rows | 2020-01-02 00:00:00 → 2026-03-13 00:00:00
+2026-03-16 21:20:52 | INFO | market_data | Validating META | 1557 rows
+2026-03-16 21:20:52 | INFO | market_data |   ✓ META: validation passed | 1557 rows remain | issues: none
+2026-03-16 21:20:52 | INFO | market_data |   ✓ Saved locally: data/local/raw/market/META.parquet
+2026-03-16 21:20:52 | INFO | market_data |   ✓ Uploaded to S3: s3://alphaflow-data-lake-291572330987/raw/market/daily/META/META_daily.parquet
+2026-03-16 21:20:52 | INFO | market_data | Downloading NFLX | 2020-01-01 → 2026-03-16 | interval=1d
+2026-03-16 21:20:52 | INFO | market_data |   ✓ NFLX: 1557 rows | 2020-01-02 00:00:00 → 2026-03-13 00:00:00
+2026-03-16 21:20:52 | INFO | market_data | Validating NFLX | 1557 rows
+2026-03-16 21:20:52 | INFO | market_data |   ✓ NFLX: validation passed | 1557 rows remain | issues: none
+2026-03-16 21:20:52 | INFO | market_data |   ✓ Saved locally: data/local/raw/market/NFLX.parquet
+2026-03-16 21:20:52 | INFO | market_data |   ✓ Uploaded to S3: s3://alphaflow-data-lake-291572330987/raw/market/daily/NFLX/NFLX_daily.parquet
+2026-03-16 21:20:52 | INFO | market_data | Downloading CRM | 2020-01-01 → 2026-03-16 | interval=1d
+2026-03-16 21:20:52 | INFO | market_data |   ✓ CRM: 1557 rows | 2020-01-02 00:00:00 → 2026-03-13 00:00:00
+2026-03-16 21:20:52 | INFO | market_data | Validating CRM | 1557 rows
+2026-03-16 21:20:52 | INFO | market_data |   ✓ CRM: validation passed | 1557 rows remain | issues: none
+2026-03-16 21:20:52 | INFO | market_data |   ✓ Saved locally: data/local/raw/market/CRM.parquet
+2026-03-16 21:20:52 | INFO | market_data |   ✓ Uploaded to S3: s3://alphaflow-data-lake-291572330987/raw/market/daily/CRM/CRM_daily.parquet
+2026-03-16 21:20:52 | INFO | market_data | 
+2026-03-16 21:20:52 | INFO | market_data | ============================================================
+2026-03-16 21:20:52 | INFO | market_data | INGESTION SUMMARY
+2026-03-16 21:20:52 | INFO | market_data | ============================================================
+2026-03-16 21:20:52 | INFO | market_data | ✓ Success : 25 tickers — ['AAPL', 'MSFT', 'GOOGL', 'NVDA', 'AMD', 'AMZN', 'WMT', 'COST', 'JPM', 'GS', 'BAC', 'V', 'JNJ', 'UNH', 'PFE', 'ABBV', 'XOM', 'CVX', 'BRK-B', 'PG', 'KO', 'TSLA', 'META', 'NFLX', 'CRM']
+2026-03-16 21:20:52 | INFO | market_data | ✗ Failed  : 0 tickers  — []
+2026-03-16 23:14:59 | INFO | market_data | ============================================================
+2026-03-16 23:14:59 | INFO | market_data | AlphaFlow — Market Data Ingestion Pipeline
+2026-03-16 23:14:59 | INFO | market_data | Tickers : ['AAPL', 'MSFT', 'GOOGL', 'NVDA', 'AMD', 'AMZN', 'WMT', 'COST', 'JPM', 'GS', 'BAC', 'V', 'JNJ', 'UNH', 'PFE', 'ABBV', 'XOM', 'CVX', 'BRK-B', 'PG', 'KO', 'TSLA', 'META', 'NFLX', 'CRM']
+2026-03-16 23:14:59 | INFO | market_data | Period  : 2020-01-01 → 2026-03-16
+2026-03-16 23:14:59 | INFO | market_data | Interval: 1d
+2026-03-16 23:14:59 | INFO | market_data | ============================================================
+2026-03-16 23:14:59 | INFO | botocore.credentials | Found credentials in shared credentials file: ~/.aws/credentials
+2026-03-16 23:14:59 | INFO | market_data | Downloading AAPL | 2020-01-01 → 2026-03-16 | interval=1d
+2026-03-16 23:14:59 | INFO | market_data |   ✓ AAPL: 1557 rows | 2020-01-02 00:00:00 → 2026-03-13 00:00:00
+2026-03-16 23:14:59 | INFO | market_data | Validating AAPL | 1557 rows
+2026-03-16 23:14:59 | INFO | market_data |   ✓ AAPL: validation passed | 1557 rows remain | issues: none
+2026-03-16 23:14:59 | INFO | market_data |   ✓ Saved locally: data/local/raw/market/AAPL.parquet
+2026-03-16 23:15:00 | INFO | market_data |   ✓ Uploaded to S3: s3://alphaflow-data-lake-291572330987/raw/market/daily/AAPL/AAPL_daily.parquet
+2026-03-16 23:15:00 | INFO | market_data | Downloading MSFT | 2020-01-01 → 2026-03-16 | interval=1d
+2026-03-16 23:15:00 | INFO | market_data |   ✓ MSFT: 1557 rows | 2020-01-02 00:00:00 → 2026-03-13 00:00:00
+2026-03-16 23:15:00 | INFO | market_data | Validating MSFT | 1557 rows
+2026-03-16 23:15:00 | INFO | market_data |   ✓ MSFT: validation passed | 1557 rows remain | issues: none
+2026-03-16 23:15:00 | INFO | market_data |   ✓ Saved locally: data/local/raw/market/MSFT.parquet
+2026-03-16 23:15:00 | INFO | market_data |   ✓ Uploaded to S3: s3://alphaflow-data-lake-291572330987/raw/market/daily/MSFT/MSFT_daily.parquet
+2026-03-16 23:15:00 | INFO | market_data | Downloading GOOGL | 2020-01-01 → 2026-03-16 | interval=1d
+2026-03-16 23:15:00 | INFO | market_data |   ✓ GOOGL: 1557 rows | 2020-01-02 00:00:00 → 2026-03-13 00:00:00
+2026-03-16 23:15:00 | INFO | market_data | Validating GOOGL | 1557 rows
+2026-03-16 23:15:00 | INFO | market_data |   ✓ GOOGL: validation passed | 1557 rows remain | issues: none
+2026-03-16 23:15:00 | INFO | market_data |   ✓ Saved locally: data/local/raw/market/GOOGL.parquet
+2026-03-16 23:15:00 | INFO | market_data |   ✓ Uploaded to S3: s3://alphaflow-data-lake-291572330987/raw/market/daily/GOOGL/GOOGL_daily.parquet
+2026-03-16 23:15:00 | INFO | market_data | Downloading NVDA | 2020-01-01 → 2026-03-16 | interval=1d
+2026-03-16 23:15:00 | INFO | market_data |   ✓ NVDA: 1557 rows | 2020-01-02 00:00:00 → 2026-03-13 00:00:00
+2026-03-16 23:15:00 | INFO | market_data | Validating NVDA | 1557 rows
+2026-03-16 23:15:00 | INFO | market_data |   ✓ NVDA: validation passed | 1557 rows remain | issues: none
+2026-03-16 23:15:00 | INFO | market_data |   ✓ Saved locally: data/local/raw/market/NVDA.parquet
+2026-03-16 23:15:01 | INFO | market_data |   ✓ Uploaded to S3: s3://alphaflow-data-lake-291572330987/raw/market/daily/NVDA/NVDA_daily.parquet
+2026-03-16 23:15:01 | INFO | market_data | Downloading AMD | 2020-01-01 → 2026-03-16 | interval=1d
+2026-03-16 23:15:01 | INFO | market_data |   ✓ AMD: 1557 rows | 2020-01-02 00:00:00 → 2026-03-13 00:00:00
+2026-03-16 23:15:01 | INFO | market_data | Validating AMD | 1557 rows
+2026-03-16 23:15:01 | INFO | market_data |   ✓ AMD: validation passed | 1557 rows remain | issues: none
+2026-03-16 23:15:01 | INFO | market_data |   ✓ Saved locally: data/local/raw/market/AMD.parquet
+2026-03-16 23:15:01 | INFO | market_data |   ✓ Uploaded to S3: s3://alphaflow-data-lake-291572330987/raw/market/daily/AMD/AMD_daily.parquet
+2026-03-16 23:15:01 | INFO | market_data | Downloading AMZN | 2020-01-01 → 2026-03-16 | interval=1d
+2026-03-16 23:15:01 | INFO | market_data |   ✓ AMZN: 1557 rows | 2020-01-02 00:00:00 → 2026-03-13 00:00:00
+2026-03-16 23:15:01 | INFO | market_data | Validating AMZN | 1557 rows
+2026-03-16 23:15:01 | INFO | market_data |   ✓ AMZN: validation passed | 1557 rows remain | issues: none
+2026-03-16 23:15:01 | INFO | market_data |   ✓ Saved locally: data/local/raw/market/AMZN.parquet
+2026-03-16 23:15:01 | INFO | market_data |   ✓ Uploaded to S3: s3://alphaflow-data-lake-291572330987/raw/market/daily/AMZN/AMZN_daily.parquet
+2026-03-16 23:15:01 | INFO | market_data | Downloading WMT | 2020-01-01 → 2026-03-16 | interval=1d
+2026-03-16 23:15:01 | INFO | market_data |   ✓ WMT: 1557 rows | 2020-01-02 00:00:00 → 2026-03-13 00:00:00
+2026-03-16 23:15:01 | INFO | market_data | Validating WMT | 1557 rows
+2026-03-16 23:15:01 | INFO | market_data |   ✓ WMT: validation passed | 1557 rows remain | issues: none
+2026-03-16 23:15:01 | INFO | market_data |   ✓ Saved locally: data/local/raw/market/WMT.parquet
+2026-03-16 23:15:01 | INFO | market_data |   ✓ Uploaded to S3: s3://alphaflow-data-lake-291572330987/raw/market/daily/WMT/WMT_daily.parquet
+2026-03-16 23:15:01 | INFO | market_data | Downloading COST | 2020-01-01 → 2026-03-16 | interval=1d
+2026-03-16 23:15:02 | INFO | market_data |   ✓ COST: 1557 rows | 2020-01-02 00:00:00 → 2026-03-13 00:00:00
+2026-03-16 23:15:02 | INFO | market_data | Validating COST | 1557 rows
+2026-03-16 23:15:02 | INFO | market_data |   ✓ COST: validation passed | 1557 rows remain | issues: none
+2026-03-16 23:15:02 | INFO | market_data |   ✓ Saved locally: data/local/raw/market/COST.parquet
+2026-03-16 23:15:02 | INFO | market_data |   ✓ Uploaded to S3: s3://alphaflow-data-lake-291572330987/raw/market/daily/COST/COST_daily.parquet
+2026-03-16 23:15:02 | INFO | market_data | Downloading JPM | 2020-01-01 → 2026-03-16 | interval=1d
+2026-03-16 23:15:02 | INFO | market_data |   ✓ JPM: 1557 rows | 2020-01-02 00:00:00 → 2026-03-13 00:00:00
+2026-03-16 23:15:02 | INFO | market_data | Validating JPM | 1557 rows
+2026-03-16 23:15:02 | INFO | market_data |   ✓ JPM: validation passed | 1557 rows remain | issues: none
+2026-03-16 23:15:02 | INFO | market_data |   ✓ Saved locally: data/local/raw/market/JPM.parquet
+2026-03-16 23:15:02 | INFO | market_data |   ✓ Uploaded to S3: s3://alphaflow-data-lake-291572330987/raw/market/daily/JPM/JPM_daily.parquet
+2026-03-16 23:15:02 | INFO | market_data | Downloading GS | 2020-01-01 → 2026-03-16 | interval=1d
+2026-03-16 23:15:02 | INFO | market_data |   ✓ GS: 1557 rows | 2020-01-02 00:00:00 → 2026-03-13 00:00:00
+2026-03-16 23:15:02 | INFO | market_data | Validating GS | 1557 rows
+2026-03-16 23:15:02 | INFO | market_data |   ✓ GS: validation passed | 1557 rows remain | issues: none
+2026-03-16 23:15:02 | INFO | market_data |   ✓ Saved locally: data/local/raw/market/GS.parquet
+2026-03-16 23:15:02 | INFO | market_data |   ✓ Uploaded to S3: s3://alphaflow-data-lake-291572330987/raw/market/daily/GS/GS_daily.parquet
+2026-03-16 23:15:02 | INFO | market_data | Downloading BAC | 2020-01-01 → 2026-03-16 | interval=1d
+2026-03-16 23:15:03 | INFO | market_data |   ✓ BAC: 1557 rows | 2020-01-02 00:00:00 → 2026-03-13 00:00:00
+2026-03-16 23:15:03 | INFO | market_data | Validating BAC | 1557 rows
+2026-03-16 23:15:03 | INFO | market_data |   ✓ BAC: validation passed | 1557 rows remain | issues: none
+2026-03-16 23:15:03 | INFO | market_data |   ✓ Saved locally: data/local/raw/market/BAC.parquet
+2026-03-16 23:15:03 | INFO | market_data |   ✓ Uploaded to S3: s3://alphaflow-data-lake-291572330987/raw/market/daily/BAC/BAC_daily.parquet
+2026-03-16 23:15:03 | INFO | market_data | Downloading V | 2020-01-01 → 2026-03-16 | interval=1d
+2026-03-16 23:15:03 | INFO | market_data |   ✓ V: 1557 rows | 2020-01-02 00:00:00 → 2026-03-13 00:00:00
+2026-03-16 23:15:03 | INFO | market_data | Validating V | 1557 rows
+2026-03-16 23:15:03 | INFO | market_data |   ✓ V: validation passed | 1557 rows remain | issues: none
+2026-03-16 23:15:03 | INFO | market_data |   ✓ Saved locally: data/local/raw/market/V.parquet
+2026-03-16 23:15:03 | INFO | market_data |   ✓ Uploaded to S3: s3://alphaflow-data-lake-291572330987/raw/market/daily/V/V_daily.parquet
+2026-03-16 23:15:03 | INFO | market_data | Downloading JNJ | 2020-01-01 → 2026-03-16 | interval=1d
+2026-03-16 23:15:03 | INFO | market_data |   ✓ JNJ: 1557 rows | 2020-01-02 00:00:00 → 2026-03-13 00:00:00
+2026-03-16 23:15:03 | INFO | market_data | Validating JNJ | 1557 rows
+2026-03-16 23:15:03 | INFO | market_data |   ✓ JNJ: validation passed | 1557 rows remain | issues: none
+2026-03-16 23:15:03 | INFO | market_data |   ✓ Saved locally: data/local/raw/market/JNJ.parquet
+2026-03-16 23:15:03 | INFO | market_data |   ✓ Uploaded to S3: s3://alphaflow-data-lake-291572330987/raw/market/daily/JNJ/JNJ_daily.parquet
+2026-03-16 23:15:03 | INFO | market_data | Downloading UNH | 2020-01-01 → 2026-03-16 | interval=1d
+2026-03-16 23:15:04 | INFO | market_data |   ✓ UNH: 1557 rows | 2020-01-02 00:00:00 → 2026-03-13 00:00:00
+2026-03-16 23:15:04 | INFO | market_data | Validating UNH | 1557 rows
+2026-03-16 23:15:04 | INFO | market_data |   ✓ UNH: validation passed | 1557 rows remain | issues: none
+2026-03-16 23:15:04 | INFO | market_data |   ✓ Saved locally: data/local/raw/market/UNH.parquet
+2026-03-16 23:15:04 | INFO | market_data |   ✓ Uploaded to S3: s3://alphaflow-data-lake-291572330987/raw/market/daily/UNH/UNH_daily.parquet
+2026-03-16 23:15:04 | INFO | market_data | Downloading PFE | 2020-01-01 → 2026-03-16 | interval=1d
+2026-03-16 23:15:04 | INFO | market_data |   ✓ PFE: 1557 rows | 2020-01-02 00:00:00 → 2026-03-13 00:00:00
+2026-03-16 23:15:04 | INFO | market_data | Validating PFE | 1557 rows
+2026-03-16 23:15:04 | INFO | market_data |   ✓ PFE: validation passed | 1557 rows remain | issues: none
+2026-03-16 23:15:04 | INFO | market_data |   ✓ Saved locally: data/local/raw/market/PFE.parquet
+2026-03-16 23:15:04 | INFO | market_data |   ✓ Uploaded to S3: s3://alphaflow-data-lake-291572330987/raw/market/daily/PFE/PFE_daily.parquet
+2026-03-16 23:15:04 | INFO | market_data | Downloading ABBV | 2020-01-01 → 2026-03-16 | interval=1d
+2026-03-16 23:15:04 | INFO | market_data |   ✓ ABBV: 1557 rows | 2020-01-02 00:00:00 → 2026-03-13 00:00:00
+2026-03-16 23:15:04 | INFO | market_data | Validating ABBV | 1557 rows
+2026-03-16 23:15:04 | INFO | market_data |   ✓ ABBV: validation passed | 1557 rows remain | issues: none
+2026-03-16 23:15:04 | INFO | market_data |   ✓ Saved locally: data/local/raw/market/ABBV.parquet
+2026-03-16 23:15:04 | INFO | market_data |   ✓ Uploaded to S3: s3://alphaflow-data-lake-291572330987/raw/market/daily/ABBV/ABBV_daily.parquet
+2026-03-16 23:15:04 | INFO | market_data | Downloading XOM | 2020-01-01 → 2026-03-16 | interval=1d
+2026-03-16 23:15:04 | INFO | market_data |   ✓ XOM: 1557 rows | 2020-01-02 00:00:00 → 2026-03-13 00:00:00
+2026-03-16 23:15:04 | INFO | market_data | Validating XOM | 1557 rows
+2026-03-16 23:15:04 | INFO | market_data |   ✓ XOM: validation passed | 1557 rows remain | issues: none
+2026-03-16 23:15:04 | INFO | market_data |   ✓ Saved locally: data/local/raw/market/XOM.parquet
+2026-03-16 23:15:05 | INFO | market_data |   ✓ Uploaded to S3: s3://alphaflow-data-lake-291572330987/raw/market/daily/XOM/XOM_daily.parquet
+2026-03-16 23:15:05 | INFO | market_data | Downloading CVX | 2020-01-01 → 2026-03-16 | interval=1d
+2026-03-16 23:15:05 | INFO | market_data |   ✓ CVX: 1557 rows | 2020-01-02 00:00:00 → 2026-03-13 00:00:00
+2026-03-16 23:15:05 | INFO | market_data | Validating CVX | 1557 rows
+2026-03-16 23:15:05 | INFO | market_data |   ✓ CVX: validation passed | 1557 rows remain | issues: none
+2026-03-16 23:15:05 | INFO | market_data |   ✓ Saved locally: data/local/raw/market/CVX.parquet
+2026-03-16 23:15:05 | INFO | market_data |   ✓ Uploaded to S3: s3://alphaflow-data-lake-291572330987/raw/market/daily/CVX/CVX_daily.parquet
+2026-03-16 23:15:05 | INFO | market_data | Downloading BRK-B | 2020-01-01 → 2026-03-16 | interval=1d
+2026-03-16 23:15:05 | INFO | market_data |   ✓ BRK-B: 1557 rows | 2020-01-02 00:00:00 → 2026-03-13 00:00:00
+2026-03-16 23:15:05 | INFO | market_data | Validating BRK-B | 1557 rows
+2026-03-16 23:15:05 | INFO | market_data |   ✓ BRK-B: validation passed | 1557 rows remain | issues: none
+2026-03-16 23:15:05 | INFO | market_data |   ✓ Saved locally: data/local/raw/market/BRK-B.parquet
+2026-03-16 23:15:05 | INFO | market_data |   ✓ Uploaded to S3: s3://alphaflow-data-lake-291572330987/raw/market/daily/BRK-B/BRK-B_daily.parquet
+2026-03-16 23:15:05 | INFO | market_data | Downloading PG | 2020-01-01 → 2026-03-16 | interval=1d
+2026-03-16 23:15:05 | INFO | market_data |   ✓ PG: 1557 rows | 2020-01-02 00:00:00 → 2026-03-13 00:00:00
+2026-03-16 23:15:05 | INFO | market_data | Validating PG | 1557 rows
+2026-03-16 23:15:05 | INFO | market_data |   ✓ PG: validation passed | 1557 rows remain | issues: none
+2026-03-16 23:15:05 | INFO | market_data |   ✓ Saved locally: data/local/raw/market/PG.parquet
+2026-03-16 23:15:06 | INFO | market_data |   ✓ Uploaded to S3: s3://alphaflow-data-lake-291572330987/raw/market/daily/PG/PG_daily.parquet
+2026-03-16 23:15:06 | INFO | market_data | Downloading KO | 2020-01-01 → 2026-03-16 | interval=1d
+2026-03-16 23:15:06 | INFO | market_data |   ✓ KO: 1557 rows | 2020-01-02 00:00:00 → 2026-03-13 00:00:00
+2026-03-16 23:15:06 | INFO | market_data | Validating KO | 1557 rows
+2026-03-16 23:15:06 | INFO | market_data |   ✓ KO: validation passed | 1557 rows remain | issues: none
+2026-03-16 23:15:06 | INFO | market_data |   ✓ Saved locally: data/local/raw/market/KO.parquet
+2026-03-16 23:15:06 | INFO | market_data |   ✓ Uploaded to S3: s3://alphaflow-data-lake-291572330987/raw/market/daily/KO/KO_daily.parquet
+2026-03-16 23:15:06 | INFO | market_data | Downloading TSLA | 2020-01-01 → 2026-03-16 | interval=1d
+2026-03-16 23:15:06 | INFO | market_data |   ✓ TSLA: 1557 rows | 2020-01-02 00:00:00 → 2026-03-13 00:00:00
+2026-03-16 23:15:06 | INFO | market_data | Validating TSLA | 1557 rows
+2026-03-16 23:15:06 | INFO | market_data |   ✓ TSLA: validation passed | 1557 rows remain | issues: none
+2026-03-16 23:15:06 | INFO | market_data |   ✓ Saved locally: data/local/raw/market/TSLA.parquet
+2026-03-16 23:15:06 | INFO | market_data |   ✓ Uploaded to S3: s3://alphaflow-data-lake-291572330987/raw/market/daily/TSLA/TSLA_daily.parquet
+2026-03-16 23:15:06 | INFO | market_data | Downloading META | 2020-01-01 → 2026-03-16 | interval=1d
+2026-03-16 23:15:06 | INFO | market_data |   ✓ META: 1557 rows | 2020-01-02 00:00:00 → 2026-03-13 00:00:00
+2026-03-16 23:15:06 | INFO | market_data | Validating META | 1557 rows
+2026-03-16 23:15:06 | INFO | market_data |   ✓ META: validation passed | 1557 rows remain | issues: none
+2026-03-16 23:15:06 | INFO | market_data |   ✓ Saved locally: data/local/raw/market/META.parquet
+2026-03-16 23:15:06 | INFO | market_data |   ✓ Uploaded to S3: s3://alphaflow-data-lake-291572330987/raw/market/daily/META/META_daily.parquet
+2026-03-16 23:15:06 | INFO | market_data | Downloading NFLX | 2020-01-01 → 2026-03-16 | interval=1d
+2026-03-16 23:15:07 | INFO | market_data |   ✓ NFLX: 1557 rows | 2020-01-02 00:00:00 → 2026-03-13 00:00:00
+2026-03-16 23:15:07 | INFO | market_data | Validating NFLX | 1557 rows
+2026-03-16 23:15:07 | INFO | market_data |   ✓ NFLX: validation passed | 1557 rows remain | issues: none
+2026-03-16 23:15:07 | INFO | market_data |   ✓ Saved locally: data/local/raw/market/NFLX.parquet
+2026-03-16 23:15:07 | INFO | market_data |   ✓ Uploaded to S3: s3://alphaflow-data-lake-291572330987/raw/market/daily/NFLX/NFLX_daily.parquet
+2026-03-16 23:15:07 | INFO | market_data | Downloading CRM | 2020-01-01 → 2026-03-16 | interval=1d
+2026-03-16 23:15:07 | INFO | market_data |   ✓ CRM: 1557 rows | 2020-01-02 00:00:00 → 2026-03-13 00:00:00
+2026-03-16 23:15:07 | INFO | market_data | Validating CRM | 1557 rows
+2026-03-16 23:15:07 | INFO | market_data |   ✓ CRM: validation passed | 1557 rows remain | issues: none
+2026-03-16 23:15:07 | INFO | market_data |   ✓ Saved locally: data/local/raw/market/CRM.parquet
+2026-03-16 23:15:07 | INFO | market_data |   ✓ Uploaded to S3: s3://alphaflow-data-lake-291572330987/raw/market/daily/CRM/CRM_daily.parquet
+2026-03-16 23:15:07 | INFO | market_data | 
+2026-03-16 23:15:07 | INFO | market_data | ============================================================
+2026-03-16 23:15:07 | INFO | market_data | INGESTION SUMMARY
+2026-03-16 23:15:07 | INFO | market_data | ============================================================
+2026-03-16 23:15:07 | INFO | market_data | ✓ Success : 25 tickers — ['AAPL', 'MSFT', 'GOOGL', 'NVDA', 'AMD', 'AMZN', 'WMT', 'COST', 'JPM', 'GS', 'BAC', 'V', 'JNJ', 'UNH', 'PFE', 'ABBV', 'XOM', 'CVX', 'BRK-B', 'PG', 'KO', 'TSLA', 'META', 'NFLX', 'CRM']
+2026-03-16 23:15:07 | INFO | market_data | ✗ Failed  : 0 tickers  — []

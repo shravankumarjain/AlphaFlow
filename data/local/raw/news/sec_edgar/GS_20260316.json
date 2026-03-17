@@ -1,0 +1,192 @@
+[
+  {
+    "ticker": "GS",
+    "cik": "886982",
+    "form_type": "8-K",
+    "filing_date": "2026-03-13",
+    "accession_number": "0001193125-26-105328",
+    "primary_document": "gs-20260309.htm",
+    "fetched_at": "2026-03-16T21:21:10.283808",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "GS",
+    "cik": "886982",
+    "form_type": "8-K",
+    "filing_date": "2026-03-05",
+    "accession_number": "0001193125-26-094047",
+    "primary_document": "d926033d8k.htm",
+    "fetched_at": "2026-03-16T21:21:10.283877",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "GS",
+    "cik": "886982",
+    "form_type": "10-K",
+    "filing_date": "2026-02-25",
+    "accession_number": "0000886982-26-000091",
+    "primary_document": "gs-20251231.htm",
+    "fetched_at": "2026-03-16T21:21:10.283952",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "GS",
+    "cik": "886982",
+    "form_type": "8-K",
+    "filing_date": "2026-02-13",
+    "accession_number": "0001193125-26-051527",
+    "primary_document": "gs-20260212.htm",
+    "fetched_at": "2026-03-16T21:21:10.284014",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "GS",
+    "cik": "886982",
+    "form_type": "8-K",
+    "filing_date": "2026-02-02",
+    "accession_number": "0001193125-26-033730",
+    "primary_document": "d36353d8k.htm",
+    "fetched_at": "2026-03-16T21:21:10.284086",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "GS",
+    "cik": "886982",
+    "form_type": "8-K",
+    "filing_date": "2026-01-23",
+    "accession_number": "0001193125-26-020895",
+    "primary_document": "gs-20260123.htm",
+    "fetched_at": "2026-03-16T21:21:10.284145",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "GS",
+    "cik": "886982",
+    "form_type": "8-K",
+    "filing_date": "2026-01-21",
+    "accession_number": "0001193125-26-018009",
+    "primary_document": "d24150d8k.htm",
+    "fetched_at": "2026-03-16T21:21:10.284161",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "GS",
+    "cik": "886982",
+    "form_type": "8-K",
+    "filing_date": "2026-01-15",
+    "accession_number": "0000886982-26-000008",
+    "primary_document": "gs-20260115.htm",
+    "fetched_at": "2026-03-16T21:21:10.284183",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "GS",
+    "cik": "886982",
+    "form_type": "8-K",
+    "filing_date": "2026-01-08",
+    "accession_number": "0000886982-26-000004",
+    "primary_document": "gs-20260107.htm",
+    "fetched_at": "2026-03-16T21:21:10.284204",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "GS",
+    "cik": "886982",
+    "form_type": "10-Q",
+    "filing_date": "2025-10-31",
+    "accession_number": "0000886982-25-001411",
+    "primary_document": "gs-20250930.htm",
+    "fetched_at": "2026-03-16T21:21:10.284422",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "GS",
+    "cik": "886982",
+    "form_type": "8-K",
+    "filing_date": "2025-10-21",
+    "accession_number": "0001193125-25-245194",
+    "primary_document": "d42434d8k.htm",
+    "fetched_at": "2026-03-16T21:21:10.284475",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "GS",
+    "cik": "886982",
+    "form_type": "8-K",
+    "filing_date": "2025-10-14",
+    "accession_number": "0001193125-25-238058",
+    "primary_document": "d899312d8k.htm",
+    "fetched_at": "2026-03-16T21:21:10.284505",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "GS",
+    "cik": "886982",
+    "form_type": "10-Q",
+    "filing_date": "2025-08-01",
+    "accession_number": "0000886982-25-000022",
+    "primary_document": "gs-20250630.htm",
+    "fetched_at": "2026-03-16T21:21:10.284699",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "GS",
+    "cik": "886982",
+    "form_type": "8-K",
+    "filing_date": "2025-07-16",
+    "accession_number": "0001193125-25-159560",
+    "primary_document": "d41877d8k.htm",
+    "fetched_at": "2026-03-16T21:21:10.284745",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "GS",
+    "cik": "886982",
+    "form_type": "8-K",
+    "filing_date": "2025-07-01",
+    "accession_number": "0001193125-25-154097",
+    "primary_document": "d86055d8k.htm",
+    "fetched_at": "2026-03-16T21:21:10.284770",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "GS",
+    "cik": "886982",
+    "form_type": "10-Q",
+    "filing_date": "2025-05-02",
+    "accession_number": "0000886982-25-000009",
+    "primary_document": "gs-20250331.htm",
+    "fetched_at": "2026-03-16T21:21:10.284890",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "GS",
+    "cik": "886982",
+    "form_type": "8-K",
+    "filing_date": "2025-04-24",
+    "accession_number": "0001193125-25-093530",
+    "primary_document": "d787120d8k.htm",
+    "fetched_at": "2026-03-16T21:21:10.284935",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "GS",
+    "cik": "886982",
+    "form_type": "8-K",
+    "filing_date": "2025-04-23",
+    "accession_number": "0001193125-25-091404",
+    "primary_document": "d933184d8k.htm",
+    "fetched_at": "2026-03-16T21:21:10.284943",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "GS",
+    "cik": "886982",
+    "form_type": "8-K",
+    "filing_date": "2025-04-14",
+    "accession_number": "0001193125-25-079625",
+    "primary_document": "d750054d8k.htm",
+    "fetched_at": "2026-03-16T21:21:10.284976",
+    "source_name": "sec_edgar"
+  }
+]

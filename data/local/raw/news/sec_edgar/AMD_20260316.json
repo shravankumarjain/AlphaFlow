@@ -1,0 +1,1462 @@
+[
+  {
+    "ticker": "AMD",
+    "cik": "2488",
+    "form_type": "8-K",
+    "filing_date": "2026-02-24",
+    "accession_number": "0000002488-26-000045",
+    "primary_document": "amd-20260223.htm",
+    "fetched_at": "2026-03-16T21:21:02.045738",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMD",
+    "cik": "2488",
+    "form_type": "8-K",
+    "filing_date": "2026-02-17",
+    "accession_number": "0000002488-26-000029",
+    "primary_document": "amd-20260210.htm",
+    "fetched_at": "2026-03-16T21:21:02.045762",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMD",
+    "cik": "2488",
+    "form_type": "10-K",
+    "filing_date": "2026-02-04",
+    "accession_number": "0000002488-26-000018",
+    "primary_document": "amd-20251227.htm",
+    "fetched_at": "2026-03-16T21:21:02.045770",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMD",
+    "cik": "2488",
+    "form_type": "8-K",
+    "filing_date": "2026-02-03",
+    "accession_number": "0000002488-26-000014",
+    "primary_document": "amd-20260203.htm",
+    "fetched_at": "2026-03-16T21:21:02.045776",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMD",
+    "cik": "2488",
+    "form_type": "8-K",
+    "filing_date": "2026-01-20",
+    "accession_number": "0000002488-26-000002",
+    "primary_document": "amd-20260116.htm",
+    "fetched_at": "2026-03-16T21:21:02.045782",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMD",
+    "cik": "2488",
+    "form_type": "8-K",
+    "filing_date": "2025-12-15",
+    "accession_number": "0000002488-25-000182",
+    "primary_document": "amd-20251212.htm",
+    "fetched_at": "2026-03-16T21:21:02.045788",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMD",
+    "cik": "2488",
+    "form_type": "10-Q",
+    "filing_date": "2025-11-05",
+    "accession_number": "0000002488-25-000166",
+    "primary_document": "amd-20250927.htm",
+    "fetched_at": "2026-03-16T21:21:02.045796",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMD",
+    "cik": "2488",
+    "form_type": "8-K",
+    "filing_date": "2025-11-04",
+    "accession_number": "0000002488-25-000163",
+    "primary_document": "amd-20251104.htm",
+    "fetched_at": "2026-03-16T21:21:02.045802",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMD",
+    "cik": "2488",
+    "form_type": "8-K",
+    "filing_date": "2025-10-27",
+    "accession_number": "0001193125-25-250803",
+    "primary_document": "d917887d8k.htm",
+    "fetched_at": "2026-03-16T21:21:02.045807",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMD",
+    "cik": "2488",
+    "form_type": "8-K",
+    "filing_date": "2025-10-06",
+    "accession_number": "0001193125-25-230895",
+    "primary_document": "d28189d8k.htm",
+    "fetched_at": "2026-03-16T21:21:02.045812",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMD",
+    "cik": "2488",
+    "form_type": "8-K",
+    "filing_date": "2025-08-25",
+    "accession_number": "0000002488-25-000147",
+    "primary_document": "amd-20250822.htm",
+    "fetched_at": "2026-03-16T21:21:02.045818",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMD",
+    "cik": "2488",
+    "form_type": "10-Q",
+    "filing_date": "2025-08-06",
+    "accession_number": "0000002488-25-000108",
+    "primary_document": "amd-20250628.htm",
+    "fetched_at": "2026-03-16T21:21:02.045827",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMD",
+    "cik": "2488",
+    "form_type": "8-K",
+    "filing_date": "2025-08-05",
+    "accession_number": "0000002488-25-000106",
+    "primary_document": "amd-20250805.htm",
+    "fetched_at": "2026-03-16T21:21:02.045832",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMD",
+    "cik": "2488",
+    "form_type": "8-K",
+    "filing_date": "2025-07-02",
+    "accession_number": "0000002488-25-000099",
+    "primary_document": "amd-20250627.htm",
+    "fetched_at": "2026-03-16T21:21:02.045837",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMD",
+    "cik": "2488",
+    "form_type": "8-K",
+    "filing_date": "2025-05-19",
+    "accession_number": "0001193125-25-122121",
+    "primary_document": "d831221d8k.htm",
+    "fetched_at": "2026-03-16T21:21:02.045843",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMD",
+    "cik": "2488",
+    "form_type": "8-K",
+    "filing_date": "2025-05-16",
+    "accession_number": "0000002488-25-000064",
+    "primary_document": "amd-20250514.htm",
+    "fetched_at": "2026-03-16T21:21:02.045849",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMD",
+    "cik": "2488",
+    "form_type": "10-Q",
+    "filing_date": "2025-05-07",
+    "accession_number": "0000002488-25-000047",
+    "primary_document": "amd-20250329.htm",
+    "fetched_at": "2026-03-16T21:21:02.045854",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMD",
+    "cik": "2488",
+    "form_type": "8-K",
+    "filing_date": "2025-05-06",
+    "accession_number": "0000002488-25-000045",
+    "primary_document": "amd-20250506.htm",
+    "fetched_at": "2026-03-16T21:21:02.045859",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMD",
+    "cik": "2488",
+    "form_type": "8-K",
+    "filing_date": "2025-04-16",
+    "accession_number": "0000002488-25-000039",
+    "primary_document": "amd-20250415.htm",
+    "fetched_at": "2026-03-16T21:21:02.045864",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMD",
+    "cik": "2488",
+    "form_type": "8-K",
+    "filing_date": "2025-03-31",
+    "accession_number": "0001193125-25-067902",
+    "primary_document": "d943962d8k.htm",
+    "fetched_at": "2026-03-16T21:21:02.045869",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMD",
+    "cik": "2488",
+    "form_type": "8-K",
+    "filing_date": "2025-03-24",
+    "accession_number": "0001193125-25-061366",
+    "primary_document": "d914634d8k.htm",
+    "fetched_at": "2026-03-16T21:21:02.045875",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMD",
+    "cik": "2488",
+    "form_type": "8-K",
+    "filing_date": "2025-03-12",
+    "accession_number": "0001193125-25-052173",
+    "primary_document": "d925853d8k.htm",
+    "fetched_at": "2026-03-16T21:21:02.045881",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMD",
+    "cik": "2488",
+    "form_type": "8-K",
+    "filing_date": "2025-02-24",
+    "accession_number": "0000002488-25-000026",
+    "primary_document": "amd-20250218.htm",
+    "fetched_at": "2026-03-16T21:21:02.045886",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMD",
+    "cik": "2488",
+    "form_type": "10-K",
+    "filing_date": "2025-02-05",
+    "accession_number": "0000002488-25-000012",
+    "primary_document": "amd-20241228.htm",
+    "fetched_at": "2026-03-16T21:21:02.045892",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMD",
+    "cik": "2488",
+    "form_type": "8-K",
+    "filing_date": "2025-02-04",
+    "accession_number": "0000002488-25-000009",
+    "primary_document": "amd-20250204.htm",
+    "fetched_at": "2026-03-16T21:21:02.045897",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMD",
+    "cik": "2488",
+    "form_type": "8-K",
+    "filing_date": "2024-11-18",
+    "accession_number": "0000002488-24-000172",
+    "primary_document": "amd-20241113.htm",
+    "fetched_at": "2026-03-16T21:21:02.045903",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMD",
+    "cik": "2488",
+    "form_type": "10-Q",
+    "filing_date": "2024-10-30",
+    "accession_number": "0000002488-24-000163",
+    "primary_document": "amd-20240928.htm",
+    "fetched_at": "2026-03-16T21:21:02.045910",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMD",
+    "cik": "2488",
+    "form_type": "8-K",
+    "filing_date": "2024-10-29",
+    "accession_number": "0000002488-24-000161",
+    "primary_document": "amd-20241029.htm",
+    "fetched_at": "2026-03-16T21:21:02.045914",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMD",
+    "cik": "2488",
+    "form_type": "8-K",
+    "filing_date": "2024-08-19",
+    "accession_number": "0001193125-24-202457",
+    "primary_document": "d808469d8k.htm",
+    "fetched_at": "2026-03-16T21:21:02.045921",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMD",
+    "cik": "2488",
+    "form_type": "10-Q",
+    "filing_date": "2024-07-31",
+    "accession_number": "0000002488-24-000123",
+    "primary_document": "amd-20240629.htm",
+    "fetched_at": "2026-03-16T21:21:02.045927",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMD",
+    "cik": "2488",
+    "form_type": "8-K",
+    "filing_date": "2024-07-30",
+    "accession_number": "0000002488-24-000121",
+    "primary_document": "amd-20240730.htm",
+    "fetched_at": "2026-03-16T21:21:02.045932",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMD",
+    "cik": "2488",
+    "form_type": "8-K",
+    "filing_date": "2024-07-22",
+    "accession_number": "0000002488-24-000115",
+    "primary_document": "amd-20240720.htm",
+    "fetched_at": "2026-03-16T21:21:02.045937",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMD",
+    "cik": "2488",
+    "form_type": "8-K",
+    "filing_date": "2024-07-02",
+    "accession_number": "0000002488-24-000109",
+    "primary_document": "amd-20240627.htm",
+    "fetched_at": "2026-03-16T21:21:02.045942",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMD",
+    "cik": "2488",
+    "form_type": "8-K",
+    "filing_date": "2024-05-13",
+    "accession_number": "0000002488-24-000076",
+    "primary_document": "amd-20240508.htm",
+    "fetched_at": "2026-03-16T21:21:02.045950",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMD",
+    "cik": "2488",
+    "form_type": "10-Q",
+    "filing_date": "2024-05-01",
+    "accession_number": "0000002488-24-000056",
+    "primary_document": "amd-20240330.htm",
+    "fetched_at": "2026-03-16T21:21:02.045957",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMD",
+    "cik": "2488",
+    "form_type": "8-K",
+    "filing_date": "2024-04-30",
+    "accession_number": "0000002488-24-000054",
+    "primary_document": "amd-20240430.htm",
+    "fetched_at": "2026-03-16T21:21:02.045961",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMD",
+    "cik": "2488",
+    "form_type": "8-K",
+    "filing_date": "2024-02-20",
+    "accession_number": "0001628280-24-005593",
+    "primary_document": "amd-20240213.htm",
+    "fetched_at": "2026-03-16T21:21:02.045971",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMD",
+    "cik": "2488",
+    "form_type": "10-K",
+    "filing_date": "2024-01-31",
+    "accession_number": "0000002488-24-000012",
+    "primary_document": "amd-20231230.htm",
+    "fetched_at": "2026-03-16T21:21:02.045978",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMD",
+    "cik": "2488",
+    "form_type": "8-K",
+    "filing_date": "2024-01-30",
+    "accession_number": "0000002488-24-000009",
+    "primary_document": "amd-20240130.htm",
+    "fetched_at": "2026-03-16T21:21:02.045982",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMD",
+    "cik": "2488",
+    "form_type": "10-Q",
+    "filing_date": "2023-11-01",
+    "accession_number": "0000002488-23-000195",
+    "primary_document": "amd-20230930.htm",
+    "fetched_at": "2026-03-16T21:21:02.045990",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMD",
+    "cik": "2488",
+    "form_type": "8-K",
+    "filing_date": "2023-10-31",
+    "accession_number": "0000002488-23-000192",
+    "primary_document": "amd-20231031.htm",
+    "fetched_at": "2026-03-16T21:21:02.045994",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMD",
+    "cik": "2488",
+    "form_type": "10-Q",
+    "filing_date": "2023-08-02",
+    "accession_number": "0000002488-23-000139",
+    "primary_document": "amd-20230701.htm",
+    "fetched_at": "2026-03-16T21:21:02.046005",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMD",
+    "cik": "2488",
+    "form_type": "8-K",
+    "filing_date": "2023-08-01",
+    "accession_number": "0000002488-23-000135",
+    "primary_document": "amd-20230801.htm",
+    "fetched_at": "2026-03-16T21:21:02.046011",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMD",
+    "cik": "2488",
+    "form_type": "8-K",
+    "filing_date": "2023-07-10",
+    "accession_number": "0000002488-23-000123",
+    "primary_document": "amd-20230705.htm",
+    "fetched_at": "2026-03-16T21:21:02.046016",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMD",
+    "cik": "2488",
+    "form_type": "8-K",
+    "filing_date": "2023-05-23",
+    "accession_number": "0001193125-23-151810",
+    "primary_document": "d456357d8k.htm",
+    "fetched_at": "2026-03-16T21:21:02.046024",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMD",
+    "cik": "2488",
+    "form_type": "10-Q",
+    "filing_date": "2023-05-03",
+    "accession_number": "0000002488-23-000076",
+    "primary_document": "amd-20230401.htm",
+    "fetched_at": "2026-03-16T21:21:02.046031",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMD",
+    "cik": "2488",
+    "form_type": "8-K",
+    "filing_date": "2023-05-02",
+    "accession_number": "0000002488-23-000074",
+    "primary_document": "amd-20230502.htm",
+    "fetched_at": "2026-03-16T21:21:02.046036",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMD",
+    "cik": "2488",
+    "form_type": "10-K",
+    "filing_date": "2023-02-27",
+    "accession_number": "0000002488-23-000047",
+    "primary_document": "amd-20221231.htm",
+    "fetched_at": "2026-03-16T21:21:02.046043",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMD",
+    "cik": "2488",
+    "form_type": "8-K",
+    "filing_date": "2023-02-21",
+    "accession_number": "0000002488-23-000040",
+    "primary_document": "amd-20230214.htm",
+    "fetched_at": "2026-03-16T21:21:02.046049",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMD",
+    "cik": "2488",
+    "form_type": "8-K",
+    "filing_date": "2023-01-31",
+    "accession_number": "0000002488-23-000007",
+    "primary_document": "amd-20230131.htm",
+    "fetched_at": "2026-03-16T21:21:02.046056",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMD",
+    "cik": "2488",
+    "form_type": "8-K",
+    "filing_date": "2023-01-11",
+    "accession_number": "0000002488-23-000003",
+    "primary_document": "amd-20230108.htm",
+    "fetched_at": "2026-03-16T21:21:02.046062",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMD",
+    "cik": "2488",
+    "form_type": "8-K",
+    "filing_date": "2022-11-16",
+    "accession_number": "0000002488-22-000176",
+    "primary_document": "amd-20221116.htm",
+    "fetched_at": "2026-03-16T21:21:02.046066",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMD",
+    "cik": "2488",
+    "form_type": "8-K",
+    "filing_date": "2022-11-08",
+    "accession_number": "0000002488-22-000172",
+    "primary_document": "amd-20221103.htm",
+    "fetched_at": "2026-03-16T21:21:02.046071",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMD",
+    "cik": "2488",
+    "form_type": "10-Q",
+    "filing_date": "2022-11-02",
+    "accession_number": "0000002488-22-000170",
+    "primary_document": "amd-20220924.htm",
+    "fetched_at": "2026-03-16T21:21:02.046076",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMD",
+    "cik": "2488",
+    "form_type": "8-K",
+    "filing_date": "2022-11-01",
+    "accession_number": "0000002488-22-000168",
+    "primary_document": "amd-20221101.htm",
+    "fetched_at": "2026-03-16T21:21:02.046081",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMD",
+    "cik": "2488",
+    "form_type": "8-K",
+    "filing_date": "2022-10-06",
+    "accession_number": "0000002488-22-000163",
+    "primary_document": "amd-20221006.htm",
+    "fetched_at": "2026-03-16T21:21:02.046086",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMD",
+    "cik": "2488",
+    "form_type": "10-Q",
+    "filing_date": "2022-08-03",
+    "accession_number": "0000002488-22-000123",
+    "primary_document": "amd-20220625.htm",
+    "fetched_at": "2026-03-16T21:21:02.046095",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMD",
+    "cik": "2488",
+    "form_type": "8-K",
+    "filing_date": "2022-08-02",
+    "accession_number": "0000002488-22-000120",
+    "primary_document": "amd-20220802.htm",
+    "fetched_at": "2026-03-16T21:21:02.046100",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMD",
+    "cik": "2488",
+    "form_type": "8-K",
+    "filing_date": "2022-06-28",
+    "accession_number": "0000002488-22-000112",
+    "primary_document": "amd-20220623.htm",
+    "fetched_at": "2026-03-16T21:21:02.046105",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMD",
+    "cik": "2488",
+    "form_type": "8-K",
+    "filing_date": "2022-06-09",
+    "accession_number": "0001193125-22-171108",
+    "primary_document": "d367525d8k.htm",
+    "fetched_at": "2026-03-16T21:21:02.046110",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMD",
+    "cik": "2488",
+    "form_type": "8-K",
+    "filing_date": "2022-06-08",
+    "accession_number": "0001193125-22-170212",
+    "primary_document": "d257623d8k.htm",
+    "fetched_at": "2026-03-16T21:21:02.046115",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMD",
+    "cik": "2488",
+    "form_type": "8-K",
+    "filing_date": "2022-05-20",
+    "accession_number": "0001193125-22-156161",
+    "primary_document": "d354894d8k.htm",
+    "fetched_at": "2026-03-16T21:21:02.046123",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMD",
+    "cik": "2488",
+    "form_type": "10-Q",
+    "filing_date": "2022-05-04",
+    "accession_number": "0000002488-22-000078",
+    "primary_document": "amd-20220326.htm",
+    "fetched_at": "2026-03-16T21:21:02.046129",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMD",
+    "cik": "2488",
+    "form_type": "8-K",
+    "filing_date": "2022-05-03",
+    "accession_number": "0000002488-22-000074",
+    "primary_document": "amd-20220429.htm",
+    "fetched_at": "2026-03-16T21:21:02.046134",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMD",
+    "cik": "2488",
+    "form_type": "8-K",
+    "filing_date": "2022-02-28",
+    "accession_number": "0000002488-22-000054",
+    "primary_document": "amd-20220222.htm",
+    "fetched_at": "2026-03-16T21:21:02.046151",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMD",
+    "cik": "2488",
+    "form_type": "8-K",
+    "filing_date": "2022-02-14",
+    "accession_number": "0000002488-22-000031",
+    "primary_document": "amd-20220214.htm",
+    "fetched_at": "2026-03-16T21:21:02.046158",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMD",
+    "cik": "2488",
+    "form_type": "8-K",
+    "filing_date": "2022-02-10",
+    "accession_number": "0000002488-22-000026",
+    "primary_document": "amd-20220209.htm",
+    "fetched_at": "2026-03-16T21:21:02.046164",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMD",
+    "cik": "2488",
+    "form_type": "10-K",
+    "filing_date": "2022-02-03",
+    "accession_number": "0000002488-22-000016",
+    "primary_document": "amd-20211225.htm",
+    "fetched_at": "2026-03-16T21:21:02.046169",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMD",
+    "cik": "2488",
+    "form_type": "8-K",
+    "filing_date": "2022-02-01",
+    "accession_number": "0000002488-22-000014",
+    "primary_document": "amd-20220201.htm",
+    "fetched_at": "2026-03-16T21:21:02.046175",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMD",
+    "cik": "2488",
+    "form_type": "8-K",
+    "filing_date": "2022-01-27",
+    "accession_number": "0000002488-22-000009",
+    "primary_document": "amd-20220127.htm",
+    "fetched_at": "2026-03-16T21:21:02.046179",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMD",
+    "cik": "2488",
+    "form_type": "8-K",
+    "filing_date": "2021-12-23",
+    "accession_number": "0000002488-21-000205",
+    "primary_document": "amd-20211223.htm",
+    "fetched_at": "2026-03-16T21:21:02.046184",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMD",
+    "cik": "2488",
+    "form_type": "10-Q",
+    "filing_date": "2021-10-27",
+    "accession_number": "0000002488-21-000178",
+    "primary_document": "amd-20210925.htm",
+    "fetched_at": "2026-03-16T21:21:02.046191",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMD",
+    "cik": "2488",
+    "form_type": "8-K",
+    "filing_date": "2021-10-26",
+    "accession_number": "0000002488-21-000176",
+    "primary_document": "amd-20211026.htm",
+    "fetched_at": "2026-03-16T21:21:02.046196",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMD",
+    "cik": "2488",
+    "form_type": "10-Q",
+    "filing_date": "2021-07-28",
+    "accession_number": "0000002488-21-000116",
+    "primary_document": "amd-20210626.htm",
+    "fetched_at": "2026-03-16T21:21:02.046205",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMD",
+    "cik": "2488",
+    "form_type": "8-K",
+    "filing_date": "2021-07-27",
+    "accession_number": "0000002488-21-000114",
+    "primary_document": "amd-20210727.htm",
+    "fetched_at": "2026-03-16T21:21:02.046210",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMD",
+    "cik": "2488",
+    "form_type": "8-K",
+    "filing_date": "2021-06-30",
+    "accession_number": "0000002488-21-000107",
+    "primary_document": "amd-20210629.htm",
+    "fetched_at": "2026-03-16T21:21:02.046215",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMD",
+    "cik": "2488",
+    "form_type": "8-K",
+    "filing_date": "2021-06-24",
+    "accession_number": "0000002488-21-000103",
+    "primary_document": "amd-20210621.htm",
+    "fetched_at": "2026-03-16T21:21:02.046220",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMD",
+    "cik": "2488",
+    "form_type": "8-K",
+    "filing_date": "2021-05-21",
+    "accession_number": "0001193125-21-169293",
+    "primary_document": "d120619d8k.htm",
+    "fetched_at": "2026-03-16T21:21:02.046227",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMD",
+    "cik": "2488",
+    "form_type": "8-K",
+    "filing_date": "2021-05-13",
+    "accession_number": "0000002488-21-000068",
+    "primary_document": "amd-20210513.htm",
+    "fetched_at": "2026-03-16T21:21:02.046233",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMD",
+    "cik": "2488",
+    "form_type": "10-Q",
+    "filing_date": "2021-04-28",
+    "accession_number": "0000002488-21-000056",
+    "primary_document": "amd-20210327.htm",
+    "fetched_at": "2026-03-16T21:21:02.046238",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMD",
+    "cik": "2488",
+    "form_type": "8-K",
+    "filing_date": "2021-04-27",
+    "accession_number": "0000002488-21-000054",
+    "primary_document": "amd-20210427.htm",
+    "fetched_at": "2026-03-16T21:21:02.046243",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMD",
+    "cik": "2488",
+    "form_type": "8-K",
+    "filing_date": "2021-04-08",
+    "accession_number": "0000002488-21-000046",
+    "primary_document": "amd-20210407.htm",
+    "fetched_at": "2026-03-16T21:21:02.046248",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMD",
+    "cik": "2488",
+    "form_type": "8-K",
+    "filing_date": "2021-03-08",
+    "accession_number": "0001193125-21-073262",
+    "primary_document": "d89766d8k.htm",
+    "fetched_at": "2026-03-16T21:21:02.046254",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMD",
+    "cik": "2488",
+    "form_type": "8-K",
+    "filing_date": "2021-02-22",
+    "accession_number": "0000002488-21-000033",
+    "primary_document": "amd-20210216.htm",
+    "fetched_at": "2026-03-16T21:21:02.046261",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMD",
+    "cik": "2488",
+    "form_type": "10-K",
+    "filing_date": "2021-01-29",
+    "accession_number": "0001628280-21-001185",
+    "primary_document": "amd-20201226.htm",
+    "fetched_at": "2026-03-16T21:21:02.046268",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMD",
+    "cik": "2488",
+    "form_type": "8-K",
+    "filing_date": "2021-01-26",
+    "accession_number": "0000002488-21-000009",
+    "primary_document": "amd-20210126.htm",
+    "fetched_at": "2026-03-16T21:21:02.046273",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMD",
+    "cik": "2488",
+    "form_type": "8-K",
+    "filing_date": "2021-01-12",
+    "accession_number": "0000002488-21-000005",
+    "primary_document": "amd-20210111.htm",
+    "fetched_at": "2026-03-16T21:21:02.046278",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMD",
+    "cik": "2488",
+    "form_type": "8-K",
+    "filing_date": "2021-01-06",
+    "accession_number": "0000002488-21-000002",
+    "primary_document": "amd-20201231.htm",
+    "fetched_at": "2026-03-16T21:21:02.046283",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMD",
+    "cik": "2488",
+    "form_type": "10-Q",
+    "filing_date": "2020-10-28",
+    "accession_number": "0000002488-20-000164",
+    "primary_document": "amd-20200926.htm",
+    "fetched_at": "2026-03-16T21:21:02.046290",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMD",
+    "cik": "2488",
+    "form_type": "8-K",
+    "filing_date": "2020-10-27",
+    "accession_number": "0001193125-20-278572",
+    "primary_document": "d40046d8k.htm",
+    "fetched_at": "2026-03-16T21:21:02.046295",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMD",
+    "cik": "2488",
+    "form_type": "8-K",
+    "filing_date": "2020-10-27",
+    "accession_number": "0001193125-20-277468",
+    "primary_document": "d67182d8k.htm",
+    "fetched_at": "2026-03-16T21:21:02.046300",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMD",
+    "cik": "2488",
+    "form_type": "8-K",
+    "filing_date": "2020-10-27",
+    "accession_number": "0000002488-20-000161",
+    "primary_document": "amd-20201027.htm",
+    "fetched_at": "2026-03-16T21:21:02.046304",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMD",
+    "cik": "2488",
+    "form_type": "8-K",
+    "filing_date": "2020-08-11",
+    "accession_number": "0000002488-20-000110",
+    "primary_document": "amd-20200806.htm",
+    "fetched_at": "2026-03-16T21:21:02.046313",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMD",
+    "cik": "2488",
+    "form_type": "10-Q",
+    "filing_date": "2020-07-29",
+    "accession_number": "0000002488-20-000103",
+    "primary_document": "amd-20200627.htm",
+    "fetched_at": "2026-03-16T21:21:02.046319",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMD",
+    "cik": "2488",
+    "form_type": "8-K",
+    "filing_date": "2020-07-28",
+    "accession_number": "0000002488-20-000101",
+    "primary_document": "amd-20200728.htm",
+    "fetched_at": "2026-03-16T21:21:02.046324",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMD",
+    "cik": "2488",
+    "form_type": "8-K",
+    "filing_date": "2020-05-12",
+    "accession_number": "0000002488-20-000068",
+    "primary_document": "a8-kxannualmeeting2020.htm",
+    "fetched_at": "2026-03-16T21:21:02.046331",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMD",
+    "cik": "2488",
+    "form_type": "10-Q",
+    "filing_date": "2020-04-29",
+    "accession_number": "0000002488-20-000051",
+    "primary_document": "amdq1fy2010q.htm",
+    "fetched_at": "2026-03-16T21:21:02.046337",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMD",
+    "cik": "2488",
+    "form_type": "8-K",
+    "filing_date": "2020-04-28",
+    "accession_number": "0000002488-20-000048",
+    "primary_document": "a2020q1earnings8-k.htm",
+    "fetched_at": "2026-03-16T21:21:02.046342",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMD",
+    "cik": "2488",
+    "form_type": "8-K",
+    "filing_date": "2020-03-12",
+    "accession_number": "0000002488-20-000034",
+    "primary_document": "a8kamendmenttobylaws36.htm",
+    "fetched_at": "2026-03-16T21:21:02.046348",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMD",
+    "cik": "2488",
+    "form_type": "8-K",
+    "filing_date": "2020-02-18",
+    "accession_number": "0000002488-20-000019",
+    "primary_document": "amd8k-kneoeip2x11x2020.htm",
+    "fetched_at": "2026-03-16T21:21:02.046354",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMD",
+    "cik": "2488",
+    "form_type": "10-K",
+    "filing_date": "2020-02-04",
+    "accession_number": "0000002488-20-000008",
+    "primary_document": "amdform10-kfy2019.htm",
+    "fetched_at": "2026-03-16T21:21:02.046360",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMD",
+    "cik": "2488",
+    "form_type": "8-K",
+    "filing_date": "2020-01-28",
+    "accession_number": "0000002488-20-000006",
+    "primary_document": "a20200128q419earnings8.htm",
+    "fetched_at": "2026-03-16T21:21:02.046365",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMD",
+    "cik": "2488",
+    "form_type": "8-K",
+    "filing_date": "2019-12-16",
+    "accession_number": "0000002488-19-000186",
+    "primary_document": "appointmentofnewdirect.htm",
+    "fetched_at": "2026-03-16T21:21:02.046370",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMD",
+    "cik": "2488",
+    "form_type": "8-K",
+    "filing_date": "2019-12-02",
+    "accession_number": "0000002488-19-000178",
+    "primary_document": "amdform8kequitysales11.htm",
+    "fetched_at": "2026-03-16T21:21:02.046375",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMD",
+    "cik": "2488",
+    "form_type": "8-K",
+    "filing_date": "2019-11-12",
+    "accession_number": "0000002488-19-000165",
+    "primary_document": "amdform8kequitysales11.htm",
+    "fetched_at": "2026-03-16T21:21:02.046381",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMD",
+    "cik": "2488",
+    "form_type": "10-Q",
+    "filing_date": "2019-10-30",
+    "accession_number": "0000002488-19-000159",
+    "primary_document": "amd0928201910q.htm",
+    "fetched_at": "2026-03-16T21:21:02.046386",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMD",
+    "cik": "2488",
+    "form_type": "8-K",
+    "filing_date": "2019-10-29",
+    "accession_number": "0000002488-19-000157",
+    "primary_document": "a20191029q319earnings8.htm",
+    "fetched_at": "2026-03-16T21:21:02.046391",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMD",
+    "cik": "2488",
+    "form_type": "8-K",
+    "filing_date": "2019-09-06",
+    "accession_number": "0000002488-19-000144",
+    "primary_document": "amdform8kequitysalesse.htm",
+    "fetched_at": "2026-03-16T21:21:02.046396",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMD",
+    "cik": "2488",
+    "form_type": "8-K",
+    "filing_date": "2019-08-08",
+    "accession_number": "0000002488-19-000113",
+    "primary_document": "amdform8k08082019.htm",
+    "fetched_at": "2026-03-16T21:21:02.046403",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMD",
+    "cik": "2488",
+    "form_type": "10-Q",
+    "filing_date": "2019-07-31",
+    "accession_number": "0000002488-19-000104",
+    "primary_document": "amd0629201910q.htm",
+    "fetched_at": "2026-03-16T21:21:02.046410",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMD",
+    "cik": "2488",
+    "form_type": "8-K",
+    "filing_date": "2019-07-30",
+    "accession_number": "0000002488-19-000102",
+    "primary_document": "a20190730q219earnings8-k.htm",
+    "fetched_at": "2026-03-16T21:21:02.046414",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMD",
+    "cik": "2488",
+    "form_type": "8-K",
+    "filing_date": "2019-06-27",
+    "accession_number": "0000002488-19-000096",
+    "primary_document": "a8-kneosalariesandlti2019.htm",
+    "fetched_at": "2026-03-16T21:21:02.046420",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMD",
+    "cik": "2488",
+    "form_type": "8-K",
+    "filing_date": "2019-06-10",
+    "accession_number": "0000002488-19-000088",
+    "primary_document": "form8-kcreditfacility060719.htm",
+    "fetched_at": "2026-03-16T21:21:02.046425",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMD",
+    "cik": "2488",
+    "form_type": "8-K",
+    "filing_date": "2019-05-17",
+    "accession_number": "0000002488-19-000059",
+    "primary_document": "amd2019annualmeeting8-k515.htm",
+    "fetched_at": "2026-03-16T21:21:02.046432",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMD",
+    "cik": "2488",
+    "form_type": "10-Q",
+    "filing_date": "2019-05-01",
+    "accession_number": "0000002488-19-000045",
+    "primary_document": "amd0330201910q.htm",
+    "fetched_at": "2026-03-16T21:21:02.046437",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMD",
+    "cik": "2488",
+    "form_type": "8-K",
+    "filing_date": "2019-04-30",
+    "accession_number": "0000002488-19-000043",
+    "primary_document": "a20190430q119earnings8-k.htm",
+    "fetched_at": "2026-03-16T21:21:02.046442",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMD",
+    "cik": "2488",
+    "form_type": "8-K",
+    "filing_date": "2019-02-22",
+    "accession_number": "0000002488-19-000022",
+    "primary_document": "form8-kneoeipandsalaries21.htm",
+    "fetched_at": "2026-03-16T21:21:02.046449",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMD",
+    "cik": "2488",
+    "form_type": "8-K",
+    "filing_date": "2019-02-14",
+    "accession_number": "0000002488-19-000018",
+    "primary_document": "a201902form8-kwarrantshare.htm",
+    "fetched_at": "2026-03-16T21:21:02.046454",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMD",
+    "cik": "2488",
+    "form_type": "10-K",
+    "filing_date": "2019-02-08",
+    "accession_number": "0000002488-19-000011",
+    "primary_document": "amd-12292018x10k.htm",
+    "fetched_at": "2026-03-16T21:21:02.046459",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMD",
+    "cik": "2488",
+    "form_type": "8-K",
+    "filing_date": "2019-01-29",
+    "accession_number": "0000002488-19-000004",
+    "primary_document": "a20190129q418earnings8-k.htm",
+    "fetched_at": "2026-03-16T21:21:02.046465",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMD",
+    "cik": "2488",
+    "form_type": "10-Q",
+    "filing_date": "2018-10-31",
+    "accession_number": "0000002488-18-000189",
+    "primary_document": "amd0929201810q.htm",
+    "fetched_at": "2026-03-16T21:21:02.046472",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMD",
+    "cik": "2488",
+    "form_type": "8-K",
+    "filing_date": "2018-10-24",
+    "accession_number": "0000002488-18-000186",
+    "primary_document": "a20181024q318earnings8-k.htm",
+    "fetched_at": "2026-03-16T21:21:02.046477",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMD",
+    "cik": "2488",
+    "form_type": "8-K",
+    "filing_date": "2018-08-27",
+    "accession_number": "0000002488-18-000166",
+    "primary_document": "amd_form8-svp82718.htm",
+    "fetched_at": "2026-03-16T21:21:02.046485",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMD",
+    "cik": "2488",
+    "form_type": "8-K",
+    "filing_date": "2018-08-06",
+    "accession_number": "0000002488-18-000130",
+    "primary_document": "amd_form8-kneolti2018.htm",
+    "fetched_at": "2026-03-16T21:21:02.046497",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMD",
+    "cik": "2488",
+    "form_type": "10-Q",
+    "filing_date": "2018-08-02",
+    "accession_number": "0000002488-18-000128",
+    "primary_document": "amd0630201810q.htm",
+    "fetched_at": "2026-03-16T21:21:02.046502",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMD",
+    "cik": "2488",
+    "form_type": "8-K",
+    "filing_date": "2018-07-25",
+    "accession_number": "0000002488-18-000124",
+    "primary_document": "a20180725q218earnings8-k.htm",
+    "fetched_at": "2026-03-16T21:21:02.046509",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMD",
+    "cik": "2488",
+    "form_type": "8-K",
+    "filing_date": "2018-07-02",
+    "accession_number": "0000002488-18-000112",
+    "primary_document": "form8-kneosalaries2018forf.htm",
+    "fetched_at": "2026-03-16T21:21:02.046515",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMD",
+    "cik": "2488",
+    "form_type": "8-K",
+    "filing_date": "2018-05-08",
+    "accession_number": "0000002488-18-000086",
+    "primary_document": "amd2018annualmeeting8-k.htm",
+    "fetched_at": "2026-03-16T21:21:02.046522",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMD",
+    "cik": "2488",
+    "form_type": "10-Q",
+    "filing_date": "2018-05-03",
+    "accession_number": "0000002488-18-000068",
+    "primary_document": "amd0331201810q.htm",
+    "fetched_at": "2026-03-16T21:21:02.046528",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMD",
+    "cik": "2488",
+    "form_type": "8-K",
+    "filing_date": "2018-04-25",
+    "accession_number": "0000002488-18-000058",
+    "primary_document": "a20180425q118earnings8-k.htm",
+    "fetched_at": "2026-03-16T21:21:02.046534",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMD",
+    "cik": "2488",
+    "form_type": "8-K",
+    "filing_date": "2018-03-05",
+    "accession_number": "0000002488-18-000047",
+    "primary_document": "form8-kndonofrio3218.htm",
+    "fetched_at": "2026-03-16T21:21:02.046540",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMD",
+    "cik": "2488",
+    "form_type": "8-K",
+    "filing_date": "2018-02-27",
+    "accession_number": "0000002488-18-000043",
+    "primary_document": "a6form8-kasc606disclosurev.htm",
+    "fetched_at": "2026-03-16T21:21:02.046545",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMD",
+    "cik": "2488",
+    "form_type": "10-K",
+    "filing_date": "2018-02-27",
+    "accession_number": "0000002488-18-000042",
+    "primary_document": "amd-12302017x10k.htm",
+    "fetched_at": "2026-03-16T21:21:02.046549",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMD",
+    "cik": "2488",
+    "form_type": "8-K",
+    "filing_date": "2018-02-12",
+    "accession_number": "0000002488-18-000026",
+    "primary_document": "amd-form8xk2017eip0218.htm",
+    "fetched_at": "2026-03-16T21:21:02.046555",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMD",
+    "cik": "2488",
+    "form_type": "8-K",
+    "filing_date": "2018-01-30",
+    "accession_number": "0000002488-18-000014",
+    "primary_document": "a20180130q417earnings8-k.htm",
+    "fetched_at": "2026-03-16T21:21:02.046561",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMD",
+    "cik": "2488",
+    "form_type": "10-Q",
+    "filing_date": "2017-11-02",
+    "accession_number": "0000002488-17-000227",
+    "primary_document": "amd0930201710q.htm",
+    "fetched_at": "2026-03-16T21:21:02.046570",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMD",
+    "cik": "2488",
+    "form_type": "8-K",
+    "filing_date": "2017-11-01",
+    "accession_number": "0000002488-17-000219",
+    "primary_document": "form8-kdurcan.htm",
+    "fetched_at": "2026-03-16T21:21:02.046575",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMD",
+    "cik": "2488",
+    "form_type": "8-K",
+    "filing_date": "2017-10-24",
+    "accession_number": "0000002488-17-000213",
+    "primary_document": "a20171024q317earnings8-k.htm",
+    "fetched_at": "2026-03-16T21:21:02.046580",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMD",
+    "cik": "2488",
+    "form_type": "8-K",
+    "filing_date": "2017-08-07",
+    "accession_number": "0000002488-17-000164",
+    "primary_document": "amd_form8-kneolti2017re.htm",
+    "fetched_at": "2026-03-16T21:21:02.046588",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMD",
+    "cik": "2488",
+    "form_type": "10-Q",
+    "filing_date": "2017-08-03",
+    "accession_number": "0000002488-17-000156",
+    "primary_document": "amd0701201710q.htm",
+    "fetched_at": "2026-03-16T21:21:02.046594",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMD",
+    "cik": "2488",
+    "form_type": "8-K",
+    "filing_date": "2017-07-25",
+    "accession_number": "0000002488-17-000150",
+    "primary_document": "a20170725q217earnings8-k.htm",
+    "fetched_at": "2026-03-16T21:21:02.046600",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMD",
+    "cik": "2488",
+    "form_type": "8-K",
+    "filing_date": "2017-07-03",
+    "accession_number": "0000002488-17-000141",
+    "primary_document": "form8-kneosalariesnewdirec.htm",
+    "fetched_at": "2026-03-16T21:21:02.046605",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMD",
+    "cik": "2488",
+    "form_type": "10-Q",
+    "filing_date": "2017-05-08",
+    "accession_number": "0000002488-17-000107",
+    "primary_document": "amd0401201710q.htm",
+    "fetched_at": "2026-03-16T21:21:02.046612",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMD",
+    "cik": "2488",
+    "form_type": "8-K",
+    "filing_date": "2017-05-01",
+    "accession_number": "0000002488-17-000096",
+    "primary_document": "a20170501q117earnings8-k.htm",
+    "fetched_at": "2026-03-16T21:21:02.046617",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMD",
+    "cik": "2488",
+    "form_type": "8-K",
+    "filing_date": "2017-04-28",
+    "accession_number": "0001193125-17-148386",
+    "primary_document": "d382072d8k.htm",
+    "fetched_at": "2026-03-16T21:21:02.046623",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "AMD",
+    "cik": "2488",
+    "form_type": "8-K",
+    "filing_date": "2017-03-21",
+    "accession_number": "0000002488-17-000070",
+    "primary_document": "amd-form8xkxfifthamendment.htm",
+    "fetched_at": "2026-03-16T21:21:02.046628",
+    "source_name": "sec_edgar"
+  }
+]

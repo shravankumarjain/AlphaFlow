@@ -179,3 +179,232 @@ Step 6: Computing final allocation...
 2026-03-16 19:03:46 | INFO | portfolio |     TSLA    2.00%
 2026-03-16 19:03:46 | INFO | portfolio | 
   ✓ Saved to reports/allocation.json
+2026-03-16 21:43:58 | INFO | botocore.credentials | Found credentials in shared credentials file: ~/.aws/credentials
+2026-03-16 21:43:58 | INFO | portfolio | ============================================================
+2026-03-16 21:43:58 | INFO | portfolio | AlphaFlow — Portfolio Optimization Engine
+2026-03-16 21:43:58 | INFO | portfolio | ============================================================
+2026-03-16 21:43:58 | INFO | portfolio | 
+Step 1: Loading regime from HMM detector...
+2026-03-16 21:43:58 | INFO | portfolio |   ✓ Regime loaded: BEAR (confidence 100%)
+2026-03-16 21:43:58 | INFO | portfolio | 
+Step 2: Loading feature data...
+2026-03-16 21:44:11 | INFO | portfolio |   ✓ Loaded features for 25 tickers
+2026-03-16 21:44:11 | INFO | portfolio | 
+Step 3: Loading TFT predictions...
+2026-03-16 21:44:11 | INFO | portfolio |   ✓ Loaded 1224 TFT predictions
+2026-03-16 21:44:11 | INFO | portfolio | 
+Step 4: Markowitz optimization...
+2026-03-16 21:44:11 | INFO | portfolio | 
+Step 5: Training RL agent...
+2026-03-16 21:44:11 | INFO | portfolio |   ✓ Env: 1357 days | 25 tickers
+2026-03-16 21:44:12 | INFO | portfolio |   Training PPO for 50000 timesteps...
+2026-03-16 21:44:12 | WARNING | portfolio |   ⚠ RL failed: The environment is of type <class '__main__.GymWrapper'>, not a Gymnasium environment. In this case, we expect OpenAI Gym to be installed and the environment to be an OpenAI Gym environment. — Markowitz only
+2026-03-16 21:44:12 | INFO | portfolio | 
+Step 6: Computing final allocation...
+2026-03-16 21:44:12 | INFO | portfolio |   Regime: BEAR | 80% Markowitz + 20% RL
+2026-03-16 21:44:12 | INFO | portfolio |   Running Markowitz optimization...
+2026-03-16 21:44:12 | INFO | portfolio |   ✓ Markowitz: return=40.24% vol=23.01% sharpe=1.532
+2026-03-16 21:44:12 | INFO | portfolio | 
+============================================================
+2026-03-16 21:44:12 | INFO | portfolio | PORTFOLIO ALLOCATION
+2026-03-16 21:44:12 | INFO | portfolio | ============================================================
+2026-03-16 21:44:12 | INFO | portfolio |   Regime  : BEAR (confidence 100%)
+2026-03-16 21:44:12 | INFO | portfolio |   Blend   : 80% Markowitz + 20% RL
+2026-03-16 21:44:12 | INFO | portfolio |   Sharpe  : 1.532
+2026-03-16 21:44:12 | INFO | portfolio | 
+2026-03-16 21:44:12 | INFO | portfolio |   FINAL WEIGHTS:
+2026-03-16 21:44:12 | INFO | portfolio |     AMD    █████████ 23.05%
+2026-03-16 21:44:12 | INFO | portfolio |     WMT    ████████ 20.58%
+2026-03-16 21:44:12 | INFO | portfolio |     XOM    ████ 12.37%
+2026-03-16 21:44:12 | INFO | portfolio |     COST    2.00%
+2026-03-16 21:44:12 | INFO | portfolio |     UNH     2.00%
+2026-03-16 21:44:12 | INFO | portfolio |     BRK-B   2.00%
+2026-03-16 21:44:12 | INFO | portfolio |     AAPL    2.00%
+2026-03-16 21:44:12 | INFO | portfolio |     PG      2.00%
+2026-03-16 21:44:12 | INFO | portfolio |     PFE     2.00%
+2026-03-16 21:44:12 | INFO | portfolio |     MSFT    2.00%
+2026-03-16 21:44:12 | INFO | portfolio |     GOOGL   2.00%
+2026-03-16 21:44:12 | INFO | portfolio |     GS      2.00%
+2026-03-16 21:44:12 | INFO | portfolio |     BAC     2.00%
+2026-03-16 21:44:12 | INFO | portfolio |     CRM     2.00%
+2026-03-16 21:44:12 | INFO | portfolio |     ABBV    2.00%
+2026-03-16 21:44:12 | INFO | portfolio |     CVX     2.00%
+2026-03-16 21:44:12 | INFO | portfolio |     JPM     2.00%
+2026-03-16 21:44:12 | INFO | portfolio |     KO      2.00%
+2026-03-16 21:44:12 | INFO | portfolio |     META    2.00%
+2026-03-16 21:44:12 | INFO | portfolio |     NFLX    2.00%
+2026-03-16 21:44:12 | INFO | portfolio |     JNJ     2.00%
+2026-03-16 21:44:12 | INFO | portfolio |     TSLA    2.00%
+2026-03-16 21:44:12 | INFO | portfolio |     NVDA    2.00%
+2026-03-16 21:44:12 | INFO | portfolio |     AMZN    2.00%
+2026-03-16 21:44:12 | INFO | portfolio |     V       2.00%
+2026-03-16 21:44:12 | INFO | portfolio | 
+  ✓ Saved to reports/allocation.json
+2026-03-16 23:49:55 | INFO | botocore.credentials | Found credentials in shared credentials file: ~/.aws/credentials
+2026-03-16 23:49:55 | INFO | portfolio | ============================================================
+2026-03-16 23:49:55 | INFO | portfolio | AlphaFlow — Portfolio Optimization Engine
+2026-03-16 23:49:55 | INFO | portfolio | ============================================================
+2026-03-16 23:49:55 | INFO | portfolio | 
+Step 1: Loading regime from HMM detector...
+2026-03-16 23:49:55 | INFO | portfolio |   ✓ Regime loaded: BEAR (confidence 100%)
+2026-03-16 23:49:55 | INFO | portfolio | 
+Step 2: Loading feature data...
+2026-03-16 23:50:03 | INFO | portfolio |   ✓ Loaded features for 25 tickers
+2026-03-16 23:50:03 | INFO | portfolio | 
+Step 3: Loading TFT predictions...
+2026-03-16 23:50:03 | INFO | portfolio |   ✓ Loaded 3400 TFT predictions
+2026-03-16 23:50:03 | INFO | portfolio | 
+Step 4: Markowitz optimization...
+2026-03-16 23:50:03 | INFO | portfolio | 
+Step 6: Computing final allocation...
+2026-03-16 23:50:03 | INFO | portfolio |   Regime: BEAR | 80% Markowitz + 20% RL
+2026-03-16 23:50:03 | INFO | portfolio |   Running Markowitz optimization...
+2026-03-16 23:50:03 | INFO | portfolio |   ✓ Markowitz: return=38.68% vol=24.80% sharpe=1.358
+2026-03-16 23:50:03 | INFO | portfolio | 
+============================================================
+2026-03-16 23:50:03 | INFO | portfolio | PORTFOLIO ALLOCATION
+2026-03-16 23:50:03 | INFO | portfolio | ============================================================
+2026-03-16 23:50:03 | INFO | portfolio |   Regime  : BEAR (confidence 100%)
+2026-03-16 23:50:03 | INFO | portfolio |   Blend   : 80% Markowitz + 20% RL
+2026-03-16 23:50:03 | INFO | portfolio |   Sharpe  : 1.358
+2026-03-16 23:50:03 | INFO | portfolio | 
+2026-03-16 23:50:03 | INFO | portfolio |   FINAL WEIGHTS:
+2026-03-16 23:50:03 | INFO | portfolio |     WMT    ██████████ 25.00%
+2026-03-16 23:50:03 | INFO | portfolio |     AMD    ██████████ 25.00%
+2026-03-16 23:50:03 | INFO | portfolio |     NVDA   ██ 5.19%
+2026-03-16 23:50:03 | INFO | portfolio |     GS     █ 2.81%
+2026-03-16 23:50:03 | INFO | portfolio |     MSFT    2.00%
+2026-03-16 23:50:03 | INFO | portfolio |     BAC     2.00%
+2026-03-16 23:50:03 | INFO | portfolio |     AAPL    2.00%
+2026-03-16 23:50:03 | INFO | portfolio |     XOM     2.00%
+2026-03-16 23:50:03 | INFO | portfolio |     V       2.00%
+2026-03-16 23:50:03 | INFO | portfolio |     PG      2.00%
+2026-03-16 23:50:03 | INFO | portfolio |     PFE     2.00%
+2026-03-16 23:50:03 | INFO | portfolio |     CRM     2.00%
+2026-03-16 23:50:03 | INFO | portfolio |     NFLX    2.00%
+2026-03-16 23:50:03 | INFO | portfolio |     UNH     2.00%
+2026-03-16 23:50:03 | INFO | portfolio |     JPM     2.00%
+2026-03-16 23:50:03 | INFO | portfolio |     COST    2.00%
+2026-03-16 23:50:03 | INFO | portfolio |     AMZN    2.00%
+2026-03-16 23:50:03 | INFO | portfolio |     TSLA    2.00%
+2026-03-16 23:50:03 | INFO | portfolio |     BRK-B   2.00%
+2026-03-16 23:50:03 | INFO | portfolio |     GOOGL   2.00%
+2026-03-16 23:50:03 | INFO | portfolio |     ABBV    2.00%
+2026-03-16 23:50:03 | INFO | portfolio |     META    2.00%
+2026-03-16 23:50:03 | INFO | portfolio |     JNJ     2.00%
+2026-03-16 23:50:03 | INFO | portfolio |     KO      2.00%
+2026-03-16 23:50:03 | INFO | portfolio |     CVX     2.00%
+2026-03-16 23:50:03 | INFO | portfolio | 
+  ✓ Saved to reports/allocation.json
+2026-03-17 01:06:44 | INFO | botocore.credentials | Found credentials in shared credentials file: ~/.aws/credentials
+2026-03-17 01:06:44 | INFO | portfolio | ============================================================
+2026-03-17 01:06:44 | INFO | portfolio | AlphaFlow — Portfolio Optimization Engine
+2026-03-17 01:06:44 | INFO | portfolio | ============================================================
+2026-03-17 01:06:44 | INFO | portfolio | 
+Step 1: Loading regime from HMM detector...
+2026-03-17 01:06:44 | INFO | portfolio |   ✓ Regime loaded: BEAR (confidence 100%)
+2026-03-17 01:06:44 | INFO | portfolio | 
+Step 2: Loading feature data...
+2026-03-17 01:06:53 | INFO | portfolio |   ✓ Loaded features for 25 tickers
+2026-03-17 01:06:53 | INFO | portfolio | 
+Step 3: Loading TFT predictions...
+2026-03-17 01:06:53 | INFO | portfolio |   ✓ Loaded 3400 TFT predictions
+2026-03-17 01:06:53 | INFO | portfolio | 
+Step 4: Markowitz optimization...
+2026-03-17 01:06:53 | INFO | portfolio | 
+Step 6: Computing final allocation...
+2026-03-17 01:06:53 | INFO | portfolio |   Regime: BEAR | 80% Markowitz + 20% RL
+2026-03-17 01:06:53 | INFO | portfolio |   Running Markowitz optimization...
+2026-03-17 01:06:53 | INFO | portfolio |   ✓ Markowitz: return=39.22% vol=24.80% sharpe=1.380
+2026-03-17 01:06:53 | INFO | portfolio | 
+============================================================
+2026-03-17 01:06:53 | INFO | portfolio | PORTFOLIO ALLOCATION
+2026-03-17 01:06:53 | INFO | portfolio | ============================================================
+2026-03-17 01:06:53 | INFO | portfolio |   Regime  : BEAR (confidence 100%)
+2026-03-17 01:06:53 | INFO | portfolio |   Blend   : 80% Markowitz + 20% RL
+2026-03-17 01:06:53 | INFO | portfolio |   Sharpe  : 1.380
+2026-03-17 01:06:53 | INFO | portfolio | 
+2026-03-17 01:06:53 | INFO | portfolio |   FINAL WEIGHTS:
+2026-03-17 01:06:53 | INFO | portfolio |     AMD    ██████████ 25.00%
+2026-03-17 01:06:53 | INFO | portfolio |     WMT    ██████████ 25.00%
+2026-03-17 01:06:53 | INFO | portfolio |     NVDA   ██ 5.19%
+2026-03-17 01:06:53 | INFO | portfolio |     GS     █ 2.81%
+2026-03-17 01:06:53 | INFO | portfolio |     TSLA    2.00%
+2026-03-17 01:06:53 | INFO | portfolio |     JPM     2.00%
+2026-03-17 01:06:53 | INFO | portfolio |     UNH     2.00%
+2026-03-17 01:06:53 | INFO | portfolio |     BAC     2.00%
+2026-03-17 01:06:53 | INFO | portfolio |     META    2.00%
+2026-03-17 01:06:53 | INFO | portfolio |     ABBV    2.00%
+2026-03-17 01:06:53 | INFO | portfolio |     XOM     2.00%
+2026-03-17 01:06:53 | INFO | portfolio |     V       2.00%
+2026-03-17 01:06:53 | INFO | portfolio |     CVX     2.00%
+2026-03-17 01:06:53 | INFO | portfolio |     AAPL    2.00%
+2026-03-17 01:06:53 | INFO | portfolio |     JNJ     2.00%
+2026-03-17 01:06:53 | INFO | portfolio |     NFLX    2.00%
+2026-03-17 01:06:53 | INFO | portfolio |     BRK-B   2.00%
+2026-03-17 01:06:53 | INFO | portfolio |     CRM     2.00%
+2026-03-17 01:06:53 | INFO | portfolio |     AMZN    2.00%
+2026-03-17 01:06:53 | INFO | portfolio |     GOOGL   2.00%
+2026-03-17 01:06:53 | INFO | portfolio |     PG      2.00%
+2026-03-17 01:06:53 | INFO | portfolio |     PFE     2.00%
+2026-03-17 01:06:53 | INFO | portfolio |     COST    2.00%
+2026-03-17 01:06:53 | INFO | portfolio |     MSFT    2.00%
+2026-03-17 01:06:53 | INFO | portfolio |     KO      2.00%
+2026-03-17 01:06:53 | INFO | portfolio | 
+  ✓ Saved to reports/allocation.json
+2026-03-17 01:29:58 | INFO | botocore.credentials | Found credentials in shared credentials file: ~/.aws/credentials
+2026-03-17 01:29:58 | INFO | portfolio | ============================================================
+2026-03-17 01:29:58 | INFO | portfolio | AlphaFlow — Portfolio Optimization Engine
+2026-03-17 01:29:58 | INFO | portfolio | ============================================================
+2026-03-17 01:29:58 | INFO | portfolio | 
+Step 1: Loading regime from HMM detector...
+2026-03-17 01:29:58 | INFO | portfolio |   ✓ Regime loaded: BEAR (confidence 100%)
+2026-03-17 01:29:58 | INFO | portfolio | 
+Step 2: Loading feature data...
+2026-03-17 01:30:09 | INFO | portfolio |   ✓ Loaded features for 25 tickers
+2026-03-17 01:30:09 | INFO | portfolio | 
+Step 3: Loading TFT predictions...
+2026-03-17 01:30:09 | INFO | portfolio |   ✓ Loaded 3400 TFT predictions
+2026-03-17 01:30:09 | INFO | portfolio | 
+Step 4: Markowitz optimization...
+2026-03-17 01:30:09 | INFO | portfolio | 
+Step 6: Computing final allocation...
+2026-03-17 01:30:09 | INFO | portfolio |   Regime: BEAR | 80% Markowitz + 20% RL
+2026-03-17 01:30:09 | INFO | portfolio |   Running Markowitz optimization...
+2026-03-17 01:30:09 | INFO | portfolio |   ✓ Markowitz: return=15.94% vol=15.19% sharpe=0.720
+2026-03-17 01:30:09 | INFO | portfolio | 
+============================================================
+2026-03-17 01:30:09 | INFO | portfolio | PORTFOLIO ALLOCATION
+2026-03-17 01:30:09 | INFO | portfolio | ============================================================
+2026-03-17 01:30:09 | INFO | portfolio |   Regime  : BEAR (confidence 100%)
+2026-03-17 01:30:09 | INFO | portfolio |   Blend   : 80% Markowitz + 20% RL
+2026-03-17 01:30:09 | INFO | portfolio |   Sharpe  : 0.720
+2026-03-17 01:30:09 | INFO | portfolio | 
+2026-03-17 01:30:09 | INFO | portfolio |   FINAL WEIGHTS:
+2026-03-17 01:30:09 | INFO | portfolio |     JNJ    ██████████ 25.00%
+2026-03-17 01:30:09 | INFO | portfolio |     GOOGL  ██████████ 25.00%
+2026-03-17 01:30:09 | INFO | portfolio |     XOM    ██ 6.00%
+2026-03-17 01:30:09 | INFO | portfolio |     CRM     2.00%
+2026-03-17 01:30:09 | INFO | portfolio |     GS      2.00%
+2026-03-17 01:30:09 | INFO | portfolio |     KO      2.00%
+2026-03-17 01:30:09 | INFO | portfolio |     AMD     2.00%
+2026-03-17 01:30:09 | INFO | portfolio |     NFLX    2.00%
+2026-03-17 01:30:09 | INFO | portfolio |     PFE     2.00%
+2026-03-17 01:30:09 | INFO | portfolio |     BRK-B   2.00%
+2026-03-17 01:30:09 | INFO | portfolio |     UNH     2.00%
+2026-03-17 01:30:09 | INFO | portfolio |     AAPL    2.00%
+2026-03-17 01:30:09 | INFO | portfolio |     BAC     2.00%
+2026-03-17 01:30:09 | INFO | portfolio |     ABBV    2.00%
+2026-03-17 01:30:09 | INFO | portfolio |     PG      2.00%
+2026-03-17 01:30:09 | INFO | portfolio |     TSLA    2.00%
+2026-03-17 01:30:09 | INFO | portfolio |     COST    2.00%
+2026-03-17 01:30:09 | INFO | portfolio |     CVX     2.00%
+2026-03-17 01:30:09 | INFO | portfolio |     NVDA    2.00%
+2026-03-17 01:30:09 | INFO | portfolio |     V       2.00%
+2026-03-17 01:30:09 | INFO | portfolio |     WMT     2.00%
+2026-03-17 01:30:09 | INFO | portfolio |     AMZN    2.00%
+2026-03-17 01:30:09 | INFO | portfolio |     META    2.00%
+2026-03-17 01:30:09 | INFO | portfolio |     JPM     2.00%
+2026-03-17 01:30:09 | INFO | portfolio |     MSFT    2.00%
+2026-03-17 01:30:09 | INFO | portfolio | 
+  ✓ Saved to reports/allocation.json

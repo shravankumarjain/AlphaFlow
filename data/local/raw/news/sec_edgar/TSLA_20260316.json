@@ -1,0 +1,1592 @@
+[
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "10-K",
+    "filing_date": "2026-01-29",
+    "accession_number": "0001628280-26-003952",
+    "primary_document": "tsla-20251231.htm",
+    "fetched_at": "2026-03-16T21:21:29.651376",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "8-K",
+    "filing_date": "2026-01-28",
+    "accession_number": "0001628280-26-003837",
+    "primary_document": "tsla-20260128.htm",
+    "fetched_at": "2026-03-16T21:21:29.651391",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "8-K",
+    "filing_date": "2026-01-02",
+    "accession_number": "0001628280-26-000016",
+    "primary_document": "tsla-20260102.htm",
+    "fetched_at": "2026-03-16T21:21:29.651396",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "8-K",
+    "filing_date": "2025-11-07",
+    "accession_number": "0001104659-25-108507",
+    "primary_document": "tm2530590d1_8k.htm",
+    "fetched_at": "2026-03-16T21:21:29.651401",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "10-Q",
+    "filing_date": "2025-10-23",
+    "accession_number": "0001628280-25-045968",
+    "primary_document": "tsla-20250930.htm",
+    "fetched_at": "2026-03-16T21:21:29.651406",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "8-K",
+    "filing_date": "2025-10-22",
+    "accession_number": "0001628280-25-045861",
+    "primary_document": "tsla-20251022.htm",
+    "fetched_at": "2026-03-16T21:21:29.651409",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "8-K",
+    "filing_date": "2025-10-02",
+    "accession_number": "0001628280-25-043530",
+    "primary_document": "tsla-20251002.htm",
+    "fetched_at": "2026-03-16T21:21:29.651414",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "8-K",
+    "filing_date": "2025-09-05",
+    "accession_number": "0001104659-25-087862",
+    "primary_document": "tm2525337d1_8k.htm",
+    "fetched_at": "2026-03-16T21:21:29.651421",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "8-K",
+    "filing_date": "2025-08-04",
+    "accession_number": "0001104659-25-073263",
+    "primary_document": "tm2522385d1_8k.htm",
+    "fetched_at": "2026-03-16T21:21:29.651424",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "10-Q",
+    "filing_date": "2025-07-24",
+    "accession_number": "0001628280-25-035806",
+    "primary_document": "tsla-20250630.htm",
+    "fetched_at": "2026-03-16T21:21:29.651427",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "8-K",
+    "filing_date": "2025-07-23",
+    "accession_number": "0001628280-25-035738",
+    "primary_document": "tsla-20250723.htm",
+    "fetched_at": "2026-03-16T21:21:29.651431",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "8-K",
+    "filing_date": "2025-07-10",
+    "accession_number": "0001628280-25-034692",
+    "primary_document": "tsla-20250709.htm",
+    "fetched_at": "2026-03-16T21:21:29.651434",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "8-K",
+    "filing_date": "2025-07-02",
+    "accession_number": "0001628280-25-033842",
+    "primary_document": "tsla-20250702.htm",
+    "fetched_at": "2026-03-16T21:21:29.651437",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "8-K",
+    "filing_date": "2025-05-16",
+    "accession_number": "0001104659-25-050072",
+    "primary_document": "tm2515421d1_8k.htm",
+    "fetched_at": "2026-03-16T21:21:29.651442",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "8-K",
+    "filing_date": "2025-05-16",
+    "accession_number": "0001628280-25-026148",
+    "primary_document": "tsla-20250515.htm",
+    "fetched_at": "2026-03-16T21:21:29.651445",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "10-Q",
+    "filing_date": "2025-04-23",
+    "accession_number": "0001628280-25-018911",
+    "primary_document": "tsla-20250331.htm",
+    "fetched_at": "2026-03-16T21:21:29.651450",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "8-K",
+    "filing_date": "2025-04-22",
+    "accession_number": "0001628280-25-018851",
+    "primary_document": "tsla-20250422.htm",
+    "fetched_at": "2026-03-16T21:21:29.651453",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "8-K",
+    "filing_date": "2025-04-02",
+    "accession_number": "0001628280-25-016070",
+    "primary_document": "tsla-20250402.htm",
+    "fetched_at": "2026-03-16T21:21:29.651457",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "10-K",
+    "filing_date": "2025-01-30",
+    "accession_number": "0001628280-25-003063",
+    "primary_document": "tsla-20241231.htm",
+    "fetched_at": "2026-03-16T21:21:29.651462",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "8-K",
+    "filing_date": "2025-01-29",
+    "accession_number": "0001628280-25-002993",
+    "primary_document": "tsla-20250129.htm",
+    "fetched_at": "2026-03-16T21:21:29.651465",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "8-K",
+    "filing_date": "2025-01-02",
+    "accession_number": "0001628280-25-000007",
+    "primary_document": "tsla-20250102.htm",
+    "fetched_at": "2026-03-16T21:21:29.651469",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "10-Q",
+    "filing_date": "2024-10-24",
+    "accession_number": "0001628280-24-043486",
+    "primary_document": "tsla-20240930.htm",
+    "fetched_at": "2026-03-16T21:21:29.651474",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "8-K",
+    "filing_date": "2024-10-23",
+    "accession_number": "0001628280-24-043432",
+    "primary_document": "tsla-20241023.htm",
+    "fetched_at": "2026-03-16T21:21:29.651477",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "8-K",
+    "filing_date": "2024-10-02",
+    "accession_number": "0001628280-24-041816",
+    "primary_document": "tsla-20241002.htm",
+    "fetched_at": "2026-03-16T21:21:29.651481",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "10-Q",
+    "filing_date": "2024-07-24",
+    "accession_number": "0001628280-24-032662",
+    "primary_document": "tsla-20240630.htm",
+    "fetched_at": "2026-03-16T21:21:29.651484",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "8-K",
+    "filing_date": "2024-07-23",
+    "accession_number": "0001628280-24-032603",
+    "primary_document": "tsla-20240723.htm",
+    "fetched_at": "2026-03-16T21:21:29.651488",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "8-K",
+    "filing_date": "2024-07-02",
+    "accession_number": "0001628280-24-030714",
+    "primary_document": "tsla-20240702.htm",
+    "fetched_at": "2026-03-16T21:21:29.651491",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "8-K",
+    "filing_date": "2024-06-14",
+    "accession_number": "0001104659-24-071439",
+    "primary_document": "tm2413800d31_8k.htm",
+    "fetched_at": "2026-03-16T21:21:29.651494",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "10-Q",
+    "filing_date": "2024-04-24",
+    "accession_number": "0001628280-24-017503",
+    "primary_document": "tsla-20240331.htm",
+    "fetched_at": "2026-03-16T21:21:29.651502",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "8-K",
+    "filing_date": "2024-04-23",
+    "accession_number": "0000950170-24-046895",
+    "primary_document": "tsla-20240423.htm",
+    "fetched_at": "2026-03-16T21:21:29.651505",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "8-K",
+    "filing_date": "2024-04-16",
+    "accession_number": "0000950170-24-044588",
+    "primary_document": "tsla-20240414.htm",
+    "fetched_at": "2026-03-16T21:21:29.651509",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "8-K",
+    "filing_date": "2024-04-02",
+    "accession_number": "0000950170-24-040274",
+    "primary_document": "tsla-20240402.htm",
+    "fetched_at": "2026-03-16T21:21:29.651512",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "10-K",
+    "filing_date": "2024-01-29",
+    "accession_number": "0001628280-24-002390",
+    "primary_document": "tsla-20231231.htm",
+    "fetched_at": "2026-03-16T21:21:29.651517",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "8-K",
+    "filing_date": "2024-01-24",
+    "accession_number": "0000950170-24-007073",
+    "primary_document": "tsla-20240124.htm",
+    "fetched_at": "2026-03-16T21:21:29.651521",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "8-K",
+    "filing_date": "2024-01-02",
+    "accession_number": "0000950170-24-000282",
+    "primary_document": "tsla-20240102.htm",
+    "fetched_at": "2026-03-16T21:21:29.651524",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "10-Q",
+    "filing_date": "2023-10-23",
+    "accession_number": "0001628280-23-034847",
+    "primary_document": "tsla-20230930.htm",
+    "fetched_at": "2026-03-16T21:21:29.651529",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "8-K",
+    "filing_date": "2023-10-18",
+    "accession_number": "0001628280-23-034588",
+    "primary_document": "tsla-20231018.htm",
+    "fetched_at": "2026-03-16T21:21:29.651532",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "8-K",
+    "filing_date": "2023-10-02",
+    "accession_number": "0000950170-23-050938",
+    "primary_document": "tsla-20231002.htm",
+    "fetched_at": "2026-03-16T21:21:29.651536",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "8-K",
+    "filing_date": "2023-08-07",
+    "accession_number": "0000950170-23-038779",
+    "primary_document": "tsla-20230804.htm",
+    "fetched_at": "2026-03-16T21:21:29.651541",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "10-Q",
+    "filing_date": "2023-07-24",
+    "accession_number": "0000950170-23-033872",
+    "primary_document": "tsla-20230630.htm",
+    "fetched_at": "2026-03-16T21:21:29.651545",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "8-K",
+    "filing_date": "2023-07-20",
+    "accession_number": "0000950170-23-033695",
+    "primary_document": "tsla-20230719.htm",
+    "fetched_at": "2026-03-16T21:21:29.651548",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "8-K",
+    "filing_date": "2023-07-19",
+    "accession_number": "0000950170-23-033544",
+    "primary_document": "tsla-20230719.htm",
+    "fetched_at": "2026-03-16T21:21:29.651551",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "8-K",
+    "filing_date": "2023-07-03",
+    "accession_number": "0000950170-23-031241",
+    "primary_document": "tsla-20230702.htm",
+    "fetched_at": "2026-03-16T21:21:29.651555",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "8-K",
+    "filing_date": "2023-05-22",
+    "accession_number": "0001564590-23-007379",
+    "primary_document": "tsla-8k_20230516.htm",
+    "fetched_at": "2026-03-16T21:21:29.651560",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "10-Q",
+    "filing_date": "2023-04-24",
+    "accession_number": "0000950170-23-013890",
+    "primary_document": "tsla-20230331.htm",
+    "fetched_at": "2026-03-16T21:21:29.651564",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "8-K",
+    "filing_date": "2023-04-19",
+    "accession_number": "0001564590-23-005959",
+    "primary_document": "tsla-8k_20230419.htm",
+    "fetched_at": "2026-03-16T21:21:29.651567",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "8-K",
+    "filing_date": "2023-04-05",
+    "accession_number": "0001564590-23-005462",
+    "primary_document": "tsla-8k_20230330.htm",
+    "fetched_at": "2026-03-16T21:21:29.651571",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "8-K",
+    "filing_date": "2023-04-03",
+    "accession_number": "0001564590-23-005126",
+    "primary_document": "tsla-8k_20230402.htm",
+    "fetched_at": "2026-03-16T21:21:29.651574",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "10-K",
+    "filing_date": "2023-01-31",
+    "accession_number": "0000950170-23-001409",
+    "primary_document": "tsla-20221231.htm",
+    "fetched_at": "2026-03-16T21:21:29.651579",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "8-K",
+    "filing_date": "2023-01-25",
+    "accession_number": "0001564590-23-000799",
+    "primary_document": "tsla-8k_20230120.htm",
+    "fetched_at": "2026-03-16T21:21:29.651582",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "8-K",
+    "filing_date": "2023-01-03",
+    "accession_number": "0001564590-23-000002",
+    "primary_document": "tsla-8k_20230102.htm",
+    "fetched_at": "2026-03-16T21:21:29.651585",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "10-Q",
+    "filing_date": "2022-10-24",
+    "accession_number": "0000950170-22-019867",
+    "primary_document": "tsla-20220930.htm",
+    "fetched_at": "2026-03-16T21:21:29.651590",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "8-K",
+    "filing_date": "2022-10-19",
+    "accession_number": "0001564590-22-034639",
+    "primary_document": "tsla-8k_20221019.htm",
+    "fetched_at": "2026-03-16T21:21:29.651593",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "8-K",
+    "filing_date": "2022-10-03",
+    "accession_number": "0001564590-22-033053",
+    "primary_document": "tsla-8k_20221002.htm",
+    "fetched_at": "2026-03-16T21:21:29.651597",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "8-K",
+    "filing_date": "2022-09-28",
+    "accession_number": "0001564590-22-032575",
+    "primary_document": "tsla-8k_20220925.htm",
+    "fetched_at": "2026-03-16T21:21:29.651600",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "8-K",
+    "filing_date": "2022-08-05",
+    "accession_number": "0001564590-22-028207",
+    "primary_document": "tsla-8k_20220804.htm",
+    "fetched_at": "2026-03-16T21:21:29.651604",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "10-Q",
+    "filing_date": "2022-07-25",
+    "accession_number": "0000950170-22-012936",
+    "primary_document": "tsla-20220630.htm",
+    "fetched_at": "2026-03-16T21:21:29.651608",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "8-K",
+    "filing_date": "2022-07-20",
+    "accession_number": "0001564590-22-026048",
+    "primary_document": "tsla-8k_20220720.htm",
+    "fetched_at": "2026-03-16T21:21:29.651612",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "8-K",
+    "filing_date": "2022-07-05",
+    "accession_number": "0001564590-22-025153",
+    "primary_document": "tsla-8k_20220702.htm",
+    "fetched_at": "2026-03-16T21:21:29.651615",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "8-K",
+    "filing_date": "2022-05-03",
+    "accession_number": "0001564590-22-017214",
+    "primary_document": "tsla-8k_20220502.htm",
+    "fetched_at": "2026-03-16T21:21:29.651620",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "10-Q",
+    "filing_date": "2022-04-25",
+    "accession_number": "0000950170-22-006034",
+    "primary_document": "tsla-20220331.htm",
+    "fetched_at": "2026-03-16T21:21:29.651625",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "8-K",
+    "filing_date": "2022-04-20",
+    "accession_number": "0001564590-22-014917",
+    "primary_document": "tsla-8k_20220420.htm",
+    "fetched_at": "2026-03-16T21:21:29.651628",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "8-K",
+    "filing_date": "2022-04-04",
+    "accession_number": "0001564590-22-013264",
+    "primary_document": "tsla-8k_20220402.htm",
+    "fetched_at": "2026-03-16T21:21:29.651631",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "8-K",
+    "filing_date": "2022-03-28",
+    "accession_number": "0001564590-22-011875",
+    "primary_document": "tsla-8k_20220328.htm",
+    "fetched_at": "2026-03-16T21:21:29.651635",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "10-K",
+    "filing_date": "2022-02-07",
+    "accession_number": "0000950170-22-000796",
+    "primary_document": "tsla-20211231.htm",
+    "fetched_at": "2026-03-16T21:21:29.651639",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "8-K",
+    "filing_date": "2022-01-26",
+    "accession_number": "0001564590-22-002476",
+    "primary_document": "tsla-8k_20220126.htm",
+    "fetched_at": "2026-03-16T21:21:29.651643",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "8-K",
+    "filing_date": "2022-01-03",
+    "accession_number": "0001564590-22-000009",
+    "primary_document": "tsla-8k_20220102.htm",
+    "fetched_at": "2026-03-16T21:21:29.651647",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "8-K",
+    "filing_date": "2021-12-01",
+    "accession_number": "0001564590-21-058953",
+    "primary_document": "tsla-8k_20211201.htm",
+    "fetched_at": "2026-03-16T21:21:29.651652",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "10-Q",
+    "filing_date": "2021-10-25",
+    "accession_number": "0000950170-21-002253",
+    "primary_document": "tsla-20210930.htm",
+    "fetched_at": "2026-03-16T21:21:29.651658",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "8-K",
+    "filing_date": "2021-10-20",
+    "accession_number": "0001564590-21-051307",
+    "primary_document": "tsla-8k_20211020.htm",
+    "fetched_at": "2026-03-16T21:21:29.651661",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "8-K",
+    "filing_date": "2021-10-13",
+    "accession_number": "0001564590-21-050737",
+    "primary_document": "tsla-8k_20211007.htm",
+    "fetched_at": "2026-03-16T21:21:29.651665",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "8-K",
+    "filing_date": "2021-10-04",
+    "accession_number": "0001564590-21-049874",
+    "primary_document": "tsla-8k_20211002.htm",
+    "fetched_at": "2026-03-16T21:21:29.651668",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "8-K",
+    "filing_date": "2021-08-30",
+    "accession_number": "0001564590-21-046390",
+    "primary_document": "tsla-8k_20210827.htm",
+    "fetched_at": "2026-03-16T21:21:29.651672",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "10-Q",
+    "filing_date": "2021-07-27",
+    "accession_number": "0000950170-21-000524",
+    "primary_document": "tsla-20210630.htm",
+    "fetched_at": "2026-03-16T21:21:29.651676",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "8-K",
+    "filing_date": "2021-07-26",
+    "accession_number": "0001564590-21-037953",
+    "primary_document": "tsla-8k_20210726.htm",
+    "fetched_at": "2026-03-16T21:21:29.651679",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "8-K",
+    "filing_date": "2021-07-02",
+    "accession_number": "0000950170-21-000423",
+    "primary_document": "tsla-20210702.htm",
+    "fetched_at": "2026-03-16T21:21:29.651683",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "8-K",
+    "filing_date": "2021-06-07",
+    "accession_number": "0001564590-21-031976",
+    "primary_document": "tsla-8k_20210603.htm",
+    "fetched_at": "2026-03-16T21:21:29.651686",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "10-Q",
+    "filing_date": "2021-04-28",
+    "accession_number": "0000950170-21-000046",
+    "primary_document": "tsla-20210331.htm",
+    "fetched_at": "2026-03-16T21:21:29.651690",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "8-K",
+    "filing_date": "2021-04-26",
+    "accession_number": "0001564590-21-020558",
+    "primary_document": "tsla-8k_20210426.htm",
+    "fetched_at": "2026-03-16T21:21:29.651694",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "8-K",
+    "filing_date": "2021-04-02",
+    "accession_number": "0001564590-21-017443",
+    "primary_document": "tsla-8k_20210402.htm",
+    "fetched_at": "2026-03-16T21:21:29.651698",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "8-K",
+    "filing_date": "2021-03-15",
+    "accession_number": "0001564590-21-012981",
+    "primary_document": "tsla-8k_20210315.htm",
+    "fetched_at": "2026-03-16T21:21:29.651701",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "8-K",
+    "filing_date": "2021-03-15",
+    "accession_number": "0001564590-21-012962",
+    "primary_document": "tsla-8k_20210311.htm",
+    "fetched_at": "2026-03-16T21:21:29.651705",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "10-K",
+    "filing_date": "2021-02-08",
+    "accession_number": "0001564590-21-004599",
+    "primary_document": "tsla-10k_20201231.htm",
+    "fetched_at": "2026-03-16T21:21:29.651709",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "8-K",
+    "filing_date": "2021-01-27",
+    "accession_number": "0001564590-21-002645",
+    "primary_document": "tsla-8k_20210127.htm",
+    "fetched_at": "2026-03-16T21:21:29.651713",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "8-K",
+    "filing_date": "2021-01-04",
+    "accession_number": "0001564590-21-000010",
+    "primary_document": "tsla-8k_20201229.htm",
+    "fetched_at": "2026-03-16T21:21:29.651717",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "8-K",
+    "filing_date": "2021-01-04",
+    "accession_number": "0001564590-21-000008",
+    "primary_document": "tsla-8k_20210102.htm",
+    "fetched_at": "2026-03-16T21:21:29.651720",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "8-K",
+    "filing_date": "2020-12-10",
+    "accession_number": "0001564590-20-056725",
+    "primary_document": "tsla-8k_20201209.htm",
+    "fetched_at": "2026-03-16T21:21:29.651724",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "8-K",
+    "filing_date": "2020-12-08",
+    "accession_number": "0001193125-20-312194",
+    "primary_document": "d60067d8k.htm",
+    "fetched_at": "2026-03-16T21:21:29.651727",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "10-Q",
+    "filing_date": "2020-10-26",
+    "accession_number": "0001564590-20-047486",
+    "primary_document": "tsla-10q_20200930.htm",
+    "fetched_at": "2026-03-16T21:21:29.651731",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "8-K",
+    "filing_date": "2020-10-21",
+    "accession_number": "0001564590-20-047108",
+    "primary_document": "tsla-8k_20201021.htm",
+    "fetched_at": "2026-03-16T21:21:29.651735",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "8-K",
+    "filing_date": "2020-10-02",
+    "accession_number": "0001564590-20-045592",
+    "primary_document": "tsla-8k_20201002.htm",
+    "fetched_at": "2026-03-16T21:21:29.651739",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "8-K",
+    "filing_date": "2020-09-24",
+    "accession_number": "0001564590-20-044548",
+    "primary_document": "tsla-8k_20200922.htm",
+    "fetched_at": "2026-03-16T21:21:29.651742",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "8-K",
+    "filing_date": "2020-09-08",
+    "accession_number": "0001564590-20-042696",
+    "primary_document": "tsla-8k_20200904.htm",
+    "fetched_at": "2026-03-16T21:21:29.651746",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "8-K",
+    "filing_date": "2020-09-01",
+    "accession_number": "0001193125-20-236678",
+    "primary_document": "d21598d8k.htm",
+    "fetched_at": "2026-03-16T21:21:29.651750",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "8-K",
+    "filing_date": "2020-08-11",
+    "accession_number": "0001564590-20-039353",
+    "primary_document": "tsla-8k_20200811.htm",
+    "fetched_at": "2026-03-16T21:21:29.651754",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "10-Q",
+    "filing_date": "2020-07-28",
+    "accession_number": "0001564590-20-033670",
+    "primary_document": "tsla-10q_20200630.htm",
+    "fetched_at": "2026-03-16T21:21:29.651758",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "8-K",
+    "filing_date": "2020-07-22",
+    "accession_number": "0001564590-20-033069",
+    "primary_document": "tsla-8k_20200722.htm",
+    "fetched_at": "2026-03-16T21:21:29.651761",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "8-K",
+    "filing_date": "2020-07-02",
+    "accession_number": "0001564590-20-031568",
+    "primary_document": "tsla-8k_20200702.htm",
+    "fetched_at": "2026-03-16T21:21:29.651765",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "8-K",
+    "filing_date": "2020-06-30",
+    "accession_number": "0001564590-20-031314",
+    "primary_document": "tsla-8k_20200624.htm",
+    "fetched_at": "2026-03-16T21:21:29.651768",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "8-K",
+    "filing_date": "2020-06-16",
+    "accession_number": "0001564590-20-029536",
+    "primary_document": "tsla-8k_20200610.htm",
+    "fetched_at": "2026-03-16T21:21:29.651772",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "8-K",
+    "filing_date": "2020-05-08",
+    "accession_number": "0001564590-20-023655",
+    "primary_document": "tsla-8k_20200507.htm",
+    "fetched_at": "2026-03-16T21:21:29.651776",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "8-K",
+    "filing_date": "2020-05-06",
+    "accession_number": "0001564590-20-022062",
+    "primary_document": "tsla-8k_20200430.htm",
+    "fetched_at": "2026-03-16T21:21:29.651779",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "10-Q",
+    "filing_date": "2020-04-30",
+    "accession_number": "0001564590-20-019931",
+    "primary_document": "tsla-10q_20200331.htm",
+    "fetched_at": "2026-03-16T21:21:29.651783",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "8-K",
+    "filing_date": "2020-04-29",
+    "accession_number": "0001564590-20-019776",
+    "primary_document": "tsla-8k_20200429.htm",
+    "fetched_at": "2026-03-16T21:21:29.651786",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "8-K",
+    "filing_date": "2020-04-23",
+    "accession_number": "0001564590-20-018196",
+    "primary_document": "tsla-8k_20200423.htm",
+    "fetched_at": "2026-03-16T21:21:29.651790",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "8-K",
+    "filing_date": "2020-04-02",
+    "accession_number": "0001564590-20-014992",
+    "primary_document": "tsla-8k_20200402.htm",
+    "fetched_at": "2026-03-16T21:21:29.651793",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "8-K",
+    "filing_date": "2020-03-19",
+    "accession_number": "0001564590-20-011823",
+    "primary_document": "tsla-8k_20200319.htm",
+    "fetched_at": "2026-03-16T21:21:29.651797",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "8-K",
+    "filing_date": "2020-02-19",
+    "accession_number": "0001564590-20-005288",
+    "primary_document": "tsla-8k_20200213.htm",
+    "fetched_at": "2026-03-16T21:21:29.651801",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "10-K",
+    "filing_date": "2020-02-13",
+    "accession_number": "0001564590-20-004475",
+    "primary_document": "tsla-10k_20191231.htm",
+    "fetched_at": "2026-03-16T21:21:29.651805",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "8-K",
+    "filing_date": "2020-01-29",
+    "accession_number": "0001564590-20-002489",
+    "primary_document": "tsla-8k_20200129.htm",
+    "fetched_at": "2026-03-16T21:21:29.651808",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "8-K",
+    "filing_date": "2020-01-03",
+    "accession_number": "0001564590-20-000161",
+    "primary_document": "tsla-8k_20200103.htm",
+    "fetched_at": "2026-03-16T21:21:29.651812",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "8-K",
+    "filing_date": "2019-12-26",
+    "accession_number": "0001564590-19-046961",
+    "primary_document": "tsla-8k_20191218.htm",
+    "fetched_at": "2026-03-16T21:21:29.651815",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "10-Q",
+    "filing_date": "2019-10-29",
+    "accession_number": "0001564590-19-038256",
+    "primary_document": "tsla-10q_20190930.htm",
+    "fetched_at": "2026-03-16T21:21:29.651820",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "8-K",
+    "filing_date": "2019-10-23",
+    "accession_number": "0001564590-19-037581",
+    "primary_document": "tsla-8k_20191023.htm",
+    "fetched_at": "2026-03-16T21:21:29.651823",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "8-K",
+    "filing_date": "2019-10-02",
+    "accession_number": "0001564590-19-036274",
+    "primary_document": "tsla-8k_20190926.htm",
+    "fetched_at": "2026-03-16T21:21:29.651827",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "8-K",
+    "filing_date": "2019-08-16",
+    "accession_number": "0001564590-19-032484",
+    "primary_document": "tsla-8k_20190816.htm",
+    "fetched_at": "2026-03-16T21:21:29.651831",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "10-Q",
+    "filing_date": "2019-07-29",
+    "accession_number": "0001564590-19-026445",
+    "primary_document": "tsla-10q_20190630.htm",
+    "fetched_at": "2026-03-16T21:21:29.651835",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "8-K",
+    "filing_date": "2019-07-24",
+    "accession_number": "0001564590-19-025855",
+    "primary_document": "tsla-8k_20190724.htm",
+    "fetched_at": "2026-03-16T21:21:29.651838",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "8-K",
+    "filing_date": "2019-07-02",
+    "accession_number": "0001564590-19-024414",
+    "primary_document": "tsla-8k_20190702.htm",
+    "fetched_at": "2026-03-16T21:21:29.651842",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "8-K",
+    "filing_date": "2019-06-12",
+    "accession_number": "0001564590-19-022354",
+    "primary_document": "tsla-8k_20190611.htm",
+    "fetched_at": "2026-03-16T21:21:29.651845",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "8-K",
+    "filing_date": "2019-05-13",
+    "accession_number": "0001564590-19-018876",
+    "primary_document": "tsla-8k_20190513.htm",
+    "fetched_at": "2026-03-16T21:21:29.651850",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "8-K",
+    "filing_date": "2019-05-08",
+    "accession_number": "0001564590-19-016764",
+    "primary_document": "tsla-8k_20190503.htm",
+    "fetched_at": "2026-03-16T21:21:29.651854",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "8-K",
+    "filing_date": "2019-05-03",
+    "accession_number": "0001193125-19-135910",
+    "primary_document": "d730491d8k.htm",
+    "fetched_at": "2026-03-16T21:21:29.651857",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "10-Q",
+    "filing_date": "2019-04-29",
+    "accession_number": "0001564590-19-013462",
+    "primary_document": "tsla-10q_20190331.htm",
+    "fetched_at": "2026-03-16T21:21:29.651862",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "8-K",
+    "filing_date": "2019-04-24",
+    "accession_number": "0001564590-19-012758",
+    "primary_document": "tsla-8k_20190424.htm",
+    "fetched_at": "2026-03-16T21:21:29.651865",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "8-K",
+    "filing_date": "2019-04-19",
+    "accession_number": "0001564590-19-012122",
+    "primary_document": "tsla-8k_20190418.htm",
+    "fetched_at": "2026-03-16T21:21:29.651868",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "8-K",
+    "filing_date": "2019-04-04",
+    "accession_number": "0001564590-19-010743",
+    "primary_document": "tsla-8k_20190403.htm",
+    "fetched_at": "2026-03-16T21:21:29.651872",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "8-K",
+    "filing_date": "2019-03-14",
+    "accession_number": "0001564590-19-007669",
+    "primary_document": "tsla-8k_20190313.htm",
+    "fetched_at": "2026-03-16T21:21:29.651877",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "8-K",
+    "filing_date": "2019-03-11",
+    "accession_number": "0001564590-19-007080",
+    "primary_document": "tsla-8k_20190310.htm",
+    "fetched_at": "2026-03-16T21:21:29.651881",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "8-K",
+    "filing_date": "2019-03-07",
+    "accession_number": "0001564590-19-006788",
+    "primary_document": "tsla-8k_20190301.htm",
+    "fetched_at": "2026-03-16T21:21:29.651884",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "8-K",
+    "filing_date": "2019-03-01",
+    "accession_number": "0001564590-19-005560",
+    "primary_document": "tsla-8k_20190228.htm",
+    "fetched_at": "2026-03-16T21:21:29.651888",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "10-K",
+    "filing_date": "2019-02-19",
+    "accession_number": "0001564590-19-003165",
+    "primary_document": "tsla-10k_20181231.htm",
+    "fetched_at": "2026-03-16T21:21:29.651892",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "8-K",
+    "filing_date": "2019-02-01",
+    "accession_number": "0001564590-19-001597",
+    "primary_document": "tsla-8k_20190129.htm",
+    "fetched_at": "2026-03-16T21:21:29.651896",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "8-K",
+    "filing_date": "2019-01-30",
+    "accession_number": "0001564590-19-001399",
+    "primary_document": "tsla-8k_20190130.htm",
+    "fetched_at": "2026-03-16T21:21:29.651899",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "8-K",
+    "filing_date": "2019-01-18",
+    "accession_number": "0001564590-19-000740",
+    "primary_document": "tsla-8k_20190118.htm",
+    "fetched_at": "2026-03-16T21:21:29.651903",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "8-K",
+    "filing_date": "2019-01-04",
+    "accession_number": "0001564590-19-000190",
+    "primary_document": "tsla-8k_20181228.htm",
+    "fetched_at": "2026-03-16T21:21:29.651907",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "8-K",
+    "filing_date": "2019-01-02",
+    "accession_number": "0001564590-19-000013",
+    "primary_document": "tsla-8k_20190102.htm",
+    "fetched_at": "2026-03-16T21:21:29.651910",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "8-K",
+    "filing_date": "2018-12-28",
+    "accession_number": "0001564590-18-031477",
+    "primary_document": "tsla-8k_20181227.htm",
+    "fetched_at": "2026-03-16T21:21:29.651913",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "8-K",
+    "filing_date": "2018-11-08",
+    "accession_number": "0001564590-18-028241",
+    "primary_document": "tsla-8k_20181107.htm",
+    "fetched_at": "2026-03-16T21:21:29.651918",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "10-Q",
+    "filing_date": "2018-11-02",
+    "accession_number": "0001564590-18-026353",
+    "primary_document": "tsla-10q_20180930.htm",
+    "fetched_at": "2026-03-16T21:21:29.651921",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "8-K",
+    "filing_date": "2018-10-24",
+    "accession_number": "0001564590-18-024902",
+    "primary_document": "tsla-8k_20181024.htm",
+    "fetched_at": "2026-03-16T21:21:29.651924",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "8-K",
+    "filing_date": "2018-10-17",
+    "accession_number": "0001564590-18-024373",
+    "primary_document": "tsla-8k_20181016.htm",
+    "fetched_at": "2026-03-16T21:21:29.651928",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "8-K",
+    "filing_date": "2018-10-02",
+    "accession_number": "0001564590-18-023815",
+    "primary_document": "tsla-8k_20181002.htm",
+    "fetched_at": "2026-03-16T21:21:29.651932",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "8-K",
+    "filing_date": "2018-10-01",
+    "accession_number": "0001564590-18-023716",
+    "primary_document": "tsla-8k_20180930.htm",
+    "fetched_at": "2026-03-16T21:21:29.651935",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "8-K",
+    "filing_date": "2018-09-07",
+    "accession_number": "0001564590-18-022798",
+    "primary_document": "tsla-8k_20180904.htm",
+    "fetched_at": "2026-03-16T21:21:29.651938",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "8-K",
+    "filing_date": "2018-08-21",
+    "accession_number": "0001564590-18-022131",
+    "primary_document": "tsla-8k_20180816.htm",
+    "fetched_at": "2026-03-16T21:21:29.651942",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "8-K",
+    "filing_date": "2018-08-14",
+    "accession_number": "0001564590-18-021585",
+    "primary_document": "tsla-8k_20180814.htm",
+    "fetched_at": "2026-03-16T21:21:29.651945",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "10-Q",
+    "filing_date": "2018-08-06",
+    "accession_number": "0001564590-18-019254",
+    "primary_document": "tsla-10q_20180630.htm",
+    "fetched_at": "2026-03-16T21:21:29.651949",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "8-K",
+    "filing_date": "2018-08-01",
+    "accession_number": "0001564590-18-018490",
+    "primary_document": "tsla-8k_20180801.htm",
+    "fetched_at": "2026-03-16T21:21:29.651952",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "8-K",
+    "filing_date": "2018-07-30",
+    "accession_number": "0001564590-18-017908",
+    "primary_document": "tsla-8k_20180730.htm",
+    "fetched_at": "2026-03-16T21:21:29.651956",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "8-K",
+    "filing_date": "2018-07-02",
+    "accession_number": "0001564590-18-016494",
+    "primary_document": "tsla-8k_20180702.htm",
+    "fetched_at": "2026-03-16T21:21:29.651959",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "8-K",
+    "filing_date": "2018-07-02",
+    "accession_number": "0001564590-18-016465",
+    "primary_document": "tsla-8k_20180702.htm",
+    "fetched_at": "2026-03-16T21:21:29.651963",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "8-K",
+    "filing_date": "2018-06-06",
+    "accession_number": "0001564590-18-015129",
+    "primary_document": "tsla-8k_20180611.htm",
+    "fetched_at": "2026-03-16T21:21:29.651967",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "10-Q",
+    "filing_date": "2018-05-07",
+    "accession_number": "0001564590-18-011086",
+    "primary_document": "tsla-10q_20180331.htm",
+    "fetched_at": "2026-03-16T21:21:29.651972",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "8-K",
+    "filing_date": "2018-05-02",
+    "accession_number": "0001564590-18-010306",
+    "primary_document": "tsla-8k_20180502.htm",
+    "fetched_at": "2026-03-16T21:21:29.651975",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "8-K",
+    "filing_date": "2018-04-03",
+    "accession_number": "0001564590-18-007463",
+    "primary_document": "tsla-8k_20180403.htm",
+    "fetched_at": "2026-03-16T21:21:29.651979",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "8-K",
+    "filing_date": "2018-03-21",
+    "accession_number": "0001564590-18-006479",
+    "primary_document": "tsla-8k_20180321.htm",
+    "fetched_at": "2026-03-16T21:21:29.651982",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "8-K",
+    "filing_date": "2018-03-08",
+    "accession_number": "0001564590-18-004979",
+    "primary_document": "tsla-8k_20180307.htm",
+    "fetched_at": "2026-03-16T21:21:29.651985",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "TSLA",
+    "cik": "1318605",
+    "form_type": "10-K",
+    "filing_date": "2018-02-23",
+    "accession_number": "0001564590-18-002956",
+    "primary_document": "tsla-10k_20171231.htm",
+    "fetched_at": "2026-03-16T21:21:29.651989",
+    "source_name": "sec_edgar"
+  }
+]

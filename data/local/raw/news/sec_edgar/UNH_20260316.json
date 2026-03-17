@@ -1,0 +1,1142 @@
+[
+  {
+    "ticker": "UNH",
+    "cik": "731766",
+    "form_type": "8-K",
+    "filing_date": "2026-03-09",
+    "accession_number": "0000731766-26-000067",
+    "primary_document": "unh-20260309.htm",
+    "fetched_at": "2026-03-16T21:21:16.820246",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "UNH",
+    "cik": "731766",
+    "form_type": "8-K",
+    "filing_date": "2026-03-02",
+    "accession_number": "0000731766-26-000064",
+    "primary_document": "unh-20260224.htm",
+    "fetched_at": "2026-03-16T21:21:16.820264",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "UNH",
+    "cik": "731766",
+    "form_type": "10-K",
+    "filing_date": "2026-03-02",
+    "accession_number": "0000731766-26-000062",
+    "primary_document": "unh-20251231.htm",
+    "fetched_at": "2026-03-16T21:21:16.820270",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "UNH",
+    "cik": "731766",
+    "form_type": "8-K",
+    "filing_date": "2026-02-25",
+    "accession_number": "0000731766-26-000046",
+    "primary_document": "unh-20260223.htm",
+    "fetched_at": "2026-03-16T21:21:16.820277",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "UNH",
+    "cik": "731766",
+    "form_type": "8-K",
+    "filing_date": "2026-01-27",
+    "accession_number": "0000731766-26-000025",
+    "primary_document": "unh-20260127.htm",
+    "fetched_at": "2026-03-16T21:21:16.820285",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "UNH",
+    "cik": "731766",
+    "form_type": "8-K",
+    "filing_date": "2026-01-12",
+    "accession_number": "0000731766-26-000020",
+    "primary_document": "unh-20260112.htm",
+    "fetched_at": "2026-03-16T21:21:16.820290",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "UNH",
+    "cik": "731766",
+    "form_type": "8-K",
+    "filing_date": "2025-11-21",
+    "accession_number": "0000731766-25-000314",
+    "primary_document": "unh-20251118.htm",
+    "fetched_at": "2026-03-16T21:21:16.820299",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "UNH",
+    "cik": "731766",
+    "form_type": "8-K",
+    "filing_date": "2025-11-13",
+    "accession_number": "0000731766-25-000310",
+    "primary_document": "unh-20251106.htm",
+    "fetched_at": "2026-03-16T21:21:16.820304",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "UNH",
+    "cik": "731766",
+    "form_type": "8-K",
+    "filing_date": "2025-11-07",
+    "accession_number": "0000731766-25-000308",
+    "primary_document": "unh-20251107.htm",
+    "fetched_at": "2026-03-16T21:21:16.820310",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "UNH",
+    "cik": "731766",
+    "form_type": "10-Q",
+    "filing_date": "2025-10-28",
+    "accession_number": "0000731766-25-000305",
+    "primary_document": "unh-20250930.htm",
+    "fetched_at": "2026-03-16T21:21:16.820315",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "UNH",
+    "cik": "731766",
+    "form_type": "8-K",
+    "filing_date": "2025-10-28",
+    "accession_number": "0000731766-25-000301",
+    "primary_document": "unh-20251028.htm",
+    "fetched_at": "2026-03-16T21:21:16.820320",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "UNH",
+    "cik": "731766",
+    "form_type": "8-K",
+    "filing_date": "2025-09-08",
+    "accession_number": "0000731766-25-000245",
+    "primary_document": "unh-20250908.htm",
+    "fetched_at": "2026-03-16T21:21:16.820330",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "UNH",
+    "cik": "731766",
+    "form_type": "8-K",
+    "filing_date": "2025-08-20",
+    "accession_number": "0000731766-25-000239",
+    "primary_document": "unh-20250820.htm",
+    "fetched_at": "2026-03-16T21:21:16.820336",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "UNH",
+    "cik": "731766",
+    "form_type": "10-Q",
+    "filing_date": "2025-08-11",
+    "accession_number": "0000731766-25-000236",
+    "primary_document": "unh-20250630.htm",
+    "fetched_at": "2026-03-16T21:21:16.820342",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "UNH",
+    "cik": "731766",
+    "form_type": "8-K",
+    "filing_date": "2025-07-31",
+    "accession_number": "0000731766-25-000232",
+    "primary_document": "unh-20250725.htm",
+    "fetched_at": "2026-03-16T21:21:16.820347",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "UNH",
+    "cik": "731766",
+    "form_type": "8-K",
+    "filing_date": "2025-07-29",
+    "accession_number": "0000731766-25-000228",
+    "primary_document": "unh-20250729.htm",
+    "fetched_at": "2026-03-16T21:21:16.820352",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "UNH",
+    "cik": "731766",
+    "form_type": "8-K",
+    "filing_date": "2025-07-24",
+    "accession_number": "0000731766-25-000224",
+    "primary_document": "unh-20250723.htm",
+    "fetched_at": "2026-03-16T21:21:16.820358",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "UNH",
+    "cik": "731766",
+    "form_type": "8-K",
+    "filing_date": "2025-06-20",
+    "accession_number": "0001193125-25-143717",
+    "primary_document": "d947980d8k.htm",
+    "fetched_at": "2026-03-16T21:21:16.820366",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "UNH",
+    "cik": "731766",
+    "form_type": "8-K",
+    "filing_date": "2025-06-04",
+    "accession_number": "0000731766-25-000154",
+    "primary_document": "unh-20250602.htm",
+    "fetched_at": "2026-03-16T21:21:16.820374",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "UNH",
+    "cik": "731766",
+    "form_type": "8-K",
+    "filing_date": "2025-05-21",
+    "accession_number": "0000731766-25-000150",
+    "primary_document": "unh-20250520.htm",
+    "fetched_at": "2026-03-16T21:21:16.820383",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "UNH",
+    "cik": "731766",
+    "form_type": "8-K",
+    "filing_date": "2025-05-14",
+    "accession_number": "0000731766-25-000134",
+    "primary_document": "unh-20250512.htm",
+    "fetched_at": "2026-03-16T21:21:16.820390",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "UNH",
+    "cik": "731766",
+    "form_type": "10-Q",
+    "filing_date": "2025-05-07",
+    "accession_number": "0000731766-25-000131",
+    "primary_document": "unh-20250331.htm",
+    "fetched_at": "2026-03-16T21:21:16.820396",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "UNH",
+    "cik": "731766",
+    "form_type": "8-K",
+    "filing_date": "2025-04-29",
+    "accession_number": "0000731766-25-000125",
+    "primary_document": "unh-20250429.htm",
+    "fetched_at": "2026-03-16T21:21:16.820402",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "UNH",
+    "cik": "731766",
+    "form_type": "8-K",
+    "filing_date": "2025-04-17",
+    "accession_number": "0000731766-25-000123",
+    "primary_document": "unh-20250417.htm",
+    "fetched_at": "2026-03-16T21:21:16.820407",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "UNH",
+    "cik": "731766",
+    "form_type": "10-K",
+    "filing_date": "2025-02-27",
+    "accession_number": "0000731766-25-000063",
+    "primary_document": "unh-20241231.htm",
+    "fetched_at": "2026-03-16T21:21:16.820416",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "UNH",
+    "cik": "731766",
+    "form_type": "8-K",
+    "filing_date": "2025-01-16",
+    "accession_number": "0000731766-25-000022",
+    "primary_document": "unh-20250116.htm",
+    "fetched_at": "2026-03-16T21:21:16.820424",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "UNH",
+    "cik": "731766",
+    "form_type": "8-K",
+    "filing_date": "2024-12-04",
+    "accession_number": "0000731766-24-000340",
+    "primary_document": "unh-20241204.htm",
+    "fetched_at": "2026-03-16T21:21:16.820432",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "UNH",
+    "cik": "731766",
+    "form_type": "8-K",
+    "filing_date": "2024-12-03",
+    "accession_number": "0000731766-24-000338",
+    "primary_document": "unh-20241203.htm",
+    "fetched_at": "2026-03-16T21:21:16.820438",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "UNH",
+    "cik": "731766",
+    "form_type": "8-K",
+    "filing_date": "2024-11-26",
+    "accession_number": "0000731766-24-000334",
+    "primary_document": "unh-20241126.htm",
+    "fetched_at": "2026-03-16T21:21:16.820442",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "UNH",
+    "cik": "731766",
+    "form_type": "10-Q",
+    "filing_date": "2024-11-04",
+    "accession_number": "0000731766-24-000323",
+    "primary_document": "unh-20240930.htm",
+    "fetched_at": "2026-03-16T21:21:16.820449",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "UNH",
+    "cik": "731766",
+    "form_type": "8-K",
+    "filing_date": "2024-10-15",
+    "accession_number": "0000731766-24-000320",
+    "primary_document": "unh-20241015.htm",
+    "fetched_at": "2026-03-16T21:21:16.820454",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "UNH",
+    "cik": "731766",
+    "form_type": "10-Q",
+    "filing_date": "2024-08-09",
+    "accession_number": "0000731766-24-000262",
+    "primary_document": "unh-20240630.htm",
+    "fetched_at": "2026-03-16T21:21:16.820464",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "UNH",
+    "cik": "731766",
+    "form_type": "8-K",
+    "filing_date": "2024-07-25",
+    "accession_number": "0000731766-24-000255",
+    "primary_document": "unh-20240723.htm",
+    "fetched_at": "2026-03-16T21:21:16.820470",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "UNH",
+    "cik": "731766",
+    "form_type": "8-K",
+    "filing_date": "2024-07-16",
+    "accession_number": "0000731766-24-000242",
+    "primary_document": "unh-20240716.htm",
+    "fetched_at": "2026-03-16T21:21:16.820477",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "UNH",
+    "cik": "731766",
+    "form_type": "8-K",
+    "filing_date": "2024-06-07",
+    "accession_number": "0000731766-24-000167",
+    "primary_document": "unh-20240603.htm",
+    "fetched_at": "2026-03-16T21:21:16.820487",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "UNH",
+    "cik": "731766",
+    "form_type": "8-K",
+    "filing_date": "2024-05-24",
+    "accession_number": "0000731766-24-000161",
+    "primary_document": "unh-20240524.htm",
+    "fetched_at": "2026-03-16T21:21:16.820493",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "UNH",
+    "cik": "731766",
+    "form_type": "8-K",
+    "filing_date": "2024-05-15",
+    "accession_number": "0000731766-24-000159",
+    "primary_document": "unh-20240515.htm",
+    "fetched_at": "2026-03-16T21:21:16.820502",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "UNH",
+    "cik": "731766",
+    "form_type": "8-K",
+    "filing_date": "2024-05-09",
+    "accession_number": "0000731766-24-000157",
+    "primary_document": "unh-20240509.htm",
+    "fetched_at": "2026-03-16T21:21:16.820508",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "UNH",
+    "cik": "731766",
+    "form_type": "10-Q",
+    "filing_date": "2024-05-09",
+    "accession_number": "0000731766-24-000155",
+    "primary_document": "unh-20240331.htm",
+    "fetched_at": "2026-03-16T21:21:16.820514",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "UNH",
+    "cik": "731766",
+    "form_type": "8-K",
+    "filing_date": "2024-04-16",
+    "accession_number": "0000731766-24-000146",
+    "primary_document": "unh-20240416.htm",
+    "fetched_at": "2026-03-16T21:21:16.820523",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "UNH",
+    "cik": "731766",
+    "form_type": "8-K",
+    "filing_date": "2024-03-28",
+    "accession_number": "0000731766-24-000122",
+    "primary_document": "unh-20240328.htm",
+    "fetched_at": "2026-03-16T21:21:16.820530",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "UNH",
+    "cik": "731766",
+    "form_type": "8-K",
+    "filing_date": "2024-03-21",
+    "accession_number": "0001193125-24-073887",
+    "primary_document": "d800516d8k.htm",
+    "fetched_at": "2026-03-16T21:21:16.820535",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "UNH",
+    "cik": "731766",
+    "form_type": "10-K",
+    "filing_date": "2024-02-28",
+    "accession_number": "0000731766-24-000081",
+    "primary_document": "unh-20231231.htm",
+    "fetched_at": "2026-03-16T21:21:16.820545",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "UNH",
+    "cik": "731766",
+    "form_type": "8-K",
+    "filing_date": "2024-02-22",
+    "accession_number": "0000731766-24-000045",
+    "primary_document": "unh-20240221.htm",
+    "fetched_at": "2026-03-16T21:21:16.820555",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "UNH",
+    "cik": "731766",
+    "form_type": "8-K",
+    "filing_date": "2024-02-09",
+    "accession_number": "0000731766-24-000028",
+    "primary_document": "unh-20240206.htm",
+    "fetched_at": "2026-03-16T21:21:16.820562",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "UNH",
+    "cik": "731766",
+    "form_type": "8-K",
+    "filing_date": "2024-02-07",
+    "accession_number": "0000731766-24-000026",
+    "primary_document": "unh-20240206.htm",
+    "fetched_at": "2026-03-16T21:21:16.820568",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "UNH",
+    "cik": "731766",
+    "form_type": "8-K",
+    "filing_date": "2024-01-12",
+    "accession_number": "0000731766-24-000023",
+    "primary_document": "unh-20240112.htm",
+    "fetched_at": "2026-03-16T21:21:16.820574",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "UNH",
+    "cik": "731766",
+    "form_type": "8-K",
+    "filing_date": "2023-12-29",
+    "accession_number": "0000731766-23-000115",
+    "primary_document": "unh-20231222.htm",
+    "fetched_at": "2026-03-16T21:21:16.820581",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "UNH",
+    "cik": "731766",
+    "form_type": "8-K",
+    "filing_date": "2023-11-28",
+    "accession_number": "0000731766-23-000080",
+    "primary_document": "unh-20231128.htm",
+    "fetched_at": "2026-03-16T21:21:16.820590",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "UNH",
+    "cik": "731766",
+    "form_type": "8-K",
+    "filing_date": "2023-11-22",
+    "accession_number": "0000731766-23-000075",
+    "primary_document": "unh-20231122.htm",
+    "fetched_at": "2026-03-16T21:21:16.820596",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "UNH",
+    "cik": "731766",
+    "form_type": "10-Q",
+    "filing_date": "2023-11-06",
+    "accession_number": "0000731766-23-000064",
+    "primary_document": "unh-20230930.htm",
+    "fetched_at": "2026-03-16T21:21:16.820602",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "UNH",
+    "cik": "731766",
+    "form_type": "8-K",
+    "filing_date": "2023-11-03",
+    "accession_number": "0000731766-23-000061",
+    "primary_document": "unh-20231103.htm",
+    "fetched_at": "2026-03-16T21:21:16.820607",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "UNH",
+    "cik": "731766",
+    "form_type": "8-K",
+    "filing_date": "2023-10-13",
+    "accession_number": "0000731766-23-000058",
+    "primary_document": "unh-20231013.htm",
+    "fetched_at": "2026-03-16T21:21:16.820614",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "UNH",
+    "cik": "731766",
+    "form_type": "10-Q",
+    "filing_date": "2023-08-02",
+    "accession_number": "0000731766-23-000053",
+    "primary_document": "unh-20230630.htm",
+    "fetched_at": "2026-03-16T21:21:16.820625",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "UNH",
+    "cik": "731766",
+    "form_type": "8-K",
+    "filing_date": "2023-07-14",
+    "accession_number": "0000731766-23-000049",
+    "primary_document": "unh-20230714.htm",
+    "fetched_at": "2026-03-16T21:21:16.820632",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "UNH",
+    "cik": "731766",
+    "form_type": "8-K",
+    "filing_date": "2023-06-09",
+    "accession_number": "0000731766-23-000044",
+    "primary_document": "unh-20230605.htm",
+    "fetched_at": "2026-03-16T21:21:16.820641",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "UNH",
+    "cik": "731766",
+    "form_type": "8-K",
+    "filing_date": "2023-05-30",
+    "accession_number": "0000731766-23-000042",
+    "primary_document": "unh-20230530.htm",
+    "fetched_at": "2026-03-16T21:21:16.820647",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "UNH",
+    "cik": "731766",
+    "form_type": "8-K",
+    "filing_date": "2023-05-05",
+    "accession_number": "0000731766-23-000031",
+    "primary_document": "unh-20230505.htm",
+    "fetched_at": "2026-03-16T21:21:16.820652",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "UNH",
+    "cik": "731766",
+    "form_type": "10-Q",
+    "filing_date": "2023-05-03",
+    "accession_number": "0000731766-23-000029",
+    "primary_document": "unh-20230331.htm",
+    "fetched_at": "2026-03-16T21:21:16.820657",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "UNH",
+    "cik": "731766",
+    "form_type": "8-K",
+    "filing_date": "2023-04-28",
+    "accession_number": "0001193125-23-127633",
+    "primary_document": "d485677d8k.htm",
+    "fetched_at": "2026-03-16T21:21:16.820662",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "UNH",
+    "cik": "731766",
+    "form_type": "8-K",
+    "filing_date": "2023-04-24",
+    "accession_number": "0001193125-23-113025",
+    "primary_document": "d499160d8k.htm",
+    "fetched_at": "2026-03-16T21:21:16.820667",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "UNH",
+    "cik": "731766",
+    "form_type": "8-K",
+    "filing_date": "2023-04-14",
+    "accession_number": "0000731766-23-000026",
+    "primary_document": "unh-20230414.htm",
+    "fetched_at": "2026-03-16T21:21:16.820673",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "UNH",
+    "cik": "731766",
+    "form_type": "8-K",
+    "filing_date": "2023-03-28",
+    "accession_number": "0001193125-23-082238",
+    "primary_document": "d492182d8k.htm",
+    "fetched_at": "2026-03-16T21:21:16.820679",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "UNH",
+    "cik": "731766",
+    "form_type": "10-K",
+    "filing_date": "2023-02-24",
+    "accession_number": "0000731766-23-000008",
+    "primary_document": "unh-20221231.htm",
+    "fetched_at": "2026-03-16T21:21:16.820691",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "UNH",
+    "cik": "731766",
+    "form_type": "8-K",
+    "filing_date": "2023-01-13",
+    "accession_number": "0000731766-23-000003",
+    "primary_document": "unh-20230113.htm",
+    "fetched_at": "2026-03-16T21:21:16.820698",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "UNH",
+    "cik": "731766",
+    "form_type": "8-K",
+    "filing_date": "2022-12-12",
+    "accession_number": "0000731766-22-000051",
+    "primary_document": "unh-20221212.htm",
+    "fetched_at": "2026-03-16T21:21:16.820707",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "UNH",
+    "cik": "731766",
+    "form_type": "8-K",
+    "filing_date": "2022-11-28",
+    "accession_number": "0000731766-22-000048",
+    "primary_document": "unh-20221128.htm",
+    "fetched_at": "2026-03-16T21:21:16.820713",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "UNH",
+    "cik": "731766",
+    "form_type": "8-K",
+    "filing_date": "2022-11-22",
+    "accession_number": "0000731766-22-000046",
+    "primary_document": "unh-20221122.htm",
+    "fetched_at": "2026-03-16T21:21:16.820718",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "UNH",
+    "cik": "731766",
+    "form_type": "10-Q",
+    "filing_date": "2022-11-02",
+    "accession_number": "0000731766-22-000044",
+    "primary_document": "unh-20220930.htm",
+    "fetched_at": "2026-03-16T21:21:16.820723",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "UNH",
+    "cik": "731766",
+    "form_type": "8-K",
+    "filing_date": "2022-10-28",
+    "accession_number": "0001193125-22-272540",
+    "primary_document": "d363790d8k.htm",
+    "fetched_at": "2026-03-16T21:21:16.820728",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "UNH",
+    "cik": "731766",
+    "form_type": "8-K",
+    "filing_date": "2022-10-14",
+    "accession_number": "0000731766-22-000041",
+    "primary_document": "unh-20221014.htm",
+    "fetched_at": "2026-03-16T21:21:16.820733",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "UNH",
+    "cik": "731766",
+    "form_type": "8-K",
+    "filing_date": "2022-10-03",
+    "accession_number": "0001104659-22-104936",
+    "primary_document": "tm2226855d2_8k.htm",
+    "fetched_at": "2026-03-16T21:21:16.820740",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "UNH",
+    "cik": "731766",
+    "form_type": "8-K",
+    "filing_date": "2022-09-09",
+    "accession_number": "0000731766-22-000038",
+    "primary_document": "unh-20220909.htm",
+    "fetched_at": "2026-03-16T21:21:16.820748",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "UNH",
+    "cik": "731766",
+    "form_type": "10-Q",
+    "filing_date": "2022-08-03",
+    "accession_number": "0000731766-22-000036",
+    "primary_document": "unh-20220630.htm",
+    "fetched_at": "2026-03-16T21:21:16.820753",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "UNH",
+    "cik": "731766",
+    "form_type": "8-K",
+    "filing_date": "2022-07-15",
+    "accession_number": "0000731766-22-000033",
+    "primary_document": "unh-20220715.htm",
+    "fetched_at": "2026-03-16T21:21:16.820759",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "UNH",
+    "cik": "731766",
+    "form_type": "8-K",
+    "filing_date": "2022-06-10",
+    "accession_number": "0000731766-22-000028",
+    "primary_document": "unh-20220606.htm",
+    "fetched_at": "2026-03-16T21:21:16.820768",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "UNH",
+    "cik": "731766",
+    "form_type": "8-K",
+    "filing_date": "2022-05-31",
+    "accession_number": "0000731766-22-000026",
+    "primary_document": "unh-20220531.htm",
+    "fetched_at": "2026-03-16T21:21:16.820773",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "UNH",
+    "cik": "731766",
+    "form_type": "8-K",
+    "filing_date": "2022-05-20",
+    "accession_number": "0001193125-22-156291",
+    "primary_document": "d288958d8k.htm",
+    "fetched_at": "2026-03-16T21:21:16.820783",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "UNH",
+    "cik": "731766",
+    "form_type": "8-K",
+    "filing_date": "2022-05-06",
+    "accession_number": "0000731766-22-000021",
+    "primary_document": "unh-20220506.htm",
+    "fetched_at": "2026-03-16T21:21:16.820790",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "UNH",
+    "cik": "731766",
+    "form_type": "10-Q",
+    "filing_date": "2022-05-04",
+    "accession_number": "0000731766-22-000019",
+    "primary_document": "unh-20220331.htm",
+    "fetched_at": "2026-03-16T21:21:16.820795",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "UNH",
+    "cik": "731766",
+    "form_type": "8-K",
+    "filing_date": "2022-04-14",
+    "accession_number": "0000731766-22-000016",
+    "primary_document": "unh-20220414.htm",
+    "fetched_at": "2026-03-16T21:21:16.820802",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "UNH",
+    "cik": "731766",
+    "form_type": "8-K",
+    "filing_date": "2022-04-05",
+    "accession_number": "0000731766-22-000013",
+    "primary_document": "unh-20220404.htm",
+    "fetched_at": "2026-03-16T21:21:16.820809",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "UNH",
+    "cik": "731766",
+    "form_type": "8-K",
+    "filing_date": "2022-03-29",
+    "accession_number": "0001193125-22-087427",
+    "primary_document": "d281867d8k.htm",
+    "fetched_at": "2026-03-16T21:21:16.820814",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "UNH",
+    "cik": "731766",
+    "form_type": "8-K",
+    "filing_date": "2022-02-17",
+    "accession_number": "0000731766-22-000010",
+    "primary_document": "unh-20220214.htm",
+    "fetched_at": "2026-03-16T21:21:16.820825",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "UNH",
+    "cik": "731766",
+    "form_type": "10-K",
+    "filing_date": "2022-02-15",
+    "accession_number": "0000731766-22-000008",
+    "primary_document": "unh-20211231.htm",
+    "fetched_at": "2026-03-16T21:21:16.820837",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "UNH",
+    "cik": "731766",
+    "form_type": "8-K",
+    "filing_date": "2022-01-19",
+    "accession_number": "0000731766-22-000004",
+    "primary_document": "unh-20220119.htm",
+    "fetched_at": "2026-03-16T21:21:16.820843",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "UNH",
+    "cik": "731766",
+    "form_type": "8-K",
+    "filing_date": "2021-11-29",
+    "accession_number": "0000731766-21-000057",
+    "primary_document": "unh-20211129.htm",
+    "fetched_at": "2026-03-16T21:21:16.820853",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "UNH",
+    "cik": "731766",
+    "form_type": "8-K",
+    "filing_date": "2021-11-23",
+    "accession_number": "0000731766-21-000055",
+    "primary_document": "unh-20211123.htm",
+    "fetched_at": "2026-03-16T21:21:16.820858",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "UNH",
+    "cik": "731766",
+    "form_type": "8-K",
+    "filing_date": "2021-11-08",
+    "accession_number": "0000731766-21-000053",
+    "primary_document": "unh-20211102.htm",
+    "fetched_at": "2026-03-16T21:21:16.820863",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "UNH",
+    "cik": "731766",
+    "form_type": "10-Q",
+    "filing_date": "2021-11-03",
+    "accession_number": "0000731766-21-000051",
+    "primary_document": "unh-20210930.htm",
+    "fetched_at": "2026-03-16T21:21:16.820869",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "UNH",
+    "cik": "731766",
+    "form_type": "8-K",
+    "filing_date": "2021-10-14",
+    "accession_number": "0000731766-21-000040",
+    "primary_document": "unh-20211014.htm",
+    "fetched_at": "2026-03-16T21:21:16.820874",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "UNH",
+    "cik": "731766",
+    "form_type": "10-Q",
+    "filing_date": "2021-08-03",
+    "accession_number": "0000731766-21-000037",
+    "primary_document": "unh-20210630.htm",
+    "fetched_at": "2026-03-16T21:21:16.820885",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "UNH",
+    "cik": "731766",
+    "form_type": "8-K",
+    "filing_date": "2021-07-15",
+    "accession_number": "0000731766-21-000033",
+    "primary_document": "unh-20210715.htm",
+    "fetched_at": "2026-03-16T21:21:16.820894",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "UNH",
+    "cik": "731766",
+    "form_type": "8-K",
+    "filing_date": "2021-06-11",
+    "accession_number": "0000731766-21-000028",
+    "primary_document": "unh-20210607.htm",
+    "fetched_at": "2026-03-16T21:21:16.820905",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "UNH",
+    "cik": "731766",
+    "form_type": "8-K",
+    "filing_date": "2021-05-28",
+    "accession_number": "0000731766-21-000025",
+    "primary_document": "unh-20210528.htm",
+    "fetched_at": "2026-03-16T21:21:16.820915",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "UNH",
+    "cik": "731766",
+    "form_type": "8-K",
+    "filing_date": "2021-05-19",
+    "accession_number": "0001193125-21-166654",
+    "primary_document": "d146030d8k.htm",
+    "fetched_at": "2026-03-16T21:21:16.820921",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "UNH",
+    "cik": "731766",
+    "form_type": "8-K",
+    "filing_date": "2021-05-07",
+    "accession_number": "0000731766-21-000023",
+    "primary_document": "unh-20210507.htm",
+    "fetched_at": "2026-03-16T21:21:16.820928",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "UNH",
+    "cik": "731766",
+    "form_type": "10-Q",
+    "filing_date": "2021-05-05",
+    "accession_number": "0000731766-21-000021",
+    "primary_document": "unh-20210331.htm",
+    "fetched_at": "2026-03-16T21:21:16.820933",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "UNH",
+    "cik": "731766",
+    "form_type": "8-K",
+    "filing_date": "2021-04-15",
+    "accession_number": "0000731766-21-000018",
+    "primary_document": "unh-20210415.htm",
+    "fetched_at": "2026-03-16T21:21:16.820946",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "UNH",
+    "cik": "731766",
+    "form_type": "8-K",
+    "filing_date": "2021-03-08",
+    "accession_number": "0000731766-21-000015",
+    "primary_document": "unh-20210308.htm",
+    "fetched_at": "2026-03-16T21:21:16.820955",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "UNH",
+    "cik": "731766",
+    "form_type": "10-K",
+    "filing_date": "2021-03-01",
+    "accession_number": "0000731766-21-000013",
+    "primary_document": "unh-20201231.htm",
+    "fetched_at": "2026-03-16T21:21:16.820960",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "UNH",
+    "cik": "731766",
+    "form_type": "8-K",
+    "filing_date": "2021-02-26",
+    "accession_number": "0000731766-21-000010",
+    "primary_document": "unh-20210222.htm",
+    "fetched_at": "2026-03-16T21:21:16.820970",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "UNH",
+    "cik": "731766",
+    "form_type": "8-K",
+    "filing_date": "2021-02-08",
+    "accession_number": "0000731766-21-000004",
+    "primary_document": "unh-20210202.htm",
+    "fetched_at": "2026-03-16T21:21:16.820979",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "UNH",
+    "cik": "731766",
+    "form_type": "8-K",
+    "filing_date": "2021-01-20",
+    "accession_number": "0000731766-21-000002",
+    "primary_document": "unh-20210120.htm",
+    "fetched_at": "2026-03-16T21:21:16.820984",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "UNH",
+    "cik": "731766",
+    "form_type": "8-K",
+    "filing_date": "2021-01-06",
+    "accession_number": "0001193125-21-002419",
+    "primary_document": "d60247d8k.htm",
+    "fetched_at": "2026-03-16T21:21:16.820993",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "UNH",
+    "cik": "731766",
+    "form_type": "8-K",
+    "filing_date": "2020-12-02",
+    "accession_number": "0000731766-20-000060",
+    "primary_document": "unh-20201201.htm",
+    "fetched_at": "2026-03-16T21:21:16.821001",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "UNH",
+    "cik": "731766",
+    "form_type": "8-K",
+    "filing_date": "2020-12-01",
+    "accession_number": "0000731766-20-000058",
+    "primary_document": "unh-20201201.htm",
+    "fetched_at": "2026-03-16T21:21:16.821006",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "UNH",
+    "cik": "731766",
+    "form_type": "8-K",
+    "filing_date": "2020-11-25",
+    "accession_number": "0000731766-20-000056",
+    "primary_document": "unh-20201125.htm",
+    "fetched_at": "2026-03-16T21:21:16.821011",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "UNH",
+    "cik": "731766",
+    "form_type": "8-K",
+    "filing_date": "2020-11-20",
+    "accession_number": "0000731766-20-000053",
+    "primary_document": "unh-20201120.htm",
+    "fetched_at": "2026-03-16T21:21:16.821015",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "UNH",
+    "cik": "731766",
+    "form_type": "10-Q",
+    "filing_date": "2020-11-02",
+    "accession_number": "0000731766-20-000049",
+    "primary_document": "unh-20200930.htm",
+    "fetched_at": "2026-03-16T21:21:16.821021",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "UNH",
+    "cik": "731766",
+    "form_type": "8-K",
+    "filing_date": "2020-10-14",
+    "accession_number": "0000731766-20-000045",
+    "primary_document": "unh-20201014.htm",
+    "fetched_at": "2026-03-16T21:21:16.821027",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "UNH",
+    "cik": "731766",
+    "form_type": "10-Q",
+    "filing_date": "2020-08-03",
+    "accession_number": "0000731766-20-000042",
+    "primary_document": "unh-20200630.htm",
+    "fetched_at": "2026-03-16T21:21:16.821036",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "UNH",
+    "cik": "731766",
+    "form_type": "8-K",
+    "filing_date": "2020-07-15",
+    "accession_number": "0000731766-20-000038",
+    "primary_document": "unh-20200715.htm",
+    "fetched_at": "2026-03-16T21:21:16.821041",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "UNH",
+    "cik": "731766",
+    "form_type": "8-K",
+    "filing_date": "2020-06-05",
+    "accession_number": "0000731766-20-000034",
+    "primary_document": "unh-20200601.htm",
+    "fetched_at": "2026-03-16T21:21:16.821049",
+    "source_name": "sec_edgar"
+  }
+]

@@ -1,46 +1,46 @@
 [
   {
     "name": "AlphaFlow TFT",
-    "total_return": 4.58,
-    "annual_return": 12.06,
-    "annual_vol": 7.62,
-    "sharpe_ratio": 0.876,
-    "sortino_ratio": 1.574,
-    "max_drawdown": -8.83,
-    "calmar_ratio": 1.367,
-    "hit_rate": 52.53
+    "total_return": 4.6,
+    "annual_return": 8.7,
+    "annual_vol": 2.98,
+    "sharpe_ratio": 1.134,
+    "sortino_ratio": 2.159,
+    "max_drawdown": -2.43,
+    "calmar_ratio": 3.585,
+    "hit_rate": 51.47
   },
   {
     "name": "Buy Hold",
-    "total_return": 0.94,
-    "annual_return": 2.43,
-    "annual_vol": 13.34,
-    "sharpe_ratio": -0.128,
-    "sortino_ratio": -0.251,
-    "max_drawdown": -5.88,
-    "calmar_ratio": 0.413,
-    "hit_rate": 56.12
+    "total_return": 7.81,
+    "annual_return": 15.08,
+    "annual_vol": 11.45,
+    "sharpe_ratio": 0.847,
+    "sortino_ratio": 1.151,
+    "max_drawdown": -5.07,
+    "calmar_ratio": 2.974,
+    "hit_rate": 56.3
   },
   {
     "name": "Equal Weight",
-    "total_return": 3.13,
-    "annual_return": 8.24,
-    "annual_vol": 7.87,
-    "sharpe_ratio": 0.41,
-    "sortino_ratio": 0.732,
-    "max_drawdown": -9.95,
-    "calmar_ratio": 0.828,
-    "hit_rate": 52.04
+    "total_return": 7.69,
+    "annual_return": 14.84,
+    "annual_vol": 3.78,
+    "sharpe_ratio": 2.356,
+    "sortino_ratio": 3.948,
+    "max_drawdown": -2.9,
+    "calmar_ratio": 5.112,
+    "hit_rate": 61.48
   },
   {
     "name": "Random",
-    "total_return": 4.4,
-    "annual_return": 11.71,
-    "annual_vol": 6.1,
-    "sharpe_ratio": 1.026,
-    "sortino_ratio": 1.535,
-    "max_drawdown": -2.31,
-    "calmar_ratio": 5.078,
-    "hit_rate": 34.69
+    "total_return": -0.62,
+    "annual_return": -1.15,
+    "annual_vol": 3.19,
+    "sharpe_ratio": -1.912,
+    "sortino_ratio": -2.608,
+    "max_drawdown": -2.84,
+    "calmar_ratio": -0.404,
+    "hit_rate": 34.81
   }
 ]

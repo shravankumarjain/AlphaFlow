@@ -1,0 +1,862 @@
+[
+  {
+    "ticker": "PFE",
+    "cik": "78003",
+    "form_type": "10-K",
+    "filing_date": "2026-02-26",
+    "accession_number": "0000078003-26-000026",
+    "primary_document": "pfe-20251231.htm",
+    "fetched_at": "2026-03-16T21:21:18.488874",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PFE",
+    "cik": "78003",
+    "form_type": "8-K",
+    "filing_date": "2026-02-03",
+    "accession_number": "0000078003-26-000005",
+    "primary_document": "pfe-20260203.htm",
+    "fetched_at": "2026-03-16T21:21:18.489082",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PFE",
+    "cik": "78003",
+    "form_type": "8-K",
+    "filing_date": "2025-12-16",
+    "accession_number": "0000078003-25-000167",
+    "primary_document": "pfe-20251216.htm",
+    "fetched_at": "2026-03-16T21:21:18.489091",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PFE",
+    "cik": "78003",
+    "form_type": "8-K",
+    "filing_date": "2025-11-21",
+    "accession_number": "0001193125-25-291406",
+    "primary_document": "d80089d8k.htm",
+    "fetched_at": "2026-03-16T21:21:18.489098",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PFE",
+    "cik": "78003",
+    "form_type": "8-K",
+    "filing_date": "2025-11-13",
+    "accession_number": "0000078003-25-000159",
+    "primary_document": "pfe-20251113.htm",
+    "fetched_at": "2026-03-16T21:21:18.489108",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PFE",
+    "cik": "78003",
+    "form_type": "10-Q",
+    "filing_date": "2025-11-04",
+    "accession_number": "0000078003-25-000150",
+    "primary_document": "pfe-20250928.htm",
+    "fetched_at": "2026-03-16T21:21:18.489115",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PFE",
+    "cik": "78003",
+    "form_type": "8-K",
+    "filing_date": "2025-11-04",
+    "accession_number": "0000078003-25-000149",
+    "primary_document": "pfe-20251104.htm",
+    "fetched_at": "2026-03-16T21:21:18.489121",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PFE",
+    "cik": "78003",
+    "form_type": "10-Q",
+    "filing_date": "2025-08-05",
+    "accession_number": "0000078003-25-000138",
+    "primary_document": "pfe-20250629.htm",
+    "fetched_at": "2026-03-16T21:21:18.489131",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PFE",
+    "cik": "78003",
+    "form_type": "8-K",
+    "filing_date": "2025-08-05",
+    "accession_number": "0000078003-25-000136",
+    "primary_document": "pfe-20250805.htm",
+    "fetched_at": "2026-03-16T21:21:18.489136",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PFE",
+    "cik": "78003",
+    "form_type": "8-K",
+    "filing_date": "2025-05-19",
+    "accession_number": "0001193125-25-122480",
+    "primary_document": "d60311d8k.htm",
+    "fetched_at": "2026-03-16T21:21:18.489146",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PFE",
+    "cik": "78003",
+    "form_type": "10-Q",
+    "filing_date": "2025-05-05",
+    "accession_number": "0000078003-25-000114",
+    "primary_document": "pfe-20250330.htm",
+    "fetched_at": "2026-03-16T21:21:18.489152",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PFE",
+    "cik": "78003",
+    "form_type": "8-K",
+    "filing_date": "2025-04-29",
+    "accession_number": "0000078003-25-000111",
+    "primary_document": "pfe-20250429.htm",
+    "fetched_at": "2026-03-16T21:21:18.489157",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PFE",
+    "cik": "78003",
+    "form_type": "8-K",
+    "filing_date": "2025-04-28",
+    "accession_number": "0000078003-25-000109",
+    "primary_document": "pfe-20250424.htm",
+    "fetched_at": "2026-03-16T21:21:18.489163",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PFE",
+    "cik": "78003",
+    "form_type": "10-K",
+    "filing_date": "2025-02-27",
+    "accession_number": "0000078003-25-000054",
+    "primary_document": "pfe-20241231.htm",
+    "fetched_at": "2026-03-16T21:21:18.489175",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PFE",
+    "cik": "78003",
+    "form_type": "8-K",
+    "filing_date": "2025-02-04",
+    "accession_number": "0000078003-25-000017",
+    "primary_document": "pfe-20250204.htm",
+    "fetched_at": "2026-03-16T21:21:18.489184",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PFE",
+    "cik": "78003",
+    "form_type": "8-K",
+    "filing_date": "2024-12-17",
+    "accession_number": "0000078003-24-000195",
+    "primary_document": "pfe-20241217.htm",
+    "fetched_at": "2026-03-16T21:21:18.489195",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PFE",
+    "cik": "78003",
+    "form_type": "10-Q",
+    "filing_date": "2024-11-04",
+    "accession_number": "0000078003-24-000191",
+    "primary_document": "pfe-20240929.htm",
+    "fetched_at": "2026-03-16T21:21:18.489202",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PFE",
+    "cik": "78003",
+    "form_type": "8-K",
+    "filing_date": "2024-10-29",
+    "accession_number": "0000078003-24-000188",
+    "primary_document": "pfe-20241029.htm",
+    "fetched_at": "2026-03-16T21:21:18.489211",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PFE",
+    "cik": "78003",
+    "form_type": "8-K",
+    "filing_date": "2024-10-15",
+    "accession_number": "0000078003-24-000185",
+    "primary_document": "pfe-20241010.htm",
+    "fetched_at": "2026-03-16T21:21:18.489219",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PFE",
+    "cik": "78003",
+    "form_type": "10-Q",
+    "filing_date": "2024-08-05",
+    "accession_number": "0000078003-24-000166",
+    "primary_document": "pfe-20240630.htm",
+    "fetched_at": "2026-03-16T21:21:18.489233",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PFE",
+    "cik": "78003",
+    "form_type": "8-K",
+    "filing_date": "2024-07-30",
+    "accession_number": "0000078003-24-000155",
+    "primary_document": "pfe-20240730.htm",
+    "fetched_at": "2026-03-16T21:21:18.489242",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PFE",
+    "cik": "78003",
+    "form_type": "8-K",
+    "filing_date": "2024-07-26",
+    "accession_number": "0000078003-24-000144",
+    "primary_document": "pfe-20240724.htm",
+    "fetched_at": "2026-03-16T21:21:18.489249",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PFE",
+    "cik": "78003",
+    "form_type": "8-K",
+    "filing_date": "2024-07-10",
+    "accession_number": "0000078003-24-000130",
+    "primary_document": "pfe-20240709.htm",
+    "fetched_at": "2026-03-16T21:21:18.489257",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PFE",
+    "cik": "78003",
+    "form_type": "8-K",
+    "filing_date": "2024-07-01",
+    "accession_number": "0000078003-24-000127",
+    "primary_document": "pfe-20240627.htm",
+    "fetched_at": "2026-03-16T21:21:18.489266",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PFE",
+    "cik": "78003",
+    "form_type": "8-K",
+    "filing_date": "2024-05-22",
+    "accession_number": "0000078003-24-000113",
+    "primary_document": "pfe-20240522.htm",
+    "fetched_at": "2026-03-16T21:21:18.489274",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PFE",
+    "cik": "78003",
+    "form_type": "10-Q",
+    "filing_date": "2024-05-08",
+    "accession_number": "0000078003-24-000107",
+    "primary_document": "pfe-20240331.htm",
+    "fetched_at": "2026-03-16T21:21:18.489279",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PFE",
+    "cik": "78003",
+    "form_type": "8-K",
+    "filing_date": "2024-05-01",
+    "accession_number": "0000078003-24-000103",
+    "primary_document": "pfe-20240501.htm",
+    "fetched_at": "2026-03-16T21:21:18.489286",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PFE",
+    "cik": "78003",
+    "form_type": "8-K",
+    "filing_date": "2024-04-29",
+    "accession_number": "0000078003-24-000101",
+    "primary_document": "pfe-20240425.htm",
+    "fetched_at": "2026-03-16T21:21:18.489292",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PFE",
+    "cik": "78003",
+    "form_type": "10-K",
+    "filing_date": "2024-02-22",
+    "accession_number": "0000078003-24-000039",
+    "primary_document": "pfe-20231231.htm",
+    "fetched_at": "2026-03-16T21:21:18.489309",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PFE",
+    "cik": "78003",
+    "form_type": "8-K",
+    "filing_date": "2024-01-30",
+    "accession_number": "0000078003-24-000017",
+    "primary_document": "pfe-20240130.htm",
+    "fetched_at": "2026-03-16T21:21:18.489316",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PFE",
+    "cik": "78003",
+    "form_type": "8-K",
+    "filing_date": "2024-01-10",
+    "accession_number": "0000078003-24-000006",
+    "primary_document": "pfe-20240110.htm",
+    "fetched_at": "2026-03-16T21:21:18.489324",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PFE",
+    "cik": "78003",
+    "form_type": "8-K",
+    "filing_date": "2023-12-14",
+    "accession_number": "0001193125-23-294930",
+    "primary_document": "d553734d8k.htm",
+    "fetched_at": "2026-03-16T21:21:18.489332",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PFE",
+    "cik": "78003",
+    "form_type": "8-K",
+    "filing_date": "2023-12-13",
+    "accession_number": "0000078003-23-000120",
+    "primary_document": "pfe-20231213.htm",
+    "fetched_at": "2026-03-16T21:21:18.489337",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PFE",
+    "cik": "78003",
+    "form_type": "8-K",
+    "filing_date": "2023-12-12",
+    "accession_number": "0000078003-23-000118",
+    "primary_document": "pfe-20231207.htm",
+    "fetched_at": "2026-03-16T21:21:18.489342",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PFE",
+    "cik": "78003",
+    "form_type": "10-Q",
+    "filing_date": "2023-11-08",
+    "accession_number": "0000078003-23-000115",
+    "primary_document": "pfe-20231001.htm",
+    "fetched_at": "2026-03-16T21:21:18.489349",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PFE",
+    "cik": "78003",
+    "form_type": "8-K",
+    "filing_date": "2023-10-31",
+    "accession_number": "0000078003-23-000111",
+    "primary_document": "pfe-20231031.htm",
+    "fetched_at": "2026-03-16T21:21:18.489354",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PFE",
+    "cik": "78003",
+    "form_type": "8-K",
+    "filing_date": "2023-10-13",
+    "accession_number": "0000078003-23-000099",
+    "primary_document": "pfe-20231013.htm",
+    "fetched_at": "2026-03-16T21:21:18.489360",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PFE",
+    "cik": "78003",
+    "form_type": "10-Q",
+    "filing_date": "2023-08-09",
+    "accession_number": "0000078003-23-000088",
+    "primary_document": "pfe-20230702.htm",
+    "fetched_at": "2026-03-16T21:21:18.489369",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PFE",
+    "cik": "78003",
+    "form_type": "8-K",
+    "filing_date": "2023-08-01",
+    "accession_number": "0000078003-23-000085",
+    "primary_document": "pfe-20230801.htm",
+    "fetched_at": "2026-03-16T21:21:18.489376",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PFE",
+    "cik": "78003",
+    "form_type": "8-K",
+    "filing_date": "2023-07-27",
+    "accession_number": "0000078003-23-000081",
+    "primary_document": "pfe-20230721.htm",
+    "fetched_at": "2026-03-16T21:21:18.489381",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PFE",
+    "cik": "78003",
+    "form_type": "8-K",
+    "filing_date": "2023-05-19",
+    "accession_number": "0001193125-23-149364",
+    "primary_document": "d414076d8k.htm",
+    "fetched_at": "2026-03-16T21:21:18.489389",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PFE",
+    "cik": "78003",
+    "form_type": "8-K",
+    "filing_date": "2023-05-15",
+    "accession_number": "0001193125-23-144089",
+    "primary_document": "d474141d8k.htm",
+    "fetched_at": "2026-03-16T21:21:18.489399",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PFE",
+    "cik": "78003",
+    "form_type": "10-Q",
+    "filing_date": "2023-05-10",
+    "accession_number": "0001628280-23-017196",
+    "primary_document": "pfe-20230402.htm",
+    "fetched_at": "2026-03-16T21:21:18.489404",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PFE",
+    "cik": "78003",
+    "form_type": "8-K",
+    "filing_date": "2023-05-02",
+    "accession_number": "0001628280-23-014759",
+    "primary_document": "pfe-20230502.htm",
+    "fetched_at": "2026-03-16T21:21:18.489410",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PFE",
+    "cik": "78003",
+    "form_type": "8-K",
+    "filing_date": "2023-05-01",
+    "accession_number": "0001628280-23-014368",
+    "primary_document": "pfe-20230427.htm",
+    "fetched_at": "2026-03-16T21:21:18.489417",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PFE",
+    "cik": "78003",
+    "form_type": "8-K",
+    "filing_date": "2023-03-13",
+    "accession_number": "0001193125-23-068538",
+    "primary_document": "d408093d8k.htm",
+    "fetched_at": "2026-03-16T21:21:18.489430",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PFE",
+    "cik": "78003",
+    "form_type": "10-K",
+    "filing_date": "2023-02-23",
+    "accession_number": "0000078003-23-000024",
+    "primary_document": "pfe-20221231.htm",
+    "fetched_at": "2026-03-16T21:21:18.489441",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PFE",
+    "cik": "78003",
+    "form_type": "8-K",
+    "filing_date": "2023-02-21",
+    "accession_number": "0000078003-23-000019",
+    "primary_document": "pfe-20230221.htm",
+    "fetched_at": "2026-03-16T21:21:18.489446",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PFE",
+    "cik": "78003",
+    "form_type": "8-K",
+    "filing_date": "2023-01-31",
+    "accession_number": "0000078003-23-000004",
+    "primary_document": "pfe-20230131.htm",
+    "fetched_at": "2026-03-16T21:21:18.489453",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PFE",
+    "cik": "78003",
+    "form_type": "8-K",
+    "filing_date": "2022-12-13",
+    "accession_number": "0000078003-22-000107",
+    "primary_document": "pfe-20221209.htm",
+    "fetched_at": "2026-03-16T21:21:18.489461",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PFE",
+    "cik": "78003",
+    "form_type": "10-Q",
+    "filing_date": "2022-11-09",
+    "accession_number": "0000078003-22-000101",
+    "primary_document": "pfe-20221002.htm",
+    "fetched_at": "2026-03-16T21:21:18.489469",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PFE",
+    "cik": "78003",
+    "form_type": "8-K",
+    "filing_date": "2022-11-01",
+    "accession_number": "0000078003-22-000098",
+    "primary_document": "pfe-20221101.htm",
+    "fetched_at": "2026-03-16T21:21:18.489475",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PFE",
+    "cik": "78003",
+    "form_type": "10-Q",
+    "filing_date": "2022-08-10",
+    "accession_number": "0000078003-22-000094",
+    "primary_document": "pfe-20220703.htm",
+    "fetched_at": "2026-03-16T21:21:18.489486",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PFE",
+    "cik": "78003",
+    "form_type": "8-K",
+    "filing_date": "2022-07-28",
+    "accession_number": "0000078003-22-000091",
+    "primary_document": "pfe-20220728.htm",
+    "fetched_at": "2026-03-16T21:21:18.489493",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PFE",
+    "cik": "78003",
+    "form_type": "10-Q",
+    "filing_date": "2022-05-11",
+    "accession_number": "0000078003-22-000071",
+    "primary_document": "pfe-20220403.htm",
+    "fetched_at": "2026-03-16T21:21:18.489504",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PFE",
+    "cik": "78003",
+    "form_type": "8-K",
+    "filing_date": "2022-05-10",
+    "accession_number": "0001193125-22-145661",
+    "primary_document": "d336582d8k.htm",
+    "fetched_at": "2026-03-16T21:21:18.489511",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PFE",
+    "cik": "78003",
+    "form_type": "8-K",
+    "filing_date": "2022-05-03",
+    "accession_number": "0000078003-22-000068",
+    "primary_document": "pfe-20220503.htm",
+    "fetched_at": "2026-03-16T21:21:18.489517",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PFE",
+    "cik": "78003",
+    "form_type": "8-K",
+    "filing_date": "2022-05-02",
+    "accession_number": "0000078003-22-000066",
+    "primary_document": "pfe-20220428.htm",
+    "fetched_at": "2026-03-16T21:21:18.489522",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PFE",
+    "cik": "78003",
+    "form_type": "8-K",
+    "filing_date": "2022-04-20",
+    "accession_number": "0000078003-22-000062",
+    "primary_document": "pfe-20220420.htm",
+    "fetched_at": "2026-03-16T21:21:18.489531",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PFE",
+    "cik": "78003",
+    "form_type": "8-K",
+    "filing_date": "2022-04-12",
+    "accession_number": "0000078003-22-000057",
+    "primary_document": "pfe-20220411.htm",
+    "fetched_at": "2026-03-16T21:21:18.489538",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PFE",
+    "cik": "78003",
+    "form_type": "8-K",
+    "filing_date": "2022-03-29",
+    "accession_number": "0001193125-22-088144",
+    "primary_document": "d284315d8k.htm",
+    "fetched_at": "2026-03-16T21:21:18.489547",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PFE",
+    "cik": "78003",
+    "form_type": "10-K",
+    "filing_date": "2022-02-24",
+    "accession_number": "0000078003-22-000027",
+    "primary_document": "pfe-20211231.htm",
+    "fetched_at": "2026-03-16T21:21:18.489560",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PFE",
+    "cik": "78003",
+    "form_type": "8-K",
+    "filing_date": "2022-02-08",
+    "accession_number": "0000078003-22-000003",
+    "primary_document": "pfe-20220208.htm",
+    "fetched_at": "2026-03-16T21:21:18.489571",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PFE",
+    "cik": "78003",
+    "form_type": "8-K",
+    "filing_date": "2021-12-15",
+    "accession_number": "0000078003-21-000118",
+    "primary_document": "pfe-20211209.htm",
+    "fetched_at": "2026-03-16T21:21:18.489582",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PFE",
+    "cik": "78003",
+    "form_type": "8-K",
+    "filing_date": "2021-11-19",
+    "accession_number": "0000078003-21-000114",
+    "primary_document": "pfe-20211115.htm",
+    "fetched_at": "2026-03-16T21:21:18.489589",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PFE",
+    "cik": "78003",
+    "form_type": "10-Q",
+    "filing_date": "2021-11-12",
+    "accession_number": "0000078003-21-000107",
+    "primary_document": "pfe-20211003.htm",
+    "fetched_at": "2026-03-16T21:21:18.489599",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PFE",
+    "cik": "78003",
+    "form_type": "8-K",
+    "filing_date": "2021-11-02",
+    "accession_number": "0000078003-21-000104",
+    "primary_document": "pfe-20211102.htm",
+    "fetched_at": "2026-03-16T21:21:18.489605",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PFE",
+    "cik": "78003",
+    "form_type": "8-K",
+    "filing_date": "2021-08-18",
+    "accession_number": "0001193125-21-250347",
+    "primary_document": "d340659d8k.htm",
+    "fetched_at": "2026-03-16T21:21:18.489617",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PFE",
+    "cik": "78003",
+    "form_type": "10-Q",
+    "filing_date": "2021-08-12",
+    "accession_number": "0000078003-21-000093",
+    "primary_document": "pfe-20210704.htm",
+    "fetched_at": "2026-03-16T21:21:18.489624",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PFE",
+    "cik": "78003",
+    "form_type": "8-K",
+    "filing_date": "2021-07-28",
+    "accession_number": "0000078003-21-000090",
+    "primary_document": "pfe-20210728.htm",
+    "fetched_at": "2026-03-16T21:21:18.489632",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PFE",
+    "cik": "78003",
+    "form_type": "8-K",
+    "filing_date": "2021-07-09",
+    "accession_number": "0000078003-21-000087",
+    "primary_document": "pfe-20210706.htm",
+    "fetched_at": "2026-03-16T21:21:18.489639",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PFE",
+    "cik": "78003",
+    "form_type": "10-Q",
+    "filing_date": "2021-05-13",
+    "accession_number": "0000078003-21-000065",
+    "primary_document": "pfe-20210404.htm",
+    "fetched_at": "2026-03-16T21:21:18.489651",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PFE",
+    "cik": "78003",
+    "form_type": "8-K",
+    "filing_date": "2021-05-04",
+    "accession_number": "0000078003-21-000062",
+    "primary_document": "pfe-20210504.htm",
+    "fetched_at": "2026-03-16T21:21:18.489658",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PFE",
+    "cik": "78003",
+    "form_type": "8-K",
+    "filing_date": "2021-04-26",
+    "accession_number": "0000078003-21-000059",
+    "primary_document": "pfe-20210422.htm",
+    "fetched_at": "2026-03-16T21:21:18.489665",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PFE",
+    "cik": "78003",
+    "form_type": "10-K",
+    "filing_date": "2021-02-25",
+    "accession_number": "0000078003-21-000038",
+    "primary_document": "pfe-20201231.htm",
+    "fetched_at": "2026-03-16T21:21:18.489684",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PFE",
+    "cik": "78003",
+    "form_type": "8-K",
+    "filing_date": "2021-02-02",
+    "accession_number": "0000078003-21-000003",
+    "primary_document": "pfe-20210202.htm",
+    "fetched_at": "2026-03-16T21:21:18.489695",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PFE",
+    "cik": "78003",
+    "form_type": "8-K",
+    "filing_date": "2021-01-12",
+    "accession_number": "0001193125-21-006923",
+    "primary_document": "d102109d8k.htm",
+    "fetched_at": "2026-03-16T21:21:18.489704",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PFE",
+    "cik": "78003",
+    "form_type": "8-K",
+    "filing_date": "2020-12-14",
+    "accession_number": "0001193125-20-317074",
+    "primary_document": "d36307d8k.htm",
+    "fetched_at": "2026-03-16T21:21:18.489714",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PFE",
+    "cik": "78003",
+    "form_type": "8-K",
+    "filing_date": "2020-11-20",
+    "accession_number": "0001193125-20-298356",
+    "primary_document": "d72492d8k.htm",
+    "fetched_at": "2026-03-16T21:21:18.489720",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PFE",
+    "cik": "78003",
+    "form_type": "8-K",
+    "filing_date": "2020-11-18",
+    "accession_number": "0001193125-20-296989",
+    "primary_document": "d80787d8k.htm",
+    "fetched_at": "2026-03-16T21:21:18.489727",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PFE",
+    "cik": "78003",
+    "form_type": "8-K",
+    "filing_date": "2020-11-16",
+    "accession_number": "0001193125-20-294847",
+    "primary_document": "d82880d8k.htm",
+    "fetched_at": "2026-03-16T21:21:18.489734",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PFE",
+    "cik": "78003",
+    "form_type": "8-K",
+    "filing_date": "2020-11-13",
+    "accession_number": "0001193125-20-293176",
+    "primary_document": "d97992d8k.htm",
+    "fetched_at": "2026-03-16T21:21:18.489739",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PFE",
+    "cik": "78003",
+    "form_type": "10-Q",
+    "filing_date": "2020-11-05",
+    "accession_number": "0000078003-20-000070",
+    "primary_document": "pfe-20200927.htm",
+    "fetched_at": "2026-03-16T21:21:18.489745",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PFE",
+    "cik": "78003",
+    "form_type": "8-K",
+    "filing_date": "2020-11-05",
+    "accession_number": "0001193125-20-286896",
+    "primary_document": "d81265d8k.htm",
+    "fetched_at": "2026-03-16T21:21:18.489751",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PFE",
+    "cik": "78003",
+    "form_type": "8-K",
+    "filing_date": "2020-10-30",
+    "accession_number": "0001193125-20-282739",
+    "primary_document": "d88394d8k.htm",
+    "fetched_at": "2026-03-16T21:21:18.489756",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "PFE",
+    "cik": "78003",
+    "form_type": "8-K",
+    "filing_date": "2020-10-27",
+    "accession_number": "0000078003-20-000065",
+    "primary_document": "pfe-20201027.htm",
+    "fetched_at": "2026-03-16T21:21:18.489763",
+    "source_name": "sec_edgar"
+  }
+]

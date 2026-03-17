@@ -1,0 +1,192 @@
+[
+  {
+    "ticker": "BAC",
+    "cik": "70858",
+    "form_type": "10-K",
+    "filing_date": "2026-02-25",
+    "accession_number": "0000070858-26-000157",
+    "primary_document": "bac-20251231.htm",
+    "fetched_at": "2026-03-16T21:21:12.018041",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "BAC",
+    "cik": "70858",
+    "form_type": "8-K",
+    "filing_date": "2026-02-13",
+    "accession_number": "0000070858-26-000088",
+    "primary_document": "bac-20260213.htm",
+    "fetched_at": "2026-03-16T21:21:12.018088",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "BAC",
+    "cik": "70858",
+    "form_type": "8-K",
+    "filing_date": "2026-01-14",
+    "accession_number": "0000070858-26-000020",
+    "primary_document": "bac-20260114.htm",
+    "fetched_at": "2026-03-16T21:21:12.018215",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "BAC",
+    "cik": "70858",
+    "form_type": "8-K",
+    "filing_date": "2026-01-06",
+    "accession_number": "0000070858-26-000011",
+    "primary_document": "bac-20260106.htm",
+    "fetched_at": "2026-03-16T21:21:12.018235",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "BAC",
+    "cik": "70858",
+    "form_type": "8-K",
+    "filing_date": "2025-11-26",
+    "accession_number": "0001193125-25-300649",
+    "primary_document": "d949286d8k.htm",
+    "fetched_at": "2026-03-16T21:21:12.018352",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "BAC",
+    "cik": "70858",
+    "form_type": "10-Q",
+    "filing_date": "2025-10-31",
+    "accession_number": "0000070858-25-000405",
+    "primary_document": "bac-20250930.htm",
+    "fetched_at": "2026-03-16T21:21:12.018461",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "BAC",
+    "cik": "70858",
+    "form_type": "8-K",
+    "filing_date": "2025-10-16",
+    "accession_number": "0000070858-25-000395",
+    "primary_document": "bac-20251016.htm",
+    "fetched_at": "2026-03-16T21:21:12.018520",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "BAC",
+    "cik": "70858",
+    "form_type": "8-K",
+    "filing_date": "2025-10-15",
+    "accession_number": "0000070858-25-000390",
+    "primary_document": "bac-20251015.htm",
+    "fetched_at": "2026-03-16T21:21:12.018532",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "BAC",
+    "cik": "70858",
+    "form_type": "8-K",
+    "filing_date": "2025-09-15",
+    "accession_number": "0000070858-25-000359",
+    "primary_document": "bac-20250912.htm",
+    "fetched_at": "2026-03-16T21:21:12.018636",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "BAC",
+    "cik": "70858",
+    "form_type": "8-K",
+    "filing_date": "2025-09-12",
+    "accession_number": "0000070858-25-000350",
+    "primary_document": "bac-20250912.htm",
+    "fetched_at": "2026-03-16T21:21:12.018643",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "BAC",
+    "cik": "70858",
+    "form_type": "10-Q",
+    "filing_date": "2025-07-31",
+    "accession_number": "0000070858-25-000268",
+    "primary_document": "bac-20250630.htm",
+    "fetched_at": "2026-03-16T21:21:12.018797",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "BAC",
+    "cik": "70858",
+    "form_type": "8-K",
+    "filing_date": "2025-07-24",
+    "accession_number": "0001193125-25-164439",
+    "primary_document": "d29097d8k.htm",
+    "fetched_at": "2026-03-16T21:21:12.018836",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "BAC",
+    "cik": "70858",
+    "form_type": "8-K",
+    "filing_date": "2025-07-23",
+    "accession_number": "0000070858-25-000257",
+    "primary_document": "bac-20250723.htm",
+    "fetched_at": "2026-03-16T21:21:12.018841",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "BAC",
+    "cik": "70858",
+    "form_type": "8-K",
+    "filing_date": "2025-07-16",
+    "accession_number": "0000070858-25-000254",
+    "primary_document": "bac-20250716.htm",
+    "fetched_at": "2026-03-16T21:21:12.018864",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "BAC",
+    "cik": "70858",
+    "form_type": "8-K",
+    "filing_date": "2025-07-01",
+    "accession_number": "0000070858-25-000249",
+    "primary_document": "bac-20250701.htm",
+    "fetched_at": "2026-03-16T21:21:12.018896",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "BAC",
+    "cik": "70858",
+    "form_type": "10-Q",
+    "filing_date": "2025-04-30",
+    "accession_number": "0000070858-25-000200",
+    "primary_document": "bac-20250331.htm",
+    "fetched_at": "2026-03-16T21:21:12.019048",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "BAC",
+    "cik": "70858",
+    "form_type": "8-K",
+    "filing_date": "2025-04-29",
+    "accession_number": "0001193125-25-103911",
+    "primary_document": "d561572d8k.htm",
+    "fetched_at": "2026-03-16T21:21:12.019063",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "BAC",
+    "cik": "70858",
+    "form_type": "8-K",
+    "filing_date": "2025-04-24",
+    "accession_number": "0000070858-25-000195",
+    "primary_document": "bac-20250422.htm",
+    "fetched_at": "2026-03-16T21:21:12.019077",
+    "source_name": "sec_edgar"
+  },
+  {
+    "ticker": "BAC",
+    "cik": "70858",
+    "form_type": "8-K",
+    "filing_date": "2025-04-15",
+    "accession_number": "0000070858-25-000187",
+    "primary_document": "bac-20250415.htm",
+    "fetched_at": "2026-03-16T21:21:12.019100",
+    "source_name": "sec_edgar"
+  }
+]
